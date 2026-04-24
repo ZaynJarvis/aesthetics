@@ -1,0 +1,2 @@
+{"custom_id":"style-slug-here","method":"POST","url":"/v1/images/generations","body":{"model":"gpt-image-2","prompt":"Create {{SUBJECT}} in STYLE NAME style: visual markers here. Avoid watermarks, logos, and unreadable fake text.","size":"1024x1024"}}
+
