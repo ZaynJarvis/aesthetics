@@ -61,7 +61,7 @@ export function Gallery({ data }: { data: GalleryData }) {
 
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-30 border-b border-[var(--card-border)] bg-[var(--page-bg)]/85 backdrop-blur pt-[env(safe-area-inset-top,0px)]">
+      <header className="safe-top sticky top-0 z-30 border-b border-[var(--card-border)] bg-[var(--page-bg)]/85 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
           <div className="flex items-baseline gap-3">
             <span className="text-base font-semibold tracking-tight">Aesthetics</span>
@@ -77,7 +77,7 @@ export function Gallery({ data }: { data: GalleryData }) {
               className={`h-8 rounded-full border px-3 text-xs font-medium transition ${
                 showPrompts
                   ? "border-[var(--page-fg)] bg-[var(--page-fg)] text-[var(--page-bg)]"
-                  : "border-[var(--card-border)]/60 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
+                  : "border-[var(--page-fg)]/20 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
               }`}
             >
               {showPrompts ? "Hide" : "Prompts"}
@@ -98,7 +98,7 @@ export function Gallery({ data }: { data: GalleryData }) {
                 className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition ${
                   menuOpen
                     ? "border-[var(--page-fg)]/30 bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
-                    : "border-[var(--card-border)]/60 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
+                    : "border-[var(--page-fg)]/20 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
                 }`}
               >
                 <svg width="13" height="11" viewBox="0 0 13 11" fill="currentColor">
