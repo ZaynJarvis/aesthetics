@@ -42,8 +42,10 @@ button {
   cursor: pointer;
 }
 
-.safe-top {
-  padding-top: env(safe-area-inset-top, 0px);
+@media (display-mode: standalone) {
+  .safe-top {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
 }
 
 @keyframes fade-in {
