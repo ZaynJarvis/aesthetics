@@ -13,7 +13,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### impressionism
 - **Name:** Impressionism
 - **Prompt:** Create `{{SUBJECT}}` in Impressionist style: broken visible brushstrokes, luminous outdoor light, soft edges, fleeting atmosphere, pastel blues, greens, creams, and warm sunlight, painterly sense of movement. Avoid sharp vector outlines, glossy 3D, and black-heavy cyberpunk lighting.
-- **Image demo:** ../examples/style-show/generated/21-impressionism-style-show.png
+- **Image demo:** ../web/public/generated/21-impressionism-style-show.png
 
 ### post-impressionism
 - **Name:** Post-Impressionism
@@ -28,7 +28,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### cubism
 - **Name:** Cubism
 - **Prompt:** Create `{{SUBJECT}}` in Cubist style: fragmented planes, multiple viewpoints, angular geometry, muted ochre, gray, brown, and blue palette, analytical abstraction, faceted composition. Avoid smooth photorealism, soft gradients, and ornate floral curves.
-- **Image demo:** ../examples/style-show/generated/22-cubism-style-show.png
+- **Image demo:** ../web/public/generated/22-cubism-style-show.png
 
 ### futurism-art-movement
 - **Name:** Futurism
@@ -120,7 +120,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### googie
 - **Name:** Googie
 - **Prompt:** Create `{{SUBJECT}}` in Googie architecture style: space-age roadside forms, upswept roof, starburst signage without readable text, boomerang shapes, neon trim, optimistic diner futurism. Avoid medieval stonework and austere corporate towers.
-- **Image demo:** ../examples/style-show/generated/25-googie-style-show.png
+- **Image demo:** ../web/public/generated/25-googie-style-show.png
 
 ### brutalist-architecture
 - **Name:** Brutalist Architecture
@@ -140,7 +140,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### parametricism
 - **Name:** Parametricism
 - **Prompt:** Create `{{SUBJECT}}` in Parametricist style: flowing algorithmic surfaces, ribbed structures, smooth continuous curves, perforated skins, futuristic white or metallic material, computational elegance. Avoid hand-carved rustic detail and grid-box modernism.
-- **Image demo:** ../examples/style-show/generated/24-parametricism-style-show.png
+- **Image demo:** ../web/public/generated/24-parametricism-style-show.png
 
 ### blobitecture
 - **Name:** Blobitecture
@@ -155,7 +155,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### tropical-modernism
 - **Name:** Tropical Modernism
 - **Prompt:** Create `{{SUBJECT}}` in tropical modernist style: shaded concrete, timber screens, cross-ventilation, lush plants, open indoor-outdoor flow, warm humid daylight, restrained modern lines. Avoid cold snow lighting and sealed glass skyscraper mood.
-- **Image demo:** ../examples/style-show/generated/26-tropical-modernism-style-show.png
+- **Image demo:** ../web/public/generated/26-tropical-modernism-style-show.png
 
 ### desert-brutalism
 - **Name:** Desert Brutalism
@@ -177,12 +177,12 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### bohemian-interior
 - **Name:** Bohemian Interior
 - **Prompt:** Create `{{SUBJECT}}` in bohemian interior style: layered textiles, rattan, plants, patterned rugs, handmade objects, warm earthy palette, collected travel-studio mood. Avoid sterile minimalism and corporate furniture showroom polish.
-- **Image demo:** ../examples/style-show/generated/27-bohemian-interior-style-show.png
+- **Image demo:** ../web/public/generated/27-bohemian-interior-style-show.png
 
 ### hollywood-regency
 - **Name:** Hollywood Regency
 - **Prompt:** Create `{{SUBJECT}}` in Hollywood Regency style: lacquered furniture, mirrored surfaces, dramatic contrast, velvet, brass, palm accents, theatrical glamour, black, white, emerald, and gold. Avoid rustic farmhouse and quiet Scandinavian restraint.
-- **Image demo:** ../examples/style-show/generated/28-hollywood-regency-style-show.png
+- **Image demo:** ../web/public/generated/28-hollywood-regency-style-show.png
 
 ### english-country
 - **Name:** English Country
@@ -254,7 +254,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### clinical-packaging
 - **Name:** Clinical Packaging
 - **Prompt:** Create `{{SUBJECT}}` in clinical packaging style: white space, precise dosage-like labels without readable text, blue or green medical accents, matte plastic or paper, sterile trust, pharmacy shelf clarity. Avoid playful cartoons and luxury perfume drama.
-- **Image demo:** ../examples/style-show/generated/29-clinical-packaging-style-show.png
+- **Image demo:** ../web/public/generated/29-clinical-packaging-style-show.png
 
 ### premium-fragrance
 - **Name:** Premium Fragrance
@@ -279,7 +279,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### toy-blister-pack
 - **Name:** Toy Blister Pack
 - **Prompt:** Create `{{SUBJECT}}` in toy blister pack style: clear plastic bubble, colorful cardboard backing, playful burst shapes, small accessory layout, retail pegboard context, nostalgic collectible packaging. Avoid luxury perfume lighting and clinical white minimalism.
-- **Image demo:** ../examples/style-show/generated/30-toy-blister-pack-style-show.png
+- **Image demo:** ../web/public/generated/30-toy-blister-pack-style-show.png
 
 ### craft-beer-label
 - **Name:** Craft Beer Label
@@ -331,7 +331,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### blackletter
 - **Name:** Blackletter
 - **Prompt:** Create `{{SUBJECT}}` in blackletter typography style: dense angular letterform texture, medieval manuscript energy, black ink, gold or crimson accents, parchment or dark cloth surface. Avoid clean Swiss sans-serif and neon chrome.
-- **Image demo:** ../examples/style-show/generated/31-blackletter-style-show.png
+- **Image demo:** ../web/public/generated/31-blackletter-style-show.png
 
 ### slab-serif-western
 - **Name:** Slab Serif Western
@@ -356,7 +356,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### chrome-type
 - **Name:** Chrome Type
 - **Prompt:** Create `{{SUBJECT}}` in chrome typography style: reflective metallic letter-like forms, glossy highlights, dark studio background, Y2K or luxury tech mood, liquid reflections. Avoid paper grain, rustic wood, and soft watercolor.
-- **Image demo:** ../examples/style-show/generated/32-chrome-type-style-show.png
+- **Image demo:** ../web/public/generated/32-chrome-type-style-show.png
 
 ### hand-painted-signwriting
 - **Name:** Hand-Painted Signwriting
@@ -393,7 +393,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### aurora-gradient-ui
 - **Name:** Aurora Gradient UI
 - **Prompt:** Create `{{SUBJECT}}` in aurora gradient UI style: soft luminous gradient fields, blue, purple, green, and pink light, glassy panels, calm premium tech surface, subtle blur. Avoid gritty punk texture and harsh black outlines.
-- **Image demo:** ../examples/style-show/generated/33-aurora-gradient-ui-style-show.png
+- **Image demo:** ../web/public/generated/33-aurora-gradient-ui-style-show.png
 
 ### liquid-metal-ui
 - **Name:** Liquid Metal UI
@@ -460,7 +460,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### german-expressionist-film
 - **Name:** German Expressionist Film
 - **Prompt:** Create `{{SUBJECT}}` in German Expressionist film style: distorted sets, sharp painted shadows, angular architecture, black-and-white contrast, psychological unease, theatrical composition. Avoid naturalistic daylight and glossy modern realism.
-- **Image demo:** ../examples/style-show/generated/34-german-expressionist-film-style-show.png
+- **Image demo:** ../web/public/generated/34-german-expressionist-film-style-show.png
 
 ### french-new-wave
 - **Name:** French New Wave
@@ -537,7 +537,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### ps1-low-poly
 - **Name:** PS1 Low-Poly
 - **Prompt:** Create `{{SUBJECT}}` in PS1 low-poly style: jagged low-resolution geometry, affine texture wobble feel, limited texture detail, moody retro 3D game lighting, blocky silhouettes. Avoid modern ray tracing and smooth high-poly surfaces.
-- **Image demo:** ../examples/style-show/generated/35-ps1-low-poly-style-show.png
+- **Image demo:** ../web/public/generated/35-ps1-low-poly-style-show.png
 
 ### ps2-era-realism
 - **Name:** PS2-Era Realism
@@ -547,7 +547,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### cozy-game
 - **Name:** Cozy Game
 - **Prompt:** Create `{{SUBJECT}}` in cozy game style: warm small-town or room scene, rounded friendly shapes, soft daylight, gentle color, readable cute objects, relaxing interactive-world mood. Avoid dark horror, tactical military grit, and harsh neon.
-- **Image demo:** ../examples/style-show/generated/36-cozy-game-style-show.png
+- **Image demo:** ../web/public/generated/36-cozy-game-style-show.png
 
 ### dark-fantasy-rpg
 - **Name:** Dark Fantasy RPG
@@ -597,7 +597,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### architectural-blueprint
 - **Name:** Architectural Blueprint
 - **Prompt:** Create `{{SUBJECT}}` in architectural blueprint style: cyan background, white technical linework, plan/elevation/detail views, measurement-like marks without readable numbers, precise drafting. Avoid painterly color, soft photography, and cluttered collage.
-- **Image demo:** ../examples/style-show/generated/37-architectural-blueprint-style-show.png
+- **Image demo:** ../web/public/generated/37-architectural-blueprint-style-show.png
 
 ### exploded-view-diagram
 - **Name:** Exploded View Diagram
@@ -614,7 +614,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### watercolor
 - **Name:** Watercolor
 - **Prompt:** Create `{{SUBJECT}}` in watercolor style: transparent washes, pigment blooms, soft edges, white paper showing through, gentle layered color, handmade texture. Avoid glossy CGI, hard vector outlines, and neon chrome.
-- **Image demo:** ../examples/style-show/generated/38-watercolor-style-show.png
+- **Image demo:** ../web/public/generated/38-watercolor-style-show.png
 
 ### gouache
 - **Name:** Gouache
@@ -654,7 +654,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### stained-glass
 - **Name:** Stained Glass
 - **Prompt:** Create `{{SUBJECT}}` in stained glass style: lead came outlines, luminous colored glass pieces, backlit glow, jewel tones, decorative window composition. Avoid matte paper texture and photoreal plastic.
-- **Image demo:** ../examples/style-show/generated/39-stained-glass-style-show.png
+- **Image demo:** ../web/public/generated/39-stained-glass-style-show.png
 
 ### embroidery
 - **Name:** Embroidery
@@ -691,7 +691,7 @@ Each prompt is designed for image generation. Replace `{{SUBJECT}}` with the sce
 ### barbiecore
 - **Name:** Barbiecore
 - **Prompt:** Create `{{SUBJECT}}` in Barbiecore style: hot pink dominance, glossy plastic, playful glamour, heart shapes, bright studio lighting, confident pop-feminine styling. Avoid dark academia, muted minimalism, and industrial grit.
-- **Image demo:** ../examples/style-show/generated/40-hot-pink-pop-glamour-style-show.png
+- **Image demo:** ../web/public/generated/40-hot-pink-pop-glamour-style-show.png
 
 ### mermaidcore
 - **Name:** Mermaidcore

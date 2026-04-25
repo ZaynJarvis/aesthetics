@@ -9,7 +9,7 @@ Workspace:
 /Users/bytedance/Documents/Codex/2026-04-24/i-need-you-to-teach-me/design-style-workbook
 
 User goal:
-Teach visual design styles from broad categories to fine-grained style lanes. The workbook should include style names, descriptions, reusable image-generation prompts, and <image_demo> gaps. Generate normal demo images under examples/generated, and style-native showcase images under examples/style-show/generated.
+Teach visual design styles from broad categories to fine-grained style lanes. The workbook should include style names, descriptions, reusable image-generation prompts, and <image_demo> gaps. Generate normal demo images under web/public/generated, and style-native showcase images under web/public/generated.
 
 Rules:
 - Preserve the folder structure.
