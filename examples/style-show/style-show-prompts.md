@@ -243,3 +243,125 @@ Create a square style-show image for Stained Glass: a luminous decorative window
 ```text
 Create a square style-show image for Barbiecore: a hot-pink dressing room and product shelf with glossy plastic surfaces, heart-shaped mirror, playful glamour, bright studio lighting, saturated pinks, white highlights, confident pop-feminine styling. No logos, no watermark, no readable text.
 ```
+
+## Batch 03
+
+41. **Classical Greco-Roman**
+
+```text
+Create a square style-show image for Classical Greco-Roman: a sunlit marble forum courtyard and sculpture gallery with fluted columns, carved pediments, draped marble statues, laurel reliefs, balanced axial symmetry, warm limestone, terracotta, olive, and pale sky palette, museum-grade calm proportion, subtle stone texture. No logos, no watermark, no readable text.
+```
+
+42. **Baroque Drama**
+
+```text
+Create a square style-show image for Baroque Drama: a candlelit palace staircase with sweeping marble steps, theatrical figures implied as shadowy silhouettes, heavy chiaroscuro, gold ornament, crimson velvet, twisting columns, strong diagonal movement, emotional grandeur, deep warm shadows, dramatic spotlight from candles. No logos, no watermark, no readable text.
+```
+
+43. **Rococo Ornament**
+
+```text
+Create a square style-show image for Rococo Ornament: a pastel salon with gilded cabriole chairs, porcelain vases, curved mirrors, asymmetrical floral scrollwork, cream, blush, powder blue, mint, and soft gold palette, delicate luxury, airy daylight, playful ornamental detail. No logos, no watermark, no readable text.
+```
+
+44. **Ukiyo-e**
+
+```text
+Create a square style-show image for Ukiyo-e: a woodblock print scene of a high curling ocean wave near a small arched bridge and distant mountain, flat indigo and beige color blocks, bold black ink contours, cropped composition, stylized clouds, handmade paper grain, vermilion accent seals rendered as abstract blocks with no readable text. No logos, no watermark, no readable text.
+```
+
+45. **Constructivism**
+
+```text
+Create a square style-show image for Constructivism: a bold industrial poster composition with cranes, gears, factory silhouettes, radiating diagonals, red, black, cream, and gray palette, photomontage-like geometric forms, sharp sans-serif-like typographic blocks without readable words, revolutionary modernist energy, rough printed paper texture. No logos, no watermark, no readable text.
+```
+
+46. **Pop Art**
+
+```text
+Create a square style-show image for Pop Art: a comic-style retail display wall with repeated colorful soda cans and snack boxes rendered as generic consumer products, Ben-Day dots, thick black outlines, halftone shadows, cyan, yellow, red, and pink palette, bold speech-bubble shapes with abstract glyph blocks only, playful mass-media composition. No logos, no watermark, no readable text.
+```
+
+47. **Psychedelic 1960s Poster**
+
+```text
+Create a square style-show image for Psychedelic 1960s Poster: a text-free concert-poster-inspired composition made only of liquid color fields, warped ornamental frames, vibrating orange, magenta, teal, acid green, and purple palette, screenprint grain, flower, sunburst, wave, and paisley motifs, swirling symmetry, ecstatic counterculture energy. No letters, no words, no numbers, no logos, no watermark, no readable text.
+```
+
+48. **Punk DIY Flyer**
+
+```text
+Create a square style-show image for Punk DIY Flyer: a photocopied gig wall collage with torn black-and-white paper, safety-pin edges, rough tape, xerox grain, ransom-note-like abstract glyph blocks with no actual letters, jagged cutout rectangles, red marker slashes, staple shadows, gritty anti-design energy. No logos, no watermark, no readable text, no real band names.
+```
+
+49. **Grunge Typography**
+
+```text
+Create a square style-show image for Grunge Typography: a 1990s alternative album-poster wall built from distressed typographic texture without complete alphabet characters, no words, no numbers, only cropped ink bars, torn rectangles, partial curves, baseline fragments, photocopy noise, scratched ink, muted black, off-white, rust, dirty teal, and faded red palette, worn urban surface. No logos, no watermark, no readable text, no real band names.
+```
+
+50. **Material Design**
+
+```text
+Create a square style-show image for Material Design: a clean mobile task app interface on a neutral desk, flat color surfaces with subtle elevation, layered cards, purposeful blue, green, amber, and white accents, simple geometric icons, tactile paper-like depth, clear hierarchy, no brand marks. No logos, no watermark, no readable text.
+```
+
+51. **Glassmorphism**
+
+```text
+Create a square style-show image for Glassmorphism: a frosted finance and weather dashboard floating over a softly blurred luminous gradient background, translucent glass panels, bright rim highlights, layered depth, soft shadows, blue, violet, mint, and warm coral light, abstract chart and weather icon shapes without readable numbers. No logos, no watermark, no readable text.
+```
+
+52. **Skeuomorphic iOS**
+
+```text
+Create a square style-show image for Skeuomorphic iOS: an early mobile organizer interface with stitched leather header, brushed metal toolbar, glossy buttons, lined paper panel, beveled controls, warm brown, steel, cream, and blue accents, tactile realistic materials, app-screen composition with abstract interface marks only. No logos, no watermark, no readable text.
+```
+
+53. **Steampunk**
+
+```text
+Create a square style-show image for Steampunk: a brass observatory workshop with telescopes, exposed gears, pressure gauges without readable numbers, leather-bound instruments, copper pipes, warm gaslight, smoky amber atmosphere, Victorian industrial craft, intricate mechanical detail. No logos, no watermark, no readable text.
+```
+
+54. **Dieselpunk**
+
+```text
+Create a square style-show image for Dieselpunk: a smoky aircraft hangar with riveted metal planes, heavy industrial doors, art deco geometry, olive drab, steel, black, and amber palette, dramatic searchlights, grease, soot, streamlined 1930s machine-age mood. No logos, no watermark, no readable text.
+```
+
+55. **Afrofuturism**
+
+```text
+Create a square style-show image for Afrofuturism: a cosmic fashion-tech stage with advanced city forms in the distance, African diasporic geometric patterns, braided light structures, metallic textiles, deep indigo, solar gold, crimson, and turquoise palette, ceremonial symmetry, starfield atmosphere, optimistic future culture. No logos, no watermark, no readable text.
+```
+
+56. **Gothic Cathedral**
+
+```text
+Create a square style-show image for Gothic Cathedral: a soaring stained-glass nave with pointed arches, ribbed vaults, vertical stone tracery, rose-window colored light, deep blue, ruby, gold, and stone gray palette, long dramatic perspective, sacred verticality, carved details. No logos, no watermark, no readable text.
+```
+
+57. **Islamic Geometric**
+
+```text
+Create a square style-show image for Islamic Geometric: a tile courtyard wall with interlocking star tessellations, zellige-like ceramic texture, cobalt, turquoise, ivory, emerald, and terracotta palette, precise radial symmetry, carved plaster borderwork, reflective fountain edge, pattern-focused composition. No logos, no watermark, no readable text.
+```
+
+58. **Dark Academia**
+
+```text
+Create a square style-show image for Dark Academia: a candlelit old library study desk with stacked worn books, brass lamp, dark wood shelves, parchment, ink bottle, tweed fabric, green banker shade, warm candle glow, dusty shadows, scholarly melancholy, no readable book titles. No logos, no watermark, no readable text.
+```
+
+59. **Japandi**
+
+```text
+Create a square style-show image for Japandi: a low natural interior with pale oak platform seating, linen cushions, handmade ceramic vase, black accent lamp, shoji-like soft light, beige, warm gray, clay, and charcoal palette, uncluttered negative space, Japanese restraint with Scandinavian warmth. No logos, no watermark, no readable text.
+```
+
+60. **Neo-Noir Neon**
+
+```text
+Create a square style-show image for Neo-Noir Neon: a rainy night motel office and street corner with wet asphalt reflections, venetian-blind shadows, magenta, cyan, and sodium amber practical lights, silhouetted figure in doorway, dense atmosphere, cinematic contrast, sign shapes as abstract glow blocks only. No logos, no watermark, no readable text.
+```

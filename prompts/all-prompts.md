@@ -7,7 +7,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### classical-greco-roman
 - **Name:** Classical Greco-Roman
 - **Prompt:** Create `{{SUBJECT}}` in Classical Greco-Roman style: marble, columns, balanced proportion, sculptural drapery, laurel motifs, calm symmetry, warm limestone and terracotta palette, museum-grade composition. Avoid medieval ornament, neon, and modern corporate UI.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/41-classical-greco-roman-style-show.png
 
 ### renaissance-chiaroscuro
 - **Name:** Renaissance Chiaroscuro
@@ -17,17 +17,17 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### baroque-drama
 - **Name:** Baroque Drama
 - **Prompt:** Create `{{SUBJECT}}` in Baroque dramatic style: theatrical motion, strong diagonal composition, heavy chiaroscuro, gold accents, velvet shadows, ornate architecture, emotional intensity. Avoid minimalism, flat poster graphics, and pastel softness.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/42-baroque-drama-style-show.png
 
 ### rococo-ornament
 - **Name:** Rococo Ornament
 - **Prompt:** Create `{{SUBJECT}}` in Rococo style: pastel cream, blush, powder blue, gilded scrollwork, asymmetrical floral ornament, porcelain textures, playful luxury, delicate curves. Avoid brutalist concrete, strict grids, and dark dystopian mood.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/43-rococo-ornament-style-show.png
 
 ### ukiyo-e
 - **Name:** Ukiyo-e
 - **Prompt:** Create `{{SUBJECT}}` in Ukiyo-e style: flat color blocks, bold ink contours, wave and cloud motifs, cropped composition, handmade paper grain, muted indigo, vermilion, beige, and black. Avoid photorealistic lighting, 3D rendering, and glossy gradients.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/44-ukiyo-e-style-show.png
 
 ### arts-and-crafts
 - **Name:** Arts and Crafts
@@ -72,7 +72,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### constructivism
 - **Name:** Constructivism
 - **Prompt:** Create `{{SUBJECT}}` in Constructivist style: bold red, black, cream, diagonal geometry, photomontage energy, industrial type, heroic scale, dynamic propaganda-like composition. Avoid soft luxury, pastel palettes, and ornate floral design.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/45-constructivism-style-show.png
 
 ### bauhaus
 - **Name:** Bauhaus
@@ -92,7 +92,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### pop-art
 - **Name:** Pop Art
 - **Prompt:** Create `{{SUBJECT}}` in Pop Art style: bold commercial colors, Ben-Day dots, comic framing, repeated icons, high contrast outlines, consumer-culture energy, playful mass-media composition. Avoid muted minimalism and painterly realism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/46-pop-art-style-show.png
 
 ### op-art
 - **Name:** Op Art
@@ -102,7 +102,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### psychedelic-1960s-poster
 - **Name:** Psychedelic 1960s Poster
 - **Prompt:** Create `{{SUBJECT}}` in psychedelic 1960s poster style: swirling saturated color, warped lettering shapes, liquid floral forms, high-energy symmetry, orange, magenta, teal, violet, and acid green. Avoid corporate grids and subdued monochrome.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/47-psychedelic-1960s-poster-style-show.png
 
 ### memphis-postmodern
 - **Name:** Memphis Postmodern
@@ -154,7 +154,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### punk-diy-flyer
 - **Name:** Punk DIY Flyer
 - **Prompt:** Create `{{SUBJECT}}` in punk DIY flyer style: ripped paper, photocopy grain, ransom-note type, black-white contrast, marker scrawls, rough halftone, aggressive low-budget urgency. Avoid polished luxury and smooth corporate gradients.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/48-punk-diy-flyer-style-show.png
 
 ### xerox-zine
 - **Name:** Xerox Zine
@@ -164,7 +164,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### grunge-typography
 - **Name:** Grunge Typography
 - **Prompt:** Create `{{SUBJECT}}` in grunge typography style: distressed letters, torn textures, dirty overlays, chaotic baselines, muted browns, black, faded red, and gray, 1990s alternative print mood. Avoid crisp luxury typesetting and polished symmetry.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/49-grunge-typography-style-show.png
 
 ### skate-zine
 - **Name:** Skate Zine
@@ -221,7 +221,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### material-design
 - **Name:** Material Design
 - **Prompt:** Create `{{SUBJECT}}` in Material Design style: clean cards, clear hierarchy, flat surfaces with subtle elevation, purposeful color accents, simple icons, tactile paper-like layers. Avoid heavy skeuomorphic texture and chaotic anti-design.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/50-material-design-style-show.png
 
 ### flat-design
 - **Name:** Flat Design
@@ -231,12 +231,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### skeuomorphic-ios
 - **Name:** Skeuomorphic iOS
 - **Prompt:** Create `{{SUBJECT}}` in skeuomorphic early mobile UI style: leather, brushed metal, stitched panels, glossy buttons, realistic shadows, tactile controls, rich textures. Avoid flat minimalism, brutalist blocks, and abstract grids.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/52-skeuomorphic-ios-style-show.png
 
 ### glassmorphism
 - **Name:** Glassmorphism
 - **Prompt:** Create `{{SUBJECT}}` in glassmorphism style: translucent frosted panels, blurred colorful background, light borders, soft shadows, layered depth, airy futuristic UI. Avoid opaque heavy blocks, rough paper texture, and hard black outlines.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/51-glassmorphism-style-show.png
 
 ### neumorphism
 - **Name:** Neumorphism
@@ -353,12 +353,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### dieselpunk
 - **Name:** Dieselpunk
 - **Prompt:** Create `{{SUBJECT}}` in dieselpunk style: 1930s-1940s industrial machinery, riveted metal, smoky hangars, aviation forms, military olive, brass, black, and oil-stained textures. Avoid clean space-age plastic and pastel cuteness.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/54-dieselpunk-style-show.png
 
 ### steampunk
 - **Name:** Steampunk
 - **Prompt:** Create `{{SUBJECT}}` in steampunk style: Victorian machinery, brass gears, leather straps, steam pipes, analog gauges, sepia atmosphere, ornate mechanical craftsmanship. Avoid digital screens, neon cyberpunk, and minimalist plastic.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/53-steampunk-style-show.png
 
 ### biopunk
 - **Name:** Biopunk
@@ -413,7 +413,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### afrofuturism
 - **Name:** Afrofuturism
 - **Prompt:** Create `{{SUBJECT}}` in Afrofuturist style: advanced technology fused with African diasporic visual motifs, bold geometry, metallic textiles, cosmic scale, rich gold, indigo, black, and saturated accents. Avoid generic sci-fi sameness and cultural flattening.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/55-afrofuturism-style-show.png
 
 ### techwear-tactical
 - **Name:** Techwear Tactical
@@ -440,7 +440,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### gothic-cathedral
 - **Name:** Gothic Cathedral
 - **Prompt:** Create `{{SUBJECT}}` in Gothic cathedral style: pointed arches, tracery, stained glass, vertical drama, stone texture, candlelit shadows, jewel-toned light beams. Avoid rounded classical columns, pastel web UI, and casual cartoon shapes.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/56-gothic-cathedral-style-show.png
 
 ### byzantine-icon
 - **Name:** Byzantine Icon
@@ -450,7 +450,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### islamic-geometric
 - **Name:** Islamic Geometric
 - **Prompt:** Create `{{SUBJECT}}` in Islamic geometric style: star tessellations, arabesque pattern, tile symmetry, deep blue, turquoise, white, gold, mathematical ornament, refined repeating structure. Avoid figurative focus if inappropriate, random pattern mixing, and grunge.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/57-islamic-geometric-style-show.png
 
 ### moroccan-zellige
 - **Name:** Moroccan Zellige
@@ -530,7 +530,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### dark-academia
 - **Name:** Dark Academia
 - **Prompt:** Create `{{SUBJECT}}` in dark academia style: old library, dark wood, leather books, candlelight, tweed, sepia, oxblood, deep green, scholarly melancholy. Avoid glossy tech futurism, candy colors, and beachy daylight mood.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/58-dark-academia-style-show.png
 
 ### light-academia
 - **Name:** Light Academia
@@ -562,7 +562,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### japandi
 - **Name:** Japandi
 - **Prompt:** Create `{{SUBJECT}}` in Japandi style: Japanese restraint plus Scandinavian warmth, low furniture, pale oak, linen, ceramic, black accents, negative space, calm natural palette. Avoid clutter, glossy chrome, and decorative excess.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/59-japandi-style-show.png
 
 ### organic-modern
 - **Name:** Organic Modern
@@ -644,7 +644,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### neo-noir-neon
 - **Name:** Neo-Noir Neon
 - **Prompt:** Create `{{SUBJECT}}` in neo-noir neon style: moody darkness, colored practical lights, rain reflections, urban night, cyan, red, and violet accents, cinematic mystery. Avoid cheerful daylight, clean white studio product lighting, and cute pastels.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/60-neo-noir-neon-style-show.png
 
 ### high-key-beauty
 - **Name:** High-Key Beauty
