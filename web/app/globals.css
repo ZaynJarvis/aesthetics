@@ -42,10 +42,12 @@ button {
   cursor: pointer;
 }
 
-@media (display-mode: standalone) {
-  .safe-top {
-    padding-top: env(safe-area-inset-top, 0px);
-  }
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+html[data-in-app] .safe-top {
+  padding-top: 0;
 }
 
 @keyframes fade-in {
