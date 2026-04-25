@@ -1,19 +1,63 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
 import type { GalleryData } from "@/lib/types";
 import { StyleCard } from "./StyleCard";
 import { ThemeToggle } from "./ThemeToggle";
 import { ToastHost } from "./Toast";
 
 export function Gallery({ data }: { data: GalleryData }) {
-  const [activeId, setActiveId] = useState<number>(data.categories[0]?.id ?? 1);
-  const [showPrompts, setShowPrompts] = useState(false);
-
-  const active = useMemo(
-    () => data.categories.find((c) => c.id === activeId) ?? data.categories[0],
-    [activeId, data.categories],
+  const [selectedIds, setSelectedIds] = useState<Set<number>>(
+    new Set([data.categories[0]?.id ?? 1]),
   );
+  const [showPrompts, setShowPrompts] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    const handler = (e: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [menuOpen]);
+
+  const toggleCategory = (id: number) => {
+    setSelectedIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        if (next.size === 1) return next;
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  };
+
+  // Selected chips first, then rest in original order
+  const sortedChips = useMemo(() => {
+    const selected = data.categories.filter((c) => selectedIds.has(c.id));
+    const rest = data.categories.filter((c) => !selectedIds.has(c.id));
+    return [...selected, ...rest];
+  }, [data.categories, selectedIds]);
+
+  // Selected categories in original order, demo-first within each
+  const selectedCategories = useMemo(() => {
+    return data.categories
+      .filter((c) => selectedIds.has(c.id))
+      .map((c) => ({
+        ...c,
+        styles: [...c.styles].sort((a, b) => {
+          if (a.demo && !b.demo) return -1;
+          if (!a.demo && b.demo) return 1;
+          return 0;
+        }),
+      }));
+  }, [data.categories, selectedIds]);
 
   return (
     <div className="min-h-screen">
@@ -22,7 +66,7 @@ export function Gallery({ data }: { data: GalleryData }) {
           <div className="flex items-baseline gap-3">
             <span className="text-base font-semibold tracking-tight">Aesthetics</span>
             <span className="text-xs text-[var(--muted)]">
-              {data.withDemo}/{data.total} styles visualized
+              {data.withDemo}/{data.total}
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -36,65 +80,119 @@ export function Gallery({ data }: { data: GalleryData }) {
                   : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--page-fg)] hover:opacity-80"
               }`}
             >
-              {showPrompts ? "Hide prompts" : "Show prompts"}
+              {showPrompts ? "Hide" : "Prompts"}
             </button>
             <ThemeToggle />
           </div>
         </div>
+
         <nav className="mx-auto max-w-7xl px-2 sm:px-4">
-          <div className="scrollbar-none flex gap-1 overflow-x-auto pb-2 pt-1">
-            {data.categories.map((c) => {
-              const isActive = c.id === activeId;
-              const filled = c.styles.filter((s) => s.demo).length;
-              return (
-                <button
-                  key={c.id}
-                  type="button"
-                  onClick={() => setActiveId(c.id)}
-                  className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${
-                    isActive
-                      ? "bg-[var(--page-fg)] text-[var(--page-bg)]"
-                      : "text-[var(--muted)] hover:text-[var(--page-fg)]"
-                  }`}
-                >
-                  <span className="mr-1.5 tabular-nums opacity-70">
-                    {String(c.id).padStart(2, "0")}
-                  </span>
-                  {c.title}
-                  <span className="ml-1.5 text-[10px] opacity-60">
-                    {filled}/{c.styles.length}
-                  </span>
-                </button>
-              );
-            })}
+          <div className="flex items-center gap-1 pb-2 pt-1 lg:pb-4">
+            {/* Hamburger — all categories dropdown */}
+            <div ref={menuRef} className="relative shrink-0">
+              <button
+                type="button"
+                onClick={() => setMenuOpen((v) => !v)}
+                aria-label="All categories"
+                aria-expanded={menuOpen}
+                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition ${
+                  menuOpen
+                    ? "border-[var(--page-fg)] bg-[var(--page-fg)] text-[var(--page-bg)]"
+                    : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--page-fg)] hover:opacity-80"
+                }`}
+              >
+                <svg width="13" height="11" viewBox="0 0 13 11" fill="currentColor">
+                  <rect width="13" height="1.5" rx="0.75" />
+                  <rect y="4.75" width="13" height="1.5" rx="0.75" />
+                  <rect y="9.5" width="13" height="1.5" rx="0.75" />
+                </svg>
+              </button>
+
+              {menuOpen && (
+                <div className="absolute left-0 top-10 z-50 max-h-80 w-56 overflow-y-auto rounded-xl border border-[var(--card-border)] bg-[var(--page-bg)] py-1 shadow-lg">
+                  {data.categories.map((c) => {
+                    const isSelected = selectedIds.has(c.id);
+                    const filled = c.styles.filter((s) => s.demo).length;
+                    return (
+                      <button
+                        key={c.id}
+                        type="button"
+                        onClick={() => toggleCategory(c.id)}
+                        className={`flex w-full items-center justify-between px-4 py-2 text-left text-xs transition hover:bg-[var(--card-bg)] ${
+                          isSelected
+                            ? "font-semibold text-[var(--page-fg)]"
+                            : "text-[var(--muted)]"
+                        }`}
+                      >
+                        <span>
+                          <span className="mr-2 tabular-nums opacity-50">
+                            {String(c.id).padStart(2, "0")}
+                          </span>
+                          {c.title}
+                        </span>
+                        <span className="ml-3 shrink-0 tabular-nums opacity-40">
+                          {filled}/{c.styles.length}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+
+            {/* Scrollable category chips — selected first */}
+            <div className="scrollbar-none flex gap-1 overflow-x-auto">
+              {sortedChips.map((c) => {
+                const isSelected = selectedIds.has(c.id);
+                const filled = c.styles.filter((s) => s.demo).length;
+                return (
+                  <button
+                    key={c.id}
+                    type="button"
+                    onClick={() => toggleCategory(c.id)}
+                    className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${
+                      isSelected
+                        ? "bg-[var(--page-fg)] text-[var(--page-bg)]"
+                        : "text-[var(--muted)] hover:text-[var(--page-fg)]"
+                    }`}
+                  >
+                    <span className="mr-1.5 tabular-nums opacity-70">
+                      {String(c.id).padStart(2, "0")}
+                    </span>
+                    {c.title}
+                    <span className="ml-1.5 text-[10px] opacity-60">
+                      {filled}/{c.styles.length}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </nav>
       </header>
 
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
-        {active && (
-          <section>
+        {selectedCategories.map((cat) => (
+          <section key={cat.id} className="mb-10 last:mb-0">
             <div className="mb-5 flex items-end justify-between">
               <h1 className="text-lg font-semibold tracking-tight sm:text-xl">
-                {active.title}
+                {cat.title}
               </h1>
-              <span className="text-xs text-[var(--muted)]">
-                {active.styles.length} styles
-              </span>
+              <span className="text-xs text-[var(--muted)]">{cat.styles.length} styles</span>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
-              {active.styles.map((s) => (
+              {cat.styles.map((s) => (
                 <StyleCard key={s.slug} style={s} showPrompts={showPrompts} />
               ))}
             </div>
           </section>
-        )}
+        ))}
       </main>
 
       <footer className="border-t border-[var(--card-border)] py-6">
         <div className="mx-auto max-w-7xl px-4 text-xs text-[var(--muted)] sm:px-6">
-          Click any image to copy its prompt. Empty cards mean a demo hasn&apos;t
-          been generated yet — clicking still copies the reusable prompt template.
+          Click any image to copy its prompt. Empty cards mean a demo hasn&apos;t been
+          generated yet — clicking still copies the reusable prompt template.
         </div>
       </footer>
 

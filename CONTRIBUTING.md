@@ -6,7 +6,9 @@ Thanks for helping build a shared aesthetics vocabulary. This workbook has two l
 
 ```
 data/styles.yaml              # 337 styles — source of truth
-web/public/generated          # generated PNGs (served by Next.js at /generated/*)
+web/src-images/               # source PNGs (1254×1254); NOT served directly
+web/public/generated/lg/      # 800px WebP — built from src-images at build time (gitignored)
+web/public/generated/sm/      # 400px WebP — built from src-images at build time (gitignored)
 web/                          # Next.js gallery rendered from styles.yaml
 prompts/*.md                  # human-readable copies (regeneratable)
 scripts/build_yaml.py         # bootstrap script (one-time; rerun safely)
@@ -36,7 +38,7 @@ Rules:
 - `category_id` matches an entry in the `categories:` list at the top of the file.
 - `reusable_prompt` MUST contain `{{SUBJECT}}` so it stays portable across subjects.
 - `demo` is `null` until an image exists. Once you add a PNG, fill all four demo fields.
-- Keep `image` as just the filename — the website resolves it under `web/public/generated/`.
+- Keep `image` as just the filename — the website resolves it under `web/src-images/` (source) and serves the resized WebP at build time.
 
 ## Prompt guidelines
 
@@ -77,8 +79,8 @@ Generate the next batch of style-show images for the design-style-workbook repo.
 Hard rules:
 - Image generation MUST use Codex's own native image-generation capability directly. Do NOT invoke any image-generation "skill", helper agent, or external API (no gpt-image-1, no gpt-image-2 API call, no skill wrapper). Use the built-in capability only.
 - Output size MUST be 1254x1254 (square).
-- Generate all 20 images locally (in your scratch / tmp area) FIRST, then bulk-copy into web/public/generated/ at the end of the run. Do not re-touch the repo per image.
-- Final destination: web/public/generated/<NN>-<slug>-style-show.png (1254x1254 square).
+- Generate all 20 images locally (in your scratch / tmp area) FIRST, then bulk-copy into web/src-images/ at the end of the run. Do not re-touch the repo per image.
+- Final destination: web/src-images/<NN>-<slug>-style-show.png (1254x1254 square).
 - Do not commit, push, tag, or open PRs.
 - Do not edit data/styles.yaml, prompts/all-prompts.md, expanded-style-prompts.md, README.md, STYLE_INDEX.md, or any other shared file. Only write the 20 PNGs and one new examples/style-show/batch-dumps/<NN>-<NN>.md.
 - Accept minor detail issues. Only regenerate if the style is visibly wrong, has obvious readable text, logos, or watermarks.
@@ -104,7 +106,7 @@ After Codex finishes, the maintainer (you) does the wiring up:
 python3 scripts/build_yaml.py   # picks up new images, refreshes data/styles.yaml
 cd web && npm run build         # confirms gallery rebuilds cleanly
 git checkout -b add-style-show-batch-NN
-git add data/styles.yaml web/public/generated/ examples/style-show/batch-dumps/ examples/style-show/style-show-index.md prompts/all-prompts.md
+git add data/styles.yaml web/src-images/ examples/style-show/batch-dumps/ examples/style-show/style-show-index.md prompts/all-prompts.md
 git commit && gh pr create
 ```
 
@@ -116,8 +118,8 @@ npm install
 npm run dev      # → http://localhost:3000
 ```
 
-All gallery PNGs live directly at `web/public/generated/` and are served by Next.js at `/generated/<file>.png`. There is no copy step.
+Source PNGs live at `web/src-images/` (1254×1254, tracked in git). Running `npm run build` (or `npm run images` standalone) converts them to two WebP sizes in `web/public/generated/lg/` (800px) and `web/public/generated/sm/` (400px). The gallery serves the WebP variants via `<picture>` — source PNGs are never sent to the browser.
 
 ## Deploying
 
-Set the Railway service `rootDirectory` to `web` — Railpack auto-detects Next.js and runs `npm ci` → `npm run build` → `npm run start`. No persistent volume needed; images are committed in `web/public/generated/` and baked into the build artifact.
+Set the Railway service `rootDirectory` to `web` — Railpack auto-detects Next.js and runs `npm ci` → `npm run build` → `npm run start`. No persistent volume needed. `npm run build` generates the WebP variants from `web/src-images/` automatically; the source PNGs are never deployed.
