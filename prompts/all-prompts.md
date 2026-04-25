@@ -12,7 +12,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### renaissance-chiaroscuro
 - **Name:** Renaissance Chiaroscuro
 - **Prompt:** Create `{{SUBJECT}}` in Renaissance chiaroscuro style: realistic humanist proportion, deep shadow-to-light modeling, oil-paint texture, warm earth tones, architectural perspective, quiet sacred drama. Avoid flat vector shapes, cyberpunk lighting, and cartoon outlines.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/61-renaissance-chiaroscuro-style-show.png
 
 ### baroque-drama
 - **Name:** Baroque Drama
@@ -32,7 +32,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### arts-and-crafts
 - **Name:** Arts and Crafts
 - **Prompt:** Create `{{SUBJECT}}` in Arts and Crafts style: handcrafted medieval-inspired ornament, botanical borders, natural dyes, visible paper texture, honest materials, warm greens, ochre, rust, and cream. Avoid synthetic chrome, neon, and slick corporate minimalism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/65-arts-and-crafts-style-show.png
 
 ### art-nouveau
 - **Name:** Art Nouveau
@@ -42,12 +42,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### jugendstil
 - **Name:** Jugendstil
 - **Prompt:** Create `{{SUBJECT}}` in Jugendstil style: refined German Art Nouveau, floral geometry, elegant black contours, restrained ornament, muted greens, creams, gold, and rose, poster-like flatness. Avoid overly lush Rococo detail and modern app UI.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/67-jugendstil-style-show.png
 
 ### vienna-secession
 - **Name:** Vienna Secession
 - **Prompt:** Create `{{SUBJECT}}` in Vienna Secession style: square geometry, gold leaf accents, stylized pattern fields, elegant flat figures, black-white-gold contrast, refined decorative restraint. Avoid organic Art Nouveau excess, gritty punk, and photorealism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/66-vienna-secession-style-show.png
 
 ### art-deco
 - **Name:** Art Deco
@@ -57,7 +57,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### streamline-moderne
 - **Name:** Streamline Moderne
 - **Prompt:** Create `{{SUBJECT}}` in Streamline Moderne style: aerodynamic horizontal lines, rounded corners, chrome trim, ocean-liner curves, soft industrial optimism, cream, red, teal, and polished metal. Avoid Victorian ornament and chaotic collage.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/68-streamline-moderne-style-show.png
 
 ### mid-century-modern
 - **Name:** Mid-Century Modern
@@ -82,12 +82,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### dada-collage
 - **Name:** Dada Collage
 - **Prompt:** Create `{{SUBJECT}}` in Dada collage style: absurd cut-paper fragments, mismatched type scraps, photomontage, sharp satire, off-kilter layout, black-white newsprint with red accents. Avoid polished corporate order and seamless realism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/63-dada-collage-style-show.png
 
 ### surrealist-editorial
 - **Name:** Surrealist Editorial
 - **Prompt:** Create `{{SUBJECT}}` in Surrealist editorial style: impossible object combinations, dream logic, crisp realistic rendering, empty horizon, strange scale shifts, elegant magazine composition. Avoid random clutter, cartoon slapstick, and obvious fantasy armor.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/62-surrealist-editorial-style-show.png
 
 ### pop-art
 - **Name:** Pop Art
@@ -97,7 +97,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### op-art
 - **Name:** Op Art
 - **Prompt:** Create `{{SUBJECT}}` in Op Art style: black-white optical patterns, vibrating geometry, moire-like repetition, illusion of motion, clean hard edges, precise graphic abstraction. Avoid organic texture, narrative scenes, and soft gradients.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/64-op-art-style-show.png
 
 ### psychedelic-1960s-poster
 - **Name:** Psychedelic 1960s Poster
@@ -134,7 +134,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### brutalist-graphic
 - **Name:** Brutalist Graphic Design
 - **Prompt:** Create `{{SUBJECT}}` in brutalist graphic design style: raw type scale, harsh contrast, exposed grid, oversized blocks, utilitarian labels, black-white-gray with one aggressive accent. Avoid decorative polish, glossy gradients, and soft rounded friendliness.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/73-brutalist-graphic-style-show.png
 
 ### neo-brutalist
 - **Name:** Neo-Brutalism
@@ -144,12 +144,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### anti-design
 - **Name:** Anti-Design
 - **Prompt:** Create `{{SUBJECT}}` in anti-design style: intentionally awkward layout, clashing colors, broken hierarchy, distorted type, overlapping elements, rough digital edges, controlled visual rebellion. Avoid clean Swiss order and conventional corporate polish.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/74-anti-design-style-show.png
 
 ### maximalist-collage
 - **Name:** Maximalist Collage
 - **Prompt:** Create `{{SUBJECT}}` in maximalist collage style: dense layered cutouts, mixed patterns, stickers, photos, loud color, overlapping frames, scrapbook energy, controlled abundance. Avoid empty minimal layouts and single-object product photography.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/75-maximalist-collage-style-show.png
 
 ### punk-diy-flyer
 - **Name:** Punk DIY Flyer
@@ -159,7 +159,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### xerox-zine
 - **Name:** Xerox Zine
 - **Prompt:** Create `{{SUBJECT}}` in Xerox zine style: high-contrast photocopy texture, stapled pages, cropped photos, handwritten notes, grainy black ink, improvised layout, underground publication mood. Avoid glossy full-color advertising and clean app design.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/76-xerox-zine-style-show.png
 
 ### grunge-typography
 - **Name:** Grunge Typography
@@ -179,22 +179,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### screenprint-poster
 - **Name:** Screenprint Poster
 - **Prompt:** Create `{{SUBJECT}}` in screenprint poster style: bold flat layers, visible ink edges, reduced color palette, tactile paper, strong silhouette, handmade print character. Avoid soft airbrush, complex photo realism, and digital glass effects.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/72-screenprint-poster-style-show.png
 
 ### letterpress-vintage
 - **Name:** Letterpress Vintage
 - **Prompt:** Create `{{SUBJECT}}` in vintage letterpress style: pressed paper texture, ornamental type blocks, ink impression, limited black, cream, red, and navy palette, old print-shop composition. Avoid neon, 3D chrome, and modern app controls.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/71-letterpress-vintage-style-show.png
 
 ### victorian-advertising
 - **Name:** Victorian Advertising
 - **Prompt:** Create `{{SUBJECT}}` in Victorian advertising style: dense engraved ornament, decorative serif lettering, ribbon banners, illustrated product vignette, cream paper, black ink, muted red and gold. Avoid minimal grids and futuristic materials.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/70-victorian-advertising-style-show.png
 
 ### propaganda-poster
 - **Name:** Propaganda Poster
 - **Prompt:** Create `{{SUBJECT}}` in propaganda poster style: heroic scale, simplified shapes, limited bold palette, strong diagonals, dramatic upward viewpoint, declarative composition, posterized shadows. Avoid tiny details, luxury delicacy, and neutral mood.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/69-propaganda-poster-style-show.png
 
 ### corporate-modernist
 - **Name:** Corporate Modernist
@@ -226,7 +226,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### flat-design
 - **Name:** Flat Design
 - **Prompt:** Create `{{SUBJECT}}` in flat design style: simple vector shapes, no realistic shadows, bright friendly palette, clean iconography, clear hierarchy, simplified objects and UI panels. Avoid 3D materials, photographic depth, and ornament.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/77-flat-design-style-show.png
 
 ### skeuomorphic-ios
 - **Name:** Skeuomorphic iOS
@@ -241,22 +241,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### neumorphism
 - **Name:** Neumorphism
 - **Prompt:** Create `{{SUBJECT}}` in neumorphism style: soft extruded UI surfaces, subtle inner and outer shadows, monochrome pastel background, low contrast tactile buttons, gentle rounded geometry. Avoid harsh outlines, neon, and distressed print texture.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/78-neumorphism-style-show.png
 
 ### claymorphism
 - **Name:** Claymorphism
 - **Prompt:** Create `{{SUBJECT}}` in claymorphism style: soft 3D clay-like components, rounded inflated shapes, playful pastel colors, smooth matte material, friendly depth, simple app composition. Avoid sharp industrial metal and gritty realism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/86-claymorphism-style-show.png
 
 ### bento-ui
 - **Name:** Bento UI
 - **Prompt:** Create `{{SUBJECT}}` in bento UI style: modular rounded panels, varied tile sizes, dense but calm information chunks, subtle icons, clean app surface, restrained shadows, modern product showcase layout. Avoid chaotic collage and old web clutter.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/85-bento-ui-style-show.png
 
 ### brutalist-web
 - **Name:** Brutalist Web
 - **Prompt:** Create `{{SUBJECT}}` in brutalist web style: raw HTML-like blocks, default-looking controls, harsh typography, exposed links, simple borders, utilitarian layout, deliberate roughness. Avoid glossy SaaS polish and decorative illustration.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/79-brutalist-web-style-show.png
 
 ### neo-brutalist-ui
 - **Name:** Neo-Brutalist UI
@@ -266,22 +266,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### dashboard-enterprise
 - **Name:** Dashboard Enterprise
 - **Prompt:** Create `{{SUBJECT}}` in enterprise dashboard style: dense information layout, tables, filters, charts, compact controls, muted professional palette, clear navigation, high scan efficiency. Avoid decorative hero sections and oversized marketing art.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/83-dashboard-enterprise-style-show.png
 
 ### dark-mode-saas
 - **Name:** Dark Mode SaaS
 - **Prompt:** Create `{{SUBJECT}}` in dark mode SaaS style: charcoal background, crisp panels, cool accent colors, subtle gradients, clean charts, compact cards, refined developer-tool mood. Avoid neon overload, low contrast text, and playful cartoon decoration.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/84-dark-mode-saas-style-show.png
 
 ### command-line-terminal
 - **Name:** Command-Line Terminal
 - **Prompt:** Create `{{SUBJECT}}` in command-line terminal style: monospaced text feel, black or deep green screen, ASCII-like grids, scanline texture, minimal controls, technical utility. Avoid glossy icons, ornamental typography, and photo backgrounds.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/82-command-line-terminal-style-show.png
 
 ### web1-geocities
 - **Name:** Web 1.0 GeoCities
 - **Prompt:** Create `{{SUBJECT}}` in early Web 1.0 style: tiled backgrounds, bright link colors, beveled buttons, low-res GIF-like icons, table layout energy, playful amateur web page look. Avoid modern responsive minimalism and luxury polish.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/80-web1-geocities-style-show.png
 
 ### frutiger-aero
 - **Name:** Frutiger Aero
@@ -291,7 +291,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### y2k-interface
 - **Name:** Y2K Interface
 - **Prompt:** Create `{{SUBJECT}}` in Y2K interface style: chrome capsules, translucent plastic, icy blue and silver palette, oval buttons, techno curves, early-2000s futurist UI. Avoid earthy handmade texture and strict Swiss typography.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/81-y2k-interface-style-show.png
 
 ### vaporwave-web
 - **Name:** Vaporwave Web
@@ -301,12 +301,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### kawaii-ui
 - **Name:** Kawaii UI
 - **Prompt:** Create `{{SUBJECT}}` in kawaii UI style: rounded cute components, pastel candy palette, tiny friendly icons, soft stickers, simple expressions, cheerful spacing. Avoid harsh black brutalism, dark horror, and aggressive techwear mood.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/87-kawaii-ui-style-show.png
 
 ### cyber-dashboard
 - **Name:** Cyber Dashboard
 - **Prompt:** Create `{{SUBJECT}}` in cyber dashboard style: dark technical interface, neon cyan and magenta lines, holographic charts, dense panels, surveillance-map logic, glowing data layers. Avoid pastel wellness design and paper print texture.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/88-cyber-dashboard-style-show.png
 
 ### calm-tech
 - **Name:** Calm Tech
@@ -333,22 +333,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### lunarpunk
 - **Name:** Lunarpunk
 - **Prompt:** Create `{{SUBJECT}}` in lunarpunk style: nocturnal eco-futurism, moonlit gardens, bioluminescent plants, silver-blue palette, quiet mysticism, soft organic technology. Avoid sunny solarpunk brightness and harsh cyberpunk advertising.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/95-lunarpunk-style-show.png
 
 ### retro-futurism
 - **Name:** Retro Futurism
 - **Prompt:** Create `{{SUBJECT}}` in retro-futurist style: mid-century space-age optimism, sleek rockets, rounded appliances, starburst shapes, teal, orange, cream, and chrome, optimistic tomorrow-world mood. Avoid dystopian grime and medieval ornament.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/89-retro-futurism-style-show.png
 
 ### atompunk
 - **Name:** Atompunk
 - **Prompt:** Create `{{SUBJECT}}` in atompunk style: 1950s atomic age, boomerang shapes, chrome fins, nuclear symbols, pastel appliances, optimistic science-fair futurism, clean enamel surfaces. Avoid cyberpunk darkness and Victorian machinery.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/90-atompunk-style-show.png
 
 ### cassette-futurism
 - **Name:** Cassette Futurism
 - **Prompt:** Create `{{SUBJECT}}` in cassette futurism style: chunky analog controls, CRT screens, tape decks, beige plastic, tactile buttons, retro computer panels, practical old-future hardware. Avoid wafer-thin glass phones and holographic minimalism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/91-cassette-futurism-style-show.png
 
 ### dieselpunk
 - **Name:** Dieselpunk
@@ -363,17 +363,17 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### biopunk
 - **Name:** Biopunk
 - **Prompt:** Create `{{SUBJECT}}` in biopunk style: wet organic technology, lab glass, tissue-like materials, bioengineered forms, sickly greens, translucent membranes, sterile yet unsettling science mood. Avoid cheerful solarpunk and clean consumer electronics.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/94-biopunk-style-show.png
 
 ### holographic-chrome
 - **Name:** Holographic Chrome
 - **Prompt:** Create `{{SUBJECT}}` in holographic chrome style: iridescent metallic surfaces, reflective gradients, prismatic highlights, liquid silver, glossy black contrast, futuristic fashion-tech polish. Avoid matte paper, rustic wood, and historical ornament.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/93-holographic-chrome-style-show.png
 
 ### synthwave
 - **Name:** Synthwave
 - **Prompt:** Create `{{SUBJECT}}` in synthwave style: neon sunset, purple-magenta-blue gradient, grid horizon, chrome highlights, 1980s arcade futurism, cinematic night drive energy. Avoid earthy naturalism and clean daylight minimalism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/92-synthwave-style-show.png
 
 ### vaporwave
 - **Name:** Vaporwave
@@ -388,7 +388,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### glitch-art
 - **Name:** Glitch Art
 - **Prompt:** Create `{{SUBJECT}}` in glitch art style: digital corruption, RGB channel shifts, pixel sorting, scanline breaks, compression artifacts, fragmented composition, unstable screen energy. Avoid clean vector flatness and analog oil paint.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/96-glitch-art-style-show.png
 
 ### data-brutalism
 - **Name:** Data Brutalism
@@ -398,7 +398,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### liminal-space
 - **Name:** Liminal Space
 - **Prompt:** Create `{{SUBJECT}}` in liminal space style: empty transitional architecture, fluorescent lighting, carpet or tile repetition, uncanny stillness, slightly familiar but wrong scale, low human presence. Avoid action, crowded scenes, and polished luxury.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/97-liminal-space-style-show.png
 
 ### dreamcore
 - **Name:** Dreamcore
@@ -430,12 +430,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### celtic-knotwork
 - **Name:** Celtic Knotwork
 - **Prompt:** Create `{{SUBJECT}}` in Celtic knotwork style: interlaced geometry, illuminated borders, deep green, gold, blue, and parchment, carved stone or manuscript texture, rhythmic symbolic pattern. Avoid modern corporate minimalism and random tribal mixing.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/101-celtic-knotwork-style-show.png
 
 ### medieval-illuminated
 - **Name:** Medieval Illuminated Manuscript
 - **Prompt:** Create `{{SUBJECT}}` in medieval illuminated manuscript style: parchment, gold leaf, ornate borders, miniature scenes, blackletter-like forms, lapis blue and crimson accents, flat symbolic space. Avoid photorealistic perspective and sci-fi materials.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/102-medieval-illuminated-style-show.png
 
 ### gothic-cathedral
 - **Name:** Gothic Cathedral
@@ -445,7 +445,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### byzantine-icon
 - **Name:** Byzantine Icon
 - **Prompt:** Create `{{SUBJECT}}` in Byzantine icon style: gold ground, frontal symmetry, flattened sacred space, jewel colors, mosaic texture, solemn geometry, delicate halos or circular motifs when appropriate. Avoid Renaissance naturalism and modern neon.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/103-byzantine-icon-style-show.png
 
 ### islamic-geometric
 - **Name:** Islamic Geometric
@@ -455,22 +455,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### moroccan-zellige
 - **Name:** Moroccan Zellige
 - **Prompt:** Create `{{SUBJECT}}` in Moroccan zellige style: hand-cut mosaic tile, geometric borders, turquoise, cobalt, terracotta, cream, carved plaster, warm courtyard light. Avoid cold corporate glass and untextured flat vectors.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/104-moroccan-zellige-style-show.png
 
 ### ancient-egyptian-revival
 - **Name:** Ancient Egyptian Revival
 - **Prompt:** Create `{{SUBJECT}}` in Ancient Egyptian Revival style: sandstone, lapis, turquoise, gold, papyrus texture, strong profile geometry, lotus and sun motifs, monumental symmetry. Avoid generic fantasy clutter and cyberpunk signage.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/105-ancient-egyptian-revival-style-show.png
 
 ### mesoamerican-codex
 - **Name:** Mesoamerican Codex
 - **Prompt:** Create `{{SUBJECT}}` in Mesoamerican codex-inspired style: stepped geometry, bark-paper texture, earthy reds, black, turquoise, ochre, symbolic glyph-like patterning, flat ceremonial composition. Avoid mixing unrelated symbols and glossy sci-fi surfaces.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/106-mesoamerican-codex-style-show.png
 
 ### indian-mughal-miniature
 - **Name:** Indian Mughal Miniature
 - **Prompt:** Create `{{SUBJECT}}` in Mughal miniature style: fine brushwork, jewel colors, floral borders, delicate architecture, flattened garden space, gold details, elegant narrative composition. Avoid European oil-paint depth and modern UI components.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/107-indian-mughal-miniature-style-show.png
 
 ### japanese-wabi-sabi
 - **Name:** Japanese Wabi-Sabi
@@ -480,32 +480,32 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### zen-ink
 - **Name:** Zen Ink
 - **Prompt:** Create `{{SUBJECT}}` in Zen ink style: sparse black brushwork, rice paper texture, asymmetrical empty space, misty gray wash, disciplined simplicity, meditative rhythm. Avoid saturated color, dense ornament, and photoreal CGI.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/108-zen-ink-style-show.png
 
 ### kintsugi
 - **Name:** Kintsugi
 - **Prompt:** Create `{{SUBJECT}}` in kintsugi style: visible repair lines in gold, cracked ceramic texture, restrained black, cream, indigo, or earthy palette, beauty of imperfection, quiet premium composition. Avoid chaotic fracture clutter and neon cyber effects.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/109-kintsugi-style-show.png
 
 ### samurai-edo
 - **Name:** Samurai Edo
 - **Prompt:** Create `{{SUBJECT}}` in Edo-period samurai visual style: lacquer, indigo textiles, woodblock-inspired composition, disciplined armor shapes, paper screens, restrained red and gold accents. Avoid fantasy exaggeration, cyberpunk implants, and random cultural fusion.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/110-samurai-edo-style-show.png
 
 ### wuxia-ink
 - **Name:** Wuxia Ink
 - **Prompt:** Create `{{SUBJECT}}` in wuxia ink style: misty mountains, flowing robes or motion lines when relevant, ink wash, calligraphic energy, pale paper, black, gray, and cinnabar accents. Avoid hard sci-fi surfaces and cluttered modern signage.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/111-wuxia-ink-style-show.png
 
 ### chinese-court
 - **Name:** Chinese Court
 - **Prompt:** Create `{{SUBJECT}}` in Chinese court style: lacquer red, imperial yellow, jade green, carved wood, silk patterning, symmetrical palace composition, refined ceremonial detail. Avoid generic pan-Asian mixing and modern glass UI.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/112-chinese-court-style-show.png
 
 ### scandinavian-hygge
 - **Name:** Scandinavian Hygge
 - **Prompt:** Create `{{SUBJECT}}` in Scandinavian hygge style: warm minimal interior, pale wood, wool texture, soft daylight, candles or gentle lamps, cream, gray, muted blue, cozy restraint. Avoid baroque ornament and neon tech surfaces.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/113-scandinavian-hygge-style-show.png
 
 ### alpine-folk
 - **Name:** Alpine Folk
@@ -520,12 +520,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### mexican-folk
 - **Name:** Mexican Folk
 - **Prompt:** Create `{{SUBJECT}}` in Mexican folk style: bright papel picado color, hand-painted ornament, floral pattern, warm sun, turquoise, magenta, marigold, cobalt, lively craft texture. Avoid muted corporate neutrality and careless symbol mixing.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/114-mexican-folk-style-show.png
 
 ### western-americana
 - **Name:** Western Americana
 - **Prompt:** Create `{{SUBJECT}}` in Western Americana style: sun-faded desert palette, leather, denim, weathered wood, serif slab type feel, rodeo poster structure, dusty cinematic light. Avoid neon cyberpunk and polished European luxury.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/115-western-americana-style-show.png
 
 ### dark-academia
 - **Name:** Dark Academia
@@ -535,19 +535,19 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### light-academia
 - **Name:** Light Academia
 - **Prompt:** Create `{{SUBJECT}}` in light academia style: sunlit study rooms, cream paper, linen, pale stone, classical references, soft beige, ivory, sage, and warm gold, gentle intellectual mood. Avoid heavy gothic gloom and neon.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/116-light-academia-style-show.png
 
 ### occult-esoteric
 - **Name:** Occult Esoteric
 - **Prompt:** Create `{{SUBJECT}}` in occult esoteric style: symbolic geometry, candlelit black and gold palette, parchment diagrams, celestial charts, antique ritual objects, mysterious symmetry. Avoid cartoon horror, gore, and modern corporate cleanliness.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/117-occult-esoteric-style-show.png
 
 ## 06 Interior, Product, Material
 
 ### industrial-loft
 - **Name:** Industrial Loft
 - **Prompt:** Create `{{SUBJECT}}` in industrial loft style: exposed brick, black steel, concrete floors, ductwork, reclaimed wood, large windows, warm Edison lighting. Avoid delicate Rococo ornament and glossy pastel UI.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/118-industrial-loft-style-show.png
 
 ### brutalist-concrete
 - **Name:** Brutalist Concrete
@@ -557,7 +557,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### scandinavian-interior
 - **Name:** Scandinavian Interior
 - **Prompt:** Create `{{SUBJECT}}` in Scandinavian interior style: pale wood, functional furniture, white walls, soft textiles, simple lines, daylight, gray, cream, muted blue, quiet domestic warmth. Avoid heavy ornament and saturated maximalism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/119-scandinavian-interior-style-show.png
 
 ### japandi
 - **Name:** Japandi
@@ -567,7 +567,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### organic-modern
 - **Name:** Organic Modern
 - **Prompt:** Create `{{SUBJECT}}` in organic modern style: sculptural natural forms, warm neutrals, stone, limewash, curved furniture, soft minimalism, tactile surfaces, calm luxury. Avoid sharp neon tech and busy pattern layering.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/120-organic-modern-style-show.png
 
 ### biophilic
 - **Name:** Biophilic

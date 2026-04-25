@@ -318,3 +318,308 @@ This gallery supersedes the first generic demo set. Each image uses a scene that
 ### 60 Neo-Noir Neon
 
 ![Neo-Noir Neon style show](generated/60-neo-noir-neon-style-show.png)
+
+## Batch 04: Print, Type, UI, and Web Showcase
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 61 | Renaissance Chiaroscuro | candlelit scholar studio | generated/61-renaissance-chiaroscuro-style-show.png |
+| 62 | Surrealist Editorial | impossible editorial room | generated/62-surrealist-editorial-style-show.png |
+| 63 | Dada Collage | absurd photomontage tabletop | generated/63-dada-collage-style-show.png |
+| 64 | Op Art | optical gallery wall | generated/64-op-art-style-show.png |
+| 65 | Arts and Crafts | handcrafted reading nook | generated/65-arts-and-crafts-style-show.png |
+| 66 | Vienna Secession | gold geometric exhibition poster | generated/66-vienna-secession-style-show.png |
+| 67 | Jugendstil | refined floral poster panel | generated/67-jugendstil-style-show.png |
+| 68 | Streamline Moderne | ocean-liner lounge | generated/68-streamline-moderne-style-show.png |
+| 69 | Propaganda Poster | heroic industrial poster | generated/69-propaganda-poster-style-show.png |
+| 70 | Victorian Advertising | ornate product advertisement | generated/70-victorian-advertising-style-show.png |
+| 71 | Letterpress Vintage | old print-shop poster | generated/71-letterpress-vintage-style-show.png |
+| 72 | Screenprint Poster | bold music poster | generated/72-screenprint-poster-style-show.png |
+| 73 | Brutalist Graphic Design | raw exhibition graphic | generated/73-brutalist-graphic-style-show.png |
+| 74 | Anti-Design | broken web poster | generated/74-anti-design-style-show.png |
+| 75 | Maximalist Collage | dense scrapbook wall | generated/75-maximalist-collage-style-show.png |
+| 76 | Xerox Zine | stapled underground zine spread | generated/76-xerox-zine-style-show.png |
+| 77 | Flat Design | simplified travel app | generated/77-flat-design-style-show.png |
+| 78 | Neumorphism | soft music control UI | generated/78-neumorphism-style-show.png |
+| 79 | Brutalist Web | raw HTML webpage | generated/79-brutalist-web-style-show.png |
+| 80 | Web 1.0 GeoCities | early personal homepage | generated/80-web1-geocities-style-show.png |
+
+### 61 Renaissance Chiaroscuro
+
+![Renaissance Chiaroscuro style show](generated/61-renaissance-chiaroscuro-style-show.png)
+
+### 62 Surrealist Editorial
+
+![Surrealist Editorial style show](generated/62-surrealist-editorial-style-show.png)
+
+### 63 Dada Collage
+
+![Dada Collage style show](generated/63-dada-collage-style-show.png)
+
+### 64 Op Art
+
+![Op Art style show](generated/64-op-art-style-show.png)
+
+### 65 Arts and Crafts
+
+![Arts and Crafts style show](generated/65-arts-and-crafts-style-show.png)
+
+### 66 Vienna Secession
+
+![Vienna Secession style show](generated/66-vienna-secession-style-show.png)
+
+### 67 Jugendstil
+
+![Jugendstil style show](generated/67-jugendstil-style-show.png)
+
+### 68 Streamline Moderne
+
+![Streamline Moderne style show](generated/68-streamline-moderne-style-show.png)
+
+### 69 Propaganda Poster
+
+![Propaganda Poster style show](generated/69-propaganda-poster-style-show.png)
+
+### 70 Victorian Advertising
+
+![Victorian Advertising style show](generated/70-victorian-advertising-style-show.png)
+
+### 71 Letterpress Vintage
+
+![Letterpress Vintage style show](generated/71-letterpress-vintage-style-show.png)
+
+### 72 Screenprint Poster
+
+![Screenprint Poster style show](generated/72-screenprint-poster-style-show.png)
+
+### 73 Brutalist Graphic Design
+
+![Brutalist Graphic Design style show](generated/73-brutalist-graphic-style-show.png)
+
+### 74 Anti-Design
+
+![Anti-Design style show](generated/74-anti-design-style-show.png)
+
+### 75 Maximalist Collage
+
+![Maximalist Collage style show](generated/75-maximalist-collage-style-show.png)
+
+### 76 Xerox Zine
+
+![Xerox Zine style show](generated/76-xerox-zine-style-show.png)
+
+### 77 Flat Design
+
+![Flat Design style show](generated/77-flat-design-style-show.png)
+
+### 78 Neumorphism
+
+![Neumorphism style show](generated/78-neumorphism-style-show.png)
+
+### 79 Brutalist Web
+
+![Brutalist Web style show](generated/79-brutalist-web-style-show.png)
+
+### 80 Web 1.0 GeoCities
+
+![Web 1.0 GeoCities style show](generated/80-web1-geocities-style-show.png)
+
+## Batch 05: Interface, Futurism, and Subculture Showcase
+
+Note: 98 Dreamcore, 99 Weirdcore, and 100 Techwear Tactical are pending and will land in a follow-up PR.
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 81 | Y2K Interface | early-2000s media player UI | generated/81-y2k-interface-style-show.png |
+| 82 | Command-Line Terminal | green-black terminal workstation | generated/82-command-line-terminal-style-show.png |
+| 83 | Dashboard Enterprise | dense operations dashboard | generated/83-dashboard-enterprise-style-show.png |
+| 84 | Dark Mode SaaS | refined developer-tool dashboard | generated/84-dark-mode-saas-style-show.png |
+| 85 | Bento UI | modular rounded tile dashboard | generated/85-bento-ui-style-show.png |
+| 86 | Claymorphism | playful 3D clay finance app | generated/86-claymorphism-style-show.png |
+| 87 | Kawaii UI | cute pastel planner app | generated/87-kawaii-ui-style-show.png |
+| 88 | Cyber Dashboard | dark surveillance monitor wall | generated/88-cyber-dashboard-style-show.png |
+| 89 | Retro Futurism | mid-century tomorrow-world living room | generated/89-retro-futurism-style-show.png |
+| 90 | Atompunk | 1950s atomic-age science booth | generated/90-atompunk-style-show.png |
+| 91 | Cassette Futurism | analog control room with CRTs | generated/91-cassette-futurism-style-show.png |
+| 92 | Synthwave | neon sunset night drive | generated/92-synthwave-style-show.png |
+| 93 | Holographic Chrome | iridescent product display | generated/93-holographic-chrome-style-show.png |
+| 94 | Biopunk | sterile bio lab specimen chamber | generated/94-biopunk-style-show.png |
+| 95 | Lunarpunk | moonlit bioluminescent garden | generated/95-lunarpunk-style-show.png |
+| 96 | Glitch Art | corrupted RGB digital screen | generated/96-glitch-art-style-show.png |
+| 97 | Liminal Space | empty fluorescent pool hallway | generated/97-liminal-space-style-show.png |
+| 98 | Dreamcore | _pending_ | _pending_ |
+| 99 | Weirdcore | _pending_ | _pending_ |
+| 100 | Techwear Tactical | _pending_ | _pending_ |
+
+### 81 Y2K Interface
+
+![Y2K Interface style show](generated/81-y2k-interface-style-show.png)
+
+### 82 Command-Line Terminal
+
+![Command-Line Terminal style show](generated/82-command-line-terminal-style-show.png)
+
+### 83 Dashboard Enterprise
+
+![Dashboard Enterprise style show](generated/83-dashboard-enterprise-style-show.png)
+
+### 84 Dark Mode SaaS
+
+![Dark Mode SaaS style show](generated/84-dark-mode-saas-style-show.png)
+
+### 85 Bento UI
+
+![Bento UI style show](generated/85-bento-ui-style-show.png)
+
+### 86 Claymorphism
+
+![Claymorphism style show](generated/86-claymorphism-style-show.png)
+
+### 87 Kawaii UI
+
+![Kawaii UI style show](generated/87-kawaii-ui-style-show.png)
+
+### 88 Cyber Dashboard
+
+![Cyber Dashboard style show](generated/88-cyber-dashboard-style-show.png)
+
+### 89 Retro Futurism
+
+![Retro Futurism style show](generated/89-retro-futurism-style-show.png)
+
+### 90 Atompunk
+
+![Atompunk style show](generated/90-atompunk-style-show.png)
+
+### 91 Cassette Futurism
+
+![Cassette Futurism style show](generated/91-cassette-futurism-style-show.png)
+
+### 92 Synthwave
+
+![Synthwave style show](generated/92-synthwave-style-show.png)
+
+### 93 Holographic Chrome
+
+![Holographic Chrome style show](generated/93-holographic-chrome-style-show.png)
+
+### 94 Biopunk
+
+![Biopunk style show](generated/94-biopunk-style-show.png)
+
+### 95 Lunarpunk
+
+![Lunarpunk style show](generated/95-lunarpunk-style-show.png)
+
+### 96 Glitch Art
+
+![Glitch Art style show](generated/96-glitch-art-style-show.png)
+
+### 97 Liminal Space
+
+![Liminal Space style show](generated/97-liminal-space-style-show.png)
+
+## Batch 06: Cultural, Worldbuilding, and Interior Showcase
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 101 | Celtic Knotwork | illuminated stone-and-manuscript knot panel | generated/101-celtic-knotwork-style-show.png |
+| 102 | Medieval Illuminated Manuscript | parchment garden manuscript page | generated/102-medieval-illuminated-style-show.png |
+| 103 | Byzantine Icon | gold-ground mosaic sacred interior | generated/103-byzantine-icon-style-show.png |
+| 104 | Moroccan Zellige | tiled courtyard wall and fountain | generated/104-moroccan-zellige-style-show.png |
+| 105 | Ancient Egyptian Revival | monumental sandstone lotus-column lobby | generated/105-ancient-egyptian-revival-style-show.png |
+| 106 | Mesoamerican Codex | bark-paper ceremonial glyph panel | generated/106-mesoamerican-codex-style-show.png |
+| 107 | Indian Mughal Miniature | garden pavilion miniature scene | generated/107-indian-mughal-miniature-style-show.png |
+| 108 | Zen Ink | sparse ink wash mountain path | generated/108-zen-ink-style-show.png |
+| 109 | Kintsugi | gold-repaired ceramic tea bowl | generated/109-kintsugi-style-show.png |
+| 110 | Samurai Edo | Edo armor display in tatami room | generated/110-samurai-edo-style-show.png |
+| 111 | Wuxia Ink | misty mountain bridge with robe silhouettes | generated/111-wuxia-ink-style-show.png |
+| 112 | Chinese Court | ceremonial palace interior | generated/112-chinese-court-style-show.png |
+| 113 | Scandinavian Hygge | warm minimal winter living room | generated/113-scandinavian-hygge-style-show.png |
+| 114 | Mexican Folk | hand-painted courtyard table | generated/114-mexican-folk-style-show.png |
+| 115 | Western Americana | desert general-store porch | generated/115-western-americana-style-show.png |
+| 116 | Light Academia | sunlit classical study room | generated/116-light-academia-style-show.png |
+| 117 | Occult Esoteric | candlelit symbolic study table | generated/117-occult-esoteric-style-show.png |
+| 118 | Industrial Loft | exposed-brick loft workspace | generated/118-industrial-loft-style-show.png |
+| 119 | Scandinavian Interior | bright functional living room | generated/119-scandinavian-interior-style-show.png |
+| 120 | Organic Modern | calm sculptural neutral interior | generated/120-organic-modern-style-show.png |
+
+### 101 Celtic Knotwork
+
+![Celtic Knotwork style show](generated/101-celtic-knotwork-style-show.png)
+
+### 102 Medieval Illuminated Manuscript
+
+![Medieval Illuminated Manuscript style show](generated/102-medieval-illuminated-style-show.png)
+
+### 103 Byzantine Icon
+
+![Byzantine Icon style show](generated/103-byzantine-icon-style-show.png)
+
+### 104 Moroccan Zellige
+
+![Moroccan Zellige style show](generated/104-moroccan-zellige-style-show.png)
+
+### 105 Ancient Egyptian Revival
+
+![Ancient Egyptian Revival style show](generated/105-ancient-egyptian-revival-style-show.png)
+
+### 106 Mesoamerican Codex
+
+![Mesoamerican Codex style show](generated/106-mesoamerican-codex-style-show.png)
+
+### 107 Indian Mughal Miniature
+
+![Indian Mughal Miniature style show](generated/107-indian-mughal-miniature-style-show.png)
+
+### 108 Zen Ink
+
+![Zen Ink style show](generated/108-zen-ink-style-show.png)
+
+### 109 Kintsugi
+
+![Kintsugi style show](generated/109-kintsugi-style-show.png)
+
+### 110 Samurai Edo
+
+![Samurai Edo style show](generated/110-samurai-edo-style-show.png)
+
+### 111 Wuxia Ink
+
+![Wuxia Ink style show](generated/111-wuxia-ink-style-show.png)
+
+### 112 Chinese Court
+
+![Chinese Court style show](generated/112-chinese-court-style-show.png)
+
+### 113 Scandinavian Hygge
+
+![Scandinavian Hygge style show](generated/113-scandinavian-hygge-style-show.png)
+
+### 114 Mexican Folk
+
+![Mexican Folk style show](generated/114-mexican-folk-style-show.png)
+
+### 115 Western Americana
+
+![Western Americana style show](generated/115-western-americana-style-show.png)
+
+### 116 Light Academia
+
+![Light Academia style show](generated/116-light-academia-style-show.png)
+
+### 117 Occult Esoteric
+
+![Occult Esoteric style show](generated/117-occult-esoteric-style-show.png)
+
+### 118 Industrial Loft
+
+![Industrial Loft style show](generated/118-industrial-loft-style-show.png)
+
+### 119 Scandinavian Interior
+
+![Scandinavian Interior style show](generated/119-scandinavian-interior-style-show.png)
+
+### 120 Organic Modern
+
+![Organic Modern style show](generated/120-organic-modern-style-show.png)
