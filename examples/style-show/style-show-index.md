@@ -426,8 +426,6 @@ This gallery supersedes the first generic demo set. Each image uses a scene that
 
 ## Batch 05: Interface, Futurism, and Subculture Showcase
 
-Note: 98 Dreamcore, 99 Weirdcore, and 100 Techwear Tactical are pending and will land in a follow-up PR.
-
 | # | Style | Best-fit demo scene | Image |
 |---|---|---|---|
 | 81 | Y2K Interface | early-2000s media player UI | generated/81-y2k-interface-style-show.png |
@@ -447,9 +445,9 @@ Note: 98 Dreamcore, 99 Weirdcore, and 100 Techwear Tactical are pending and will
 | 95 | Lunarpunk | moonlit bioluminescent garden | generated/95-lunarpunk-style-show.png |
 | 96 | Glitch Art | corrupted RGB digital screen | generated/96-glitch-art-style-show.png |
 | 97 | Liminal Space | empty fluorescent pool hallway | generated/97-liminal-space-style-show.png |
-| 98 | Dreamcore | _pending_ | _pending_ |
-| 99 | Weirdcore | _pending_ | _pending_ |
-| 100 | Techwear Tactical | _pending_ | _pending_ |
+| 98 | Dreamcore | floating childhood bedroom in pastel field | generated/98-dreamcore-style-show.png |
+| 99 | Weirdcore | uncanny low-res internet collage room | generated/99-weirdcore-style-show.png |
+| 100 | Techwear Tactical | wet-concrete urban rain gear display | generated/100-techwear-tactical-style-show.png |
 
 ### 81 Y2K Interface
 
@@ -518,6 +516,18 @@ Note: 98 Dreamcore, 99 Weirdcore, and 100 Techwear Tactical are pending and will
 ### 97 Liminal Space
 
 ![Liminal Space style show](generated/97-liminal-space-style-show.png)
+
+### 98 Dreamcore
+
+![Dreamcore style show](generated/98-dreamcore-style-show.png)
+
+### 99 Weirdcore
+
+![Weirdcore style show](generated/99-weirdcore-style-show.png)
+
+### 100 Techwear Tactical
+
+![Techwear Tactical style show](generated/100-techwear-tactical-style-show.png)
 
 ## Batch 06: Cultural, Worldbuilding, and Interior Showcase
 

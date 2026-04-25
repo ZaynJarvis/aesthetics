@@ -48,7 +48,7 @@ Rules:
 
 ## Generating a new batch of demo images
 
-We generate **20 styles per batch** through Codex. **Image generation must use `gpt-image-2` via Codex** — earlier batches used `gpt-image-1` and the quality was visibly worse.
+We generate **20 styles per batch** through Codex. Image generation MUST use **Codex's own native image-generation capability** directly — do not invoke any image-gen skill, helper agent, or external API (no `gpt-image-1`, no `gpt-image-2` API, no skill wrapper). Earlier batches that went through skill wrappers / `gpt-image-1` were visibly worse. **Output size: 1254x1254 (square).**
 
 ### Batch numbering
 
@@ -75,9 +75,10 @@ Work in /Users/bytedance/Documents/Codex/2026-04-24/i-need-you-to-teach-me/desig
 Generate the next batch of style-show images for the design-style-workbook repo.
 
 Hard rules:
-- Image generation MUST use `gpt-image-2` via Codex's image generation tool. Do NOT call gpt-image-1 or any other API — the prior batch quality regressed when gpt-image-1 was used.
+- Image generation MUST use Codex's own native image-generation capability directly. Do NOT invoke any image-generation "skill", helper agent, or external API (no gpt-image-1, no gpt-image-2 API call, no skill wrapper). Use the built-in capability only.
+- Output size MUST be 1254x1254 (square).
 - Generate all 20 images locally (in your scratch / tmp area) FIRST, then bulk-copy into examples/style-show/generated/ at the end of the run. Do not re-touch the repo per image.
-- Final destination: examples/style-show/generated/<NN>-<slug>-style-show.png (square aspect).
+- Final destination: examples/style-show/generated/<NN>-<slug>-style-show.png (1254x1254 square).
 - Do not commit, push, tag, or open PRs.
 - Do not edit data/styles.yaml, prompts/all-prompts.md, expanded-style-prompts.md, README.md, STYLE_INDEX.md, or any other shared file. Only write the 20 PNGs and one new examples/style-show/batch-dumps/<NN>-<NN>.md.
 - Accept minor detail issues. Only regenerate if the style is visibly wrong, has obvious readable text, logos, or watermarks.

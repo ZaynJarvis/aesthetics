@@ -403,12 +403,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### dreamcore
 - **Name:** Dreamcore
 - **Prompt:** Create `{{SUBJECT}}` in dreamcore style: soft surreal environment, nostalgic objects, strange scale, pastel haze, floating symbols, gentle unease, half-remembered childhood mood. Avoid hard cyberpunk neon and documentary realism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/98-dreamcore-style-show.png
 
 ### weirdcore
 - **Name:** Weirdcore
 - **Prompt:** Create `{{SUBJECT}}` in weirdcore style: uncanny internet collage, low-res textures, distorted rooms, floating text-like fragments, surreal nostalgia, bright but unsettling color. Avoid elegant editorial polish and conventional fantasy scenery.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/99-weirdcore-style-show.png
 
 ### afrofuturism
 - **Name:** Afrofuturism
@@ -418,7 +418,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### techwear-tactical
 - **Name:** Techwear Tactical
 - **Prompt:** Create `{{SUBJECT}}` in techwear tactical style: matte black technical fabrics, modular straps, weatherproof layers, utility pockets, urban rain, compact hardware, functional stealth silhouette. Avoid ornate fantasy, pastel cuteness, and glossy luxury.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/100-techwear-tactical-style-show.png
 
 ## 05 Cultural, Historical, Worldbuilding
 
