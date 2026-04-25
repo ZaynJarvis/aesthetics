@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--page-bg);
+  color: var(--page-fg);
+}
+
+:root {
+  --page-bg: #fafafa;
+  --page-fg: #18181b;
+  --card-bg: #ffffff;
+  --card-border: #e5e7eb;
+  --muted: #71717a;
+  --accent: #18181b;
+}
+
+html.dark {
+  --page-bg: #09090b;
+  --page-fg: #f4f4f5;
+  --card-bg: #18181b;
+  --card-border: #27272a;
+  --muted: #a1a1aa;
+  --accent: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in 120ms ease-out;
+}

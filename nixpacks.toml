@@ -1,0 +1,13 @@
+# Railway / Nixpacks build config: build the Next.js gallery from web/.
+
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[phases.install]
+cmds = ["cd web && npm ci"]
+
+[phases.build]
+cmds = ["cd web && npm run build"]
+
+[start]
+cmd = "cd web && npm run start"

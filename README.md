@@ -39,13 +39,15 @@ This workbook turns those names into concrete visual markers and reusable prompt
 
 ## Start Here
 
+- **Gallery website:** `cd web && npm install && npm run dev` → category-tabbed image grid with click-to-copy prompts and light/dark mode. See [web/README.md](web/README.md).
+- **Source of truth:** [data/styles.yaml](data/styles.yaml) — 337 styles, 117 with demo images.
 - [STYLE_INDEX.md](STYLE_INDEX.md): broad-to-fine list of style names.
+- [CONTRIBUTING.md](CONTRIBUTING.md): how to add a style, how to run a 20-style image generation batch with `gpt-image-2` via Codex.
 - [LEARNING_PATH.md](LEARNING_PATH.md): how to train your eye by comparing styles.
 - [AUDIT.md](AUDIT.md): what is covered, what was missing, and why more expansion is needed.
-- [prompts/all-prompts.md](prompts/all-prompts.md): original 180 reusable prompts.
+- [prompts/all-prompts.md](prompts/all-prompts.md): 180 reusable prompts (mirror of yaml).
 - [prompts/expanded-style-prompts.md](prompts/expanded-style-prompts.md): 157 more prompts for narrower lanes.
-- [examples/style-show/style-show-index.md](examples/style-show/style-show-index.md): generated visual examples.
-- [examples/style-show/style-show-prompts.md](examples/style-show/style-show-prompts.md): source prompts for generated images.
+- [examples/style-show/style-show-index.md](examples/style-show/style-show-index.md): production-order timeline of generated batches.
 
 ## Folder Structure
 

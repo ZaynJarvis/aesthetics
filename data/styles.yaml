@@ -1,0 +1,2771 @@
+# data/styles.yaml — single source of truth for the design-style-workbook gallery.
+# Generated initially by scripts/build_yaml.py from the existing markdown sources.
+# After this bootstrap, edit this file directly; markdown can be regenerated separately.
+
+categories:
+  - id: 01
+    title: "Historical Art Movements"
+  - id: 02
+    title: "Graphic, Typography, Print"
+  - id: 03
+    title: "UI, Web, Product Interfaces"
+  - id: 04
+    title: "Futurism, Tech, Subculture"
+  - id: 05
+    title: "Cultural, Historical, Worldbuilding"
+  - id: 06
+    title: "Interior, Product, Material"
+  - id: 07
+    title: "Photography, Cinema, Color Grading"
+  - id: 08
+    title: "Illustration, Comics, Games"
+  - id: 09
+    title: "Fashion, Lifestyle, Brand Aesthetics"
+  - id: 10
+    title: "More Historical Art And Design Movements"
+  - id: 11
+    title: "Architecture And Urban Design"
+  - id: 12
+    title: "Interior Design Lanes"
+  - id: 13
+    title: "Product, Packaging, And Brand Styles"
+  - id: 14
+    title: "Typography And Lettering"
+  - id: 15
+    title: "Digital, Web, And Internet Aesthetics"
+  - id: 16
+    title: "Photography, Cinema, And Media Styles"
+  - id: 17
+    title: "Illustration, Animation, And Game Substyles"
+  - id: 18
+    title: "Materials, Craft, And Surface Styles"
+  - id: 19
+    title: "Fashion And Internet Aesthetics"
+  - id: 20
+    title: "Regional And Heritage-Inspired Visual Lanes"
+
+styles:
+  - slug: "classical-greco-roman"
+    name: "Classical Greco-Roman"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Classical Greco-Roman style: marble, columns, balanced proportion, sculptural drapery, laurel motifs, calm symmetry, warm limestone and terracotta palette, museum-grade composition. Avoid medieval ornament, neon, and modern corporate UI."
+    demo:
+      production_index: 41
+      batch: 03
+      image: "41-classical-greco-roman-style-show.png"
+      scene: "marble forum sculpture courtyard"
+      exact_prompt: |
+        Create a square style-show image for Classical Greco-Roman: a sunlit marble forum courtyard and sculpture gallery with fluted columns, carved pediments, draped marble statues, laurel reliefs, balanced axial symmetry, warm limestone, terracotta, olive, and pale sky palette, museum-grade calm proportion, subtle stone texture. No logos, no watermark, no readable text.
+  - slug: "renaissance-chiaroscuro"
+    name: "Renaissance Chiaroscuro"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Renaissance chiaroscuro style: realistic humanist proportion, deep shadow-to-light modeling, oil-paint texture, warm earth tones, architectural perspective, quiet sacred drama. Avoid flat vector shapes, cyberpunk lighting, and cartoon outlines."
+    demo:
+      production_index: 61
+      batch: 04
+      image: "61-renaissance-chiaroscuro-style-show.png"
+      scene: "candlelit scholar studio"
+      exact_prompt: |
+        Create a square style-show image for Renaissance Chiaroscuro: a quiet scholar studio in a stone-arched room with a draped study figure, plaster bust, wooden table, oil-paint surface texture, humanist proportion, deep shadow-to-light modeling, warm umber, sienna, cream, and black palette, architectural perspective, solemn candlelit drama. No logos, no watermark, no readable text.
+  - slug: "baroque-drama"
+    name: "Baroque Drama"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Baroque dramatic style: theatrical motion, strong diagonal composition, heavy chiaroscuro, gold accents, velvet shadows, ornate architecture, emotional intensity. Avoid minimalism, flat poster graphics, and pastel softness."
+    demo:
+      production_index: 42
+      batch: 03
+      image: "42-baroque-drama-style-show.png"
+      scene: "candlelit palace staircase"
+      exact_prompt: |
+        Create a square style-show image for Baroque Drama: a candlelit palace staircase with sweeping marble steps, theatrical figures implied as shadowy silhouettes, heavy chiaroscuro, gold ornament, crimson velvet, twisting columns, strong diagonal movement, emotional grandeur, deep warm shadows, dramatic spotlight from candles. No logos, no watermark, no readable text.
+  - slug: "rococo-ornament"
+    name: "Rococo Ornament"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Rococo style: pastel cream, blush, powder blue, gilded scrollwork, asymmetrical floral ornament, porcelain textures, playful luxury, delicate curves. Avoid brutalist concrete, strict grids, and dark dystopian mood."
+    demo:
+      production_index: 43
+      batch: 03
+      image: "43-rococo-ornament-style-show.png"
+      scene: "pastel gilded salon"
+      exact_prompt: |
+        Create a square style-show image for Rococo Ornament: a pastel salon with gilded cabriole chairs, porcelain vases, curved mirrors, asymmetrical floral scrollwork, cream, blush, powder blue, mint, and soft gold palette, delicate luxury, airy daylight, playful ornamental detail. No logos, no watermark, no readable text.
+  - slug: "ukiyo-e"
+    name: "Ukiyo-e"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Ukiyo-e style: flat color blocks, bold ink contours, wave and cloud motifs, cropped composition, handmade paper grain, muted indigo, vermilion, beige, and black. Avoid photorealistic lighting, 3D rendering, and glossy gradients."
+    demo:
+      production_index: 44
+      batch: 03
+      image: "44-ukiyo-e-style-show.png"
+      scene: "woodblock wave and bridge print"
+      exact_prompt: |
+        Create a square style-show image for Ukiyo-e: a woodblock print scene of a high curling ocean wave near a small arched bridge and distant mountain, flat indigo and beige color blocks, bold black ink contours, cropped composition, stylized clouds, handmade paper grain, vermilion accent seals rendered as abstract blocks with no readable text. No logos, no watermark, no readable text.
+  - slug: "arts-and-crafts"
+    name: "Arts and Crafts"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Arts and Crafts style: handcrafted medieval-inspired ornament, botanical borders, natural dyes, visible paper texture, honest materials, warm greens, ochre, rust, and cream. Avoid synthetic chrome, neon, and slick corporate minimalism."
+    demo:
+      production_index: 65
+      batch: 04
+      image: "65-arts-and-crafts-style-show.png"
+      scene: "handcrafted reading nook"
+      exact_prompt: |
+        Create a square style-show image for Arts and Crafts: a handcrafted reading nook with oak chair, woven textile, botanical wallpaper, stained-glass lamp, hand-bound books without readable titles, honest wood joinery, visible paper and fabric texture, warm greens, ochre, rust, and cream palette, medieval-inspired natural ornament. No logos, no watermark, no readable text.
+  - slug: "art-nouveau"
+    name: "Art Nouveau"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Art Nouveau style: flowing whiplash curves, botanical linework, elegant ornamental frame, stained-glass color, graceful asymmetry, hand-lettered decorative feel. Avoid hard Bauhaus geometry, brutalism, and neon futurism."
+    demo:
+      production_index: 2
+      batch: 01
+      image: "02-art-nouveau-style-show.png"
+      scene: "perfume poster with botanical frame"
+      exact_prompt: |
+        Create a square style-show image for Art Nouveau: a premium perfume poster composition with a glass bottle centered inside flowing botanical whiplash curves, elegant floral frame, stained-glass jewel colors, graceful asymmetry, soft cream paper texture, hand-crafted decorative feel. No logos, no watermark, no readable text.
+  - slug: "jugendstil"
+    name: "Jugendstil"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Jugendstil style: refined German Art Nouveau, floral geometry, elegant black contours, restrained ornament, muted greens, creams, gold, and rose, poster-like flatness. Avoid overly lush Rococo detail and modern app UI."
+    demo:
+      production_index: 67
+      batch: 04
+      image: "67-jugendstil-style-show.png"
+      scene: "refined floral poster panel"
+      exact_prompt: |
+        Create a square style-show image for Jugendstil: a refined German Art Nouveau poster panel with floral geometry, elegant black contours, restrained ornament, stylized lily forms, muted green, cream, gold, and rose palette, flat poster-like composition, delicate paper texture, abstract label blocks only. No logos, no watermark, no readable text.
+  - slug: "vienna-secession"
+    name: "Vienna Secession"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Vienna Secession style: square geometry, gold leaf accents, stylized pattern fields, elegant flat figures, black-white-gold contrast, refined decorative restraint. Avoid organic Art Nouveau excess, gritty punk, and photorealism."
+    demo:
+      production_index: 66
+      batch: 04
+      image: "66-vienna-secession-style-show.png"
+      scene: "gold geometric exhibition poster"
+      exact_prompt: |
+        Create a square style-show image for Vienna Secession: a refined exhibition-hall poster composition with square geometry, gold leaf pattern fields, stylized laurel and floral motifs, flat elegant figure silhouettes, black-white-gold contrast, restrained decorative rhythm, mosaic-like surface texture, abstract title blocks without readable words. No logos, no watermark, no readable text.
+  - slug: "art-deco"
+    name: "Art Deco"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Art Deco style: stepped geometry, sunburst motifs, symmetrical luxury, black lacquer, ivory, gold, emerald, chrome, sleek 1920s glamour. Avoid rough handmade texture, grunge typography, and casual doodles."
+    demo:
+      production_index: 3
+      batch: 01
+      image: "03-art-deco-style-show.png"
+      scene: "grand cinema lobby poster"
+      exact_prompt: |
+        Create a square style-show image for Art Deco: a grand cinema lobby interior with stepped geometry, fan motifs, black lacquer, ivory marble, gold trim, emerald velvet, chrome fixtures, symmetrical luxury and sleek 1920s glamour. No logos, no watermark, no readable text.
+  - slug: "streamline-moderne"
+    name: "Streamline Moderne"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Streamline Moderne style: aerodynamic horizontal lines, rounded corners, chrome trim, ocean-liner curves, soft industrial optimism, cream, red, teal, and polished metal. Avoid Victorian ornament and chaotic collage."
+    demo:
+      production_index: 68
+      batch: 04
+      image: "68-streamline-moderne-style-show.png"
+      scene: "ocean-liner lounge"
+      exact_prompt: |
+        Create a square style-show image for Streamline Moderne: a sunlit ocean-liner lounge and terminal corner with aerodynamic horizontal bands, rounded windows, chrome trim, cream enamel, teal, red, and polished metal accents, soft industrial optimism, smooth curved furniture, clean machine-age glamour. No logos, no watermark, no readable text.
+  - slug: "mid-century-modern"
+    name: "Mid-Century Modern"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Mid-Century Modern style: clean functional forms, tapered wood, atomic motifs, warm walnut, mustard, olive, teal, and cream, optimistic postwar domestic modernity. Avoid ornate Victorian detail, cyber neon, and chaotic collage."
+    demo:
+      production_index: 5
+      batch: 01
+      image: "05-mid-century-modern-style-show.png"
+      scene: "living room furniture vignette"
+      exact_prompt: |
+        Create a square style-show image for Mid-Century Modern: a sunlit living room furniture vignette with tapered walnut chair legs, low credenza, starburst clock, atomic motifs, mustard, olive, teal, cream, warm wood, optimistic postwar domestic modernity. No logos, no watermark, no readable text.
+  - slug: "de-stijl"
+    name: "De Stijl"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in De Stijl style: strict black grid, primary red, yellow, blue, white space, orthogonal rectangles, pure abstraction, disciplined modernist balance. Avoid curves, gradients, texture, and decorative ornament."
+    demo:
+      production_index: 23
+      batch: 02
+      image: "23-de-stijl-style-show.png"
+      scene: "abstract interior corner"
+      exact_prompt: |
+        Create a square style-show image for De Stijl: an abstract interior corner with chair, lamp, and wall panels reduced to strict black grid lines, primary red, yellow, blue, and white rectangles, orthogonal balance, pure modernist abstraction. No logos, no watermark, no readable text.
+  - slug: "constructivism"
+    name: "Constructivism"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Constructivist style: bold red, black, cream, diagonal geometry, photomontage energy, industrial type, heroic scale, dynamic propaganda-like composition. Avoid soft luxury, pastel palettes, and ornate floral design."
+    demo:
+      production_index: 45
+      batch: 03
+      image: "45-constructivism-style-show.png"
+      scene: "industrial diagonal poster"
+      exact_prompt: |
+        Create a square style-show image for Constructivism: a bold industrial poster composition with cranes, gears, factory silhouettes, radiating diagonals, red, black, cream, and gray palette, photomontage-like geometric forms, sharp sans-serif-like typographic blocks without readable words, revolutionary modernist energy, rough printed paper texture. No logos, no watermark, no readable text.
+  - slug: "bauhaus"
+    name: "Bauhaus"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Bauhaus style: primary shapes, rational composition, geometric sans-serif feel, red-yellow-blue accents, functional modernism, clean planes, balanced asymmetry. Avoid ornament, photorealistic clutter, and vintage Victorian decoration."
+    demo:
+      production_index: 1
+      batch: 01
+      image: "01-bauhaus-style-show.png"
+      scene: "exhibition poster and furniture study"
+      exact_prompt: |
+        Create a square style-show image for Bauhaus: an exhibition poster and furniture study with a tubular chair, simple lamp, geometric poster panels, red-yellow-blue primary shapes, rational asymmetric composition, clean planes, functional modernist clarity, white studio background. No logos, no watermark, no readable text.
+  - slug: "dada-collage"
+    name: "Dada Collage"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Dada collage style: absurd cut-paper fragments, mismatched type scraps, photomontage, sharp satire, off-kilter layout, black-white newsprint with red accents. Avoid polished corporate order and seamless realism."
+    demo:
+      production_index: 63
+      batch: 04
+      image: "63-dada-collage-style-show.png"
+      scene: "absurd photomontage tabletop"
+      exact_prompt: |
+        Create a square style-show image for Dada Collage: an absurd cut-paper photomontage tabletop with mismatched photo fragments, newsprint scraps rendered as abstract gray blocks, red accent bars, off-kilter layout, sharp satire, rough paper edges, black-white-cream palette, intentionally unstable composition. No logos, no watermark, no readable text.
+  - slug: "surrealist-editorial"
+    name: "Surrealist Editorial"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Surrealist editorial style: impossible object combinations, dream logic, crisp realistic rendering, empty horizon, strange scale shifts, elegant magazine composition. Avoid random clutter, cartoon slapstick, and obvious fantasy armor."
+    demo:
+      production_index: 62
+      batch: 04
+      image: "62-surrealist-editorial-style-show.png"
+      scene: "impossible editorial room"
+      exact_prompt: |
+        Create a square style-show image for Surrealist Editorial: a crisp magazine-like scene of an impossible room where a floating chair, oversized keyhole, calm horizon, and perfectly rendered ordinary objects create dream logic, strange scale shifts, elegant empty space, muted cream, blue, rust, and black palette. No logos, no watermark, no readable text.
+  - slug: "pop-art"
+    name: "Pop Art"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Pop Art style: bold commercial colors, Ben-Day dots, comic framing, repeated icons, high contrast outlines, consumer-culture energy, playful mass-media composition. Avoid muted minimalism and painterly realism."
+    demo:
+      production_index: 46
+      batch: 03
+      image: "46-pop-art-style-show.png"
+      scene: "comic-style consumer display"
+      exact_prompt: |
+        Create a square style-show image for Pop Art: a comic-style retail display wall with repeated colorful soda cans and snack boxes rendered as generic consumer products, Ben-Day dots, thick black outlines, halftone shadows, cyan, yellow, red, and pink palette, bold speech-bubble shapes with abstract glyph blocks only, playful mass-media composition. No logos, no watermark, no readable text.
+  - slug: "op-art"
+    name: "Op Art"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Op Art style: black-white optical patterns, vibrating geometry, moire-like repetition, illusion of motion, clean hard edges, precise graphic abstraction. Avoid organic texture, narrative scenes, and soft gradients."
+    demo:
+      production_index: 64
+      batch: 04
+      image: "64-op-art-style-show.png"
+      scene: "optical gallery wall"
+      exact_prompt: |
+        Create a square style-show image for Op Art: a black-and-white optical gallery wall with vibrating geometric patterns, warped checker fields, concentric curves, moire-like repetition, illusion of motion, crisp hard edges, precise graphic abstraction, minimal museum lighting. No logos, no watermark, no readable text.
+  - slug: "psychedelic-1960s-poster"
+    name: "Psychedelic 1960s Poster"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in psychedelic 1960s poster style: swirling saturated color, warped lettering shapes, liquid floral forms, high-energy symmetry, orange, magenta, teal, violet, and acid green. Avoid corporate grids and subdued monochrome."
+    demo:
+      production_index: 47
+      batch: 03
+      image: "47-psychedelic-1960s-poster-style-show.png"
+      scene: "liquid color concert poster"
+      exact_prompt: |
+        Create a square style-show image for Psychedelic 1960s Poster: a text-free concert-poster-inspired composition made only of liquid color fields, warped ornamental frames, vibrating orange, magenta, teal, acid green, and purple palette, screenprint grain, flower, sunburst, wave, and paisley motifs, swirling symmetry, ecstatic counterculture energy. No letters, no words, no numbers, no logos, no watermark, no readable text.
+  - slug: "memphis-postmodern"
+    name: "Memphis Postmodern"
+    category_id: 01
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Memphis postmodern style: playful geometric squiggles, terrazzo texture, laminate surfaces, pastel brights, black pattern marks, deliberately odd object shapes, 1980s design energy. Avoid austere minimalism and historic ornament."
+    demo:
+      production_index: 8
+      batch: 01
+      image: "08-memphis-postmodern-style-show.png"
+      scene: "1980s interior product set"
+      exact_prompt: |
+        Create a square style-show image for Memphis Postmodern: an 1980s interior product set with odd geometric furniture, terrazzo texture, laminate surfaces, pastel brights, black squiggles, zigzags, playful sculptural lamp, deliberately eccentric composition. No logos, no watermark, no readable text.
+  - slug: "swiss-international"
+    name: "Swiss International"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Swiss International style: strict grid, asymmetric alignment, clear hierarchy, generous white space, neutral grotesk typography feel, black-red-white palette, objective modernist clarity. Avoid decoration, texture, and chaotic collage."
+    demo:
+      production_index: 4
+      batch: 01
+      image: "04-swiss-international-style-show.png"
+      scene: "museum exhibition poster"
+      exact_prompt: |
+        Create a square style-show image for Swiss International graphic design: a museum exhibition poster layout shown flat on a white wall, strict grid, asymmetric alignment, generous white space, black-red-white palette, objective modernist clarity, neutral sans-serif-like blocks but no readable text. No logos, no watermark.
+  - slug: "grid-modernism"
+    name: "Grid Modernism"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in grid modernist style: modular columns, mathematical spacing, disciplined alignment, restrained color, type-led composition, functional hierarchy, clean print-system logic. Avoid ornamental frames, distressed texture, and playful randomness."
+    demo: null
+  - slug: "minimalism"
+    name: "Minimalism"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in minimalist style: radical reduction, clear negative space, few elements, restrained palette, precise proportion, quiet materials, calm hierarchy, everything purposeful. Avoid decorative ornament, noisy texture, and maximalist color."
+    demo:
+      production_index: 6
+      batch: 01
+      image: "06-minimalism-style-show.png"
+      scene: "gallery product plinth"
+      exact_prompt: |
+        Create a square style-show image for Minimalism: a quiet gallery product plinth with one matte white ceramic vessel, large negative space, soft natural light, precise proportion, restrained off-white and pale gray palette, calm hierarchy, radical reduction. No logos, no watermark, no readable text.
+  - slug: "editorial-minimalism"
+    name: "Editorial Minimalism"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in editorial minimalist style: large margins, sparse type, refined photography or illustration, quiet palette, luxury magazine pacing, precise whitespace, restrained asymmetry. Avoid loud color, dense UI, and novelty effects."
+    demo: null
+  - slug: "brutalist-graphic"
+    name: "Brutalist Graphic Design"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in brutalist graphic design style: raw type scale, harsh contrast, exposed grid, oversized blocks, utilitarian labels, black-white-gray with one aggressive accent. Avoid decorative polish, glossy gradients, and soft rounded friendliness."
+    demo:
+      production_index: 73
+      batch: 04
+      image: "73-brutalist-graphic-style-show.png"
+      scene: "raw exhibition graphic"
+      exact_prompt: |
+        Create a square style-show image for Brutalist Graphic Design: a raw exhibition graphic made from oversized black blocks, harsh contrast, exposed grid, utilitarian label bars, rough paper and photocopy texture, black-white-gray palette with one aggressive red accent, deliberately blunt hierarchy. No logos, no watermark, no readable text.
+  - slug: "neo-brutalist"
+    name: "Neo-Brutalism"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in neo-brutalist style: thick black outlines, loud flat color, offset shadows, blocky layout, deliberately blunt UI-like components, playful anti-polish. Avoid subtle gradients, fragile elegance, and photorealistic texture."
+    demo:
+      production_index: 7
+      batch: 01
+      image: "07-neo-brutalism-style-show.png"
+      scene: "bold landing page UI poster"
+      exact_prompt: |
+        Create a square style-show image for Neo-Brutalism: a bold landing page UI poster displayed as a flat graphic composition, thick black outlines, loud flat colors, chunky cards and buttons, offset black shadows, blocky layout, playful anti-polish. No logos, no watermark, no readable text.
+  - slug: "anti-design"
+    name: "Anti-Design"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in anti-design style: intentionally awkward layout, clashing colors, broken hierarchy, distorted type, overlapping elements, rough digital edges, controlled visual rebellion. Avoid clean Swiss order and conventional corporate polish."
+    demo:
+      production_index: 74
+      batch: 04
+      image: "74-anti-design-style-show.png"
+      scene: "broken web poster"
+      exact_prompt: |
+        Create a square style-show image for Anti-Design: an intentionally awkward digital poster with clashing colors, broken hierarchy, distorted panels, overlapping shapes, rough pixel edges, off-grid layout, controlled visual rebellion, abstract glyph fragments only. No logos, no watermark, no readable text.
+  - slug: "maximalist-collage"
+    name: "Maximalist Collage"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in maximalist collage style: dense layered cutouts, mixed patterns, stickers, photos, loud color, overlapping frames, scrapbook energy, controlled abundance. Avoid empty minimal layouts and single-object product photography."
+    demo:
+      production_index: 75
+      batch: 04
+      image: "75-maximalist-collage-style-show.png"
+      scene: "dense scrapbook wall"
+      exact_prompt: |
+        Create a square style-show image for Maximalist Collage: a dense scrapbook wall of layered cutouts, stickers, photos, frames, ribbons, mixed patterns, loud jewel and candy colors, overlapping textures, controlled abundance, energetic composition, all text replaced by abstract glyph blocks. No logos, no watermark, no readable text.
+  - slug: "punk-diy-flyer"
+    name: "Punk DIY Flyer"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in punk DIY flyer style: ripped paper, photocopy grain, ransom-note type, black-white contrast, marker scrawls, rough halftone, aggressive low-budget urgency. Avoid polished luxury and smooth corporate gradients."
+    demo:
+      production_index: 48
+      batch: 03
+      image: "48-punk-diy-flyer-style-show.png"
+      scene: "photocopied torn gig wall"
+      exact_prompt: |
+        Create a square style-show image for Punk DIY Flyer: a photocopied gig wall collage with torn black-and-white paper, safety-pin edges, rough tape, xerox grain, ransom-note-like abstract glyph blocks with no actual letters, jagged cutout rectangles, red marker slashes, staple shadows, gritty anti-design energy. No logos, no watermark, no readable text, no real band names.
+  - slug: "xerox-zine"
+    name: "Xerox Zine"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Xerox zine style: high-contrast photocopy texture, stapled pages, cropped photos, handwritten notes, grainy black ink, improvised layout, underground publication mood. Avoid glossy full-color advertising and clean app design."
+    demo:
+      production_index: 76
+      batch: 04
+      image: "76-xerox-zine-style-show.png"
+      scene: "stapled underground zine spread"
+      exact_prompt: |
+        Create a square style-show image for Xerox Zine: a high-contrast photocopied stapled zine spread with cropped photos, handwritten-looking abstract marks, grainy black ink, improvised layout, folded paper edges, underground publication mood. No logos, no watermark, no readable text.
+  - slug: "grunge-typography"
+    name: "Grunge Typography"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in grunge typography style: distressed letters, torn textures, dirty overlays, chaotic baselines, muted browns, black, faded red, and gray, 1990s alternative print mood. Avoid crisp luxury typesetting and polished symmetry."
+    demo:
+      production_index: 49
+      batch: 03
+      image: "49-grunge-typography-style-show.png"
+      scene: "distressed 1990s poster wall"
+      exact_prompt: |
+        Create a square style-show image for Grunge Typography: a 1990s alternative album-poster wall built from distressed typographic texture without complete alphabet characters, no words, no numbers, only cropped ink bars, torn rectangles, partial curves, baseline fragments, photocopy noise, scratched ink, muted black, off-white, rust, dirty teal, and faded red palette, worn urban surface. No logos, no watermark, no readable text, no real band names.
+  - slug: "skate-zine"
+    name: "Skate Zine"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in skate zine style: fisheye-photo energy, sticker layers, rough captions, sun-faded color, hand-drawn arrows, asphalt texture, rebellious youth layout. Avoid formal corporate hierarchy and pristine studio lighting."
+    demo: null
+  - slug: "risograph"
+    name: "Risograph"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Risograph print style: limited spot colors, slight registration misalignment, grainy ink texture, fluorescent pink, teal, orange, and soy black, indie poster charm. Avoid glossy perfect gradients and photoreal CGI."
+    demo:
+      production_index: 16
+      batch: 01
+      image: "16-risograph-style-show.png"
+      scene: "indie music poster"
+      exact_prompt: |
+        Create a square style-show image for Risograph: an indie music poster on textured paper, limited spot colors, fluorescent pink, teal, orange, and soy black, grainy ink, slight registration misalignment, bold simple shapes, handmade print charm. No logos, no watermark, no readable text.
+  - slug: "screenprint-poster"
+    name: "Screenprint Poster"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in screenprint poster style: bold flat layers, visible ink edges, reduced color palette, tactile paper, strong silhouette, handmade print character. Avoid soft airbrush, complex photo realism, and digital glass effects."
+    demo:
+      production_index: 72
+      batch: 04
+      image: "72-screenprint-poster-style-show.png"
+      scene: "bold music poster"
+      exact_prompt: |
+        Create a square style-show image for Screenprint Poster: a bold flat-layer music poster with strong guitar-and-sun silhouette, visible ink edges, reduced teal, orange, cream, and black palette, tactile paper grain, slightly imperfect handmade print character, abstract blocks instead of words. No logos, no watermark, no readable text.
+  - slug: "letterpress-vintage"
+    name: "Letterpress Vintage"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in vintage letterpress style: pressed paper texture, ornamental type blocks, ink impression, limited black, cream, red, and navy palette, old print-shop composition. Avoid neon, 3D chrome, and modern app controls."
+    demo:
+      production_index: 71
+      batch: 04
+      image: "71-letterpress-vintage-style-show.png"
+      scene: "old print-shop poster"
+      exact_prompt: |
+        Create a square style-show image for Letterpress Vintage: an old print-shop poster on pressed cream paper with ornamental type blocks rendered as abstract glyph texture, ink impression, black, red, navy, and cream palette, wood type forms, tactile paper dents, vintage composition. No logos, no watermark, no readable text. No alphabet letters, no numbers, no recognizable characters, only abstract blocks, ornaments, bars, dots, swashes, and non-letter glyph textures.
+  - slug: "victorian-advertising"
+    name: "Victorian Advertising"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Victorian advertising style: dense engraved ornament, decorative serif lettering, ribbon banners, illustrated product vignette, cream paper, black ink, muted red and gold. Avoid minimal grids and futuristic materials."
+    demo:
+      production_index: 70
+      batch: 04
+      image: "70-victorian-advertising-style-show.png"
+      scene: "ornate product advertisement"
+      exact_prompt: |
+        Create a square style-show image for Victorian Advertising: a dense engraved product advertisement for a generic soap box and glass bottle, decorative borders, ribbon banners, cream paper, black ink, muted red and gold accents, illustrated vignette, ornate serif-like texture without readable words. No logos, no watermark, no readable text.
+  - slug: "propaganda-poster"
+    name: "Propaganda Poster"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in propaganda poster style: heroic scale, simplified shapes, limited bold palette, strong diagonals, dramatic upward viewpoint, declarative composition, posterized shadows. Avoid tiny details, luxury delicacy, and neutral mood."
+    demo:
+      production_index: 69
+      batch: 04
+      image: "69-propaganda-poster-style-show.png"
+      scene: "heroic industrial poster"
+      exact_prompt: |
+        Create a square style-show image for Propaganda Poster: a heroic upward-view poster composition with simplified workers, sun rays, bold diagonals, limited red, cream, navy, and black palette, posterized shadows, declarative visual rhythm, abstract banner blocks without readable words. No logos, no watermark, no readable text.
+  - slug: "corporate-modernist"
+    name: "Corporate Modernist"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in corporate modernist style: restrained geometric identity system, cool neutral palette, modular layouts, clean sans-serif feeling, professional photography, 1960s-1980s annual-report discipline. Avoid playful doodles and punk chaos."
+    demo: null
+  - slug: "luxury-editorial-serif"
+    name: "Luxury Editorial Serif"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in luxury editorial serif style: high-contrast serif typography feel, elegant negative space, monochrome or muted jewel palette, premium photography, magazine-cover restraint. Avoid cartoon icons, neon UI, and messy collage."
+    demo: null
+  - slug: "data-visualism"
+    name: "Data Visualism"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in data visualism style: charts, grids, thin rules, analytical overlays, precise annotations, restrained color coding, clean white or dark canvas, information-design elegance. Avoid decorative clutter and fake unreadable data labels."
+    demo: null
+  - slug: "typographic-poster"
+    name: "Typographic Poster"
+    category_id: 02
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` as a typographic poster style: type as image, oversized letterforms, rhythmic alignment, strong hierarchy, limited palette, graphic tension, minimal supporting imagery. Avoid illegible random text and photographic realism dominance."
+    demo: null
+  - slug: "material-design"
+    name: "Material Design"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Material Design style: clean cards, clear hierarchy, flat surfaces with subtle elevation, purposeful color accents, simple icons, tactile paper-like layers. Avoid heavy skeuomorphic texture and chaotic anti-design."
+    demo:
+      production_index: 50
+      batch: 03
+      image: "50-material-design-style-show.png"
+      scene: "clean mobile task app"
+      exact_prompt: |
+        Create a square style-show image for Material Design: a clean mobile task app interface on a neutral desk, flat color surfaces with subtle elevation, layered cards, purposeful blue, green, amber, and white accents, simple geometric icons, tactile paper-like depth, clear hierarchy, no brand marks. No logos, no watermark, no readable text.
+  - slug: "flat-design"
+    name: "Flat Design"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in flat design style: simple vector shapes, no realistic shadows, bright friendly palette, clean iconography, clear hierarchy, simplified objects and UI panels. Avoid 3D materials, photographic depth, and ornament."
+    demo:
+      production_index: 77
+      batch: 04
+      image: "77-flat-design-style-show.png"
+      scene: "simplified travel app"
+      exact_prompt: |
+        Create a square style-show image for Flat Design: a simplified travel planning app screen with flat vector mountains, map pins, calendar cards, bright friendly palette, clean icon shapes, no realistic shadows, simple hierarchy, crisp geometric objects. No logos, no watermark, no readable text.
+  - slug: "skeuomorphic-ios"
+    name: "Skeuomorphic iOS"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in skeuomorphic early mobile UI style: leather, brushed metal, stitched panels, glossy buttons, realistic shadows, tactile controls, rich textures. Avoid flat minimalism, brutalist blocks, and abstract grids."
+    demo:
+      production_index: 52
+      batch: 03
+      image: "52-skeuomorphic-ios-style-show.png"
+      scene: "early mobile organizer UI"
+      exact_prompt: |
+        Create a square style-show image for Skeuomorphic iOS: an early mobile organizer interface with stitched leather header, brushed metal toolbar, glossy buttons, lined paper panel, beveled controls, warm brown, steel, cream, and blue accents, tactile realistic materials, app-screen composition with abstract interface marks only. No logos, no watermark, no readable text.
+  - slug: "glassmorphism"
+    name: "Glassmorphism"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in glassmorphism style: translucent frosted panels, blurred colorful background, light borders, soft shadows, layered depth, airy futuristic UI. Avoid opaque heavy blocks, rough paper texture, and hard black outlines."
+    demo:
+      production_index: 51
+      batch: 03
+      image: "51-glassmorphism-style-show.png"
+      scene: "frosted dashboard over blurred gradient"
+      exact_prompt: |
+        Create a square style-show image for Glassmorphism: a frosted finance and weather dashboard floating over a softly blurred luminous gradient background, translucent glass panels, bright rim highlights, layered depth, soft shadows, blue, violet, mint, and warm coral light, abstract chart and weather icon shapes without readable numbers. No logos, no watermark, no readable text.
+  - slug: "neumorphism"
+    name: "Neumorphism"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in neumorphism style: soft extruded UI surfaces, subtle inner and outer shadows, monochrome pastel background, low contrast tactile buttons, gentle rounded geometry. Avoid harsh outlines, neon, and distressed print texture."
+    demo:
+      production_index: 78
+      batch: 04
+      image: "78-neumorphism-style-show.png"
+      scene: "soft music control UI"
+      exact_prompt: |
+        Create a square style-show image for Neumorphism: a soft music control interface with extruded circular buttons, subtle inner and outer shadows, monochrome pastel background, low-contrast tactile controls, gentle rounded geometry, clean app composition. No logos, no watermark, no readable text.
+  - slug: "claymorphism"
+    name: "Claymorphism"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in claymorphism style: soft 3D clay-like components, rounded inflated shapes, playful pastel colors, smooth matte material, friendly depth, simple app composition. Avoid sharp industrial metal and gritty realism."
+    demo:
+      production_index: 86
+      batch: 05
+      image: "86-claymorphism-style-show.png"
+      scene: "playful 3D clay finance app"
+      exact_prompt: |
+        Create a square style-show image for Claymorphism: a playful mobile finance app with soft 3D clay-like cards, rounded inflated shapes, matte pastel pink, lavender, mint, and peach colors, friendly depth, simple app composition, abstract icons only. No logos, no watermark, no readable text.
+  - slug: "bento-ui"
+    name: "Bento UI"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in bento UI style: modular rounded panels, varied tile sizes, dense but calm information chunks, subtle icons, clean app surface, restrained shadows, modern product showcase layout. Avoid chaotic collage and old web clutter."
+    demo:
+      production_index: 85
+      batch: 05
+      image: "85-bento-ui-style-show.png"
+      scene: "modular rounded tile dashboard"
+      exact_prompt: |
+        Create a square style-show image for Bento UI: a modern product dashboard made of modular rounded tiles in varied sizes, calm information chunks, subtle icons, restrained shadows, white and graphite surface, blue, green, and amber accents, product showcase layout. No logos, no watermark, no readable text.
+  - slug: "brutalist-web"
+    name: "Brutalist Web"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in brutalist web style: raw HTML-like blocks, default-looking controls, harsh typography, exposed links, simple borders, utilitarian layout, deliberate roughness. Avoid glossy SaaS polish and decorative illustration."
+    demo:
+      production_index: 79
+      batch: 04
+      image: "79-brutalist-web-style-show.png"
+      scene: "raw HTML webpage"
+      exact_prompt: |
+        Create a square style-show image for Brutalist Web: a raw HTML-like webpage layout with default-looking controls, simple borders, exposed link bars as abstract blue blocks, harsh typography-like rectangles, utilitarian layout, deliberate roughness, white background. No logos, no watermark, no readable text.
+  - slug: "neo-brutalist-ui"
+    name: "Neo-Brutalist UI"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in neo-brutalist UI style: thick borders, flat saturated colors, chunky components, offset black shadows, bold labels, playful grid, high contrast. Avoid glass blur, delicate serif luxury, and naturalistic shadows."
+    demo: null
+  - slug: "dashboard-enterprise"
+    name: "Dashboard Enterprise"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in enterprise dashboard style: dense information layout, tables, filters, charts, compact controls, muted professional palette, clear navigation, high scan efficiency. Avoid decorative hero sections and oversized marketing art."
+    demo:
+      production_index: 83
+      batch: 05
+      image: "83-dashboard-enterprise-style-show.png"
+      scene: "dense operations dashboard"
+      exact_prompt: |
+        Create a square style-show image for Dashboard Enterprise: a dense operations dashboard with tables, filters, compact charts, navigation rail, muted professional palette, high scan efficiency, precise spacing, abstract chart marks and rows without readable data. No logos, no watermark, no readable text.
+  - slug: "dark-mode-saas"
+    name: "Dark Mode SaaS"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in dark mode SaaS style: charcoal background, crisp panels, cool accent colors, subtle gradients, clean charts, compact cards, refined developer-tool mood. Avoid neon overload, low contrast text, and playful cartoon decoration."
+    demo:
+      production_index: 84
+      batch: 05
+      image: "84-dark-mode-saas-style-show.png"
+      scene: "refined developer-tool dashboard"
+      exact_prompt: |
+        Create a square style-show image for Dark Mode SaaS: a refined developer-tool dashboard on charcoal background with crisp panels, cool blue and green accents, subtle gradients, compact cards, clean charts, quiet premium software mood, abstract UI marks only. No logos, no watermark, no readable text.
+  - slug: "command-line-terminal"
+    name: "Command-Line Terminal"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in command-line terminal style: monospaced text feel, black or deep green screen, ASCII-like grids, scanline texture, minimal controls, technical utility. Avoid glossy icons, ornamental typography, and photo backgrounds."
+    demo:
+      production_index: 82
+      batch: 05
+      image: "82-command-line-terminal-style-show.png"
+      scene: "green-black terminal workstation"
+      exact_prompt: |
+        Create a square style-show image for Command-Line Terminal: a deep green-black terminal workstation with monospaced text-like blocks, ASCII-like grid panels without readable commands, scanline texture, minimal controls, technical utility, dim desk glow. No logos, no watermark, no readable text.
+  - slug: "web1-geocities"
+    name: "Web 1.0 GeoCities"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in early Web 1.0 style: tiled backgrounds, bright link colors, beveled buttons, low-res GIF-like icons, table layout energy, playful amateur web page look. Avoid modern responsive minimalism and luxury polish."
+    demo:
+      production_index: 80
+      batch: 04
+      image: "80-web1-geocities-style-show.png"
+      scene: "early personal homepage"
+      exact_prompt: |
+        Create a square style-show image for Web 1.0 GeoCities: an early personal homepage composition with tiled star background, bright link-colored bars, beveled buttons, low-res GIF-like icons, table layout energy, playful amateur web look, abstract blocks only. No logos, no watermark, no readable text. No alphabet letters, no numbers, no counters, no recognizable characters; use only blank bars, icon-like shapes, checker patterns, stars, bevels, and abstract placeholder blocks.
+  - slug: "frutiger-aero"
+    name: "Frutiger Aero"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Frutiger Aero style: glossy bubbles, blue-green gradients, glassy icons, water droplets, sky reflections, optimistic 2000s interface futurism. Avoid flat minimal UI, grunge paper, and dark cyberpunk mood."
+    demo:
+      production_index: 15
+      batch: 01
+      image: "15-frutiger-aero-style-show.png"
+      scene: "glossy eco OS dashboard"
+      exact_prompt: |
+        Create a square style-show image for Frutiger Aero: a glossy early-2000s eco operating system dashboard scene with translucent blue-green panels, glass icons, water droplets, bubbles, sky reflections, grass and leaf motifs, optimistic clean technology. No logos, no watermark, no readable text.
+  - slug: "y2k-interface"
+    name: "Y2K Interface"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Y2K interface style: chrome capsules, translucent plastic, icy blue and silver palette, oval buttons, techno curves, early-2000s futurist UI. Avoid earthy handmade texture and strict Swiss typography."
+    demo:
+      production_index: 81
+      batch: 05
+      image: "81-y2k-interface-style-show.png"
+      scene: "early-2000s media player UI"
+      exact_prompt: |
+        Create a square style-show image for Y2K Interface: an early-2000s media player UI with chrome capsules, translucent icy blue plastic, oval buttons, techno curves, silver gradients, tiny abstract icon marks, glossy futuristic optimism. No logos, no watermark, no readable text.
+  - slug: "vaporwave-web"
+    name: "Vaporwave Web"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in vaporwave web style: pastel pink and cyan, marble busts, grid horizon, retro computer windows, low-poly sunset, nostalgic internet collage. Avoid serious enterprise dashboards and realistic corporate photography."
+    demo: null
+  - slug: "kawaii-ui"
+    name: "Kawaii UI"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in kawaii UI style: rounded cute components, pastel candy palette, tiny friendly icons, soft stickers, simple expressions, cheerful spacing. Avoid harsh black brutalism, dark horror, and aggressive techwear mood."
+    demo:
+      production_index: 87
+      batch: 05
+      image: "87-kawaii-ui-style-show.png"
+      scene: "cute pastel planner app"
+      exact_prompt: |
+        Create a square style-show image for Kawaii UI: a cute planner app with rounded pastel components, tiny friendly icons, soft sticker shapes, candy pink, butter yellow, mint, lavender, and cream palette, cheerful spacing, simple expressions on abstract icons. No logos, no watermark, no readable text.
+  - slug: "cyber-dashboard"
+    name: "Cyber Dashboard"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in cyber dashboard style: dark technical interface, neon cyan and magenta lines, holographic charts, dense panels, surveillance-map logic, glowing data layers. Avoid pastel wellness design and paper print texture."
+    demo:
+      production_index: 88
+      batch: 05
+      image: "88-cyber-dashboard-style-show.png"
+      scene: "dark surveillance monitor wall"
+      exact_prompt: |
+        Create a square style-show image for Cyber Dashboard: a dark technical surveillance interface with neon cyan and magenta lines, holographic map panels, dense charts, glowing data layers, warning accents, cinematic monitor wall, abstract data marks only. No logos, no watermark, no readable text.
+  - slug: "calm-tech"
+    name: "Calm Tech"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in calm tech style: quiet interface, warm neutral surfaces, low-contrast controls, gentle notifications, natural materials, invisible complexity, human-centered rhythm. Avoid neon cyberpunk, loud badges, and dense alarm dashboards."
+    demo: null
+  - slug: "soft-minimal-app"
+    name: "Soft Minimal App"
+    category_id: 03
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in soft minimal app style: spacious mobile UI, warm off-white background, subtle shadows, rounded controls, muted accent color, clear hierarchy, friendly modern product feel. Avoid brutalist borders and excessive gradients."
+    demo: null
+  - slug: "cyberpunk"
+    name: "Cyberpunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in cyberpunk style: dense neon city atmosphere, wet reflective surfaces, magenta-cyan contrast, layered screens, worn high-tech materials, surveillance signage, deep night shadows. Avoid clean corporate minimalism and pastel softness."
+    demo:
+      production_index: 9
+      batch: 01
+      image: "09-cyberpunk-style-show.png"
+      scene: "rainy neon street food stall"
+      exact_prompt: |
+        Create a square style-show image for Cyberpunk: a rainy neon street food stall at night, wet reflective pavement, dense signs shown as abstract glyph blocks with no readable text, magenta-cyan contrast, layered screens, worn high-tech materials, deep shadows, cinematic depth. No logos, no watermark.
+  - slug: "solarpunk"
+    name: "Solarpunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in solarpunk style: optimistic green technology, plants integrated with architecture, warm sunlight, renewable infrastructure, handmade-futurist details, brass, glass, terracotta, and leaf green. Avoid dystopian neon and polluted industrial gloom."
+    demo:
+      production_index: 11
+      batch: 01
+      image: "11-solarpunk-style-show.png"
+      scene: "greenhouse transit station"
+      exact_prompt: |
+        Create a square style-show image for Solarpunk: a bright greenhouse transit station with tram platform, solar glass canopy, vines integrated into architecture, warm sunlight, brass and terracotta details, renewable infrastructure, optimistic green technology. No logos, no watermark, no readable text.
+  - slug: "lunarpunk"
+    name: "Lunarpunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in lunarpunk style: nocturnal eco-futurism, moonlit gardens, bioluminescent plants, silver-blue palette, quiet mysticism, soft organic technology. Avoid sunny solarpunk brightness and harsh cyberpunk advertising."
+    demo:
+      production_index: 95
+      batch: 05
+      image: "95-lunarpunk-style-show.png"
+      scene: "moonlit bioluminescent garden"
+      exact_prompt: |
+        Create a square style-show image for Lunarpunk: a moonlit ecological garden at night with bioluminescent plants, silver-blue palette, soft organic technology, quiet mysticism, reflective water, dark leaves, lunar glass structures, gentle nocturnal futurism. No logos, no watermark, no readable text.
+  - slug: "retro-futurism"
+    name: "Retro Futurism"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in retro-futurist style: mid-century space-age optimism, sleek rockets, rounded appliances, starburst shapes, teal, orange, cream, and chrome, optimistic tomorrow-world mood. Avoid dystopian grime and medieval ornament."
+    demo:
+      production_index: 89
+      batch: 05
+      image: "89-retro-futurism-style-show.png"
+      scene: "mid-century tomorrow-world living room"
+      exact_prompt: |
+        Create a square style-show image for Retro Futurism: a mid-century tomorrow-world living room with rounded appliances, small rocket model, starburst wall shapes, teal, orange, cream, and chrome palette, optimistic space-age domestic design. No logos, no watermark, no readable text.
+  - slug: "atompunk"
+    name: "Atompunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in atompunk style: 1950s atomic age, boomerang shapes, chrome fins, nuclear symbols, pastel appliances, optimistic science-fair futurism, clean enamel surfaces. Avoid cyberpunk darkness and Victorian machinery."
+    demo:
+      production_index: 90
+      batch: 05
+      image: "90-atompunk-style-show.png"
+      scene: "1950s atomic-age science booth"
+      exact_prompt: |
+        Create a square style-show image for Atompunk: a 1950s atomic-age science fair booth with boomerang forms, chrome fins, pastel enamel consoles, glowing model atom shapes, clean optimistic laboratory mood, turquoise, coral, cream, and silver palette. No logos, no watermark, no readable text.
+  - slug: "cassette-futurism"
+    name: "Cassette Futurism"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in cassette futurism style: chunky analog controls, CRT screens, tape decks, beige plastic, tactile buttons, retro computer panels, practical old-future hardware. Avoid wafer-thin glass phones and holographic minimalism."
+    demo:
+      production_index: 91
+      batch: 05
+      image: "91-cassette-futurism-style-show.png"
+      scene: "analog control room with CRTs"
+      exact_prompt: |
+        Create a square style-show image for Cassette Futurism: a chunky analog control room with CRT screens, tape decks, beige plastic panels, tactile buttons, vents, knobs, practical old-future hardware, amber screen glow, industrial gray and cream palette. No logos, no watermark, no readable text.
+  - slug: "dieselpunk"
+    name: "Dieselpunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in dieselpunk style: 1930s-1940s industrial machinery, riveted metal, smoky hangars, aviation forms, military olive, brass, black, and oil-stained textures. Avoid clean space-age plastic and pastel cuteness."
+    demo:
+      production_index: 54
+      batch: 03
+      image: "54-dieselpunk-style-show.png"
+      scene: "smoky aircraft hangar"
+      exact_prompt: |
+        Create a square style-show image for Dieselpunk: a smoky aircraft hangar with riveted metal planes, heavy industrial doors, art deco geometry, olive drab, steel, black, and amber palette, dramatic searchlights, grease, soot, streamlined 1930s machine-age mood. No logos, no watermark, no readable text.
+  - slug: "steampunk"
+    name: "Steampunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in steampunk style: Victorian machinery, brass gears, leather straps, steam pipes, analog gauges, sepia atmosphere, ornate mechanical craftsmanship. Avoid digital screens, neon cyberpunk, and minimalist plastic."
+    demo:
+      production_index: 53
+      batch: 03
+      image: "53-steampunk-style-show.png"
+      scene: "brass observatory workshop"
+      exact_prompt: |
+        Create a square style-show image for Steampunk: a brass observatory workshop with telescopes, exposed gears, pressure gauges without readable numbers, leather-bound instruments, copper pipes, warm gaslight, smoky amber atmosphere, Victorian industrial craft, intricate mechanical detail. No logos, no watermark, no readable text.
+  - slug: "biopunk"
+    name: "Biopunk"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in biopunk style: wet organic technology, lab glass, tissue-like materials, bioengineered forms, sickly greens, translucent membranes, sterile yet unsettling science mood. Avoid cheerful solarpunk and clean consumer electronics."
+    demo:
+      production_index: 94
+      batch: 05
+      image: "94-biopunk-style-show.png"
+      scene: "sterile bio lab specimen chamber"
+      exact_prompt: |
+        Create a square style-show image for Biopunk: a sterile laboratory specimen chamber with wet organic technology, glass tanks, translucent membranes, bioengineered forms, sickly green light, white tile, steel instruments, unsettling science mood. No logos, no watermark, no readable text.
+  - slug: "holographic-chrome"
+    name: "Holographic Chrome"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in holographic chrome style: iridescent metallic surfaces, reflective gradients, prismatic highlights, liquid silver, glossy black contrast, futuristic fashion-tech polish. Avoid matte paper, rustic wood, and historical ornament."
+    demo:
+      production_index: 93
+      batch: 05
+      image: "93-holographic-chrome-style-show.png"
+      scene: "iridescent product display"
+      exact_prompt: |
+        Create a square style-show image for Holographic Chrome: a futuristic fashion-tech product display with iridescent metallic surfaces, liquid silver folds, prismatic highlights, glossy black contrast, reflective gradients, polished premium sci-fi materiality. No logos, no watermark, no readable text.
+  - slug: "synthwave"
+    name: "Synthwave"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in synthwave style: neon sunset, purple-magenta-blue gradient, grid horizon, chrome highlights, 1980s arcade futurism, cinematic night drive energy. Avoid earthy naturalism and clean daylight minimalism."
+    demo:
+      production_index: 92
+      batch: 05
+      image: "92-synthwave-style-show.png"
+      scene: "neon sunset night drive"
+      exact_prompt: |
+        Create a square style-show image for Synthwave: a cinematic night drive scene with neon sunset, purple-magenta-blue gradient sky, grid horizon, chrome sports car silhouette, palm shadows, glowing road lines, 1980s arcade futurism. No logos, no watermark, no readable text.
+  - slug: "vaporwave"
+    name: "Vaporwave"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in vaporwave style: pastel nostalgia, marble sculpture, retro computer windows, checkerboard floor, palm silhouettes, soft pink-cyan haze, ironic consumer-tech dream. Avoid gritty cyberpunk density and sober corporate design."
+    demo:
+      production_index: 10
+      batch: 01
+      image: "10-vaporwave-style-show.png"
+      scene: "retro mall desktop dream scene"
+      exact_prompt: |
+        Create a square style-show image for Vaporwave: a surreal abandoned retro shopping mall atrium combined with desktop-window collage, pastel pink and cyan haze, marble bust-inspired sculpture, checkerboard floor, grid horizon, palm silhouettes, low-poly sunset glow, nostalgic internet dream. No logos, no watermark, no readable text.
+  - slug: "darksynth"
+    name: "Darksynth"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in darksynth style: aggressive neon red and violet, black shadows, horror-tinged retro future, sharp chrome, smoky atmosphere, intense electronic mood. Avoid pastel vaporwave softness and daylight optimism."
+    demo: null
+  - slug: "glitch-art"
+    name: "Glitch Art"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in glitch art style: digital corruption, RGB channel shifts, pixel sorting, scanline breaks, compression artifacts, fragmented composition, unstable screen energy. Avoid clean vector flatness and analog oil paint."
+    demo:
+      production_index: 96
+      batch: 05
+      image: "96-glitch-art-style-show.png"
+      scene: "corrupted RGB digital screen"
+      exact_prompt: |
+        Create a square style-show image for Glitch Art: a corrupted digital portrait-like abstract screen with RGB channel shifts, pixel sorting, scanline breaks, compression artifacts, fragmented blocks, unstable screen energy, cyan, red, violet, black, and white. No logos, no watermark, no readable text.
+  - slug: "data-brutalism"
+    name: "Data Brutalism"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in data brutalism style: raw data tables, exposed labels, harsh monochrome grid, command-line density, warning colors, no decorative softness, functional machine-readability. Avoid lifestyle photography and ornate illustration."
+    demo: null
+  - slug: "liminal-space"
+    name: "Liminal Space"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in liminal space style: empty transitional architecture, fluorescent lighting, carpet or tile repetition, uncanny stillness, slightly familiar but wrong scale, low human presence. Avoid action, crowded scenes, and polished luxury."
+    demo:
+      production_index: 97
+      batch: 05
+      image: "97-liminal-space-style-show.png"
+      scene: "empty fluorescent pool hallway"
+      exact_prompt: |
+        Create a square style-show image for Liminal Space: an empty transitional indoor pool hallway with fluorescent lighting, repeating tile, beige walls, uncanny stillness, slightly wrong scale, no people, low saturated color, familiar but unsettling architecture. No logos, no watermark, no readable text.
+  - slug: "dreamcore"
+    name: "Dreamcore"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in dreamcore style: soft surreal environment, nostalgic objects, strange scale, pastel haze, floating symbols, gentle unease, half-remembered childhood mood. Avoid hard cyberpunk neon and documentary realism."
+    demo: null
+  - slug: "weirdcore"
+    name: "Weirdcore"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in weirdcore style: uncanny internet collage, low-res textures, distorted rooms, floating text-like fragments, surreal nostalgia, bright but unsettling color. Avoid elegant editorial polish and conventional fantasy scenery."
+    demo: null
+  - slug: "afrofuturism"
+    name: "Afrofuturism"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Afrofuturist style: advanced technology fused with African diasporic visual motifs, bold geometry, metallic textiles, cosmic scale, rich gold, indigo, black, and saturated accents. Avoid generic sci-fi sameness and cultural flattening."
+    demo:
+      production_index: 55
+      batch: 03
+      image: "55-afrofuturism-style-show.png"
+      scene: "cosmic fashion-tech stage"
+      exact_prompt: |
+        Create a square style-show image for Afrofuturism: a cosmic fashion-tech stage with advanced city forms in the distance, African diasporic geometric patterns, braided light structures, metallic textiles, deep indigo, solar gold, crimson, and turquoise palette, ceremonial symmetry, starfield atmosphere, optimistic future culture. No logos, no watermark, no readable text.
+  - slug: "techwear-tactical"
+    name: "Techwear Tactical"
+    category_id: 04
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in techwear tactical style: matte black technical fabrics, modular straps, weatherproof layers, utility pockets, urban rain, compact hardware, functional stealth silhouette. Avoid ornate fantasy, pastel cuteness, and glossy luxury."
+    demo: null
+  - slug: "viking-norse"
+    name: "Viking / Norse"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Viking Norse style: carved wood, iron, knotwork, runic geometry, cold northern light, wool and leather textures, fjord atmosphere, restrained earth tones. Avoid horned helmets, generic fantasy excess, and neon futurism."
+    demo:
+      production_index: 12
+      batch: 01
+      image: "12-viking-norse-style-show.png"
+      scene: "carved longhouse interior"
+      exact_prompt: |
+        Create a square style-show image for Viking / Norse design: a carved longhouse interior with dragon-head beams, knotwork wood panels, iron hardware, wool textiles, leather, firelight, cold northern daylight at the doorway, fjord atmosphere outside, restrained earth tones. No horned helmets, no logos, no watermark, no readable text.
+  - slug: "celtic-knotwork"
+    name: "Celtic Knotwork"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Celtic knotwork style: interlaced geometry, illuminated borders, deep green, gold, blue, and parchment, carved stone or manuscript texture, rhythmic symbolic pattern. Avoid modern corporate minimalism and random tribal mixing."
+    demo:
+      production_index: 101
+      batch: 06
+      image: "101-celtic-knotwork-style-show.png"
+      scene: "illuminated stone-and-manuscript knot panel"
+      exact_prompt: |
+        Create a square style-show image for Celtic Knotwork: an illuminated stone-and-manuscript panel with interlaced knot geometry, deep green, gold, blue, and parchment palette, carved stone border, rhythmic symbolic pattern, handmade texture, no readable script. No logos, no watermark, no readable text.
+  - slug: "medieval-illuminated"
+    name: "Medieval Illuminated Manuscript"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in medieval illuminated manuscript style: parchment, gold leaf, ornate borders, miniature scenes, blackletter-like forms, lapis blue and crimson accents, flat symbolic space. Avoid photorealistic perspective and sci-fi materials."
+    demo:
+      production_index: 102
+      batch: 06
+      image: "102-medieval-illuminated-style-show.png"
+      scene: "parchment garden manuscript page"
+      exact_prompt: |
+        Create a square style-show image for Medieval Illuminated Manuscript: a parchment page with gold leaf border, miniature garden scene, blackletter-like abstract glyph blocks, lapis blue and crimson accents, flat symbolic space, ornate marginal vines. No logos, no watermark, no readable text.
+  - slug: "gothic-cathedral"
+    name: "Gothic Cathedral"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Gothic cathedral style: pointed arches, tracery, stained glass, vertical drama, stone texture, candlelit shadows, jewel-toned light beams. Avoid rounded classical columns, pastel web UI, and casual cartoon shapes."
+    demo:
+      production_index: 56
+      batch: 03
+      image: "56-gothic-cathedral-style-show.png"
+      scene: "stained-glass vaulted nave"
+      exact_prompt: |
+        Create a square style-show image for Gothic Cathedral: a soaring stained-glass nave with pointed arches, ribbed vaults, vertical stone tracery, rose-window colored light, deep blue, ruby, gold, and stone gray palette, long dramatic perspective, sacred verticality, carved details. No logos, no watermark, no readable text.
+  - slug: "byzantine-icon"
+    name: "Byzantine Icon"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Byzantine icon style: gold ground, frontal symmetry, flattened sacred space, jewel colors, mosaic texture, solemn geometry, delicate halos or circular motifs when appropriate. Avoid Renaissance naturalism and modern neon."
+    demo:
+      production_index: 103
+      batch: 06
+      image: "103-byzantine-icon-style-show.png"
+      scene: "gold-ground mosaic sacred interior"
+      exact_prompt: |
+        Create a square style-show image for Byzantine Icon: a gold-ground mosaic-style sacred interior with frontal symmetry, flattened space, jewel colors, solemn geometric figures as abstract silhouettes, delicate circular halo motifs, tessera texture. No logos, no watermark, no readable text.
+  - slug: "islamic-geometric"
+    name: "Islamic Geometric"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Islamic geometric style: star tessellations, arabesque pattern, tile symmetry, deep blue, turquoise, white, gold, mathematical ornament, refined repeating structure. Avoid figurative focus if inappropriate, random pattern mixing, and grunge."
+    demo:
+      production_index: 57
+      batch: 03
+      image: "57-islamic-geometric-style-show.png"
+      scene: "star-tessellated tile courtyard"
+      exact_prompt: |
+        Create a square style-show image for Islamic Geometric: a tile courtyard wall with interlocking star tessellations, zellige-like ceramic texture, cobalt, turquoise, ivory, emerald, and terracotta palette, precise radial symmetry, carved plaster borderwork, reflective fountain edge, pattern-focused composition. No logos, no watermark, no readable text.
+  - slug: "moroccan-zellige"
+    name: "Moroccan Zellige"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Moroccan zellige style: hand-cut mosaic tile, geometric borders, turquoise, cobalt, terracotta, cream, carved plaster, warm courtyard light. Avoid cold corporate glass and untextured flat vectors."
+    demo:
+      production_index: 104
+      batch: 06
+      image: "104-moroccan-zellige-style-show.png"
+      scene: "tiled courtyard wall and fountain"
+      exact_prompt: |
+        Create a square style-show image for Moroccan Zellige: a warm courtyard wall with hand-cut mosaic tile, geometric borders, turquoise, cobalt, terracotta, and cream palette, carved plaster, sunlit archway, fountain reflection, tactile handmade tile variation. No logos, no watermark, no readable text.
+  - slug: "ancient-egyptian-revival"
+    name: "Ancient Egyptian Revival"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Ancient Egyptian Revival style: sandstone, lapis, turquoise, gold, papyrus texture, strong profile geometry, lotus and sun motifs, monumental symmetry. Avoid generic fantasy clutter and cyberpunk signage."
+    demo:
+      production_index: 105
+      batch: 06
+      image: "105-ancient-egyptian-revival-style-show.png"
+      scene: "monumental sandstone lotus-column lobby"
+      exact_prompt: |
+        Create a square style-show image for Ancient Egyptian Revival: a monumental sandstone lobby with lotus columns, sun motifs, papyrus texture, lapis, turquoise, black, and gold accents, strong profile geometry, symmetrical theatrical display, abstract hieroglyph-like blocks only. No logos, no watermark, no readable text.
+  - slug: "mesoamerican-codex"
+    name: "Mesoamerican Codex"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Mesoamerican codex-inspired style: stepped geometry, bark-paper texture, earthy reds, black, turquoise, ochre, symbolic glyph-like patterning, flat ceremonial composition. Avoid mixing unrelated symbols and glossy sci-fi surfaces."
+    demo:
+      production_index: 106
+      batch: 06
+      image: "106-mesoamerican-codex-style-show.png"
+      scene: "bark-paper ceremonial glyph panel"
+      exact_prompt: |
+        Create a square style-show image for Mesoamerican Codex: a bark-paper inspired ceremonial panel with stepped geometry, earthy reds, black, turquoise, ochre, symbolic glyph-like patterns with no readable script, flat composition, handmade fiber texture. No logos, no watermark, no readable text.
+  - slug: "indian-mughal-miniature"
+    name: "Indian Mughal Miniature"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Mughal miniature style: fine brushwork, jewel colors, floral borders, delicate architecture, flattened garden space, gold details, elegant narrative composition. Avoid European oil-paint depth and modern UI components."
+    demo:
+      production_index: 107
+      batch: 06
+      image: "107-indian-mughal-miniature-style-show.png"
+      scene: "garden pavilion miniature scene"
+      exact_prompt: |
+        Create a square style-show image for Indian Mughal Miniature: a delicate garden pavilion scene with fine brushwork, jewel colors, floral borders, flattened architecture, gold details, small trees and fountains, elegant narrative composition, no readable script. No logos, no watermark, no readable text.
+  - slug: "japanese-wabi-sabi"
+    name: "Japanese Wabi-Sabi"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in wabi-sabi style: imperfect natural materials, quiet asymmetry, muted earth palette, weathered wood, handmade ceramic texture, negative space, humble calm. Avoid glossy perfection, neon color, and ornate luxury."
+    demo:
+      production_index: 13
+      batch: 01
+      image: "13-wabi-sabi-style-show.png"
+      scene: "tea room still life"
+      exact_prompt: |
+        Create a square style-show image for Japanese Wabi-Sabi: a quiet tea room still life with handmade ceramic bowl, weathered wood table, linen cloth, muted earth palette, asymmetrical placement, soft natural light, imperfect surfaces, calm negative space. No logos, no watermark, no readable text.
+  - slug: "zen-ink"
+    name: "Zen Ink"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Zen ink style: sparse black brushwork, rice paper texture, asymmetrical empty space, misty gray wash, disciplined simplicity, meditative rhythm. Avoid saturated color, dense ornament, and photoreal CGI."
+    demo:
+      production_index: 108
+      batch: 06
+      image: "108-zen-ink-style-show.png"
+      scene: "sparse ink wash mountain path"
+      exact_prompt: |
+        Create a square style-show image for Zen Ink: a sparse ink wash landscape with one stone path, misty gray mountains, black brushwork, rice paper texture, asymmetrical empty space, disciplined simplicity, small cinnabar abstract seal block with no readable mark. No logos, no watermark, no readable text.
+  - slug: "kintsugi"
+    name: "Kintsugi"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in kintsugi style: visible repair lines in gold, cracked ceramic texture, restrained black, cream, indigo, or earthy palette, beauty of imperfection, quiet premium composition. Avoid chaotic fracture clutter and neon cyber effects."
+    demo:
+      production_index: 109
+      batch: 06
+      image: "109-kintsugi-style-show.png"
+      scene: "gold-repaired ceramic tea bowl"
+      exact_prompt: |
+        Create a square style-show image for Kintsugi: a cracked ceramic tea bowl repaired with visible gold lines on a dark stone table, restrained black, cream, indigo, and earthy palette, quiet premium composition, beauty of imperfection, soft natural light. No logos, no watermark, no readable text.
+  - slug: "samurai-edo"
+    name: "Samurai Edo"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Edo-period samurai visual style: lacquer, indigo textiles, woodblock-inspired composition, disciplined armor shapes, paper screens, restrained red and gold accents. Avoid fantasy exaggeration, cyberpunk implants, and random cultural fusion."
+    demo:
+      production_index: 110
+      batch: 06
+      image: "110-samurai-edo-style-show.png"
+      scene: "Edo armor display in tatami room"
+      exact_prompt: |
+        Create a square style-show image for Samurai Edo: an Edo-period armor and lacquer display in a quiet tatami room, indigo textiles, paper screens, disciplined silhouettes, restrained red and gold accents, woodblock-inspired composition, crafted historical detail. No logos, no watermark, no readable text.
+  - slug: "wuxia-ink"
+    name: "Wuxia Ink"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in wuxia ink style: misty mountains, flowing robes or motion lines when relevant, ink wash, calligraphic energy, pale paper, black, gray, and cinnabar accents. Avoid hard sci-fi surfaces and cluttered modern signage."
+    demo:
+      production_index: 111
+      batch: 06
+      image: "111-wuxia-ink-style-show.png"
+      scene: "misty mountain bridge with robe silhouettes"
+      exact_prompt: |
+        Create a square style-show image for Wuxia Ink: a misty mountain bridge scene with flowing robe silhouettes in motion, ink wash cliffs, calligraphic brush energy, pale paper, black, gray, and cinnabar accents, cinematic empty space. No logos, no watermark, no readable text.
+  - slug: "chinese-court"
+    name: "Chinese Court"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Chinese court style: lacquer red, imperial yellow, jade green, carved wood, silk patterning, symmetrical palace composition, refined ceremonial detail. Avoid generic pan-Asian mixing and modern glass UI."
+    demo:
+      production_index: 112
+      batch: 06
+      image: "112-chinese-court-style-show.png"
+      scene: "ceremonial palace interior"
+      exact_prompt: |
+        Create a square style-show image for Chinese Court: a ceremonial palace interior with lacquer red columns, imperial yellow silk, jade green vessels, carved wood, symmetrical composition, refined courtly patterning, warm lantern light. No logos, no watermark, no readable text.
+  - slug: "scandinavian-hygge"
+    name: "Scandinavian Hygge"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Scandinavian hygge style: warm minimal interior, pale wood, wool texture, soft daylight, candles or gentle lamps, cream, gray, muted blue, cozy restraint. Avoid baroque ornament and neon tech surfaces."
+    demo:
+      production_index: 113
+      batch: 06
+      image: "113-scandinavian-hygge-style-show.png"
+      scene: "warm minimal winter living room"
+      exact_prompt: |
+        Create a square style-show image for Scandinavian Hygge: a warm minimal winter living room with pale wood, wool blanket, soft daylight, candles, simple ceramics, cream, gray, muted blue, and warm amber palette, cozy restraint. No logos, no watermark, no readable text.
+  - slug: "alpine-folk"
+    name: "Alpine Folk"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Alpine folk style: carved wood, embroidered borders, chalet forms, warm red, cream, pine green, handcrafted pattern, mountain lodge atmosphere. Avoid tropical color, corporate UI, and futuristic chrome."
+    demo: null
+  - slug: "slavic-folk"
+    name: "Slavic Folk"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Slavic folk style: embroidered floral geometry, red, black, white, blue, carved wood, paper-cut-like motifs, festival craft energy. Avoid generic fantasy armor and minimal tech design."
+    demo: null
+  - slug: "mexican-folk"
+    name: "Mexican Folk"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Mexican folk style: bright papel picado color, hand-painted ornament, floral pattern, warm sun, turquoise, magenta, marigold, cobalt, lively craft texture. Avoid muted corporate neutrality and careless symbol mixing."
+    demo:
+      production_index: 114
+      batch: 06
+      image: "114-mexican-folk-style-show.png"
+      scene: "hand-painted courtyard table"
+      exact_prompt: |
+        Create a square style-show image for Mexican Folk: a lively hand-painted courtyard table with papel picado-style color shapes, floral ornament, turquoise, magenta, marigold, cobalt, and warm sun palette, craft texture, decorative pattern abundance. No logos, no watermark, no readable text.
+  - slug: "western-americana"
+    name: "Western Americana"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Western Americana style: sun-faded desert palette, leather, denim, weathered wood, serif slab type feel, rodeo poster structure, dusty cinematic light. Avoid neon cyberpunk and polished European luxury."
+    demo:
+      production_index: 115
+      batch: 06
+      image: "115-western-americana-style-show.png"
+      scene: "desert general-store porch"
+      exact_prompt: |
+        Create a square style-show image for Western Americana: a sun-faded desert general-store porch with leather, denim, weathered wood, dusty cinematic light, rodeo poster-like structure with abstract slab blocks, tan, rust, faded blue, and cream palette. No logos, no watermark, no readable text.
+  - slug: "dark-academia"
+    name: "Dark Academia"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in dark academia style: old library, dark wood, leather books, candlelight, tweed, sepia, oxblood, deep green, scholarly melancholy. Avoid glossy tech futurism, candy colors, and beachy daylight mood."
+    demo:
+      production_index: 58
+      batch: 03
+      image: "58-dark-academia-style-show.png"
+      scene: "candlelit old library desk"
+      exact_prompt: |
+        Create a square style-show image for Dark Academia: a candlelit old library study desk with stacked worn books, brass lamp, dark wood shelves, parchment, ink bottle, tweed fabric, green banker shade, warm candle glow, dusty shadows, scholarly melancholy, no readable book titles. No logos, no watermark, no readable text.
+  - slug: "light-academia"
+    name: "Light Academia"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in light academia style: sunlit study rooms, cream paper, linen, pale stone, classical references, soft beige, ivory, sage, and warm gold, gentle intellectual mood. Avoid heavy gothic gloom and neon."
+    demo:
+      production_index: 116
+      batch: 06
+      image: "116-light-academia-style-show.png"
+      scene: "sunlit classical study room"
+      exact_prompt: |
+        Create a square style-show image for Light Academia: a sunlit study room with cream paper, linen curtains, pale stone bust, open books without readable text, sage, ivory, warm gold, and beige palette, classical references, gentle intellectual mood. No logos, no watermark, no readable text.
+  - slug: "occult-esoteric"
+    name: "Occult Esoteric"
+    category_id: 05
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in occult esoteric style: symbolic geometry, candlelit black and gold palette, parchment diagrams, celestial charts, antique ritual objects, mysterious symmetry. Avoid cartoon horror, gore, and modern corporate cleanliness."
+    demo:
+      production_index: 117
+      batch: 06
+      image: "117-occult-esoteric-style-show.png"
+      scene: "candlelit symbolic study table"
+      exact_prompt: |
+        Create a square style-show image for Occult Esoteric: a candlelit black-and-gold study table with symbolic geometry, parchment diagrams without readable writing, celestial charts as abstract circles, antique ritual objects, mysterious symmetry, dark velvet shadows. No logos, no watermark, no readable text.
+  - slug: "industrial-loft"
+    name: "Industrial Loft"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in industrial loft style: exposed brick, black steel, concrete floors, ductwork, reclaimed wood, large windows, warm Edison lighting. Avoid delicate Rococo ornament and glossy pastel UI."
+    demo:
+      production_index: 118
+      batch: 06
+      image: "118-industrial-loft-style-show.png"
+      scene: "exposed-brick loft workspace"
+      exact_prompt: |
+        Create a square style-show image for Industrial Loft: an open loft workspace with exposed brick, black steel beams, concrete floor, ductwork, reclaimed wood table, large windows, warm Edison lighting, practical urban texture. No logos, no watermark, no readable text.
+  - slug: "brutalist-concrete"
+    name: "Brutalist Concrete"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in brutalist concrete style: raw poured concrete, massive geometric forms, deep shadows, utilitarian austerity, gray palette, rough surface marks, monumental scale. Avoid soft cottage comfort and decorative gold trim."
+    demo:
+      production_index: 14
+      batch: 01
+      image: "14-brutalist-concrete-style-show.png"
+      scene: "civic library atrium"
+      exact_prompt: |
+        Create a square style-show image for Brutalist Concrete: a monumental civic library atrium with raw board-formed concrete walls, massive block stairs, deep shadow cuts, sparse furniture, gray palette, severe sculptural atmosphere, soft skylight. No logos, no watermark, no readable text.
+  - slug: "scandinavian-interior"
+    name: "Scandinavian Interior"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Scandinavian interior style: pale wood, functional furniture, white walls, soft textiles, simple lines, daylight, gray, cream, muted blue, quiet domestic warmth. Avoid heavy ornament and saturated maximalism."
+    demo:
+      production_index: 119
+      batch: 06
+      image: "119-scandinavian-interior-style-show.png"
+      scene: "bright functional living room"
+      exact_prompt: |
+        Create a square style-show image for Scandinavian Interior: a bright functional living room with pale wood furniture, white walls, soft textiles, simple lines, daylight, gray, cream, muted blue, and natural fiber texture, quiet domestic warmth. No logos, no watermark, no readable text.
+  - slug: "japandi"
+    name: "Japandi"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Japandi style: Japanese restraint plus Scandinavian warmth, low furniture, pale oak, linen, ceramic, black accents, negative space, calm natural palette. Avoid clutter, glossy chrome, and decorative excess."
+    demo:
+      production_index: 59
+      batch: 03
+      image: "59-japandi-style-show.png"
+      scene: "low pale-oak natural interior"
+      exact_prompt: |
+        Create a square style-show image for Japandi: a low natural interior with pale oak platform seating, linen cushions, handmade ceramic vase, black accent lamp, shoji-like soft light, beige, warm gray, clay, and charcoal palette, uncluttered negative space, Japanese restraint with Scandinavian warmth. No logos, no watermark, no readable text.
+  - slug: "organic-modern"
+    name: "Organic Modern"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in organic modern style: sculptural natural forms, warm neutrals, stone, limewash, curved furniture, soft minimalism, tactile surfaces, calm luxury. Avoid sharp neon tech and busy pattern layering."
+    demo:
+      production_index: 120
+      batch: 06
+      image: "120-organic-modern-style-show.png"
+      scene: "calm sculptural neutral interior"
+      exact_prompt: |
+        Create a square style-show image for Organic Modern: a calm sculptural interior with curved sofa, limewash wall, stone coffee table, warm neutrals, tactile plaster, wood, linen, soft minimalism, natural forms, quiet contemporary luxury. No logos, no watermark, no readable text.
+  - slug: "biophilic"
+    name: "Biophilic"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in biophilic design style: plants integrated into architecture, natural light, wood, stone, water, organic patterns, green and warm neutral palette, healthy indoor-outdoor flow. Avoid synthetic darkness and sterile metal-only spaces."
+    demo: null
+  - slug: "desert-modern"
+    name: "Desert Modern"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in desert modern style: adobe, sand, clay, terracotta, cactus forms, low horizontal architecture, warm sun, minimal furniture, earthy modernism. Avoid coastal blues, neon, and ornate European decoration."
+    demo: null
+  - slug: "coastal-modern"
+    name: "Coastal Modern"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in coastal modern style: airy white space, linen, pale wood, sea glass blue, sand neutrals, natural light, clean relaxed forms. Avoid nautical kitsch, dark academia gloom, and cyberpunk neon."
+    demo: null
+  - slug: "mediterranean-revival"
+    name: "Mediterranean Revival"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Mediterranean revival style: stucco walls, terracotta tile, wrought iron, arches, olive green, warm cream, cobalt accents, sunlit courtyard atmosphere. Avoid cold glass minimalism and industrial concrete austerity."
+    demo: null
+  - slug: "art-deco-interior"
+    name: "Art Deco Interior"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Art Deco interior style: black lacquer, brass, velvet, stepped geometry, mirrored surfaces, fan motifs, jewel tones, glamorous symmetry. Avoid rustic handmade roughness and plain Scandinavian simplicity."
+    demo: null
+  - slug: "bauhaus-furniture"
+    name: "Bauhaus Furniture"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Bauhaus furniture style: tubular steel, leather or canvas, geometric simplicity, function-first structure, primary accents, white studio space, rational modernism. Avoid ornate carving and plush luxury excess."
+    demo: null
+  - slug: "memphis-interior"
+    name: "Memphis Interior"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Memphis interior style: colorful laminate, zigzags, squiggles, terrazzo, playful geometric furniture, pastel brights, black pattern accents, 1980s postmodern wit. Avoid quiet beige minimalism and natural rustic mood."
+    demo: null
+  - slug: "quiet-luxury"
+    name: "Quiet Luxury"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in quiet luxury style: exceptional materials, muted palette, precise tailoring, stone, cashmere, leather, refined lighting, no obvious logos, calm wealth. Avoid loud branding, glitter, and cartoon color."
+    demo: null
+  - slug: "tech-minimal-hardware"
+    name: "Tech Minimal Hardware"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in tech minimal hardware style: seamless aluminum, matte glass, precise chamfers, white or charcoal background, sparse product lighting, engineered restraint. Avoid decorative ornament, distressed paper, and loud neon."
+    demo: null
+  - slug: "transparent-gadget"
+    name: "Transparent Gadget"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in transparent gadget style: clear plastic shell, visible internal components, tiny screws, circuit detail, smoky translucent material, retro-future hardware curiosity. Avoid opaque luxury leather and natural wood dominance."
+    demo: null
+  - slug: "eco-kraft-packaging"
+    name: "Eco Kraft Packaging"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in eco kraft packaging style: recycled paper, simple ink graphics, green accents, honest material texture, minimal labels, natural product photography, sustainable brand mood. Avoid plastic chrome and neon synthetic surfaces."
+    demo: null
+  - slug: "apothecary-vintage"
+    name: "Apothecary Vintage"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in vintage apothecary style: amber glass, cream labels, engraved botanical line art, serif typography feel, brass, dark wood shelves, medicinal heritage mood. Avoid futuristic holograms and playful cartoon UI."
+    demo: null
+  - slug: "holographic-packaging"
+    name: "Holographic Packaging"
+    category_id: 06
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in holographic packaging style: iridescent foil, reflective film, prismatic color shifts, glossy folds, premium futuristic shelf presence, black or white contrast. Avoid rough kraft paper and antique sepia."
+    demo: null
+  - slug: "film-noir"
+    name: "Film Noir"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in film noir style: black-and-white high contrast, venetian-blind shadows, smoke, wet streets, sharp silhouettes, low-key lighting, crime-drama tension. Avoid bright daylight, pastel colors, and flat UI graphics."
+    demo:
+      production_index: 17
+      batch: 01
+      image: "17-film-noir-style-show.png"
+      scene: "detective office still"
+      exact_prompt: |
+        Create a square style-show image for Film Noir: a 1940s detective office at night, venetian-blind shadows across a desk, cigarette smoke atmosphere without visible smoking action, rain-streaked window, black-and-white high contrast, sharp silhouettes, low-key crime-drama tension. No logos, no watermark, no readable text.
+  - slug: "neo-noir-neon"
+    name: "Neo-Noir Neon"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in neo-noir neon style: moody darkness, colored practical lights, rain reflections, urban night, cyan, red, and violet accents, cinematic mystery. Avoid cheerful daylight, clean white studio product lighting, and cute pastels."
+    demo:
+      production_index: 60
+      batch: 03
+      image: "60-neo-noir-neon-style-show.png"
+      scene: "rainy neon motel office"
+      exact_prompt: |
+        Create a square style-show image for Neo-Noir Neon: a rainy night motel office and street corner with wet asphalt reflections, venetian-blind shadows, magenta, cyan, and sodium amber practical lights, silhouetted figure in doorway, dense atmosphere, cinematic contrast, sign shapes as abstract glow blocks only. No logos, no watermark, no readable text.
+  - slug: "high-key-beauty"
+    name: "High-Key Beauty"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in high-key beauty photography style: bright soft light, clean white background, smooth highlights, low shadows, polished surfaces, airy premium mood. Avoid gritty grain, harsh noir contrast, and clutter."
+    demo: null
+  - slug: "low-key-chiaroscuro"
+    name: "Low-Key Chiaroscuro"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in low-key chiaroscuro photography style: deep black shadows, narrow light beam, sculptural highlights, dramatic contrast, rich texture, intimate darkness. Avoid flat even lighting and pastel web aesthetics."
+    demo: null
+  - slug: "golden-hour-editorial"
+    name: "Golden Hour Editorial"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in golden hour editorial style: warm low sun, long shadows, cinematic lens flare, natural skin and material texture, relaxed premium lifestyle composition. Avoid fluorescent office light and cyber neon."
+    demo: null
+  - slug: "documentary-realism"
+    name: "Documentary Realism"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in documentary realism style: candid framing, natural available light, honest imperfections, real environments, unobtrusive composition, believable human-scale detail. Avoid over-staged glamour, CGI perfection, and fantasy styling."
+    demo: null
+  - slug: "lo-fi-35mm"
+    name: "Lo-fi 35mm"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in lo-fi 35mm film style: grain, slight blur, imperfect exposure, warm color cast, casual snapshot framing, lived-in realism. Avoid sterile digital sharpness and slick advertising polish."
+    demo: null
+  - slug: "polaroid-snapshot"
+    name: "Polaroid Snapshot"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Polaroid snapshot style: instant film border, soft flash, faded colors, slight chemical unevenness, close casual framing, nostalgic physical-photo feel. Avoid ultra-clean digital rendering and dramatic cinema lighting."
+    demo: null
+  - slug: "vhs-camcorder"
+    name: "VHS Camcorder"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in VHS camcorder style: low-resolution video still, timestamp-like composition without readable fake text, scanlines, chroma noise, blown highlights, home-video framing. Avoid modern 4K clarity and glossy product lighting."
+    demo: null
+  - slug: "analog-horror"
+    name: "Analog Horror"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in analog horror style: degraded tape texture, dark empty spaces, washed-out color, surveillance framing, ominous stillness, subtle visual corruption. Avoid explicit gore, cartoon monsters, and polished cinematic clarity."
+    demo: null
+  - slug: "bleach-bypass"
+    name: "Bleach Bypass"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in bleach bypass cinema style: desaturated color, high contrast, metallic highlights, gritty texture, cold drama, rugged realism. Avoid candy color, soft romantic haze, and flat vector graphics."
+    demo: null
+  - slug: "teal-orange-cinema"
+    name: "Teal and Orange Cinema"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in teal and orange blockbuster cinema style: warm skin or highlights against cool teal shadows, high contrast, widescreen framing, polished action-drama lighting. Avoid monochrome minimalism and muted documentary neutrality."
+    demo: null
+  - slug: "pastel-symmetry-cinema"
+    name: "Pastel Symmetry Cinema"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in pastel symmetry cinema style: centered composition, precise frontal framing, soft pastel palette, stylized set dressing, deadpan order, miniature-like world. Avoid handheld documentary chaos and dark cyberpunk atmosphere."
+    demo: null
+  - slug: "fashion-editorial"
+    name: "Fashion Editorial"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in fashion editorial style: controlled studio or location lighting, strong pose or product silhouette, premium styling, negative space, magazine-quality color grade. Avoid ordinary stock-photo composition and messy background clutter."
+    demo: null
+  - slug: "macro-product"
+    name: "Macro Product"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in macro product photography style: close-up detail, shallow depth of field, precise highlights, material texture, studio reflections, premium tactile focus. Avoid wide scenic backgrounds and cartoon simplification."
+    demo: null
+  - slug: "infrared-photo"
+    name: "Infrared Photo"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in infrared photography style: surreal pale foliage, dark skies, high contrast, white-pink vegetation, dreamlike landscape or object context, crisp photographic detail. Avoid normal natural color and flat vector rendering."
+    demo: null
+  - slug: "tilt-shift-miniature"
+    name: "Tilt-Shift Miniature"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in tilt-shift miniature style: elevated viewpoint, narrow focus band, toy-like scale, bright color, miniature city or scene illusion, shallow depth. Avoid eye-level documentary realism and dark horror grade."
+    demo: null
+  - slug: "hyperreal-cgi"
+    name: "Hyperreal CGI"
+    category_id: 07
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in hyperreal CGI style: impossibly clean materials, ray-traced reflections, perfect studio lighting, cinematic depth, smooth surfaces, crisp high-resolution detail. Avoid handmade paper texture and analog film grain."
+    demo: null
+  - slug: "8-bit-pixel-art"
+    name: "8-bit Pixel Art"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in 8-bit pixel art style: very low resolution grid, limited color palette, blocky silhouettes, simple sprites, retro game clarity. Avoid smooth gradients, anti-aliased curves, and painterly brush texture."
+    demo:
+      production_index: 18
+      batch: 01
+      image: "18-8bit-pixel-style-show.png"
+      scene: "platformer city level"
+      exact_prompt: |
+        Create a square style-show image for 8-bit Pixel Art: a retro platformer city level with tiny blocky buildings, simple street objects, limited color palette, visible pixel grid, crisp low-resolution sprites, clear game readability. No logos, no watermark, no readable text.
+  - slug: "16-bit-pixel-art"
+    name: "16-bit Pixel Art"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in 16-bit pixel art style: richer sprite detail, limited but vibrant palette, crisp pixel clusters, side-scroller or RPG scene depth, nostalgic console polish. Avoid photorealism and vector-smooth edges."
+    demo: null
+  - slug: "voxel-art"
+    name: "Voxel Art"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in voxel art style: cube-built forms, isometric view, chunky 3D pixels, simplified geometry, playful miniature scene, clean shadows. Avoid realistic curves, painterly texture, and high-poly complexity."
+    demo: null
+  - slug: "low-poly"
+    name: "Low Poly"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in low-poly style: faceted geometry, visible polygon planes, simplified forms, clean lighting, stylized 3D composition, restrained color palette. Avoid photoreal detail, ornate pattern, and soft brushwork."
+    demo: null
+  - slug: "cel-shaded-3d"
+    name: "Cel-Shaded 3D"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in cel-shaded 3D style: bold outline, flat color planes, crisp highlights, cartoon-like depth, graphic shadows, dynamic game-render energy. Avoid photoreal materials and grungy print texture."
+    demo: null
+  - slug: "manga-screentone"
+    name: "Manga Screentone"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in manga screentone style: black ink linework, halftone shading, speed lines when useful, expressive framing, monochrome page texture, crisp panel energy. Avoid full-color painterly realism and 3D chrome."
+    demo: null
+  - slug: "anime-watercolor"
+    name: "Anime Watercolor"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in soft anime watercolor style: hand-painted backgrounds, gentle natural light, rounded forms, delicate linework, warm atmospheric color, quiet emotional tone. Avoid copying any specific studio, harsh cyberpunk, and gritty realism."
+    demo: null
+  - slug: "golden-age-comic"
+    name: "Golden Age Comic"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Golden Age comic style: bold primary colors, thick ink lines, dramatic captions without readable fake text, pulp action framing, aged paper texture. Avoid modern glossy gradients and photoreal cinema."
+    demo: null
+  - slug: "silver-age-comic"
+    name: "Silver Age Comic"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in Silver Age comic style: clean heroic linework, bright flat colors, dynamic poses or composition, halftone dots, optimistic mid-century comic energy. Avoid grimdark realism and minimalist editorial restraint."
+    demo: null
+  - slug: "noir-comic"
+    name: "Noir Comic"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in noir comic style: heavy black shadows, rain, angular panels, limited color accents, expressive ink texture, crime-story mood. Avoid pastel cuteness, glossy 3D, and open sunny landscapes."
+    demo: null
+  - slug: "ligne-claire"
+    name: "Ligne Claire"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in ligne claire style: clear even outlines, flat colors, precise environments, readable composition, European adventure-comic clarity, minimal shading. Avoid heavy painterly texture and chaotic grunge typography."
+    demo: null
+  - slug: "editorial-spot-illustration"
+    name: "Editorial Spot Illustration"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in editorial spot illustration style: simplified conceptual metaphor, clean shapes, limited palette, magazine-friendly whitespace, smart visual idea, polished vector-like finish. Avoid dense realism and decorative over-detail."
+    demo: null
+  - slug: "isometric-illustration"
+    name: "Isometric Illustration"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in isometric illustration style: 3/4 axonometric view, simplified objects, clean edges, soft shadows, modular scene construction, bright professional palette. Avoid dramatic perspective distortion and gritty analog texture."
+    demo: null
+  - slug: "sticker-bomb"
+    name: "Sticker Bomb"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in sticker-bomb style: layered die-cut stickers, bold outlines, varied icons, glossy vinyl texture, overlapping composition, pop culture collage energy without logos. Avoid sparse minimalism and formal elegance."
+    demo: null
+  - slug: "graffiti-wildstyle"
+    name: "Graffiti Wildstyle"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in graffiti wildstyle: interlocking letter-like forms, spray paint texture, sharp arrows, saturated color fades, wall surface, urban movement. Avoid clean corporate typography and delicate editorial minimalism."
+    demo: null
+  - slug: "tattoo-flash"
+    name: "Tattoo Flash"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in tattoo flash style: bold black outlines, limited saturated color, iconic simplified motifs, cream paper sheet, traditional shading, clean standalone composition. Avoid photoreal scenes and complex background clutter."
+    demo: null
+  - slug: "woodcut-linocut"
+    name: "Woodcut / Linocut"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in woodcut linocut style: carved black lines, rough ink edges, high contrast, limited color, handmade print texture, strong silhouette. Avoid smooth airbrush gradients and glossy CGI."
+    demo: null
+  - slug: "engraving-etching"
+    name: "Engraving / Etching"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in engraving etching style: fine crosshatching, antique scientific illustration texture, cream paper, precise line density, black ink, archival detail. Avoid flat vector color and neon digital effects."
+    demo: null
+  - slug: "paper-cut"
+    name: "Paper Cut"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in paper-cut illustration style: layered colored paper, visible edges, gentle cast shadows, simplified shapes, craft texture, dimensional collage. Avoid photoreal depth, shiny metal, and chaotic typography."
+    demo: null
+  - slug: "claymation"
+    name: "Claymation"
+    category_id: 08
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in claymation style: handmade clay forms, fingerprint texture, stop-motion lighting, rounded characterful shapes, miniature set, warm tactile imperfection. Avoid polished glass UI and hard industrial realism."
+    demo: null
+  - slug: "streetwear-drop"
+    name: "Streetwear Drop"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in streetwear drop style: bold product focus, urban backdrop, oversized type feel, sticker labels, flash photography, black, white, red, and acid accents, hype-release energy. Avoid quiet luxury restraint and pastoral softness."
+    demo: null
+  - slug: "luxury-monochrome"
+    name: "Luxury Monochrome"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in luxury monochrome style: black-white-gray palette, sculptural lighting, sparse serif editorial feel, premium materials, confident negative space, no obvious branding. Avoid loud neon, cartoon icons, and casual clutter."
+    demo:
+      production_index: 20
+      batch: 01
+      image: "20-luxury-monochrome-style-show.png"
+      scene: "fragrance product campaign"
+      exact_prompt: |
+        Create a square style-show image for Luxury Monochrome: a premium fragrance product campaign with a sculptural black glass bottle on a black stone plinth, crisp white highlight, soft smoke-like shadow, sparse editorial composition, black-white-gray palette, quiet luxury. No logos, no watermark, no readable text.
+  - slug: "gorpcore"
+    name: "Gorpcore"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in gorpcore style: technical outdoor clothing or gear, ripstop nylon, toggles, hiking textures, earthy brights, mountain utility, practical lifestyle photography. Avoid polished formal luxury and cyberpunk city darkness."
+    demo: null
+  - slug: "cyber-goth"
+    name: "Cyber Goth"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in cyber goth style: black synthetic clothing, neon hair or accents, industrial club lighting, goggles, PVC, straps, ultraviolet green, magenta, and blue. Avoid soft cottagecore, clean wellness minimalism, and daylight simplicity."
+    demo: null
+  - slug: "pastel-goth"
+    name: "Pastel Goth"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in pastel goth style: soft lavender, mint, pink, black accents, cute-dark contrast, glossy accessories, dreamy but edgy mood. Avoid pure horror darkness, corporate minimalism, and rustic naturalism."
+    demo: null
+  - slug: "coquette"
+    name: "Coquette"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in coquette style: bows, lace, soft pink, cream, pearls, delicate vintage femininity, romantic vanity-table details, airy photography. Avoid harsh industrial black, cyber neon, and rugged outdoor gear."
+    demo: null
+  - slug: "balletcore"
+    name: "Balletcore"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in balletcore style: soft wrap fabrics, pale pink, ivory, satin ribbons, rehearsal-studio light, graceful minimal styling, delicate movement. Avoid heavy grunge, neon club atmosphere, and bulky tactical gear."
+    demo: null
+  - slug: "normcore"
+    name: "Normcore"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in normcore style: intentionally ordinary basics, neutral colors, simple sneakers, plain denim, supermarket or everyday settings, anti-fashion restraint. Avoid luxury glamour, fantasy styling, and high-drama lighting."
+    demo: null
+  - slug: "indie-sleaze"
+    name: "Indie Sleaze"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in indie sleaze style: flash photography, messy nightlife, skinny silhouettes, grain, black leather, silver accessories, candid party composition, 2000s blog-era mood. Avoid polished luxury studio and wholesome daylight minimalism."
+    demo: null
+  - slug: "twee"
+    name: "Twee"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in twee style: vintage cardigans, soft colors, books, patterned socks, analog cameras, gentle quirkiness, cozy indie styling. Avoid aggressive techwear, dark cyberpunk, and hard corporate slickness."
+    demo: null
+  - slug: "old-money"
+    name: "Old Money"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in old money style: tailored neutrals, navy, cream, camel, classic architecture, inherited-quality materials, quiet confidence, restrained grooming. Avoid logo-heavy hype, neon, and flashy ornament."
+    demo: null
+  - slug: "surf-skate"
+    name: "Surf Skate"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in surf skate style: sun-faded color, boardwalk textures, hand-drawn logos without readable brands, teal, coral, cream, relaxed motion, beach asphalt energy. Avoid formal luxury and dark academic interiors."
+    demo: null
+  - slug: "cottagecore"
+    name: "Cottagecore"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in cottagecore style: wildflowers, linen, handmade ceramics, soft countryside light, warm cream, sage, butter yellow, rustic domestic comfort. Avoid cyberpunk neon, industrial concrete, and slick corporate UI."
+    demo:
+      production_index: 19
+      batch: 01
+      image: "19-cottagecore-style-show.png"
+      scene: "sunlit kitchen table"
+      exact_prompt: |
+        Create a square style-show image for Cottagecore: a sunlit countryside kitchen table with wildflowers, linen cloth, handmade ceramics, fresh bread, small berries, open window to garden, cream, sage, butter yellow, warm rustic domestic comfort. No logos, no watermark, no readable text.
+  - slug: "clean-girl-minimal"
+    name: "Clean Girl Minimal"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in clean girl minimal style: dewy natural light, beige-white palette, sleek hair or polished surface cues when relevant, minimal accessories, wellness-adjacent calm. Avoid grunge texture, maximalist pattern, and dark neon."
+    demo: null
+  - slug: "dopamine-decor"
+    name: "Dopamine Decor"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in dopamine decor style: bright happy color blocking, playful objects, unexpected pattern mixing, rounded furniture, cheerful abundance, optimistic lifestyle composition. Avoid monochrome quiet luxury and severe brutalist austerity."
+    demo: null
+  - slug: "maximalist-brand"
+    name: "Maximalist Brand"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in maximalist brand style: saturated palette, layered graphics, bold pattern, expressive typography feel, product-forward abundance, confident contemporary campaign mood. Avoid minimalist whitespace and muted corporate restraint."
+    demo: null
+  - slug: "wellness-minimal"
+    name: "Wellness Minimal"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in wellness minimal style: soft beige, sage, warm white, natural materials, gentle sunlight, sparse layout, calm health-focused brand mood. Avoid harsh black contrast, neon, and busy streetwear graphics."
+    demo: null
+  - slug: "athletic-performance"
+    name: "Athletic Performance"
+    category_id: 09
+    source_doc: main
+    reusable_prompt: "Create `{{SUBJECT}}` in athletic performance style: dynamic motion, technical materials, high-contrast lighting, sharp product silhouette, energetic typography feel, black, white, electric accent color. Avoid delicate vintage romance and slow pastoral calm."
+    demo: null
+  - slug: "impressionism"
+    name: "Impressionism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Impressionist style: broken visible brushstrokes, luminous outdoor light, soft edges, fleeting atmosphere, pastel blues, greens, creams, and warm sunlight, painterly sense of movement. Avoid sharp vector outlines, glossy 3D, and black-heavy cyberpunk lighting."
+    demo:
+      production_index: 21
+      batch: 02
+      image: "21-impressionism-style-show.png"
+      scene: "sunlit riverside cafe terrace"
+      exact_prompt: |
+        Create a square style-show image for Impressionism: a sunlit riverside cafe terrace with small tables, flowers, moving reflections on water, broken visible brushstrokes, luminous outdoor light, soft edges, pastel blues, greens, creams, and warm sunlight. No logos, no watermark, no readable text.
+  - slug: "post-impressionism"
+    name: "Post-Impressionism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Post-Impressionist style: expressive color, structured brushwork, symbolic mood, simplified forms, heightened outlines, warm yellows, deep blues, greens, and reds. Avoid photorealistic studio lighting and clean UI geometry."
+    demo: null
+  - slug: "fauvism"
+    name: "Fauvism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Fauvist style: wild non-natural color, energetic brushwork, simplified shapes, saturated reds, oranges, greens, violets, and blues, expressive emotional intensity. Avoid muted realism, corporate minimalism, and delicate ornament."
+    demo: null
+  - slug: "cubism"
+    name: "Cubism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Cubist style: fragmented planes, multiple viewpoints, angular geometry, muted ochre, gray, brown, and blue palette, analytical abstraction, faceted composition. Avoid smooth photorealism, soft gradients, and ornate floral curves."
+    demo:
+      production_index: 22
+      batch: 02
+      image: "22-cubism-style-show.png"
+      scene: "fragmented tabletop still life"
+      exact_prompt: |
+        Create a square style-show image for Cubism: a tabletop still life with guitar, bottle, fruit bowl, and folded newspaper-like shapes with no readable text, fragmented planes, multiple viewpoints, angular geometry, muted ochre, gray, brown, and blue palette, analytical abstraction. No logos, no watermark.
+  - slug: "futurism-art-movement"
+    name: "Futurism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in early Futurist art style: speed lines, mechanical motion, fractured repetition, dynamic diagonals, industrial energy, metallic grays, reds, and electric blues. Avoid calm symmetry, rustic softness, and static classical balance."
+    demo: null
+  - slug: "suprematism"
+    name: "Suprematism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Suprematist style: floating geometric shapes, white field, black, red, and primary-color accents, pure abstraction, weightless composition, radical reduction. Avoid realism, texture-heavy illustration, and decorative pattern."
+    demo: null
+  - slug: "abstract-expressionism"
+    name: "Abstract Expressionism"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Abstract Expressionist style: large gestural marks, paint splatter, emotional field composition, layered pigment, physical canvas texture, powerful improvisation. Avoid clean corporate grids, literal realism, and polished app UI."
+    demo: null
+  - slug: "minimalist-art"
+    name: "Minimalist Art"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in minimalist art style: extreme reduction, geometric repetition, precise object placement, restrained material, quiet monochrome or limited color, gallery-like presence. Avoid ornament, narrative clutter, and expressive brush chaos."
+    demo: null
+  - slug: "photorealism-painting"
+    name: "Photorealism Painting"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in photorealist painting style: painted but camera-like detail, reflective surfaces, precise light, urban or product realism, high technical finish, subtle brush invisibility. Avoid cartoon simplification, obvious CGI, and loose painterly marks."
+    demo: null
+  - slug: "conceptual-art"
+    name: "Conceptual Art"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in conceptual art documentation style: sparse gallery setting, idea-first arrangement, plain labels without readable text, archival photography feel, restrained materials, intellectual distance. Avoid decorative prettiness and commercial ad polish."
+    demo: null
+  - slug: "land-art"
+    name: "Land Art"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in land art style: large-scale earthwork, desert or field environment, stone, soil, salt, water, aerial geometry, natural erosion, monumental outdoor composition. Avoid indoor product staging and glossy UI surfaces."
+    demo: null
+  - slug: "kinetic-art"
+    name: "Kinetic Art"
+    category_id: 10
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in kinetic art style: suspended moving forms, balanced rods, optical motion, light metal, shadows on gallery walls, engineered delicacy, calm mechanical rhythm. Avoid heavy concrete brutality and static poster flatness."
+    demo: null
+  - slug: "international-style-architecture"
+    name: "International Style Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in International Style architecture: glass curtain walls, steel frame logic, rectangular volume, flat roof, open plaza, white, black, gray, and clear glass, strict modernist rationality. Avoid ornament, pitched roofs, and rustic texture."
+    demo: null
+  - slug: "prairie-school"
+    name: "Prairie School"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Prairie School style: low horizontal lines, broad eaves, earthy brick and wood, integrated landscape, geometric stained glass, warm domestic modernity. Avoid vertical Gothic drama and glossy futuristic towers."
+    demo: null
+  - slug: "usonian"
+    name: "Usonian"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Usonian style: modest horizontal home, natural wood, brick, concrete slab, open plan, built-in furniture, warm democratic modernism, landscape integration. Avoid luxury marble excess and dense urban cyberpunk."
+    demo: null
+  - slug: "craftsman"
+    name: "Craftsman"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Craftsman style: exposed joinery, low-pitched roof, tapered columns, handcrafted wood, built-in shelving, warm amber light, honest material detail. Avoid chrome futurism and ornate palace decoration."
+    demo: null
+  - slug: "victorian-architecture"
+    name: "Victorian Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Victorian architecture style: ornate facade, bay windows, decorative trim, steep rooflines, patterned shingles, rich historical color, layered domestic detail. Avoid modern glass boxes and minimalist concrete planes."
+    demo: null
+  - slug: "tudor-revival"
+    name: "Tudor Revival"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Tudor Revival style: half-timbering, steep gables, leaded windows, brick and plaster, dark wood beams, old-world residential charm. Avoid tropical modernism, neon signage, and flat corporate minimalism."
+    demo: null
+  - slug: "colonial-revival"
+    name: "Colonial Revival"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Colonial Revival style: symmetrical facade, white columns, shutters, brick or clapboard, central door, formal garden, restrained historical order. Avoid deconstructivist angles and futuristic chrome."
+    demo: null
+  - slug: "beaux-arts"
+    name: "Beaux-Arts"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Beaux-Arts style: grand symmetry, classical columns, sculptural ornament, monumental staircases, stone facade, civic luxury, gold and cream interior accents. Avoid raw brutalism and playful Memphis color."
+    demo: null
+  - slug: "art-deco-skyscraper"
+    name: "Art Deco Skyscraper"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Art Deco skyscraper style: stepped tower massing, vertical fluting, chrome, black stone, gold ornament, geometric crown, glamorous urban monumentality. Avoid low rustic cabins and soft cottage interiors."
+    demo: null
+  - slug: "googie"
+    name: "Googie"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Googie architecture style: space-age roadside forms, upswept roof, starburst signage without readable text, boomerang shapes, neon trim, optimistic diner futurism. Avoid medieval stonework and austere corporate towers."
+    demo:
+      production_index: 25
+      batch: 02
+      image: "25-googie-style-show.png"
+      scene: "roadside space-age diner"
+      exact_prompt: |
+        Create a square style-show image for Googie architecture: a space-age roadside diner at dusk with upswept roof, starburst sign shapes with no readable text, boomerang forms, neon trim, chrome, turquoise, coral, and cream, optimistic 1950s futurism. No logos, no watermark.
+  - slug: "brutalist-architecture"
+    name: "Brutalist Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Brutalist architecture style: raw board-formed concrete, massive block geometry, recessed shadows, fortress-like civic scale, exposed structure, severe sculptural presence. Avoid glassy luxury towers and delicate floral ornament."
+    demo: null
+  - slug: "high-tech-architecture"
+    name: "High-Tech Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in High-Tech architecture style: exposed structural systems, steel trusses, glass skin, visible ducts, mechanical elegance, industrial precision, bright engineered clarity. Avoid rustic handmade texture and historical ornament."
+    demo: null
+  - slug: "deconstructivist-architecture"
+    name: "Deconstructivist Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Deconstructivist architecture style: fragmented volumes, tilted planes, sharp angular collisions, metallic surfaces, unstable geometry, dramatic museum-like form. Avoid classical symmetry, cozy domestic warmth, and plain rectangles."
+    demo: null
+  - slug: "parametricism"
+    name: "Parametricism"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Parametricist style: flowing algorithmic surfaces, ribbed structures, smooth continuous curves, perforated skins, futuristic white or metallic material, computational elegance. Avoid hand-carved rustic detail and grid-box modernism."
+    demo:
+      production_index: 24
+      batch: 02
+      image: "24-parametricism-style-show.png"
+      scene: "flowing museum atrium"
+      exact_prompt: |
+        Create a square style-show image for Parametricism: a futuristic museum atrium with flowing algorithmic white surfaces, ribbed structural fins, perforated skin, smooth continuous curves, skylight, computational elegance, clean architectural photography. No logos, no watermark, no readable text.
+  - slug: "blobitecture"
+    name: "Blobitecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Blobitecture style: rounded amorphous architecture, inflated organic volumes, glossy continuous surfaces, soft futuristic curves, playful monumental scale. Avoid rectilinear Swiss grids and Gothic vertical tracery."
+    demo: null
+  - slug: "metabolism-architecture"
+    name: "Metabolism Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Metabolist architecture style: modular megastructure, plug-in capsules, concrete core, dense urban infrastructure, 1960s future-city optimism. Avoid low cottage scale and ornamental classical facades."
+    demo: null
+  - slug: "tropical-modernism"
+    name: "Tropical Modernism"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in tropical modernist style: shaded concrete, timber screens, cross-ventilation, lush plants, open indoor-outdoor flow, warm humid daylight, restrained modern lines. Avoid cold snow lighting and sealed glass skyscraper mood."
+    demo:
+      production_index: 26
+      batch: 02
+      image: "26-tropical-modernism-style-show.png"
+      scene: "open-air hillside house"
+      exact_prompt: |
+        Create a square style-show image for Tropical Modernism: an open-air hillside house with shaded concrete roof, timber screens, cross-ventilation, lush tropical plants, polished stone floor, indoor-outdoor living, warm humid daylight, restrained modern lines. No logos, no watermark, no readable text.
+  - slug: "desert-brutalism"
+    name: "Desert Brutalism"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in desert brutalist style: raw concrete planes, sand-colored massing, severe sunlight, deep shadow cuts, sparse desert landscape, monumental quiet. Avoid lush cottage greenery and glossy neon city density."
+    demo: null
+  - slug: "postmodern-architecture"
+    name: "Postmodern Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in postmodern architecture style: playful historical references, exaggerated facade elements, colorful geometry, ironic columns or arches, plaza scale, theatrical urban composition. Avoid strict International Style austerity."
+    demo: null
+  - slug: "eco-architecture"
+    name: "Eco Architecture"
+    category_id: 11
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in eco architecture style: green roofs, passive solar shading, timber structure, recycled materials, planted courtyards, natural ventilation, optimistic sustainable design. Avoid dystopian grime and wasteful glossy excess."
+    demo: null
+  - slug: "bohemian-interior"
+    name: "Bohemian Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in bohemian interior style: layered textiles, rattan, plants, patterned rugs, handmade objects, warm earthy palette, collected travel-studio mood. Avoid sterile minimalism and corporate furniture showroom polish."
+    demo:
+      production_index: 27
+      batch: 02
+      image: "27-bohemian-interior-style-show.png"
+      scene: "layered plant-filled living room"
+      exact_prompt: |
+        Create a square style-show image for Bohemian Interior: a layered living room with rattan chair, many plants, patterned rugs, woven wall hanging, low wood table, handmade ceramics, warm earthy palette, collected travel-studio mood, natural light. No logos, no watermark, no readable text.
+  - slug: "hollywood-regency"
+    name: "Hollywood Regency"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Hollywood Regency style: lacquered furniture, mirrored surfaces, dramatic contrast, velvet, brass, palm accents, theatrical glamour, black, white, emerald, and gold. Avoid rustic farmhouse and quiet Scandinavian restraint."
+    demo:
+      production_index: 28
+      batch: 02
+      image: "28-hollywood-regency-style-show.png"
+      scene: "glamorous dressing room"
+      exact_prompt: |
+        Create a square style-show image for Hollywood Regency: a glamorous dressing room with black lacquer vanity, mirrored surfaces, emerald velvet chair, brass lamps, palm accent, dramatic contrast, theatrical old-Hollywood luxury. No logos, no watermark, no readable text.
+  - slug: "english-country"
+    name: "English Country"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in English country style: floral upholstery, antique wood, layered books, garden views, chintz, muted greens, rose, cream, and warm brown, lived-in refinement. Avoid cyber neon and stark concrete minimalism."
+    demo: null
+  - slug: "french-country"
+    name: "French Country"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in French country style: weathered wood, linen, stone walls, soft blue, cream, lavender, antique ceramics, rustic elegance, sunlit farmhouse texture. Avoid glossy futurism and high-contrast brutalist graphics."
+    demo: null
+  - slug: "modern-farmhouse"
+    name: "Modern Farmhouse"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in modern farmhouse style: white shiplap, black metal accents, reclaimed wood, simple rustic fixtures, cozy neutral palette, clean updated country mood. Avoid ornate palace details and neon sci-fi."
+    demo: null
+  - slug: "shabby-chic"
+    name: "Shabby Chic"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in shabby chic style: distressed white furniture, soft florals, lace, faded pastel palette, vintage domestic charm, gentle worn textures. Avoid sharp tech minimalism and saturated streetwear graphics."
+    demo: null
+  - slug: "grandmillennial"
+    name: "Grandmillennial"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in grandmillennial style: updated traditional decor, chintz, skirted tables, blue-and-white porcelain, needlepoint, pleats, playful heirloom layering. Avoid bare minimal rooms and hard industrial loft styling."
+    demo: null
+  - slug: "regencycore"
+    name: "Regencycore"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Regencycore style: pale pastel rooms, gilded mirrors, classical molding, delicate florals, empire silhouettes, candlelit romantic period-drama elegance. Avoid modern tech hardware and rough punk textures."
+    demo: null
+  - slug: "maximalist-interior"
+    name: "Maximalist Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in maximalist interior style: layered patterns, jewel tones, gallery walls, sculptural lamps, bold wallpaper, collected objects, confident abundance. Avoid empty white minimal rooms and monotone beige restraint."
+    demo: null
+  - slug: "minimalist-zen-interior"
+    name: "Minimalist Zen Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in minimalist Zen interior style: low furniture, tatami-like geometry, pale wood, stone, linen, empty space, soft natural light, contemplative balance. Avoid clutter, neon signage, and ornate European trim."
+    demo: null
+  - slug: "high-tech-interior"
+    name: "High-Tech Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in high-tech interior style: exposed metal, modular systems, glass partitions, integrated lighting, visible infrastructure, monochrome surfaces, engineered precision. Avoid floral cottage styling and antique wood clutter."
+    demo: null
+  - slug: "brutalist-interior"
+    name: "Brutalist Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in brutalist interior style: raw concrete walls, monolithic furniture, shadow-heavy geometry, black steel, minimal decor, severe sculptural atmosphere. Avoid cozy pastel cottage details and ornate gold trim."
+    demo: null
+  - slug: "eclectic-interior"
+    name: "Eclectic Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in eclectic interior style: mixed eras, confident color pairing, vintage and modern furniture, art objects, layered rugs, personal collection energy. Avoid showroom uniformity and single-note monochrome."
+    demo: null
+  - slug: "coastal-grandmother"
+    name: "Coastal Grandmother"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in coastal grandmother style: linen, relaxed tailoring, white kitchens, pale blue, driftwood, hydrangeas, soft daylight, expensive but casual seaside comfort. Avoid tropical neon, surf-skate graphics, and urban grit."
+    demo: null
+  - slug: "dopamine-interior"
+    name: "Dopamine Interior"
+    category_id: 12
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in dopamine interior style: joyful color blocking, playful furniture, bold pattern, rounded accessories, high-energy but polished home styling. Avoid black-white minimalism and severe concrete austerity."
+    demo: null
+  - slug: "clinical-packaging"
+    name: "Clinical Packaging"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in clinical packaging style: white space, precise dosage-like labels without readable text, blue or green medical accents, matte plastic or paper, sterile trust, pharmacy shelf clarity. Avoid playful cartoons and luxury perfume drama."
+    demo:
+      production_index: 29
+      batch: 02
+      image: "29-clinical-packaging-style-show.png"
+      scene: "pharmacy shelf product system"
+      exact_prompt: |
+        Create a square style-show image for Clinical Packaging: a pharmacy shelf and product close-up with white matte boxes, precise blue-green label blocks with no readable text, sterile spacing, clean plastic and paper, medical trust, bright clinical lighting. No logos, no watermark.
+  - slug: "premium-fragrance"
+    name: "Premium Fragrance"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in premium fragrance style: sculptural glass bottle, heavy cap, dramatic reflections, sparse serif label without readable text, black, cream, gold, and transparent highlights, luxury studio lighting. Avoid noisy retail packaging and cheap plastic."
+    demo: null
+  - slug: "beauty-shelfie"
+    name: "Beauty Shelfie"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in beauty shelfie style: skincare bottles, soft bathroom light, pastel labels, marble or tile surface, clean arrangement, influencer product photography mood. Avoid industrial grime and dark horror color grade."
+    demo: null
+  - slug: "fmcg-bright"
+    name: "Bright FMCG Packaging"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in bright FMCG packaging style: bold shelf-readable color, friendly icons, simple product window, large shape blocks without readable brand text, mass-market clarity, cheerful supermarket lighting. Avoid luxury austerity and grunge distress."
+    demo: null
+  - slug: "cereal-box"
+    name: "Cereal Box"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in cereal box packaging style: bright front-facing carton, playful mascot-like shapes without IP characters, splashy breakfast composition, yellow, red, blue, and white, kid-friendly shelf energy. Avoid premium minimalism and dark cyberpunk."
+    demo: null
+  - slug: "toy-blister-pack"
+    name: "Toy Blister Pack"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in toy blister pack style: clear plastic bubble, colorful cardboard backing, playful burst shapes, small accessory layout, retail pegboard context, nostalgic collectible packaging. Avoid luxury perfume lighting and clinical white minimalism."
+    demo:
+      production_index: 30
+      batch: 02
+      image: "30-toy-blister-pack-style-show.png"
+      scene: "collectible toy retail package"
+      exact_prompt: |
+        Create a square style-show image for Toy Blister Pack: a nostalgic collectible designer toy in a clear plastic bubble on colorful cardboard backing, playful burst shapes, small accessory layout, retail pegboard context, bright toy-store lighting. No logos, no watermark, no readable text.
+  - slug: "craft-beer-label"
+    name: "Craft Beer Label"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in craft beer label style: illustrated can wrap, bold naming area without readable text, textured ink, quirky mascot or landscape motif, saturated limited palette, independent brewery feel. Avoid sterile clinical packaging and luxury serif restraint."
+    demo: null
+  - slug: "natural-wine-label"
+    name: "Natural Wine Label"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in natural wine label style: expressive small-batch label, hand-drawn marks, offbeat color, cream paper, playful irregular layout, artisanal shelf presence. Avoid corporate beverage polish and fake readable text."
+    demo: null
+  - slug: "japanese-minimal-packaging"
+    name: "Japanese Minimal Packaging"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Japanese minimal packaging style: clean white or kraft surface, small precise label area without readable text, subtle material texture, calm spacing, functional elegance. Avoid maximalist graphics and neon cyber surfaces."
+    demo: null
+  - slug: "luxury-cosmetics"
+    name: "Luxury Cosmetics"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in luxury cosmetics style: polished compact or tube, black lacquer, gold trim, soft reflections, elegant arrangement, premium beauty counter atmosphere. Avoid playful cereal-box colors and rough kraft texture."
+    demo: null
+  - slug: "sports-performance-brand"
+    name: "Sports Performance Brand"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in sports performance brand style: dynamic product angle, motion blur, technical material close-up, black, white, and electric accent color, high-energy campaign lighting. Avoid delicate floral romance and passive still-life softness."
+    demo: null
+  - slug: "startup-saas-brand"
+    name: "Startup SaaS Brand"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in startup SaaS brand style: clean abstract shapes, friendly gradient accents, dashboard snippets without readable text, optimistic illustration, polished landing-page composition. Avoid heavy historical ornament and grimy street texture."
+    demo: null
+  - slug: "creator-economy-brand"
+    name: "Creator Economy Brand"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in creator economy brand style: expressive avatar shapes, modular social cards, punchy colors, sticker-like interface elements, camera or microphone cues, energetic digital business mood. Avoid bank-like corporate stiffness and antique print."
+    demo: null
+  - slug: "editorial-brand-system"
+    name: "Editorial Brand System"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in editorial brand system style: sophisticated masthead-like hierarchy without readable text, refined photography, grid layouts, muted palette, magazine identity board. Avoid app-dashboard clutter and toy-like color."
+    demo: null
+  - slug: "museum-identity"
+    name: "Museum Identity"
+    category_id: 13
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in museum identity style: restrained poster system, large image crop, institutional grid, elegant typography feel without readable text, black, white, and one accent color, cultural authority. Avoid salesy retail clutter."
+    demo: null
+  - slug: "blackletter"
+    name: "Blackletter"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in blackletter typography style: dense angular letterform texture, medieval manuscript energy, black ink, gold or crimson accents, parchment or dark cloth surface. Avoid clean Swiss sans-serif and neon chrome."
+    demo:
+      production_index: 31
+      batch: 02
+      image: "31-blackletter-style-show.png"
+      scene: "dark editorial type texture"
+      exact_prompt: |
+        Create a square style-show image for Blackletter: a dramatic dark editorial poster made from dense angular blackletter-like letterform textures, black ink, crimson and gold accents, parchment and dark cloth layers, medieval manuscript energy, no readable words. No logos, no watermark.
+  - slug: "slab-serif-western"
+    name: "Slab Serif Western"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in slab serif western typography style: heavy block serifs, wood type texture, dusty poster composition, cream, brown, red, and black, frontier print-shop mood. Avoid delicate Didone luxury and futuristic holograms."
+    demo: null
+  - slug: "didone-fashion-type"
+    name: "Didone Fashion Type"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Didone fashion typography style: high-contrast elegant serifs, extreme thin-thick strokes, black-white editorial space, luxury magazine mood, precise minimal layout. Avoid chunky cartoon lettering and distressed punk texture."
+    demo: null
+  - slug: "typewriter"
+    name: "Typewriter"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in typewriter typography style: monospaced stamped letters without readable paragraphs, uneven ink, cream paper, archival notes, analog office texture, quiet literary mood. Avoid glossy gradient UI and ornate script excess."
+    demo: null
+  - slug: "bubble-lettering"
+    name: "Bubble Lettering"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in bubble lettering style: inflated rounded letter-like forms, playful color fills, thick outlines, highlights, sticker or mural energy. Avoid austere grid minimalism and delicate calligraphy."
+    demo: null
+  - slug: "chrome-type"
+    name: "Chrome Type"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in chrome typography style: reflective metallic letter-like forms, glossy highlights, dark studio background, Y2K or luxury tech mood, liquid reflections. Avoid paper grain, rustic wood, and soft watercolor."
+    demo:
+      production_index: 32
+      batch: 02
+      image: "32-chrome-type-style-show.png"
+      scene: "Y2K liquid metal cover"
+      exact_prompt: |
+        Create a square style-show image for Chrome Type: a Y2K album-cover-like composition with reflective metallic letter-like abstract shapes, liquid chrome, glossy black background, icy blue highlights, prismatic reflections, no readable words. No logos, no watermark.
+  - slug: "hand-painted-signwriting"
+    name: "Hand-Painted Signwriting"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in hand-painted signwriting style: brush-painted letterforms, slight human irregularity, enamel sign surface, retro storefront mood, cream, red, blue, and gold accents. Avoid sterile digital UI and perfect vector geometry."
+    demo: null
+  - slug: "calligraphic-luxury"
+    name: "Calligraphic Luxury"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in calligraphic luxury style: elegant ink flourishes, cream paper, gold foil accents, premium invitation mood, sparse composition, refined contrast. Avoid graffiti roughness and neon cyber dashboards."
+    demo: null
+  - slug: "graffiti-tag"
+    name: "Graffiti Tag"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in graffiti tag style: quick marker or spray-paint strokes, urban wall texture, black, silver, white, or bright accent paint, raw street immediacy. Avoid formal calligraphy, corporate polish, and luxury symmetry."
+    demo: null
+  - slug: "monospace-code"
+    name: "Monospace Code"
+    category_id: 14
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in monospace code typography style: developer console rhythm, aligned columns, code-like blocks without readable real code, dark or light editor surface, syntax-color accents. Avoid ornate serif editorial and handmade craft texture."
+    demo: null
+  - slug: "corporate-memphis"
+    name: "Corporate Memphis"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in corporate Memphis illustration style: simplified oversized people or objects, flat pastel shapes, abstract geometric accents, friendly SaaS onboarding mood, smooth vector finish. Avoid gritty realism and ornate historical detail."
+    demo: null
+  - slug: "alegria-illustration"
+    name: "Alegria Illustration"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Alegria-style corporate illustration: exaggerated proportions, soft rounded limbs or objects, flat friendly colors, inclusive product-story composition, modern tech brand mood. Avoid copying a specific brand, photorealism, and dark noir."
+    demo: null
+  - slug: "aurora-gradient-ui"
+    name: "Aurora Gradient UI"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in aurora gradient UI style: soft luminous gradient fields, blue, purple, green, and pink light, glassy panels, calm premium tech surface, subtle blur. Avoid gritty punk texture and harsh black outlines."
+    demo:
+      production_index: 33
+      batch: 02
+      image: "33-aurora-gradient-ui-style-show.png"
+      scene: "premium music app interface"
+      exact_prompt: |
+        Create a square style-show image for Aurora Gradient UI: a premium music app interface floating over soft luminous aurora gradient fields, blue, purple, green, and pink light, glassy panels, subtle blur, calm high-end tech surface. No logos, no watermark, no readable text.
+  - slug: "liquid-metal-ui"
+    name: "Liquid Metal UI"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in liquid metal UI style: reflective molten chrome, fluid blobs, dark polished interface, high-contrast highlights, futuristic premium motion-design still. Avoid kraft paper, flat cartoon icons, and rustic wood."
+    demo: null
+  - slug: "spatial-computing-ui"
+    name: "Spatial Computing UI"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in spatial computing UI style: floating translucent panels in real space, subtle depth, hand-scale controls, glass, soft shadows, premium mixed-reality clarity. Avoid dense 2D dashboards and retro CRT noise."
+    demo: null
+  - slug: "neumorphic-dark"
+    name: "Dark Neumorphism"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in dark neumorphism style: charcoal soft surfaces, low-contrast extruded controls, inner and outer shadows, muted cyan or violet accent, tactile futuristic app mood. Avoid hard black outlines and bright flat primary colors."
+    demo: null
+  - slug: "pixel-ui"
+    name: "Pixel UI"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in pixel UI style: crisp square pixels, retro windows, limited palette, tiny icons, fixed grid, nostalgic interface clarity. Avoid smooth glassmorphism, high-res photography, and ornate serif type."
+    demo: null
+  - slug: "hacker-terminal"
+    name: "Hacker Terminal"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in hacker terminal style: black screen, green or amber monospaced text-like blocks, system panels, command-line density, glow, technical secrecy. Avoid glossy consumer app polish and pastel cuteness."
+    demo: null
+  - slug: "cybersecurity-dashboard"
+    name: "Cybersecurity Dashboard"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in cybersecurity dashboard style: dark SOC interface, threat maps, alert panels, packet-flow visuals, red, amber, cyan accents, dense analytical control room mood. Avoid wellness minimalism and lifestyle photography."
+    demo: null
+  - slug: "fintech-dashboard"
+    name: "Fintech Dashboard"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in fintech dashboard style: precise charts, portfolio cards, dark or white premium interface, green and blue data accents, trust-focused hierarchy, clean financial product polish. Avoid cartoon playfulness and random fake numbers."
+    demo: null
+  - slug: "editorial-web"
+    name: "Editorial Web"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in editorial web style: magazine-like web layout, large image crop, elegant headline area without readable text, refined whitespace, responsive card grid, cultural publication mood. Avoid enterprise dashboard density and childish icons."
+    demo: null
+  - slug: "luxury-ecommerce"
+    name: "Luxury E-Commerce"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in luxury e-commerce style: premium product hero, sparse navigation, monochrome palette, high-end photography, refined serif/sans hierarchy without readable text, quiet conversion design. Avoid noisy marketplaces and discount badges."
+    demo: null
+  - slug: "game-ui-fantasy"
+    name: "Fantasy Game UI"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in fantasy game UI style: carved frames, parchment panels, gem icons, inventory slots, warm torchlight, ornate but readable game interface. Avoid modern SaaS minimalism and cyber holograms."
+    demo: null
+  - slug: "game-ui-sci-fi"
+    name: "Sci-Fi Game UI"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in sci-fi game UI style: holographic panels, angular HUD frames, blue-orange alerts, starship interface depth, technical readouts without readable text. Avoid parchment fantasy frames and cozy pastel UI."
+    demo: null
+  - slug: "ai-surreal-campaign"
+    name: "AI-Surreal Campaign"
+    category_id: 15
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in AI-surreal campaign style: impossible premium product scene, hyperreal materials, dreamlike scale, uncanny but polished composition, studio-perfect lighting, contemporary advertising strangeness. Avoid messy random artifacts and cheap collage."
+    demo: null
+  - slug: "german-expressionist-film"
+    name: "German Expressionist Film"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in German Expressionist film style: distorted sets, sharp painted shadows, angular architecture, black-and-white contrast, psychological unease, theatrical composition. Avoid naturalistic daylight and glossy modern realism."
+    demo:
+      production_index: 34
+      batch: 02
+      image: "34-german-expressionist-film-style-show.png"
+      scene: "distorted silent-film street set"
+      exact_prompt: |
+        Create a square style-show image for German Expressionist film: a distorted black-and-white street set with jagged buildings, tilted windows, sharp painted shadows, angular staircase, psychological unease, theatrical silent-film composition. No logos, no watermark, no readable text.
+  - slug: "french-new-wave"
+    name: "French New Wave"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in French New Wave style: handheld street framing, natural light, jump-cut mood, black-and-white or muted color, casual intellectual cool, urban spontaneity. Avoid polished blockbuster symmetry and heavy fantasy design."
+    demo: null
+  - slug: "italian-neorealism"
+    name: "Italian Neorealism"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Italian Neorealist style: real streets, ordinary people or objects, natural light, modest framing, postwar texture, honest social realism. Avoid luxury studio gloss and artificial sci-fi environments."
+    demo: null
+  - slug: "giallo"
+    name: "Giallo"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Giallo cinema style: saturated red, blue, and green lighting, stylish suspense, black gloves or sharp object cues only if relevant, ornate interiors, lurid mystery mood. Avoid explicit gore and wholesome pastel softness."
+    demo: null
+  - slug: "technicolor-musical"
+    name: "Technicolor Musical"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Technicolor musical style: saturated studio color, theatrical sets, polished lighting, coordinated costumes or props, optimistic mid-century cinema spectacle. Avoid gritty documentary texture and dark cyberpunk rain."
+    demo: null
+  - slug: "grindhouse"
+    name: "Grindhouse"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in grindhouse film poster style: scratched film texture, lurid color, bold exploitation-poster composition, distressed print, dramatic action silhouettes. Avoid clean luxury minimalism and modern app UI."
+    demo: null
+  - slug: "new-hollywood"
+    name: "New Hollywood"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in New Hollywood cinema style: 1970s naturalistic light, gritty urban or domestic setting, warm film grain, morally ambiguous mood, handheld realism. Avoid glossy superhero lighting and pastel symmetry."
+    demo: null
+  - slug: "anamorphic-cinema"
+    name: "Anamorphic Cinema"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in anamorphic cinema style: wide aspect feeling, oval bokeh, horizontal lens flare, cinematic depth, carefully staged light, premium film still quality. Avoid flat diagram layout and low-res video noise."
+    demo: null
+  - slug: "product-lab-photo"
+    name: "Product Lab Photography"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in product lab photography style: pristine white or gray studio, glassware or testing cues when relevant, controlled reflections, clinical precision, premium tech/product trust. Avoid messy lifestyle clutter and painterly illustration."
+    demo: null
+  - slug: "flat-lay-photo"
+    name: "Flat Lay Photography"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in flat lay photography style: top-down composition, arranged objects, clean surface, balanced spacing, editorial prop styling, soft shadow control. Avoid low-angle cinematic drama and crowded backgrounds."
+    demo: null
+  - slug: "food-editorial"
+    name: "Food Editorial"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in food editorial photography style: appetizing natural light, styled table surface, shallow depth, texture-rich ingredients, magazine composition, warm realistic color. Avoid plastic CGI shine and dark horror grade."
+    demo: null
+  - slug: "sports-photojournalism"
+    name: "Sports Photojournalism"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in sports photojournalism style: frozen peak action, telephoto compression, stadium or street-sport context, sweat, grit, natural drama, editorial realism. Avoid staged studio perfection and cartoon abstraction."
+    demo: null
+  - slug: "paparazzi-flash"
+    name: "Paparazzi Flash"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in paparazzi flash style: harsh direct flash, night street, candid framing, high contrast, shiny highlights, celebrity-street chaos without actual celebrities. Avoid soft studio beauty lighting and clean product catalog mood."
+    demo: null
+  - slug: "surveillance-camera"
+    name: "Surveillance Camera"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in surveillance camera style: high-angle fixed viewpoint, monochrome or greenish cast, timestamp-like area without readable text, compression artifacts, detached observation mood. Avoid cinematic glamour and polished product advertising."
+    demo: null
+  - slug: "satellite-imagery"
+    name: "Satellite Imagery"
+    category_id: 16
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in satellite imagery style: overhead earth-observation view, geographic texture, false-color or natural-color mapping, labels omitted, analytical remote-sensing mood. Avoid eye-level portrait composition and decorative ornament."
+    demo: null
+  - slug: "ps1-low-poly"
+    name: "PS1 Low-Poly"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in PS1 low-poly style: jagged low-resolution geometry, affine texture wobble feel, limited texture detail, moody retro 3D game lighting, blocky silhouettes. Avoid modern ray tracing and smooth high-poly surfaces."
+    demo:
+      production_index: 35
+      batch: 02
+      image: "35-ps1-low-poly-style-show.png"
+      scene: "retro 3D alley environment"
+      exact_prompt: |
+        Create a square style-show image for PS1 Low-Poly: a moody retro 3D alley environment with jagged low-resolution geometry, affine texture wobble feel, limited texture detail, blocky silhouettes, foggy lighting, early console horror-game atmosphere. No logos, no watermark, no readable text.
+  - slug: "ps2-era-realism"
+    name: "PS2-Era Realism"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in PS2-era game realism style: low-mid polygon models, baked lighting, slightly blurry textures, early-2000s cinematic ambition, practical game-environment staging. Avoid 8-bit pixel art and modern hyperreal CGI."
+    demo: null
+  - slug: "cozy-game"
+    name: "Cozy Game"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in cozy game style: warm small-town or room scene, rounded friendly shapes, soft daylight, gentle color, readable cute objects, relaxing interactive-world mood. Avoid dark horror, tactical military grit, and harsh neon."
+    demo:
+      production_index: 36
+      batch: 02
+      image: "36-cozy-game-style-show.png"
+      scene: "tiny village garden shop"
+      exact_prompt: |
+        Create a square style-show image for Cozy Game: a tiny village garden shop with rounded friendly houses, vegetable beds, lanterns, soft daylight, warm small-town scene, gentle colors, cute readable objects, relaxing interactive-world mood. No logos, no watermark, no readable text.
+  - slug: "dark-fantasy-rpg"
+    name: "Dark Fantasy RPG"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in dark fantasy RPG style: ancient ruins, heavy atmosphere, worn armor or stone when relevant, torchlight, ash, muted steel, crimson, and black, ominous epic scale. Avoid cute pastel UI and shiny sci-fi chrome."
+    demo: null
+  - slug: "jrpg-menu-art"
+    name: "JRPG Menu Art"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in JRPG menu art style: ornate interface panels, character or item illustration area, crystalline motifs, blue-white glow, fantasy-tech elegance, polished game screen composition. Avoid Western medieval parchment heaviness and enterprise dashboard realism."
+    demo: null
+  - slug: "tactical-hud"
+    name: "Tactical HUD"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in tactical HUD style: map overlays, targeting reticles, night-vision or drone-feed cues, military green, amber, and cyan data, compact mission interface. Avoid luxury editorial white space and cute rounded icons."
+    demo: null
+  - slug: "tabletop-miniature"
+    name: "Tabletop Miniature"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in tabletop miniature style: painted small-scale figures or terrain, visible base, dry-brushed texture, dramatic hobby lighting, macro lens, handcrafted game-board presence. Avoid life-size photoreal staging and flat UI."
+    demo: null
+  - slug: "card-game-illustration"
+    name: "Card Game Illustration"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in fantasy card game illustration style: central hero object or scene, dramatic lighting, ornate frame suggestion, collectible card composition without readable text, polished painterly detail. Avoid casual doodles and documentary photography."
+    demo: null
+  - slug: "childrens-book"
+    name: "Children's Book Illustration"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in children's book illustration style: warm storybook scene, soft shapes, expressive simple characters or objects, textured paper, gentle color, clear emotional readability. Avoid dark horror, harsh violence, and corporate dashboard UI."
+    demo: null
+  - slug: "editorial-cartoon"
+    name: "Editorial Cartoon"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in editorial cartoon style: simplified caricature-like objects, ink outlines, satirical visual metaphor, newspaper print texture, sparse background, clear idea-first composition. Avoid photoreal product advertising and ornate fantasy detail."
+    demo: null
+  - slug: "scientific-illustration"
+    name: "Scientific Illustration"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in scientific illustration style: precise linework, neutral background, cross-section or labeled-area composition without readable labels, naturalistic detail, educational clarity. Avoid decorative fantasy effects and messy collage."
+    demo: null
+  - slug: "botanical-illustration"
+    name: "Botanical Illustration"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in botanical illustration style: detailed plant forms, fine watercolor, cream paper, specimen-like spacing, delicate labels omitted, natural accuracy and elegance. Avoid neon UI, aggressive graffiti, and heavy shadows."
+    demo: null
+  - slug: "architectural-blueprint"
+    name: "Architectural Blueprint"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in architectural blueprint style: cyan background, white technical linework, plan/elevation/detail views, measurement-like marks without readable numbers, precise drafting. Avoid painterly color, soft photography, and cluttered collage."
+    demo:
+      production_index: 37
+      batch: 02
+      image: "37-architectural-blueprint-style-show.png"
+      scene: "technical tiny-house drawing"
+      exact_prompt: |
+        Create a square style-show image for Architectural Blueprint: a technical drawing board showing a modern tiny house plan, elevation, and exploded detail views in cyan background with white linework, measurement-like marks without readable numbers, precise drafting. No logos, no watermark, no readable text.
+  - slug: "exploded-view-diagram"
+    name: "Exploded View Diagram"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in exploded view diagram style: separated components, clean technical perspective, thin leader lines without readable text, white or light gray background, precise product anatomy. Avoid dramatic cinematic shadows and decorative ornament."
+    demo: null
+  - slug: "infographic-flat"
+    name: "Flat Infographic"
+    category_id: 17
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in flat infographic style: simplified icons, clean sections, restrained color coding, arrows and blocks without readable text, educational hierarchy, crisp vector-like finish. Avoid photoreal depth and painterly texture."
+    demo: null
+  - slug: "watercolor"
+    name: "Watercolor"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in watercolor style: transparent washes, pigment blooms, soft edges, white paper showing through, gentle layered color, handmade texture. Avoid glossy CGI, hard vector outlines, and neon chrome."
+    demo:
+      production_index: 38
+      batch: 02
+      image: "38-watercolor-style-show.png"
+      scene: "botanical garden gate"
+      exact_prompt: |
+        Create a square style-show image for Watercolor: a botanical garden gate and flowering shrubs painted with transparent washes, pigment blooms, soft edges, white paper showing through, gentle layered color, handmade paper texture. No logos, no watermark, no readable text.
+  - slug: "gouache"
+    name: "Gouache"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in gouache illustration style: opaque matte paint, clean color blocks, visible brush texture, soft graphic shapes, rich but controlled palette. Avoid transparent watercolor wash and photoreal studio lighting."
+    demo: null
+  - slug: "oil-impasto"
+    name: "Oil Impasto"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in oil impasto style: thick raised paint, visible palette-knife strokes, rich pigment, tactile canvas, dramatic highlights, expressive surface. Avoid flat vector graphics and low-texture digital gradients."
+    demo: null
+  - slug: "pastel-chalk"
+    name: "Pastel Chalk"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in pastel chalk style: powdery texture, soft blended edges, paper tooth, delicate color transitions, handmade sketch-like softness. Avoid polished chrome, hard UI edges, and black-heavy noir."
+    demo: null
+  - slug: "charcoal-drawing"
+    name: "Charcoal Drawing"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in charcoal drawing style: rich black smudges, gray tonal massing, paper grain, expressive eraser highlights, sketch-studio realism. Avoid saturated color and glossy 3D rendering."
+    demo: null
+  - slug: "ink-wash"
+    name: "Ink Wash"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in ink wash style: black and gray fluid washes, calligraphic strokes, empty paper space, atmospheric gradients, disciplined brush energy. Avoid neon color, heavy oil paint texture, and corporate vector icons."
+    demo: null
+  - slug: "cyanotype"
+    name: "Cyanotype"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in cyanotype style: Prussian blue photographic print, white silhouette or line detail, sun-print texture, botanical or technical archival mood. Avoid warm oil paint, neon cyberpunk, and glossy product catalog lighting."
+    demo: null
+  - slug: "mosaic"
+    name: "Mosaic"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in mosaic style: small tile tesserae, grout lines, jewel colors, hand-laid surface irregularity, wall or floor artwork presence. Avoid smooth airbrush gradients and seamless CGI."
+    demo: null
+  - slug: "stained-glass"
+    name: "Stained Glass"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in stained glass style: lead came outlines, luminous colored glass pieces, backlit glow, jewel tones, decorative window composition. Avoid matte paper texture and photoreal plastic."
+    demo:
+      production_index: 39
+      batch: 02
+      image: "39-stained-glass-style-show.png"
+      scene: "luminous abstract window"
+      exact_prompt: |
+        Create a square style-show image for Stained Glass: a luminous decorative window showing an abstract sun, river, and flowers, lead came outlines, jewel-tone glass pieces, backlit glow, intricate colored panes, cathedral craft feeling. No logos, no watermark, no readable text.
+  - slug: "embroidery"
+    name: "Embroidery"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in embroidery style: stitched threads, fabric ground, visible thread direction, raised texture, folk or contemporary textile composition. Avoid glossy metal, flat vector finish, and photoreal glass."
+    demo: null
+  - slug: "tapestry"
+    name: "Tapestry"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in tapestry style: woven textile texture, muted wool colors, medieval or folk composition, visible warp and weft, decorative border. Avoid smooth digital gradients and chrome futurism."
+    demo: null
+  - slug: "ceramic-glaze"
+    name: "Ceramic Glaze"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in ceramic glaze style: fired clay surface, glossy or crackled glaze, earthy body color, handmade irregularity, studio pottery atmosphere. Avoid paper collage, terminal UI, and neon holograms."
+    demo: null
+  - slug: "terrazzo"
+    name: "Terrazzo"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in terrazzo style: scattered stone chips, polished composite surface, pastel or neutral base, modern interior/product texture, playful material pattern. Avoid woodcut ink texture and ornate historical carving."
+    demo: null
+  - slug: "cork-material"
+    name: "Cork Material"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in cork material style: warm speckled cork texture, sustainable product or surface language, soft brown palette, tactile natural granularity. Avoid metallic chrome and glossy plastic futurism."
+    demo: null
+  - slug: "carbon-fiber"
+    name: "Carbon Fiber"
+    category_id: 18
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in carbon fiber style: woven black composite texture, glossy resin highlights, performance engineering mood, precise curves, technical luxury. Avoid soft cottage fabric and antique paper texture."
+    demo: null
+  - slug: "barbiecore"
+    name: "Barbiecore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Barbiecore style: hot pink dominance, glossy plastic, playful glamour, heart shapes, bright studio lighting, confident pop-feminine styling. Avoid dark academia, muted minimalism, and industrial grit."
+    demo:
+      production_index: 40
+      batch: 02
+      image: "40-hot-pink-pop-glamour-style-show.png"
+      scene: "glossy pink dressing room"
+      exact_prompt: |
+        Create a square style-show image for Barbiecore: a hot-pink dressing room and product shelf with glossy plastic surfaces, heart-shaped mirror, playful glamour, bright studio lighting, saturated pinks, white highlights, confident pop-feminine styling. No logos, no watermark, no readable text.
+  - slug: "mermaidcore"
+    name: "Mermaidcore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in mermaidcore style: pearlescent shells, aqua, teal, lavender, iridescent scales, wet shine, ocean fantasy beauty mood. Avoid desert dryness, harsh concrete, and monochrome business styling."
+    demo: null
+  - slug: "fairycore"
+    name: "Fairycore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in fairycore style: moss, mushrooms, delicate wings or sparkling dew only if relevant, soft green, lavender, cream, tiny floral details, enchanted woodland light. Avoid cyberpunk neon city grit and corporate minimalism."
+    demo: null
+  - slug: "kidcore"
+    name: "Kidcore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in kidcore style: primary colors, toy-like shapes, stickers, rainbow motifs, chunky playful composition, nostalgic childhood energy. Avoid luxury restraint, dark horror, and muted beige wellness design."
+    demo: null
+  - slug: "clowncore"
+    name: "Clowncore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in clowncore style: circus color, harlequin diamonds, ruffles, exaggerated playful shapes, red, yellow, blue, and white, theatrical whimsy. Avoid horror framing, corporate minimalism, and gritty realism."
+    demo: null
+  - slug: "royalcore"
+    name: "Royalcore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in royalcore style: palace interiors, crowns or heraldic motifs when relevant, velvet, brocade, gold, deep red, navy, and ivory, aristocratic fantasy elegance. Avoid streetwear grit and minimalist tech surfaces."
+    demo: null
+  - slug: "angelcore"
+    name: "Angelcore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in angelcore style: soft white, cream, gold, clouds, feathers or halo-like light when appropriate, luminous serenity, ethereal devotional mood. Avoid dark industrial grit and neon cyberpunk density."
+    demo: null
+  - slug: "devilcore"
+    name: "Devilcore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in devilcore style: red-black palette, glossy horns or flame-like shapes only if relevant, dramatic shadows, punk glamour, mischievous theatrical edge. Avoid explicit gore, wholesome pastels, and corporate calm."
+    demo: null
+  - slug: "office-siren"
+    name: "Office Siren"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in office siren style: sleek corporate fashion, narrow glasses, pencil skirt or sharp tailoring cues when relevant, gray, black, white, chrome, fluorescent office mood, polished late-1990s attitude. Avoid cottage softness and sporty outdoor gear."
+    demo: null
+  - slug: "mob-wife"
+    name: "Mob Wife"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in mob wife aesthetic: faux fur or leather cues when relevant, gold jewelry, black, leopard print, red lipstick mood, flash-lit nightlife glamour. Avoid quiet luxury minimalism and pastel ballet softness."
+    demo: null
+  - slug: "tomato-girl"
+    name: "Tomato Girl"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in tomato girl style: Mediterranean summer, red tomatoes, white linen, blue sea accents, rustic ceramic plates, sunlit holiday food-and-fashion mood. Avoid winter dark academia and cyberpunk city night."
+    demo: null
+  - slug: "coastal-cowgirl"
+    name: "Coastal Cowgirl"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in coastal cowgirl style: cowboy boots with beach linen, straw hats, denim, shells, sand, turquoise jewelry, sun-faded coastal western mood. Avoid formal luxury and high-tech tactical styling."
+    demo: null
+  - slug: "blokecore"
+    name: "Blokecore"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in blokecore style: vintage football shirts, relaxed denim, pub or street context, sporty casual nostalgia, green pitch colors, red and blue accents. Avoid luxury tailoring and ethereal fantasy styling."
+    demo: null
+  - slug: "ballet-athleisure"
+    name: "Ballet Athleisure"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in ballet athleisure style: wrap tops, leggings, soft sneakers, pale pink, gray, ivory, rehearsal-meets-street styling, graceful sporty comfort. Avoid heavy tactical gear and neon rave mood."
+    demo: null
+  - slug: "quiet-outdoor"
+    name: "Quiet Outdoor"
+    category_id: 19
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in quiet outdoor style: premium hiking basics, muted technical fabrics, foggy trail or cabin context, slate, moss, cream, and rust, restrained nature utility. Avoid loud streetwear graphics and glossy nightclub lighting."
+    demo: null
+  - slug: "nordic-folk"
+    name: "Nordic Folk"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Nordic folk style: rosemaling-like floral curves, carved wood, red, blue, cream, and pine green, winter craft warmth, decorative borders. Avoid cyberpunk neon and generic medieval fantasy clutter."
+    demo: null
+  - slug: "portuguese-azulejo"
+    name: "Portuguese Azulejo"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Portuguese azulejo style: blue-and-white ceramic tile panels, repeated ornamental scenes or geometry, glossy glaze, courtyard light, historic craft patterning. Avoid random cultural symbol mixing and flat plastic surfaces."
+    demo: null
+  - slug: "greek-island"
+    name: "Greek Island"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Greek island style: whitewashed walls, cobalt blue accents, sunlit stone, bougainvillea, sea horizon, simple Mediterranean geometry. Avoid dark industrial interiors and neon cyber dashboards."
+    demo: null
+  - slug: "bali-tropical"
+    name: "Bali Tropical"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Bali tropical style: open-air pavilion, woven textures, volcanic stone, lush greenery, warm wood, water features, spa-like tropical calm. Avoid cold glass offices and heavy Gothic stone."
+    demo: null
+  - slug: "korean-minimal-cafe"
+    name: "Korean Minimal Cafe"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Korean minimal cafe style: pale concrete, soft cream surfaces, sparse furniture, delicate product display, subtle signage without readable text, calm social-media-ready composition. Avoid maximalist color and rustic farmhouse clutter."
+    demo: null
+  - slug: "japanese-city-pop"
+    name: "Japanese City Pop"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Japanese city pop style: 1980s urban summer, pastel sunset, clean illustrated city lights, palm silhouettes, glossy nostalgia, teal, coral, purple, and warm yellow. Avoid dark cyberpunk grime and medieval fantasy."
+    demo: null
+  - slug: "korean-webtoon"
+    name: "Korean Webtoon"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Korean webtoon style: clean digital linework, soft gradients, expressive faces or objects when relevant, vertical-scroll composition feel, polished romantic or urban mood. Avoid gritty Western comic halftone and photorealism."
+    demo: null
+  - slug: "chinese-new-year-modern"
+    name: "Modern Lunar New Year"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in modern Lunar New Year style: red and gold palette, paper-cut-inspired geometry, lantern or floral motifs when relevant, contemporary festive packaging or poster polish. Avoid sacred misuse, random symbol mixing, and dark dystopia."
+    demo: null
+  - slug: "tropical-retro-resort"
+    name: "Tropical Retro Resort"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in tropical retro resort style: palm patterns, rattan, poolside geometry, 1960s-1970s vacation color, coral, turquoise, cream, and sun yellow. Avoid alpine coziness and corporate dashboard layouts."
+    demo: null
+  - slug: "swiss-alpine-modern"
+    name: "Swiss Alpine Modern"
+    category_id: 20
+    source_doc: expanded
+    reusable_prompt: "Create `{{SUBJECT}}` in Swiss alpine modern style: chalet warmth plus clean contemporary lines, pale stone, timber, wool, snow light, red accent, mountain luxury restraint. Avoid tropical colors and cyberpunk city rain."
+    demo: null
