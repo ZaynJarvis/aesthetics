@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Providers } from "@/components/Providers";
 import "./globals.css";
 
@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: "Aesthetics — Design Style Workbook",
   description:
     "A visual atlas of design styles, aesthetics, and image-generation prompts.",
+};
+
+export const viewport: Viewport = {
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
