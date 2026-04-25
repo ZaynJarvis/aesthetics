@@ -738,3 +738,169 @@ This gallery supersedes the first generic demo set. Each image uses a scene that
 ### 140 Art Deco Interior
 
 ![Art Deco Interior style show](../../web/public/generated/140-art-deco-interior-style-show.png)
+
+## Batch 08: Interior, Material, and Photography Lanes (partial)
+
+Note: 158 Teal & Orange Cinema, 159 Pastel Symmetry Cinema, and 160 Fashion Editorial are pending and will land in a follow-up PR.
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 141 | Bauhaus Furniture | tubular-steel chair and primary-accent studio | ../../web/public/generated/141-bauhaus-furniture-style-show.png |
+| 142 | Memphis Interior | terrazzo + zigzag 1980s living room | ../../web/public/generated/142-memphis-interior-style-show.png |
+| 143 | Quiet Luxury | cashmere-and-leather dressing-room corner | ../../web/public/generated/143-quiet-luxury-style-show.png |
+| 144 | Tech Minimal Hardware | aluminum-and-glass device on white | ../../web/public/generated/144-tech-minimal-hardware-style-show.png |
+| 145 | Transparent Gadget | clear-plastic retro-futurist device | ../../web/public/generated/145-transparent-gadget-style-show.png |
+| 146 | Eco Kraft Packaging | recycled paper bag + kraft tube | ../../web/public/generated/146-eco-kraft-packaging-style-show.png |
+| 147 | Apothecary Vintage | amber-glass shelf with brass scale | ../../web/public/generated/147-apothecary-vintage-style-show.png |
+| 148 | Holographic Packaging | iridescent foil pouch and film box | ../../web/public/generated/148-holographic-packaging-style-show.png |
+| 149 | High-Key Beauty | bright soft-lit cosmetic still life | ../../web/public/generated/149-high-key-beauty-style-show.png |
+| 150 | Low-Key Chiaroscuro | single object in narrow beam | ../../web/public/generated/150-low-key-chiaroscuro-style-show.png |
+| 151 | Golden Hour Editorial | warm low-sun lifestyle scene | ../../web/public/generated/151-golden-hour-editorial-style-show.png |
+| 152 | Documentary Realism | candid kitchen-table moment | ../../web/public/generated/152-documentary-realism-style-show.png |
+| 153 | Lo-fi 35mm | grainy snapshot of a diner table | ../../web/public/generated/153-lo-fi-35mm-style-show.png |
+| 154 | Polaroid Snapshot | instant-film bordered photo | ../../web/public/generated/154-polaroid-snapshot-style-show.png |
+| 155 | VHS Camcorder | low-res backyard-at-dusk frame | ../../web/public/generated/155-vhs-camcorder-style-show.png |
+| 156 | Analog Horror | degraded surveillance hallway | ../../web/public/generated/156-analog-horror-style-show.png |
+| 157 | Bleach Bypass | desaturated wet-street city scene | ../../web/public/generated/157-bleach-bypass-style-show.png |
+| 158 | Teal & Orange Cinema | _pending_ | _pending_ |
+| 159 | Pastel Symmetry Cinema | _pending_ | _pending_ |
+| 160 | Fashion Editorial | _pending_ | _pending_ |
+
+### 141 Bauhaus Furniture
+
+![Bauhaus Furniture style show](../../web/public/generated/141-bauhaus-furniture-style-show.png)
+
+### 142 Memphis Interior
+
+![Memphis Interior style show](../../web/public/generated/142-memphis-interior-style-show.png)
+
+### 143 Quiet Luxury
+
+![Quiet Luxury style show](../../web/public/generated/143-quiet-luxury-style-show.png)
+
+### 144 Tech Minimal Hardware
+
+![Tech Minimal Hardware style show](../../web/public/generated/144-tech-minimal-hardware-style-show.png)
+
+### 145 Transparent Gadget
+
+![Transparent Gadget style show](../../web/public/generated/145-transparent-gadget-style-show.png)
+
+### 146 Eco Kraft Packaging
+
+![Eco Kraft Packaging style show](../../web/public/generated/146-eco-kraft-packaging-style-show.png)
+
+### 147 Apothecary Vintage
+
+![Apothecary Vintage style show](../../web/public/generated/147-apothecary-vintage-style-show.png)
+
+### 148 Holographic Packaging
+
+![Holographic Packaging style show](../../web/public/generated/148-holographic-packaging-style-show.png)
+
+### 149 High-Key Beauty
+
+![High-Key Beauty style show](../../web/public/generated/149-high-key-beauty-style-show.png)
+
+### 150 Low-Key Chiaroscuro
+
+![Low-Key Chiaroscuro style show](../../web/public/generated/150-low-key-chiaroscuro-style-show.png)
+
+### 151 Golden Hour Editorial
+
+![Golden Hour Editorial style show](../../web/public/generated/151-golden-hour-editorial-style-show.png)
+
+### 152 Documentary Realism
+
+![Documentary Realism style show](../../web/public/generated/152-documentary-realism-style-show.png)
+
+### 153 Lo-fi 35mm
+
+![Lo-fi 35mm style show](../../web/public/generated/153-lo-fi-35mm-style-show.png)
+
+### 154 Polaroid Snapshot
+
+![Polaroid Snapshot style show](../../web/public/generated/154-polaroid-snapshot-style-show.png)
+
+### 155 VHS Camcorder
+
+![VHS Camcorder style show](../../web/public/generated/155-vhs-camcorder-style-show.png)
+
+### 156 Analog Horror
+
+![Analog Horror style show](../../web/public/generated/156-analog-horror-style-show.png)
+
+### 157 Bleach Bypass
+
+![Bleach Bypass style show](../../web/public/generated/157-bleach-bypass-style-show.png)
+
+## Batch 09: Photography Tail and Illustration / Comics (partial)
+
+Note: 172 Silver Age Comic through 180 Woodcut/Linocut are pending and will land in a follow-up PR.
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 161 | Macro Product | extreme close-up watch movement | ../../web/public/generated/161-macro-product-style-show.png |
+| 162 | Infrared Photo | surreal pale-pink forest, dark sky | ../../web/public/generated/162-infrared-photo-style-show.png |
+| 163 | Tilt-Shift Miniature | toy-like elevated city block | ../../web/public/generated/163-tilt-shift-miniature-style-show.png |
+| 164 | Hyperreal CGI | impossibly clean still life | ../../web/public/generated/164-hyperreal-cgi-style-show.png |
+| 165 | 16-bit Pixel Art | side-scroller fantasy town | ../../web/public/generated/165-16-bit-pixel-art-style-show.png |
+| 166 | Voxel Art | isometric cube-built cottage | ../../web/public/generated/166-voxel-art-style-show.png |
+| 167 | Low Poly | faceted mountain landscape | ../../web/public/generated/167-low-poly-style-show.png |
+| 168 | Cel-Shaded 3D | bold-outlined stylized character room | ../../web/public/generated/168-cel-shaded-3d-style-show.png |
+| 169 | Manga Screentone | dramatic monochrome ink panel | ../../web/public/generated/169-manga-screentone-style-show.png |
+| 170 | Anime Watercolor | countryside train platform at dusk | ../../web/public/generated/170-anime-watercolor-style-show.png |
+| 171 | Golden Age Comic | bold-primary heroic comic panel | ../../web/public/generated/171-golden-age-comic-style-show.png |
+| 172 | Silver Age Comic | _pending_ | _pending_ |
+| 173 | Noir Comic | _pending_ | _pending_ |
+| 174 | Ligne Claire | _pending_ | _pending_ |
+| 175 | Editorial Spot Illustration | _pending_ | _pending_ |
+| 176 | Isometric Illustration | _pending_ | _pending_ |
+| 177 | Sticker Bomb | _pending_ | _pending_ |
+| 178 | Graffiti Wildstyle | _pending_ | _pending_ |
+| 179 | Tattoo Flash | _pending_ | _pending_ |
+| 180 | Woodcut / Linocut | _pending_ | _pending_ |
+
+### 161 Macro Product
+
+![Macro Product style show](../../web/public/generated/161-macro-product-style-show.png)
+
+### 162 Infrared Photo
+
+![Infrared Photo style show](../../web/public/generated/162-infrared-photo-style-show.png)
+
+### 163 Tilt-Shift Miniature
+
+![Tilt-Shift Miniature style show](../../web/public/generated/163-tilt-shift-miniature-style-show.png)
+
+### 164 Hyperreal CGI
+
+![Hyperreal CGI style show](../../web/public/generated/164-hyperreal-cgi-style-show.png)
+
+### 165 16-bit Pixel Art
+
+![16-bit Pixel Art style show](../../web/public/generated/165-16-bit-pixel-art-style-show.png)
+
+### 166 Voxel Art
+
+![Voxel Art style show](../../web/public/generated/166-voxel-art-style-show.png)
+
+### 167 Low Poly
+
+![Low Poly style show](../../web/public/generated/167-low-poly-style-show.png)
+
+### 168 Cel-Shaded 3D
+
+![Cel-Shaded 3D style show](../../web/public/generated/168-cel-shaded-3d-style-show.png)
+
+### 169 Manga Screentone
+
+![Manga Screentone style show](../../web/public/generated/169-manga-screentone-style-show.png)
+
+### 170 Anime Watercolor
+
+![Anime Watercolor style show](../../web/public/generated/170-anime-watercolor-style-show.png)
+
+### 171 Golden Age Comic
+
+![Golden Age Comic style show](../../web/public/generated/171-golden-age-comic-style-show.png)
