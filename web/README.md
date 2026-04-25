@@ -9,7 +9,7 @@ npm install
 npm run dev    # http://localhost:3000
 ```
 
-`predev` and `prebuild` copy images from `../examples/style-show/generated/` into `public/generated/`. Source images stay where they are.
+All gallery PNGs live at `web/public/generated/` and are served directly by Next.js at `/generated/<file>.png`. There is no build-time copy step — Codex writes new batch images straight into this directory.
 
 ## Build & start
 
@@ -20,14 +20,14 @@ npm run start
 
 ## Deploy on Railway
 
-The repo root has a `nixpacks.toml`. Pointing a Railway service at the repo will:
+Set the service root directory to `web` and Railpack will auto-detect Next.js:
 
-1. install `nodejs_20`
-2. run `cd web && npm ci`
-3. run `cd web && npm run build`
-4. start with `cd web && npm run start`
+1. install Node 20+
+2. run `npm ci`
+3. run `npm run build`
+4. start with `npm run start`
 
-No persistent volume is needed; images are baked into the static output during build.
+No persistent volume is needed; images are committed in `public/generated/` and baked into the build artifact.
 
 ## Features
 

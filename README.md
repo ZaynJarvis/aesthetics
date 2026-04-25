@@ -63,7 +63,7 @@ This workbook turns those names into concrete visual markers and reusable prompt
 ├── categories/
 ├── data/
 ├── examples/
-│   ├── generated/
+│   ├── (moved → web/public/generated/)
 │   ├── source-prompts/
 │   └── style-show/
 │       ├── generated/
