@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "node",
+  "installCmd": "cd web && npm ci",
+  "buildCmd": "cd web && npm run build",
+  "deploy": {
+    "startCommand": "cd web && npm run start"
+  }
+}
