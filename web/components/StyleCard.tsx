@@ -29,7 +29,7 @@ export function StyleCard({ style, showPrompts }: Props) {
         type="button"
         onClick={onCopy}
         title={isPending ? "Pending — copies the reusable {{SUBJECT}} prompt" : "Click to copy prompt"}
-        className="group relative aspect-square w-full overflow-hidden rounded-lg border border-[var(--card-border)] bg-[var(--card-bg)] transition hover:border-[var(--page-fg)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--page-fg)]"
+        className="group relative aspect-square w-full overflow-hidden rounded-lg bg-[var(--card-bg)] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--page-fg)]"
       >
         {demo && webpName ? (
           // eslint-disable-next-line @next/next/no-img-element

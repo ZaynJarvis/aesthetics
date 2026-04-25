@@ -74,10 +74,10 @@ export function Gallery({ data }: { data: GalleryData }) {
               type="button"
               onClick={() => setShowPrompts((v) => !v)}
               aria-pressed={showPrompts}
-              className={`h-8 rounded-full border px-3 text-xs font-medium transition ${
+              className={`h-8 rounded-full px-3 text-xs font-medium transition ${
                 showPrompts
-                  ? "border-[var(--page-fg)] bg-[var(--page-fg)] text-[var(--page-bg)]"
-                  : "border-[var(--page-fg)]/20 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
+                  ? "bg-[var(--page-fg)] text-[var(--page-bg)]"
+                  : "bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
               }`}
             >
               {showPrompts ? "Hide" : "Prompts"}
@@ -95,10 +95,10 @@ export function Gallery({ data }: { data: GalleryData }) {
                 onClick={() => setMenuOpen((v) => !v)}
                 aria-label="All categories"
                 aria-expanded={menuOpen}
-                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition ${
+                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition ${
                   menuOpen
-                    ? "border-[var(--page-fg)]/30 bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
-                    : "border-[var(--page-fg)]/20 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
+                    ? "bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
+                    : "bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
                 }`}
               >
                 <svg width="13" height="11" viewBox="0 0 13 11" fill="currentColor">
@@ -150,10 +150,10 @@ export function Gallery({ data }: { data: GalleryData }) {
                     key={c.id}
                     type="button"
                     onClick={() => toggleCategory(c.id)}
-                    className={`shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-medium transition ${
+                    className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${
                       isSelected
-                        ? "border-[var(--page-fg)]/25 bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
-                        : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--muted)] hover:text-[var(--page-fg)]"
+                        ? "bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
+                        : "bg-[var(--card-bg)] text-[var(--muted)] hover:text-[var(--page-fg)]"
                     }`}
                   >
                     <span className="mr-1.5 tabular-nums opacity-70">
