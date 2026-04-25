@@ -213,3 +213,108 @@ This gallery supersedes the first generic demo set. Each image uses a scene that
 ### 40 Hot Pink Pop Glamour
 
 ![Hot Pink Pop Glamour style show](generated/40-hot-pink-pop-glamour-style-show.png)
+
+## Batch 03: Historical, Print, UI, and World Style Showcase
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 41 | Classical Greco-Roman | marble forum sculpture courtyard | generated/41-classical-greco-roman-style-show.png |
+| 42 | Baroque Drama | candlelit palace staircase | generated/42-baroque-drama-style-show.png |
+| 43 | Rococo Ornament | pastel gilded salon | generated/43-rococo-ornament-style-show.png |
+| 44 | Ukiyo-e | woodblock wave and bridge print | generated/44-ukiyo-e-style-show.png |
+| 45 | Constructivism | industrial diagonal poster | generated/45-constructivism-style-show.png |
+| 46 | Pop Art | comic-style consumer display | generated/46-pop-art-style-show.png |
+| 47 | Psychedelic 1960s Poster | liquid color concert poster | generated/47-psychedelic-1960s-poster-style-show.png |
+| 48 | Punk DIY Flyer | photocopied torn gig wall | generated/48-punk-diy-flyer-style-show.png |
+| 49 | Grunge Typography | distressed 1990s poster wall | generated/49-grunge-typography-style-show.png |
+| 50 | Material Design | clean mobile task app | generated/50-material-design-style-show.png |
+| 51 | Glassmorphism | frosted dashboard over blurred gradient | generated/51-glassmorphism-style-show.png |
+| 52 | Skeuomorphic iOS | early mobile organizer UI | generated/52-skeuomorphic-ios-style-show.png |
+| 53 | Steampunk | brass observatory workshop | generated/53-steampunk-style-show.png |
+| 54 | Dieselpunk | smoky aircraft hangar | generated/54-dieselpunk-style-show.png |
+| 55 | Afrofuturism | cosmic fashion-tech stage | generated/55-afrofuturism-style-show.png |
+| 56 | Gothic Cathedral | stained-glass vaulted nave | generated/56-gothic-cathedral-style-show.png |
+| 57 | Islamic Geometric | star-tessellated tile courtyard | generated/57-islamic-geometric-style-show.png |
+| 58 | Dark Academia | candlelit old library desk | generated/58-dark-academia-style-show.png |
+| 59 | Japandi | low pale-oak natural interior | generated/59-japandi-style-show.png |
+| 60 | Neo-Noir Neon | rainy neon motel office | generated/60-neo-noir-neon-style-show.png |
+
+### 41 Classical Greco-Roman
+
+![Classical Greco-Roman style show](generated/41-classical-greco-roman-style-show.png)
+
+### 42 Baroque Drama
+
+![Baroque Drama style show](generated/42-baroque-drama-style-show.png)
+
+### 43 Rococo Ornament
+
+![Rococo Ornament style show](generated/43-rococo-ornament-style-show.png)
+
+### 44 Ukiyo-e
+
+![Ukiyo-e style show](generated/44-ukiyo-e-style-show.png)
+
+### 45 Constructivism
+
+![Constructivism style show](generated/45-constructivism-style-show.png)
+
+### 46 Pop Art
+
+![Pop Art style show](generated/46-pop-art-style-show.png)
+
+### 47 Psychedelic 1960s Poster
+
+![Psychedelic 1960s Poster style show](generated/47-psychedelic-1960s-poster-style-show.png)
+
+### 48 Punk DIY Flyer
+
+![Punk DIY Flyer style show](generated/48-punk-diy-flyer-style-show.png)
+
+### 49 Grunge Typography
+
+![Grunge Typography style show](generated/49-grunge-typography-style-show.png)
+
+### 50 Material Design
+
+![Material Design style show](generated/50-material-design-style-show.png)
+
+### 51 Glassmorphism
+
+![Glassmorphism style show](generated/51-glassmorphism-style-show.png)
+
+### 52 Skeuomorphic iOS
+
+![Skeuomorphic iOS style show](generated/52-skeuomorphic-ios-style-show.png)
+
+### 53 Steampunk
+
+![Steampunk style show](generated/53-steampunk-style-show.png)
+
+### 54 Dieselpunk
+
+![Dieselpunk style show](generated/54-dieselpunk-style-show.png)
+
+### 55 Afrofuturism
+
+![Afrofuturism style show](generated/55-afrofuturism-style-show.png)
+
+### 56 Gothic Cathedral
+
+![Gothic Cathedral style show](generated/56-gothic-cathedral-style-show.png)
+
+### 57 Islamic Geometric
+
+![Islamic Geometric style show](generated/57-islamic-geometric-style-show.png)
+
+### 58 Dark Academia
+
+![Dark Academia style show](generated/58-dark-academia-style-show.png)
+
+### 59 Japandi
+
+![Japandi style show](generated/59-japandi-style-show.png)
+
+### 60 Neo-Noir Neon
+
+![Neo-Noir Neon style show](generated/60-neo-noir-neon-style-show.png)
