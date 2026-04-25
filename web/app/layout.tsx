@@ -3,9 +3,15 @@ import { Providers } from "@/components/Providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aesthetics — Design Style Workbook",
+  title: "Gallery",
   description:
     "A visual atlas of design styles, aesthetics, and image-generation prompts.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    title: "Gallery",
+    statusBarStyle: "black-translucent",
+  },
 };
 
 export const viewport: Viewport = {
