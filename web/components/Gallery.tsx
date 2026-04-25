@@ -141,7 +141,10 @@ export function Gallery({ data }: { data: GalleryData }) {
             </div>
 
             {/* Scrollable category chips — selected first */}
-            <div className="scrollbar-none flex gap-1 overflow-x-auto">
+            <div
+              className="scrollbar-none flex gap-1 overflow-x-auto"
+              style={{ maskImage: "linear-gradient(to right, transparent 0px, black 20px, black calc(100% - 24px), transparent 100%)" }}
+            >
               {sortedChips.map((c) => {
                 const isSelected = selectedIds.has(c.id);
                 const filled = c.styles.filter((s) => s.demo).length;
