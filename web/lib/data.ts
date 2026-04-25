@@ -15,9 +15,30 @@ type RawStyle = {
 
 let cache: GalleryData | null = null;
 
+async function resolveStylesYamlPath(): Promise<string> {
+  let currentDir = process.cwd();
+
+  while (true) {
+    const candidate = path.join(currentDir, "data", "styles.yaml");
+
+    try {
+      await fs.access(candidate);
+      return candidate;
+    } catch {
+      const parentDir = path.dirname(currentDir);
+      if (parentDir === currentDir) {
+        throw new Error(
+          `Could not locate data/styles.yaml from working directory ${process.cwd()}`,
+        );
+      }
+      currentDir = parentDir;
+    }
+  }
+}
+
 export async function loadGallery(): Promise<GalleryData> {
   if (cache) return cache;
-  const yamlPath = path.resolve(process.cwd(), "..", "data", "styles.yaml");
+  const yamlPath = await resolveStylesYamlPath();
   const text = await fs.readFile(yamlPath, "utf-8");
   const raw = parse(text) as { categories: RawCategory[]; styles: RawStyle[] };
 
