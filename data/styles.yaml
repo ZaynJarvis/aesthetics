@@ -908,13 +908,23 @@ styles:
     category_id: 04
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in dreamcore style: soft surreal environment, nostalgic objects, strange scale, pastel haze, floating symbols, gentle unease, half-remembered childhood mood. Avoid hard cyberpunk neon and documentary realism."
-    demo: null
+    demo:
+      production_index: 98
+      batch: 05
+      image: "98-dreamcore-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "weirdcore"
     name: "Weirdcore"
     category_id: 04
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in weirdcore style: uncanny internet collage, low-res textures, distorted rooms, floating text-like fragments, surreal nostalgia, bright but unsettling color. Avoid elegant editorial polish and conventional fantasy scenery."
-    demo: null
+    demo:
+      production_index: 99
+      batch: 05
+      image: "99-weirdcore-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "afrofuturism"
     name: "Afrofuturism"
     category_id: 04
@@ -932,7 +942,12 @@ styles:
     category_id: 04
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in techwear tactical style: matte black technical fabrics, modular straps, weatherproof layers, utility pockets, urban rain, compact hardware, functional stealth silhouette. Avoid ornate fantasy, pastel cuteness, and glossy luxury."
-    demo: null
+    demo:
+      production_index: 100
+      batch: 05
+      image: "100-techwear-tactical-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "viking-norse"
     name: "Viking / Norse"
     category_id: 05
