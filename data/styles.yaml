@@ -1442,49 +1442,89 @@ styles:
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Bauhaus furniture style: tubular steel, leather or canvas, geometric simplicity, function-first structure, primary accents, white studio space, rational modernism. Avoid ornate carving and plush luxury excess."
-    demo: null
+    demo:
+      production_index: 141
+      batch: 08
+      image: "141-bauhaus-furniture-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "memphis-interior"
     name: "Memphis Interior"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Memphis interior style: colorful laminate, zigzags, squiggles, terrazzo, playful geometric furniture, pastel brights, black pattern accents, 1980s postmodern wit. Avoid quiet beige minimalism and natural rustic mood."
-    demo: null
+    demo:
+      production_index: 142
+      batch: 08
+      image: "142-memphis-interior-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "quiet-luxury"
     name: "Quiet Luxury"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in quiet luxury style: exceptional materials, muted palette, precise tailoring, stone, cashmere, leather, refined lighting, no obvious logos, calm wealth. Avoid loud branding, glitter, and cartoon color."
-    demo: null
+    demo:
+      production_index: 143
+      batch: 08
+      image: "143-quiet-luxury-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "tech-minimal-hardware"
     name: "Tech Minimal Hardware"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in tech minimal hardware style: seamless aluminum, matte glass, precise chamfers, white or charcoal background, sparse product lighting, engineered restraint. Avoid decorative ornament, distressed paper, and loud neon."
-    demo: null
+    demo:
+      production_index: 144
+      batch: 08
+      image: "144-tech-minimal-hardware-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "transparent-gadget"
     name: "Transparent Gadget"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in transparent gadget style: clear plastic shell, visible internal components, tiny screws, circuit detail, smoky translucent material, retro-future hardware curiosity. Avoid opaque luxury leather and natural wood dominance."
-    demo: null
+    demo:
+      production_index: 145
+      batch: 08
+      image: "145-transparent-gadget-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "eco-kraft-packaging"
     name: "Eco Kraft Packaging"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in eco kraft packaging style: recycled paper, simple ink graphics, green accents, honest material texture, minimal labels, natural product photography, sustainable brand mood. Avoid plastic chrome and neon synthetic surfaces."
-    demo: null
+    demo:
+      production_index: 146
+      batch: 08
+      image: "146-eco-kraft-packaging-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "apothecary-vintage"
     name: "Apothecary Vintage"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in vintage apothecary style: amber glass, cream labels, engraved botanical line art, serif typography feel, brass, dark wood shelves, medicinal heritage mood. Avoid futuristic holograms and playful cartoon UI."
-    demo: null
+    demo:
+      production_index: 147
+      batch: 08
+      image: "147-apothecary-vintage-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "holographic-packaging"
     name: "Holographic Packaging"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in holographic packaging style: iridescent foil, reflective film, prismatic color shifts, glossy folds, premium futuristic shelf presence, black or white contrast. Avoid rough kraft paper and antique sepia."
-    demo: null
+    demo:
+      production_index: 148
+      batch: 08
+      image: "148-holographic-packaging-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "film-noir"
     name: "Film Noir"
     category_id: 07
@@ -1514,55 +1554,100 @@ styles:
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in high-key beauty photography style: bright soft light, clean white background, smooth highlights, low shadows, polished surfaces, airy premium mood. Avoid gritty grain, harsh noir contrast, and clutter."
-    demo: null
+    demo:
+      production_index: 149
+      batch: 08
+      image: "149-high-key-beauty-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "low-key-chiaroscuro"
     name: "Low-Key Chiaroscuro"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in low-key chiaroscuro photography style: deep black shadows, narrow light beam, sculptural highlights, dramatic contrast, rich texture, intimate darkness. Avoid flat even lighting and pastel web aesthetics."
-    demo: null
+    demo:
+      production_index: 150
+      batch: 08
+      image: "150-low-key-chiaroscuro-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "golden-hour-editorial"
     name: "Golden Hour Editorial"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in golden hour editorial style: warm low sun, long shadows, cinematic lens flare, natural skin and material texture, relaxed premium lifestyle composition. Avoid fluorescent office light and cyber neon."
-    demo: null
+    demo:
+      production_index: 151
+      batch: 08
+      image: "151-golden-hour-editorial-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "documentary-realism"
     name: "Documentary Realism"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in documentary realism style: candid framing, natural available light, honest imperfections, real environments, unobtrusive composition, believable human-scale detail. Avoid over-staged glamour, CGI perfection, and fantasy styling."
-    demo: null
+    demo:
+      production_index: 152
+      batch: 08
+      image: "152-documentary-realism-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "lo-fi-35mm"
     name: "Lo-fi 35mm"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in lo-fi 35mm film style: grain, slight blur, imperfect exposure, warm color cast, casual snapshot framing, lived-in realism. Avoid sterile digital sharpness and slick advertising polish."
-    demo: null
+    demo:
+      production_index: 153
+      batch: 08
+      image: "153-lo-fi-35mm-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "polaroid-snapshot"
     name: "Polaroid Snapshot"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Polaroid snapshot style: instant film border, soft flash, faded colors, slight chemical unevenness, close casual framing, nostalgic physical-photo feel. Avoid ultra-clean digital rendering and dramatic cinema lighting."
-    demo: null
+    demo:
+      production_index: 154
+      batch: 08
+      image: "154-polaroid-snapshot-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "vhs-camcorder"
     name: "VHS Camcorder"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in VHS camcorder style: low-resolution video still, timestamp-like composition without readable fake text, scanlines, chroma noise, blown highlights, home-video framing. Avoid modern 4K clarity and glossy product lighting."
-    demo: null
+    demo:
+      production_index: 155
+      batch: 08
+      image: "155-vhs-camcorder-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "analog-horror"
     name: "Analog Horror"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in analog horror style: degraded tape texture, dark empty spaces, washed-out color, surveillance framing, ominous stillness, subtle visual corruption. Avoid explicit gore, cartoon monsters, and polished cinematic clarity."
-    demo: null
+    demo:
+      production_index: 156
+      batch: 08
+      image: "156-analog-horror-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "bleach-bypass"
     name: "Bleach Bypass"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in bleach bypass cinema style: desaturated color, high contrast, metallic highlights, gritty texture, cold drama, rugged realism. Avoid candy color, soft romantic haze, and flat vector graphics."
-    demo: null
+    demo:
+      production_index: 157
+      batch: 08
+      image: "157-bleach-bypass-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "teal-orange-cinema"
     name: "Teal and Orange Cinema"
     category_id: 07
@@ -1586,25 +1671,45 @@ styles:
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in macro product photography style: close-up detail, shallow depth of field, precise highlights, material texture, studio reflections, premium tactile focus. Avoid wide scenic backgrounds and cartoon simplification."
-    demo: null
+    demo:
+      production_index: 161
+      batch: 09
+      image: "161-macro-product-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "infrared-photo"
     name: "Infrared Photo"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in infrared photography style: surreal pale foliage, dark skies, high contrast, white-pink vegetation, dreamlike landscape or object context, crisp photographic detail. Avoid normal natural color and flat vector rendering."
-    demo: null
+    demo:
+      production_index: 162
+      batch: 09
+      image: "162-infrared-photo-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "tilt-shift-miniature"
     name: "Tilt-Shift Miniature"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in tilt-shift miniature style: elevated viewpoint, narrow focus band, toy-like scale, bright color, miniature city or scene illusion, shallow depth. Avoid eye-level documentary realism and dark horror grade."
-    demo: null
+    demo:
+      production_index: 163
+      batch: 09
+      image: "163-tilt-shift-miniature-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "hyperreal-cgi"
     name: "Hyperreal CGI"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in hyperreal CGI style: impossibly clean materials, ray-traced reflections, perfect studio lighting, cinematic depth, smooth surfaces, crisp high-resolution detail. Avoid handmade paper texture and analog film grain."
-    demo: null
+    demo:
+      production_index: 164
+      batch: 09
+      image: "164-hyperreal-cgi-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "8-bit-pixel-art"
     name: "8-bit Pixel Art"
     category_id: 08
@@ -1622,43 +1727,78 @@ styles:
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in 16-bit pixel art style: richer sprite detail, limited but vibrant palette, crisp pixel clusters, side-scroller or RPG scene depth, nostalgic console polish. Avoid photorealism and vector-smooth edges."
-    demo: null
+    demo:
+      production_index: 165
+      batch: 09
+      image: "165-16-bit-pixel-art-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "voxel-art"
     name: "Voxel Art"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in voxel art style: cube-built forms, isometric view, chunky 3D pixels, simplified geometry, playful miniature scene, clean shadows. Avoid realistic curves, painterly texture, and high-poly complexity."
-    demo: null
+    demo:
+      production_index: 166
+      batch: 09
+      image: "166-voxel-art-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "low-poly"
     name: "Low Poly"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in low-poly style: faceted geometry, visible polygon planes, simplified forms, clean lighting, stylized 3D composition, restrained color palette. Avoid photoreal detail, ornate pattern, and soft brushwork."
-    demo: null
+    demo:
+      production_index: 167
+      batch: 09
+      image: "167-low-poly-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "cel-shaded-3d"
     name: "Cel-Shaded 3D"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in cel-shaded 3D style: bold outline, flat color planes, crisp highlights, cartoon-like depth, graphic shadows, dynamic game-render energy. Avoid photoreal materials and grungy print texture."
-    demo: null
+    demo:
+      production_index: 168
+      batch: 09
+      image: "168-cel-shaded-3d-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "manga-screentone"
     name: "Manga Screentone"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in manga screentone style: black ink linework, halftone shading, speed lines when useful, expressive framing, monochrome page texture, crisp panel energy. Avoid full-color painterly realism and 3D chrome."
-    demo: null
+    demo:
+      production_index: 169
+      batch: 09
+      image: "169-manga-screentone-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "anime-watercolor"
     name: "Anime Watercolor"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in soft anime watercolor style: hand-painted backgrounds, gentle natural light, rounded forms, delicate linework, warm atmospheric color, quiet emotional tone. Avoid copying any specific studio, harsh cyberpunk, and gritty realism."
-    demo: null
+    demo:
+      production_index: 170
+      batch: 09
+      image: "170-anime-watercolor-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "golden-age-comic"
     name: "Golden Age Comic"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Golden Age comic style: bold primary colors, thick ink lines, dramatic captions without readable fake text, pulp action framing, aged paper texture. Avoid modern glossy gradients and photoreal cinema."
-    demo: null
+    demo:
+      production_index: 171
+      batch: 09
+      image: "171-golden-age-comic-style-show.png"
+      scene: ""
+      exact_prompt: ""
   - slug: "silver-age-comic"
     name: "Silver Age Comic"
     category_id: 08

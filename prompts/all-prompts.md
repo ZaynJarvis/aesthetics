@@ -597,42 +597,42 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### bauhaus-furniture
 - **Name:** Bauhaus Furniture
 - **Prompt:** Create `{{SUBJECT}}` in Bauhaus furniture style: tubular steel, leather or canvas, geometric simplicity, function-first structure, primary accents, white studio space, rational modernism. Avoid ornate carving and plush luxury excess.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/141-bauhaus-furniture-style-show.png
 
 ### memphis-interior
 - **Name:** Memphis Interior
 - **Prompt:** Create `{{SUBJECT}}` in Memphis interior style: colorful laminate, zigzags, squiggles, terrazzo, playful geometric furniture, pastel brights, black pattern accents, 1980s postmodern wit. Avoid quiet beige minimalism and natural rustic mood.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/142-memphis-interior-style-show.png
 
 ### quiet-luxury
 - **Name:** Quiet Luxury
 - **Prompt:** Create `{{SUBJECT}}` in quiet luxury style: exceptional materials, muted palette, precise tailoring, stone, cashmere, leather, refined lighting, no obvious logos, calm wealth. Avoid loud branding, glitter, and cartoon color.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/143-quiet-luxury-style-show.png
 
 ### tech-minimal-hardware
 - **Name:** Tech Minimal Hardware
 - **Prompt:** Create `{{SUBJECT}}` in tech minimal hardware style: seamless aluminum, matte glass, precise chamfers, white or charcoal background, sparse product lighting, engineered restraint. Avoid decorative ornament, distressed paper, and loud neon.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/144-tech-minimal-hardware-style-show.png
 
 ### transparent-gadget
 - **Name:** Transparent Gadget
 - **Prompt:** Create `{{SUBJECT}}` in transparent gadget style: clear plastic shell, visible internal components, tiny screws, circuit detail, smoky translucent material, retro-future hardware curiosity. Avoid opaque luxury leather and natural wood dominance.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/145-transparent-gadget-style-show.png
 
 ### eco-kraft-packaging
 - **Name:** Eco Kraft Packaging
 - **Prompt:** Create `{{SUBJECT}}` in eco kraft packaging style: recycled paper, simple ink graphics, green accents, honest material texture, minimal labels, natural product photography, sustainable brand mood. Avoid plastic chrome and neon synthetic surfaces.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/146-eco-kraft-packaging-style-show.png
 
 ### apothecary-vintage
 - **Name:** Apothecary Vintage
 - **Prompt:** Create `{{SUBJECT}}` in vintage apothecary style: amber glass, cream labels, engraved botanical line art, serif typography feel, brass, dark wood shelves, medicinal heritage mood. Avoid futuristic holograms and playful cartoon UI.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/147-apothecary-vintage-style-show.png
 
 ### holographic-packaging
 - **Name:** Holographic Packaging
 - **Prompt:** Create `{{SUBJECT}}` in holographic packaging style: iridescent foil, reflective film, prismatic color shifts, glossy folds, premium futuristic shelf presence, black or white contrast. Avoid rough kraft paper and antique sepia.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/148-holographic-packaging-style-show.png
 
 ## 07 Photography, Cinema, Color Grading
 
@@ -649,47 +649,47 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### high-key-beauty
 - **Name:** High-Key Beauty
 - **Prompt:** Create `{{SUBJECT}}` in high-key beauty photography style: bright soft light, clean white background, smooth highlights, low shadows, polished surfaces, airy premium mood. Avoid gritty grain, harsh noir contrast, and clutter.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/149-high-key-beauty-style-show.png
 
 ### low-key-chiaroscuro
 - **Name:** Low-Key Chiaroscuro
 - **Prompt:** Create `{{SUBJECT}}` in low-key chiaroscuro photography style: deep black shadows, narrow light beam, sculptural highlights, dramatic contrast, rich texture, intimate darkness. Avoid flat even lighting and pastel web aesthetics.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/150-low-key-chiaroscuro-style-show.png
 
 ### golden-hour-editorial
 - **Name:** Golden Hour Editorial
 - **Prompt:** Create `{{SUBJECT}}` in golden hour editorial style: warm low sun, long shadows, cinematic lens flare, natural skin and material texture, relaxed premium lifestyle composition. Avoid fluorescent office light and cyber neon.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/151-golden-hour-editorial-style-show.png
 
 ### documentary-realism
 - **Name:** Documentary Realism
 - **Prompt:** Create `{{SUBJECT}}` in documentary realism style: candid framing, natural available light, honest imperfections, real environments, unobtrusive composition, believable human-scale detail. Avoid over-staged glamour, CGI perfection, and fantasy styling.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/152-documentary-realism-style-show.png
 
 ### lo-fi-35mm
 - **Name:** Lo-fi 35mm
 - **Prompt:** Create `{{SUBJECT}}` in lo-fi 35mm film style: grain, slight blur, imperfect exposure, warm color cast, casual snapshot framing, lived-in realism. Avoid sterile digital sharpness and slick advertising polish.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/153-lo-fi-35mm-style-show.png
 
 ### polaroid-snapshot
 - **Name:** Polaroid Snapshot
 - **Prompt:** Create `{{SUBJECT}}` in Polaroid snapshot style: instant film border, soft flash, faded colors, slight chemical unevenness, close casual framing, nostalgic physical-photo feel. Avoid ultra-clean digital rendering and dramatic cinema lighting.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/154-polaroid-snapshot-style-show.png
 
 ### vhs-camcorder
 - **Name:** VHS Camcorder
 - **Prompt:** Create `{{SUBJECT}}` in VHS camcorder style: low-resolution video still, timestamp-like composition without readable fake text, scanlines, chroma noise, blown highlights, home-video framing. Avoid modern 4K clarity and glossy product lighting.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/155-vhs-camcorder-style-show.png
 
 ### analog-horror
 - **Name:** Analog Horror
 - **Prompt:** Create `{{SUBJECT}}` in analog horror style: degraded tape texture, dark empty spaces, washed-out color, surveillance framing, ominous stillness, subtle visual corruption. Avoid explicit gore, cartoon monsters, and polished cinematic clarity.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/156-analog-horror-style-show.png
 
 ### bleach-bypass
 - **Name:** Bleach Bypass
 - **Prompt:** Create `{{SUBJECT}}` in bleach bypass cinema style: desaturated color, high contrast, metallic highlights, gritty texture, cold drama, rugged realism. Avoid candy color, soft romantic haze, and flat vector graphics.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/157-bleach-bypass-style-show.png
 
 ### teal-orange-cinema
 - **Name:** Teal and Orange Cinema
@@ -709,22 +709,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### macro-product
 - **Name:** Macro Product
 - **Prompt:** Create `{{SUBJECT}}` in macro product photography style: close-up detail, shallow depth of field, precise highlights, material texture, studio reflections, premium tactile focus. Avoid wide scenic backgrounds and cartoon simplification.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/161-macro-product-style-show.png
 
 ### infrared-photo
 - **Name:** Infrared Photo
 - **Prompt:** Create `{{SUBJECT}}` in infrared photography style: surreal pale foliage, dark skies, high contrast, white-pink vegetation, dreamlike landscape or object context, crisp photographic detail. Avoid normal natural color and flat vector rendering.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/162-infrared-photo-style-show.png
 
 ### tilt-shift-miniature
 - **Name:** Tilt-Shift Miniature
 - **Prompt:** Create `{{SUBJECT}}` in tilt-shift miniature style: elevated viewpoint, narrow focus band, toy-like scale, bright color, miniature city or scene illusion, shallow depth. Avoid eye-level documentary realism and dark horror grade.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/163-tilt-shift-miniature-style-show.png
 
 ### hyperreal-cgi
 - **Name:** Hyperreal CGI
 - **Prompt:** Create `{{SUBJECT}}` in hyperreal CGI style: impossibly clean materials, ray-traced reflections, perfect studio lighting, cinematic depth, smooth surfaces, crisp high-resolution detail. Avoid handmade paper texture and analog film grain.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/164-hyperreal-cgi-style-show.png
 
 ## 08 Illustration, Comics, Games
 
@@ -736,37 +736,37 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### 16-bit-pixel-art
 - **Name:** 16-bit Pixel Art
 - **Prompt:** Create `{{SUBJECT}}` in 16-bit pixel art style: richer sprite detail, limited but vibrant palette, crisp pixel clusters, side-scroller or RPG scene depth, nostalgic console polish. Avoid photorealism and vector-smooth edges.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/165-16-bit-pixel-art-style-show.png
 
 ### voxel-art
 - **Name:** Voxel Art
 - **Prompt:** Create `{{SUBJECT}}` in voxel art style: cube-built forms, isometric view, chunky 3D pixels, simplified geometry, playful miniature scene, clean shadows. Avoid realistic curves, painterly texture, and high-poly complexity.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/166-voxel-art-style-show.png
 
 ### low-poly
 - **Name:** Low Poly
 - **Prompt:** Create `{{SUBJECT}}` in low-poly style: faceted geometry, visible polygon planes, simplified forms, clean lighting, stylized 3D composition, restrained color palette. Avoid photoreal detail, ornate pattern, and soft brushwork.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/167-low-poly-style-show.png
 
 ### cel-shaded-3d
 - **Name:** Cel-Shaded 3D
 - **Prompt:** Create `{{SUBJECT}}` in cel-shaded 3D style: bold outline, flat color planes, crisp highlights, cartoon-like depth, graphic shadows, dynamic game-render energy. Avoid photoreal materials and grungy print texture.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/168-cel-shaded-3d-style-show.png
 
 ### manga-screentone
 - **Name:** Manga Screentone
 - **Prompt:** Create `{{SUBJECT}}` in manga screentone style: black ink linework, halftone shading, speed lines when useful, expressive framing, monochrome page texture, crisp panel energy. Avoid full-color painterly realism and 3D chrome.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/169-manga-screentone-style-show.png
 
 ### anime-watercolor
 - **Name:** Anime Watercolor
 - **Prompt:** Create `{{SUBJECT}}` in soft anime watercolor style: hand-painted backgrounds, gentle natural light, rounded forms, delicate linework, warm atmospheric color, quiet emotional tone. Avoid copying any specific studio, harsh cyberpunk, and gritty realism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/170-anime-watercolor-style-show.png
 
 ### golden-age-comic
 - **Name:** Golden Age Comic
 - **Prompt:** Create `{{SUBJECT}}` in Golden Age comic style: bold primary colors, thick ink lines, dramatic captions without readable fake text, pulp action framing, aged paper texture. Avoid modern glossy gradients and photoreal cinema.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/171-golden-age-comic-style-show.png
 
 ### silver-age-comic
 - **Name:** Silver Age Comic
