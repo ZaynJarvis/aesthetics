@@ -16,7 +16,7 @@ export function ThemeToggle() {
       type="button"
       aria-label="Toggle theme"
       onClick={() => setTheme(next)}
-      className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--page-fg)] transition hover:opacity-80"
+      className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[var(--card-border)]/60 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] transition hover:bg-[var(--page-fg)]/[0.1]"
     >
       {/* Always render both for SSR stability; CSS hides one */}
       <svg

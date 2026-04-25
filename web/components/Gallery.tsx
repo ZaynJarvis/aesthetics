@@ -61,7 +61,7 @@ export function Gallery({ data }: { data: GalleryData }) {
 
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-30 border-b border-[var(--card-border)] bg-[var(--page-bg)]/85 backdrop-blur">
+      <header className="sticky top-0 z-30 border-b border-[var(--card-border)] bg-[var(--page-bg)]/85 backdrop-blur pt-[env(safe-area-inset-top,0px)]">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
           <div className="flex items-baseline gap-3">
             <span className="text-base font-semibold tracking-tight">Aesthetics</span>
@@ -77,7 +77,7 @@ export function Gallery({ data }: { data: GalleryData }) {
               className={`h-8 rounded-full border px-3 text-xs font-medium transition ${
                 showPrompts
                   ? "border-[var(--page-fg)] bg-[var(--page-fg)] text-[var(--page-bg)]"
-                  : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--page-fg)] hover:opacity-80"
+                  : "border-[var(--card-border)]/60 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
               }`}
             >
               {showPrompts ? "Hide" : "Prompts"}
@@ -87,7 +87,7 @@ export function Gallery({ data }: { data: GalleryData }) {
         </div>
 
         <nav className="mx-auto max-w-7xl px-2 sm:px-4">
-          <div className="flex items-center gap-1 pb-2 pt-1 lg:pb-4">
+          <div className="flex items-center gap-1 pb-2 pt-2.5 sm:pt-1.5 lg:pb-4">
             {/* Hamburger — all categories dropdown */}
             <div ref={menuRef} className="relative shrink-0">
               <button
@@ -98,7 +98,7 @@ export function Gallery({ data }: { data: GalleryData }) {
                 className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition ${
                   menuOpen
                     ? "border-[var(--page-fg)]/30 bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
-                    : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--page-fg)] hover:opacity-80"
+                    : "border-[var(--card-border)]/60 bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
                 }`}
               >
                 <svg width="13" height="11" viewBox="0 0 13 11" fill="currentColor">
@@ -109,7 +109,7 @@ export function Gallery({ data }: { data: GalleryData }) {
               </button>
 
               {menuOpen && (
-                <div className="absolute left-0 top-10 z-50 max-h-80 w-56 overflow-y-auto rounded-xl border border-[var(--card-border)] bg-[var(--page-bg)] py-1 shadow-lg">
+                <div className="absolute left-0 top-10 z-50 max-h-80 w-64 overflow-y-auto rounded-xl border border-[var(--card-border)] bg-[var(--page-bg)] py-1 shadow-lg">
                   {data.categories.map((c) => {
                     const isSelected = selectedIds.has(c.id);
                     const filled = c.styles.filter((s) => s.demo).length;
@@ -118,19 +118,19 @@ export function Gallery({ data }: { data: GalleryData }) {
                         key={c.id}
                         type="button"
                         onClick={() => toggleCategory(c.id)}
-                        className={`flex w-full items-center justify-between px-4 py-2 text-left text-xs transition hover:bg-[var(--card-bg)] ${
+                        className={`flex w-full items-center justify-between gap-2 px-4 py-2 text-left text-xs transition hover:bg-[var(--card-bg)] ${
                           isSelected
                             ? "font-semibold text-[var(--page-fg)]"
                             : "text-[var(--muted)]"
                         }`}
                       >
-                        <span>
-                          <span className="mr-2 tabular-nums opacity-50">
+                        <span className="flex min-w-0 items-baseline gap-1.5">
+                          <span className="shrink-0 tabular-nums opacity-50">
                             {String(c.id).padStart(2, "0")}
                           </span>
-                          {c.title}
+                          <span className="truncate">{c.title}</span>
                         </span>
-                        <span className="ml-3 shrink-0 tabular-nums opacity-40">
+                        <span className="shrink-0 tabular-nums opacity-40">
                           {filled}/{c.styles.length}
                         </span>
                       </button>
