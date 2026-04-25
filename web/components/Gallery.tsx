@@ -97,7 +97,7 @@ export function Gallery({ data }: { data: GalleryData }) {
                 aria-expanded={menuOpen}
                 className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition ${
                   menuOpen
-                    ? "border-[var(--page-fg)] bg-[var(--page-fg)] text-[var(--page-bg)]"
+                    ? "border-[var(--page-fg)]/30 bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
                     : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--page-fg)] hover:opacity-80"
                 }`}
               >
@@ -152,7 +152,7 @@ export function Gallery({ data }: { data: GalleryData }) {
                     onClick={() => toggleCategory(c.id)}
                     className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${
                       isSelected
-                        ? "bg-[var(--page-fg)] text-[var(--page-bg)]"
+                        ? "bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
                         : "text-[var(--muted)] hover:text-[var(--page-fg)]"
                     }`}
                   >
