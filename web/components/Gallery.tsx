@@ -150,10 +150,10 @@ export function Gallery({ data }: { data: GalleryData }) {
                     key={c.id}
                     type="button"
                     onClick={() => toggleCategory(c.id)}
-                    className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium transition ${
+                    className={`shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-medium transition ${
                       isSelected
-                        ? "bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
-                        : "text-[var(--muted)] hover:text-[var(--page-fg)]"
+                        ? "border-[var(--page-fg)]/25 bg-[var(--page-fg)]/10 text-[var(--page-fg)]"
+                        : "border-[var(--card-border)] bg-[var(--card-bg)] text-[var(--muted)] hover:text-[var(--page-fg)]"
                     }`}
                   >
                     <span className="mr-1.5 tabular-nums opacity-70">
