@@ -1,0 +1,11 @@
+{
+  "name": "aesthetics",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start -- --hostname 0.0.0.0 --port ${PORT:-3000}"
+  }
+}

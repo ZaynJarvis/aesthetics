@@ -4,6 +4,6 @@
   "installCmd": "cd web && npm ci",
   "buildCmd": "cd web && npm run build",
   "deploy": {
-    "startCommand": "cd web && npm run start"
+    "startCommand": "cd web && npm run start -- --hostname 0.0.0.0 --port $PORT"
   }
 }
