@@ -3,3 +3,5 @@ node_modules/
 out/
 .env*
 *.tsbuildinfo
+public/generated/lg/
+public/generated/sm/
