@@ -314,7 +314,13 @@ styles:
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in grid modernist style: modular columns, mathematical spacing, disciplined alignment, restrained color, type-led composition, functional hierarchy, clean print-system logic. Avoid ornamental frames, distressed texture, and playful randomness."
-    demo: null
+    demo:
+      production_index: 121
+      batch: 07
+      image: "121-grid-modernism-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Grid Modernism: a precisely set print spread with modular columns, mathematical spacing, disciplined alignment, type blocks rendered as abstract glyph rectangles, restrained black, white, and one accent ink color, functional hierarchy, calm modernist clarity. No logos, no watermark, no readable text.
   - slug: "minimalism"
     name: "Minimalism"
     category_id: 02
@@ -332,7 +338,13 @@ styles:
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in editorial minimalist style: large margins, sparse type, refined photography or illustration, quiet palette, luxury magazine pacing, precise whitespace, restrained asymmetry. Avoid loud color, dense UI, and novelty effects."
-    demo: null
+    demo:
+      production_index: 122
+      batch: 07
+      image: "122-editorial-minimalism-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Editorial Minimalism: a luxury magazine spread mockup with large empty margins, single sparse type block as abstract glyph texture, refined product still life, quiet pacing, cream paper, soft shadow, precise asymmetry, no readable words. No logos, no watermark, no readable text.
   - slug: "brutalist-graphic"
     name: "Brutalist Graphic Design"
     category_id: 02
@@ -422,7 +434,13 @@ styles:
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in skate zine style: fisheye-photo energy, sticker layers, rough captions, sun-faded color, hand-drawn arrows, asphalt texture, rebellious youth layout. Avoid formal corporate hierarchy and pristine studio lighting."
-    demo: null
+    demo:
+      production_index: 123
+      batch: 07
+      image: "123-skate-zine-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Skate Zine: a folded photocopied skate zine spread with fisheye-style ramp photo, sticker layers, sun-faded color, hand-drawn arrows, asphalt grain, rough captions as abstract marks, rebellious low-budget youth layout. No logos, no watermark, no readable text.
   - slug: "risograph"
     name: "Risograph"
     category_id: 02
@@ -488,25 +506,49 @@ styles:
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in corporate modernist style: restrained geometric identity system, cool neutral palette, modular layouts, clean sans-serif feeling, professional photography, 1960s-1980s annual-report discipline. Avoid playful doodles and punk chaos."
-    demo: null
+    demo:
+      production_index: 124
+      batch: 07
+      image: "124-corporate-modernist-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Corporate Modernist: a 1970s annual-report cover composition with restrained geometric identity mark, modular grid, cool neutral palette, sans-serif-feel type blocks as abstract bars, professional product photography vignette, clean disciplined layout. No logos, no watermark, no readable text.
   - slug: "luxury-editorial-serif"
     name: "Luxury Editorial Serif"
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in luxury editorial serif style: high-contrast serif typography feel, elegant negative space, monochrome or muted jewel palette, premium photography, magazine-cover restraint. Avoid cartoon icons, neon UI, and messy collage."
-    demo: null
+    demo:
+      production_index: 125
+      batch: 07
+      image: "125-luxury-editorial-serif-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Luxury Editorial Serif: a high-end fashion magazine cover composition with high-contrast serif-feel typography blocks, elegant negative space, jewel-toned monochrome palette, premium portrait silhouette, refined paper texture. No logos, no watermark, no readable text.
   - slug: "data-visualism"
     name: "Data Visualism"
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in data visualism style: charts, grids, thin rules, analytical overlays, precise annotations, restrained color coding, clean white or dark canvas, information-design elegance. Avoid decorative clutter and fake unreadable data labels."
-    demo: null
+    demo:
+      production_index: 126
+      batch: 07
+      image: "126-data-visualism-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Data Visualism: an information-design layout with thin rules, precise grids, abstract chart marks (bars, lines, scatter, sparklines) without readable numbers or labels, restrained color coding, white canvas, analytical elegance. No logos, no watermark, no readable text.
   - slug: "typographic-poster"
     name: "Typographic Poster"
     category_id: 02
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` as a typographic poster style: type as image, oversized letterforms, rhythmic alignment, strong hierarchy, limited palette, graphic tension, minimal supporting imagery. Avoid illegible random text and photographic realism dominance."
-    demo: null
+    demo:
+      production_index: 127
+      batch: 07
+      image: "127-typographic-poster-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Typographic Poster: oversized letter-like sculptural forms used purely as image, rhythmic alignment, strong hierarchy, limited two-color palette, graphic tension, abstract glyph shapes only, no readable words. No logos, no watermark, no readable text.
   - slug: "material-design"
     name: "Material Design"
     category_id: 03
@@ -608,7 +650,13 @@ styles:
     category_id: 03
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in neo-brutalist UI style: thick borders, flat saturated colors, chunky components, offset black shadows, bold labels, playful grid, high contrast. Avoid glass blur, delicate serif luxury, and naturalistic shadows."
-    demo: null
+    demo:
+      production_index: 128
+      batch: 07
+      image: "128-neo-brutalist-ui-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Neo-Brutalist UI: a bold landing page mockup with thick black borders, flat saturated yellow, pink, and blue blocks, chunky offset shadows, blocky cards, oversized abstract label rectangles, playful anti-polish UI energy. No logos, no watermark, no readable text.
   - slug: "dashboard-enterprise"
     name: "Dashboard Enterprise"
     category_id: 03
@@ -686,7 +734,13 @@ styles:
     category_id: 03
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in vaporwave web style: pastel pink and cyan, marble busts, grid horizon, retro computer windows, low-poly sunset, nostalgic internet collage. Avoid serious enterprise dashboards and realistic corporate photography."
-    demo: null
+    demo:
+      production_index: 129
+      batch: 07
+      image: "129-vaporwave-web-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Vaporwave Web: a retro Windows-style desktop with pastel pink and cyan, marble bust, low-poly sunset wallpaper, retro window frames, palm silhouettes, checker floor, ironic 90s nostalgia, abstract icon glyphs only. No logos, no watermark, no readable text.
   - slug: "kawaii-ui"
     name: "Kawaii UI"
     category_id: 03
@@ -716,13 +770,25 @@ styles:
     category_id: 03
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in calm tech style: quiet interface, warm neutral surfaces, low-contrast controls, gentle notifications, natural materials, invisible complexity, human-centered rhythm. Avoid neon cyberpunk, loud badges, and dense alarm dashboards."
-    demo: null
+    demo:
+      production_index: 130
+      batch: 07
+      image: "130-calm-tech-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Calm Tech: a quiet ambient device on warm wood shelf with low-contrast e-ink-like display, gentle status indicator, natural materials, soft daylight, off-white surfaces, restrained interface marks only. No logos, no watermark, no readable text.
   - slug: "soft-minimal-app"
     name: "Soft Minimal App"
     category_id: 03
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in soft minimal app style: spacious mobile UI, warm off-white background, subtle shadows, rounded controls, muted accent color, clear hierarchy, friendly modern product feel. Avoid brutalist borders and excessive gradients."
-    demo: null
+    demo:
+      production_index: 131
+      batch: 07
+      image: "131-soft-minimal-app-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Soft Minimal App: a spacious modern mobile UI with warm off-white background, subtle long shadows, rounded controls, single muted accent color, abstract card layout, friendly product feel, no readable strings. No logos, no watermark, no readable text.
   - slug: "cyberpunk"
     name: "Cyberpunk"
     category_id: 04
@@ -872,7 +938,13 @@ styles:
     category_id: 04
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in darksynth style: aggressive neon red and violet, black shadows, horror-tinged retro future, sharp chrome, smoky atmosphere, intense electronic mood. Avoid pastel vaporwave softness and daylight optimism."
-    demo: null
+    demo:
+      production_index: 132
+      batch: 07
+      image: "132-darksynth-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Darksynth: a moody empty highway under aggressive neon red and violet light, black sky, sharp chrome silhouettes, smoky atmosphere, horror-tinged retro future, intense electronic mood. No logos, no watermark, no readable text.
   - slug: "glitch-art"
     name: "Glitch Art"
     category_id: 04
@@ -890,7 +962,13 @@ styles:
     category_id: 04
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in data brutalism style: raw data tables, exposed labels, harsh monochrome grid, command-line density, warning colors, no decorative softness, functional machine-readability. Avoid lifestyle photography and ornate illustration."
-    demo: null
+    demo:
+      production_index: 133
+      batch: 07
+      image: "133-data-brutalism-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Data Brutalism: a harsh raw data interface with monospaced-feel rows as abstract glyph blocks, exposed labels as bars, warning red and yellow accents on black, command-line density, no decorative softness, machine-readable mood. No logos, no watermark, no readable text.
   - slug: "liminal-space"
     name: "Liminal Space"
     category_id: 04
@@ -912,8 +990,9 @@ styles:
       production_index: 98
       batch: 05
       image: "98-dreamcore-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "floating childhood bedroom in pastel field"
+      exact_prompt: |
+        Create a square style-show image for Dreamcore: a soft surreal childhood bedroom floating into a pastel field, strange scale, nostalgic toys as abstract shapes, hazy light, gentle unease, half-remembered mood, pale blue, peach, cream, and lavender palette. No logos, no watermark, no readable text.
   - slug: "weirdcore"
     name: "Weirdcore"
     category_id: 04
@@ -923,8 +1002,9 @@ styles:
       production_index: 99
       batch: 05
       image: "99-weirdcore-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "uncanny low-res internet collage room"
+      exact_prompt: |
+        Create a square style-show image for Weirdcore: an uncanny low-res internet collage of a distorted room, floating abstract text-like fragments with no readable words, bright unsettling colors, nostalgic desktop artifacts, surreal empty doorway, compression texture. No logos, no watermark, no readable text.
   - slug: "afrofuturism"
     name: "Afrofuturism"
     category_id: 04
@@ -946,8 +1026,9 @@ styles:
       production_index: 100
       batch: 05
       image: "100-techwear-tactical-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "wet-concrete urban rain gear display"
+      exact_prompt: |
+        Create a square style-show image for Techwear Tactical: an urban rain gear display with matte black technical fabrics, modular straps, utility pockets, weatherproof layers, compact hardware, wet concrete, stealth silhouette, cool gray lighting. No logos, no watermark, no readable text.
   - slug: "viking-norse"
     name: "Viking / Norse"
     category_id: 05
@@ -1157,13 +1238,25 @@ styles:
     category_id: 05
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Alpine folk style: carved wood, embroidered borders, chalet forms, warm red, cream, pine green, handcrafted pattern, mountain lodge atmosphere. Avoid tropical color, corporate UI, and futuristic chrome."
-    demo: null
+    demo:
+      production_index: 134
+      batch: 07
+      image: "134-alpine-folk-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Alpine Folk: a chalet interior corner with carved wood beams, embroidered border textiles, painted folk floral motifs, warm red, cream, pine green, and ochre, mountain lodge atmosphere, candle and copper kettle. No logos, no watermark, no readable text.
   - slug: "slavic-folk"
     name: "Slavic Folk"
     category_id: 05
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Slavic folk style: embroidered floral geometry, red, black, white, blue, carved wood, paper-cut-like motifs, festival craft energy. Avoid generic fantasy armor and minimal tech design."
-    demo: null
+    demo:
+      production_index: 135
+      batch: 07
+      image: "135-slavic-folk-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Slavic Folk: a wooden village table with embroidered floral geometry textile, red, black, white, and blue motifs, painted egg ornaments, paper-cut-like patterns, festival craft mood, warm afternoon light. No logos, no watermark, no readable text.
   - slug: "mexican-folk"
     name: "Mexican Folk"
     category_id: 05
@@ -1289,31 +1382,61 @@ styles:
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in biophilic design style: plants integrated into architecture, natural light, wood, stone, water, organic patterns, green and warm neutral palette, healthy indoor-outdoor flow. Avoid synthetic darkness and sterile metal-only spaces."
-    demo: null
+    demo:
+      production_index: 136
+      batch: 07
+      image: "136-biophilic-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Biophilic Design: an indoor-outdoor living space with large plants integrated into architecture, natural light, wood beams, stone wall, water feature, organic patterns, green and warm neutral palette, healthy calm interior. No logos, no watermark, no readable text.
   - slug: "desert-modern"
     name: "Desert Modern"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in desert modern style: adobe, sand, clay, terracotta, cactus forms, low horizontal architecture, warm sun, minimal furniture, earthy modernism. Avoid coastal blues, neon, and ornate European decoration."
-    demo: null
+    demo:
+      production_index: 137
+      batch: 07
+      image: "137-desert-modern-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Desert Modern: a low horizontal adobe house at warm sunset with cactus garden, terracotta tile, sand and clay tones, minimal furniture seen through open glass, earthy modernism, long shadows. No logos, no watermark, no readable text.
   - slug: "coastal-modern"
     name: "Coastal Modern"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in coastal modern style: airy white space, linen, pale wood, sea glass blue, sand neutrals, natural light, clean relaxed forms. Avoid nautical kitsch, dark academia gloom, and cyberpunk neon."
-    demo: null
+    demo:
+      production_index: 138
+      batch: 07
+      image: "138-coastal-modern-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Coastal Modern: an airy white living room with linen sofa, pale wood floor, sea glass blue accents, sand neutrals, large window with diffuse sea light, clean relaxed forms, calm domestic atmosphere. No logos, no watermark, no readable text.
   - slug: "mediterranean-revival"
     name: "Mediterranean Revival"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Mediterranean revival style: stucco walls, terracotta tile, wrought iron, arches, olive green, warm cream, cobalt accents, sunlit courtyard atmosphere. Avoid cold glass minimalism and industrial concrete austerity."
-    demo: null
+    demo:
+      production_index: 139
+      batch: 07
+      image: "139-mediterranean-revival-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Mediterranean Revival: a sunlit courtyard with stucco walls, terracotta tile roof, wrought-iron railing, arched openings, olive tree, cobalt-tile fountain, warm cream and ochre palette. No logos, no watermark, no readable text.
   - slug: "art-deco-interior"
     name: "Art Deco Interior"
     category_id: 06
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Art Deco interior style: black lacquer, brass, velvet, stepped geometry, mirrored surfaces, fan motifs, jewel tones, glamorous symmetry. Avoid rustic handmade roughness and plain Scandinavian simplicity."
-    demo: null
+    demo:
+      production_index: 140
+      batch: 07
+      image: "140-art-deco-interior-style-show.png"
+      scene: ""
+      exact_prompt: |
+        Create a square style-show image for Art Deco Interior: a glamorous lounge with black lacquer panels, brass inlay, velvet chairs, stepped geometry, mirrored bar, fan motifs, jewel-tone accents, symmetrical 1920s elegance. No logos, no watermark, no readable text.
   - slug: "bauhaus-furniture"
     name: "Bauhaus Furniture"
     category_id: 06

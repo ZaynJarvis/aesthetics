@@ -119,7 +119,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### grid-modernism
 - **Name:** Grid Modernism
 - **Prompt:** Create `{{SUBJECT}}` in grid modernist style: modular columns, mathematical spacing, disciplined alignment, restrained color, type-led composition, functional hierarchy, clean print-system logic. Avoid ornamental frames, distressed texture, and playful randomness.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/121-grid-modernism-style-show.png
 
 ### minimalism
 - **Name:** Minimalism
@@ -129,7 +129,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### editorial-minimalism
 - **Name:** Editorial Minimalism
 - **Prompt:** Create `{{SUBJECT}}` in editorial minimalist style: large margins, sparse type, refined photography or illustration, quiet palette, luxury magazine pacing, precise whitespace, restrained asymmetry. Avoid loud color, dense UI, and novelty effects.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/122-editorial-minimalism-style-show.png
 
 ### brutalist-graphic
 - **Name:** Brutalist Graphic Design
@@ -169,7 +169,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### skate-zine
 - **Name:** Skate Zine
 - **Prompt:** Create `{{SUBJECT}}` in skate zine style: fisheye-photo energy, sticker layers, rough captions, sun-faded color, hand-drawn arrows, asphalt texture, rebellious youth layout. Avoid formal corporate hierarchy and pristine studio lighting.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/123-skate-zine-style-show.png
 
 ### risograph
 - **Name:** Risograph
@@ -199,22 +199,22 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### corporate-modernist
 - **Name:** Corporate Modernist
 - **Prompt:** Create `{{SUBJECT}}` in corporate modernist style: restrained geometric identity system, cool neutral palette, modular layouts, clean sans-serif feeling, professional photography, 1960s-1980s annual-report discipline. Avoid playful doodles and punk chaos.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/124-corporate-modernist-style-show.png
 
 ### luxury-editorial-serif
 - **Name:** Luxury Editorial Serif
 - **Prompt:** Create `{{SUBJECT}}` in luxury editorial serif style: high-contrast serif typography feel, elegant negative space, monochrome or muted jewel palette, premium photography, magazine-cover restraint. Avoid cartoon icons, neon UI, and messy collage.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/125-luxury-editorial-serif-style-show.png
 
 ### data-visualism
 - **Name:** Data Visualism
 - **Prompt:** Create `{{SUBJECT}}` in data visualism style: charts, grids, thin rules, analytical overlays, precise annotations, restrained color coding, clean white or dark canvas, information-design elegance. Avoid decorative clutter and fake unreadable data labels.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/126-data-visualism-style-show.png
 
 ### typographic-poster
 - **Name:** Typographic Poster
 - **Prompt:** Create `{{SUBJECT}}` as a typographic poster style: type as image, oversized letterforms, rhythmic alignment, strong hierarchy, limited palette, graphic tension, minimal supporting imagery. Avoid illegible random text and photographic realism dominance.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/127-typographic-poster-style-show.png
 
 ## 03 UI, Web, Product Interfaces
 
@@ -261,7 +261,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### neo-brutalist-ui
 - **Name:** Neo-Brutalist UI
 - **Prompt:** Create `{{SUBJECT}}` in neo-brutalist UI style: thick borders, flat saturated colors, chunky components, offset black shadows, bold labels, playful grid, high contrast. Avoid glass blur, delicate serif luxury, and naturalistic shadows.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/128-neo-brutalist-ui-style-show.png
 
 ### dashboard-enterprise
 - **Name:** Dashboard Enterprise
@@ -296,7 +296,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### vaporwave-web
 - **Name:** Vaporwave Web
 - **Prompt:** Create `{{SUBJECT}}` in vaporwave web style: pastel pink and cyan, marble busts, grid horizon, retro computer windows, low-poly sunset, nostalgic internet collage. Avoid serious enterprise dashboards and realistic corporate photography.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/129-vaporwave-web-style-show.png
 
 ### kawaii-ui
 - **Name:** Kawaii UI
@@ -311,12 +311,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### calm-tech
 - **Name:** Calm Tech
 - **Prompt:** Create `{{SUBJECT}}` in calm tech style: quiet interface, warm neutral surfaces, low-contrast controls, gentle notifications, natural materials, invisible complexity, human-centered rhythm. Avoid neon cyberpunk, loud badges, and dense alarm dashboards.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/130-calm-tech-style-show.png
 
 ### soft-minimal-app
 - **Name:** Soft Minimal App
 - **Prompt:** Create `{{SUBJECT}}` in soft minimal app style: spacious mobile UI, warm off-white background, subtle shadows, rounded controls, muted accent color, clear hierarchy, friendly modern product feel. Avoid brutalist borders and excessive gradients.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/131-soft-minimal-app-style-show.png
 
 ## 04 Futurism, Tech, Subculture
 
@@ -383,7 +383,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### darksynth
 - **Name:** Darksynth
 - **Prompt:** Create `{{SUBJECT}}` in darksynth style: aggressive neon red and violet, black shadows, horror-tinged retro future, sharp chrome, smoky atmosphere, intense electronic mood. Avoid pastel vaporwave softness and daylight optimism.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/132-darksynth-style-show.png
 
 ### glitch-art
 - **Name:** Glitch Art
@@ -393,7 +393,7 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### data-brutalism
 - **Name:** Data Brutalism
 - **Prompt:** Create `{{SUBJECT}}` in data brutalism style: raw data tables, exposed labels, harsh monochrome grid, command-line density, warning colors, no decorative softness, functional machine-readability. Avoid lifestyle photography and ornate illustration.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/133-data-brutalism-style-show.png
 
 ### liminal-space
 - **Name:** Liminal Space
@@ -510,12 +510,12 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### alpine-folk
 - **Name:** Alpine Folk
 - **Prompt:** Create `{{SUBJECT}}` in Alpine folk style: carved wood, embroidered borders, chalet forms, warm red, cream, pine green, handcrafted pattern, mountain lodge atmosphere. Avoid tropical color, corporate UI, and futuristic chrome.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/134-alpine-folk-style-show.png
 
 ### slavic-folk
 - **Name:** Slavic Folk
 - **Prompt:** Create `{{SUBJECT}}` in Slavic folk style: embroidered floral geometry, red, black, white, blue, carved wood, paper-cut-like motifs, festival craft energy. Avoid generic fantasy armor and minimal tech design.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/135-slavic-folk-style-show.png
 
 ### mexican-folk
 - **Name:** Mexican Folk
@@ -572,27 +572,27 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### biophilic
 - **Name:** Biophilic
 - **Prompt:** Create `{{SUBJECT}}` in biophilic design style: plants integrated into architecture, natural light, wood, stone, water, organic patterns, green and warm neutral palette, healthy indoor-outdoor flow. Avoid synthetic darkness and sterile metal-only spaces.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/136-biophilic-style-show.png
 
 ### desert-modern
 - **Name:** Desert Modern
 - **Prompt:** Create `{{SUBJECT}}` in desert modern style: adobe, sand, clay, terracotta, cactus forms, low horizontal architecture, warm sun, minimal furniture, earthy modernism. Avoid coastal blues, neon, and ornate European decoration.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/137-desert-modern-style-show.png
 
 ### coastal-modern
 - **Name:** Coastal Modern
 - **Prompt:** Create `{{SUBJECT}}` in coastal modern style: airy white space, linen, pale wood, sea glass blue, sand neutrals, natural light, clean relaxed forms. Avoid nautical kitsch, dark academia gloom, and cyberpunk neon.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/138-coastal-modern-style-show.png
 
 ### mediterranean-revival
 - **Name:** Mediterranean Revival
 - **Prompt:** Create `{{SUBJECT}}` in Mediterranean revival style: stucco walls, terracotta tile, wrought iron, arches, olive green, warm cream, cobalt accents, sunlit courtyard atmosphere. Avoid cold glass minimalism and industrial concrete austerity.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/139-mediterranean-revival-style-show.png
 
 ### art-deco-interior
 - **Name:** Art Deco Interior
 - **Prompt:** Create `{{SUBJECT}}` in Art Deco interior style: black lacquer, brass, velvet, stepped geometry, mirrored surfaces, fan motifs, jewel tones, glamorous symmetry. Avoid rustic handmade roughness and plain Scandinavian simplicity.
-- **Image demo:** <image_demo>
+- **Image demo:** ../examples/style-show/generated/140-art-deco-interior-style-show.png
 
 ### bauhaus-furniture
 - **Name:** Bauhaus Furniture

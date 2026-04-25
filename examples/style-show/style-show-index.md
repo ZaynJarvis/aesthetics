@@ -633,3 +633,108 @@ This gallery supersedes the first generic demo set. Each image uses a scene that
 ### 120 Organic Modern
 
 ![Organic Modern style show](generated/120-organic-modern-style-show.png)
+
+## Batch 07: Print, UI, Subculture, and Folk-Interior Showcase
+
+| # | Style | Best-fit demo scene | Image |
+|---|---|---|---|
+| 121 | Grid Modernism | precisely set modular print spread | generated/121-grid-modernism-style-show.png |
+| 122 | Editorial Minimalism | luxury magazine spread and refined still life | generated/122-editorial-minimalism-style-show.png |
+| 123 | Skate Zine | photocopied folded skate zine spread | generated/123-skate-zine-style-show.png |
+| 124 | Corporate Modernist | 1970s annual-report cover composition | generated/124-corporate-modernist-style-show.png |
+| 125 | Luxury Editorial Serif | fashion magazine cover portrait silhouette | generated/125-luxury-editorial-serif-style-show.png |
+| 126 | Data Visualism | analytical chart and grid layout | generated/126-data-visualism-style-show.png |
+| 127 | Typographic Poster | oversized abstract glyph poster | generated/127-typographic-poster-style-show.png |
+| 128 | Neo-Brutalist UI | bold blocky landing page mockup | generated/128-neo-brutalist-ui-style-show.png |
+| 129 | Vaporwave Web | retro Windows-style desktop dream | generated/129-vaporwave-web-style-show.png |
+| 130 | Calm Tech | quiet ambient device on warm shelf | generated/130-calm-tech-style-show.png |
+| 131 | Soft Minimal App | spacious warm-white mobile UI | generated/131-soft-minimal-app-style-show.png |
+| 132 | Darksynth | empty highway under neon red and violet | generated/132-darksynth-style-show.png |
+| 133 | Data Brutalism | harsh raw monospaced data interface | generated/133-data-brutalism-style-show.png |
+| 134 | Alpine Folk | chalet interior corner with carved wood | generated/134-alpine-folk-style-show.png |
+| 135 | Slavic Folk | wooden village table with embroidery | generated/135-slavic-folk-style-show.png |
+| 136 | Biophilic | indoor-outdoor plant-integrated living space | generated/136-biophilic-style-show.png |
+| 137 | Desert Modern | low adobe house at warm sunset | generated/137-desert-modern-style-show.png |
+| 138 | Coastal Modern | airy white sea-light living room | generated/138-coastal-modern-style-show.png |
+| 139 | Mediterranean Revival | sunlit stucco-and-tile courtyard | generated/139-mediterranean-revival-style-show.png |
+| 140 | Art Deco Interior | glamorous black-lacquer-and-brass lounge | generated/140-art-deco-interior-style-show.png |
+
+### 121 Grid Modernism
+
+![Grid Modernism style show](generated/121-grid-modernism-style-show.png)
+
+### 122 Editorial Minimalism
+
+![Editorial Minimalism style show](generated/122-editorial-minimalism-style-show.png)
+
+### 123 Skate Zine
+
+![Skate Zine style show](generated/123-skate-zine-style-show.png)
+
+### 124 Corporate Modernist
+
+![Corporate Modernist style show](generated/124-corporate-modernist-style-show.png)
+
+### 125 Luxury Editorial Serif
+
+![Luxury Editorial Serif style show](generated/125-luxury-editorial-serif-style-show.png)
+
+### 126 Data Visualism
+
+![Data Visualism style show](generated/126-data-visualism-style-show.png)
+
+### 127 Typographic Poster
+
+![Typographic Poster style show](generated/127-typographic-poster-style-show.png)
+
+### 128 Neo-Brutalist UI
+
+![Neo-Brutalist UI style show](generated/128-neo-brutalist-ui-style-show.png)
+
+### 129 Vaporwave Web
+
+![Vaporwave Web style show](generated/129-vaporwave-web-style-show.png)
+
+### 130 Calm Tech
+
+![Calm Tech style show](generated/130-calm-tech-style-show.png)
+
+### 131 Soft Minimal App
+
+![Soft Minimal App style show](generated/131-soft-minimal-app-style-show.png)
+
+### 132 Darksynth
+
+![Darksynth style show](generated/132-darksynth-style-show.png)
+
+### 133 Data Brutalism
+
+![Data Brutalism style show](generated/133-data-brutalism-style-show.png)
+
+### 134 Alpine Folk
+
+![Alpine Folk style show](generated/134-alpine-folk-style-show.png)
+
+### 135 Slavic Folk
+
+![Slavic Folk style show](generated/135-slavic-folk-style-show.png)
+
+### 136 Biophilic
+
+![Biophilic style show](generated/136-biophilic-style-show.png)
+
+### 137 Desert Modern
+
+![Desert Modern style show](generated/137-desert-modern-style-show.png)
+
+### 138 Coastal Modern
+
+![Coastal Modern style show](generated/138-coastal-modern-style-show.png)
+
+### 139 Mediterranean Revival
+
+![Mediterranean Revival style show](generated/139-mediterranean-revival-style-show.png)
+
+### 140 Art Deco Interior
+
+![Art Deco Interior style show](generated/140-art-deco-interior-style-show.png)
