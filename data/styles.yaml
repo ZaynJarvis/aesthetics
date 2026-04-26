@@ -1839,55 +1839,109 @@ styles:
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in Silver Age comic style: clean heroic linework, bright flat colors, dynamic poses or composition, halftone dots, optimistic mid-century comic energy. Avoid grimdark realism and minimalist editorial restraint."
-    demo: null
+    demo:
+      production_index: 172
+      batch: "09"
+      image: "172-silver-age-comic-style-show.png"
+      scene: "heroic single-panel scene with halftone shading"
+      exact_prompt: |
+        Create a square style-show image for Silver Age Comic: a heroic single-panel scene with clean linework, bright flat colors, dynamic composition, halftone dot shading, optimistic mid-century comic energy. No logos, no watermark, no readable text.
   - slug: "noir-comic"
     name: "Noir Comic"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in noir comic style: heavy black shadows, rain, angular panels, limited color accents, expressive ink texture, crime-story mood. Avoid pastel cuteness, glossy 3D, and open sunny landscapes."
-    demo: null
+    demo:
+      production_index: 173
+      batch: "09"
+      image: "173-noir-comic-style-show.png"
+      scene: "rainy alley crime-story comic panel"
+      exact_prompt: |
+        Create a square style-show image for Noir Comic: a rainy alley single comic panel with heavy black shadows, sharp ink texture, angular framing, limited red accent, expressive crime-story mood. No logos, no watermark, no readable text.
   - slug: "ligne-claire"
     name: "Ligne Claire"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in ligne claire style: clear even outlines, flat colors, precise environments, readable composition, European adventure-comic clarity, minimal shading. Avoid heavy painterly texture and chaotic grunge typography."
-    demo: null
+    demo:
+      production_index: 174
+      batch: "09"
+      image: "174-ligne-claire-style-show.png"
+      scene: "clear-line European cityscape"
+      exact_prompt: |
+        Create a square style-show image for Ligne Claire: a clear-line illustrated European cityscape with precise even outlines, flat color planes, readable composition, minimal shading, classic adventure-comic clarity. No logos, no watermark, no readable text.
   - slug: "editorial-spot-illustration"
     name: "Editorial Spot Illustration"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in editorial spot illustration style: simplified conceptual metaphor, clean shapes, limited palette, magazine-friendly whitespace, smart visual idea, polished vector-like finish. Avoid dense realism and decorative over-detail."
-    demo: null
+    demo:
+      production_index: 175
+      batch: "09"
+      image: "175-editorial-spot-illustration-style-show.png"
+      scene: "conceptual visual metaphor on white background"
+      exact_prompt: |
+        Create a square style-show image for Editorial Spot Illustration: a simplified conceptual visual metaphor on white background with clean shapes, limited palette, generous whitespace, smart magazine-friendly composition, polished vector-like finish. No logos, no watermark, no readable text.
   - slug: "isometric-illustration"
     name: "Isometric Illustration"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in isometric illustration style: 3/4 axonometric view, simplified objects, clean edges, soft shadows, modular scene construction, bright professional palette. Avoid dramatic perspective distortion and gritty analog texture."
-    demo: null
+    demo:
+      production_index: 176
+      batch: "09"
+      image: "176-isometric-illustration-style-show.png"
+      scene: "3/4 axonometric office or workshop scene"
+      exact_prompt: |
+        Create a square style-show image for Isometric Illustration: a 3/4 axonometric office or workshop scene with simplified objects, clean edges, soft shadows, modular construction, bright professional palette. No logos, no watermark, no readable text.
   - slug: "sticker-bomb"
     name: "Sticker Bomb"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in sticker-bomb style: layered die-cut stickers, bold outlines, varied icons, glossy vinyl texture, overlapping composition, pop culture collage energy without logos. Avoid sparse minimalism and formal elegance."
-    demo: null
+    demo:
+      production_index: 177
+      batch: "09"
+      image: "177-sticker-bomb-style-show.png"
+      scene: "die-cut sticker collage on notebook surface"
+      exact_prompt: |
+        Create a square style-show image for Sticker Bomb: a layered die-cut sticker collage on a notebook surface with bold outlines, varied generic icons, glossy vinyl texture, overlapping shapes, pop culture energy without any logos or readable words. No logos, no watermark, no readable text.
   - slug: "graffiti-wildstyle"
     name: "Graffiti Wildstyle"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in graffiti wildstyle: interlocking letter-like forms, spray paint texture, sharp arrows, saturated color fades, wall surface, urban movement. Avoid clean corporate typography and delicate editorial minimalism."
-    demo: null
+    demo:
+      production_index: 178
+      batch: "09"
+      image: "178-graffiti-wildstyle-style-show.png"
+      scene: "brick wall with interlocking spray paint forms"
+      exact_prompt: |
+        Create a square style-show image for Graffiti Wildstyle: a brick wall covered in interlocking abstract letter-like spray paint forms, sharp arrows, saturated color fades, drips, layered tags as glyph shapes only, no readable words, urban movement. No logos, no watermark, no readable text.
   - slug: "tattoo-flash"
     name: "Tattoo Flash"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in tattoo flash style: bold black outlines, limited saturated color, iconic simplified motifs, cream paper sheet, traditional shading, clean standalone composition. Avoid photoreal scenes and complex background clutter."
-    demo: null
+    demo:
+      production_index: 179
+      batch: "09"
+      image: "179-tattoo-flash-style-show.png"
+      scene: "cream paper with traditional flash designs"
+      exact_prompt: |
+        Create a square style-show image for Tattoo Flash: a cream paper sheet with several traditional flash designs (rose, dagger, swallow, anchor) in bold black outlines, limited saturated red and green fills, classic shading, clean standalone arrangement. No logos, no watermark, no readable text.
   - slug: "woodcut-linocut"
     name: "Woodcut / Linocut"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in woodcut linocut style: carved black lines, rough ink edges, high contrast, limited color, handmade print texture, strong silhouette. Avoid smooth airbrush gradients and glossy CGI."
-    demo: null
+    demo:
+      production_index: 180
+      batch: "09"
+      image: "180-woodcut-linocut-style-show.png"
+      scene: "carved-line print of forest and bird"
+      exact_prompt: |
+        Create a square style-show image for Woodcut / Linocut: a high-contrast carved-line print of a forest and bird with rough ink edges, limited two-color palette, handmade print texture, strong silhouette, visible cutting marks. No logos, no watermark, no readable text.
   - slug: "engraving-etching"
     name: "Engraving / Etching"
     category_id: 08
@@ -2043,13 +2097,25 @@ styles:
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Post-Impressionist style: expressive color, structured brushwork, symbolic mood, simplified forms, heightened outlines, warm yellows, deep blues, greens, and reds. Avoid photorealistic studio lighting and clean UI geometry."
-    demo: null
+    demo:
+      production_index: 181
+      batch: "10"
+      image: "181-post-impressionism-style-show.png"
+      scene: "sunlit harvest field"
+      exact_prompt: |
+        Create a square style-show image for Post-Impressionism: a sunlit harvest field with thick visible brushstrokes, expressive non-natural color, simplified emotional forms, swirling rhythm in sky and grass, warm yellow, ochre, indigo, and viridian palette, hand-painted oil texture. No logos, no watermark, no readable text.
   - slug: "fauvism"
     name: "Fauvism"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Fauvist style: wild non-natural color, energetic brushwork, simplified shapes, saturated reds, oranges, greens, violets, and blues, expressive emotional intensity. Avoid muted realism, corporate minimalism, and delicate ornament."
-    demo: null
+    demo:
+      production_index: 182
+      batch: "10"
+      image: "182-fauvism-style-show.png"
+      scene: "sunlit interior with fruit bowl"
+      exact_prompt: |
+        Create a square style-show image for Fauvism: a sunlit interior with a fruit bowl rendered in wild non-naturalistic color, bold flat planes, simplified contours, energetic emotional palette of vermilion, magenta, viridian, and cobalt, expressive painterly mood. No logos, no watermark, no readable text.
   - slug: "cubism"
     name: "Cubism"
     category_id: 10
@@ -2067,103 +2133,205 @@ styles:
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in early Futurist art style: speed lines, mechanical motion, fractured repetition, dynamic diagonals, industrial energy, metallic grays, reds, and electric blues. Avoid calm symmetry, rustic softness, and static classical balance."
-    demo: null
+    demo:
+      production_index: 183
+      batch: "10"
+      image: "183-futurism-art-movement-style-show.png"
+      scene: "charging machine fragmented into motion lines"
+      exact_prompt: |
+        Create a square style-show image for Futurism (early-20th-century art movement): a charging machine or galloping horse fragmented into dynamic motion lines and overlapping mechanical planes, sharp diagonals, glorification of speed, ochre, steel gray, red, and black palette, oil-paint texture. No logos, no watermark, no readable text.
   - slug: "suprematism"
     name: "Suprematism"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Suprematist style: floating geometric shapes, white field, black, red, and primary-color accents, pure abstraction, weightless composition, radical reduction. Avoid realism, texture-heavy illustration, and decorative pattern."
-    demo: null
+    demo:
+      production_index: 184
+      batch: "10"
+      image: "184-suprematism-style-show.png"
+      scene: "geometric composition on white field"
+      exact_prompt: |
+        Create a square style-show image for Suprematism: pure abstract geometric composition on white field with floating black square, red rectangle, thin diagonal bar, and circle, no representational objects, austere modernist clarity, slight canvas grain. No logos, no watermark, no readable text.
   - slug: "abstract-expressionism"
     name: "Abstract Expressionism"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Abstract Expressionist style: large gestural marks, paint splatter, emotional field composition, layered pigment, physical canvas texture, powerful improvisation. Avoid clean corporate grids, literal realism, and polished app UI."
-    demo: null
+    demo:
+      production_index: 185
+      batch: "10"
+      image: "185-abstract-expressionism-style-show.png"
+      scene: "gestural canvas with drips and color fields"
+      exact_prompt: |
+        Create a square style-show image for Abstract Expressionism: a large gestural canvas with energetic drips, splatters, and color fields, dense layered mark-making, raw painterly emotion, deep red, yellow, white, and black palette, postwar studio atmosphere. No logos, no watermark, no readable text.
   - slug: "minimalist-art"
     name: "Minimalist Art"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in minimalist art style: extreme reduction, geometric repetition, precise object placement, restrained material, quiet monochrome or limited color, gallery-like presence. Avoid ornament, narrative clutter, and expressive brush chaos."
-    demo: null
+    demo:
+      production_index: 186
+      batch: "10"
+      image: "186-minimalist-art-style-show.png"
+      scene: "industrial sculpture in white gallery"
+      exact_prompt: |
+        Create a square style-show image for Minimalist Art (1960s gallery movement): a single industrial-material sculpture on a white gallery floor, repeated geometric volumes in plywood or steel, deadpan presentation, even daylight, restrained palette, no decoration. No logos, no watermark, no readable text.
   - slug: "photorealism-painting"
     name: "Photorealism Painting"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in photorealist painting style: painted but camera-like detail, reflective surfaces, precise light, urban or product realism, high technical finish, subtle brush invisibility. Avoid cartoon simplification, obvious CGI, and loose painterly marks."
-    demo: null
+    demo:
+      production_index: 187
+      batch: "10"
+      image: "187-photorealism-painting-style-show.png"
+      scene: "1970s American diner counter"
+      exact_prompt: |
+        Create a square style-show image for Photorealism Painting: a 1970s American diner counter painted with photographic precision in oil on canvas, reflective chrome, glass condiment bottles, vinyl booth, neutral daylight, brushless smooth surface that imitates a photograph. No logos, no watermark, no readable text.
   - slug: "conceptual-art"
     name: "Conceptual Art"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in conceptual art documentation style: sparse gallery setting, idea-first arrangement, plain labels without readable text, archival photography feel, restrained materials, intellectual distance. Avoid decorative prettiness and commercial ad polish."
-    demo: null
+    demo:
+      production_index: 188
+      batch: "10"
+      image: "188-conceptual-art-style-show.png"
+      scene: "sparse gallery wall with placard and stacked objects"
+      exact_prompt: |
+        Create a square style-show image for Conceptual Art: a sparse white gallery wall with a small placard and a stack of identical objects on the floor, cool fluorescent light, idea-as-art mood, abstract documentation marks instead of words on the placard. No logos, no watermark, no readable text.
   - slug: "land-art"
     name: "Land Art"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in land art style: large-scale earthwork, desert or field environment, stone, soil, salt, water, aerial geometry, natural erosion, monumental outdoor composition. Avoid indoor product staging and glossy UI surfaces."
-    demo: null
+    demo:
+      production_index: 189
+      batch: "10"
+      image: "189-land-art-style-show.png"
+      scene: "desert landscape with spiral of stones"
+      exact_prompt: |
+        Create a square style-show image for Land Art: a vast desert landscape with a large spiral of stones or a long carved earth line, geological scale, warm ochre and dust palette, dramatic raking light, distant horizon, no human figures. No logos, no watermark, no readable text.
   - slug: "kinetic-art"
     name: "Kinetic Art"
     category_id: 10
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in kinetic art style: suspended moving forms, balanced rods, optical motion, light metal, shadows on gallery walls, engineered delicacy, calm mechanical rhythm. Avoid heavy concrete brutality and static poster flatness."
-    demo: null
+    demo:
+      production_index: 190
+      batch: "10"
+      image: "190-kinetic-art-style-show.png"
+      scene: "suspended mobile in white gallery"
+      exact_prompt: |
+        Create a square style-show image for Kinetic Art: a white gallery interior with a balanced suspended mobile of abstract painted shapes, gentle rotational motion implied, cool daylight, minimal shadows, calm meditative composition. No logos, no watermark, no readable text.
   - slug: "international-style-architecture"
     name: "International Style Architecture"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in International Style architecture: glass curtain walls, steel frame logic, rectangular volume, flat roof, open plaza, white, black, gray, and clear glass, strict modernist rationality. Avoid ornament, pitched roofs, and rustic texture."
-    demo: null
+    demo:
+      production_index: 191
+      batch: "10"
+      image: "191-international-style-architecture-style-show.png"
+      scene: "glass-and-steel office tower on city sidewalk"
+      exact_prompt: |
+        Create a square style-show image for International Style Architecture: a glass-and-steel modernist office tower base seen from a city sidewalk, ribbon windows, flat roof, no ornament, gray concrete plaza, cool overcast light, mid-century corporate clarity. No logos, no watermark, no readable text.
   - slug: "prairie-school"
     name: "Prairie School"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Prairie School style: low horizontal lines, broad eaves, earthy brick and wood, integrated landscape, geometric stained glass, warm domestic modernity. Avoid vertical Gothic drama and glossy futuristic towers."
-    demo: null
+    demo:
+      production_index: 192
+      batch: "10"
+      image: "192-prairie-school-style-show.png"
+      scene: "low horizontal midwestern home"
+      exact_prompt: |
+        Create a square style-show image for Prairie School Architecture: a low horizontal midwestern home with deep eaves, art-glass windows, brick and warm wood, integrated landscaping, golden afternoon light, organic horizontality. No logos, no watermark, no readable text.
   - slug: "usonian"
     name: "Usonian"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Usonian style: modest horizontal home, natural wood, brick, concrete slab, open plan, built-in furniture, warm democratic modernism, landscape integration. Avoid luxury marble excess and dense urban cyberpunk."
-    demo: null
+    demo:
+      production_index: 193
+      batch: "10"
+      image: "193-usonian-style-show.png"
+      scene: "small postwar home interior"
+      exact_prompt: |
+        Create a square style-show image for Usonian Architecture: a small modest postwar home interior with built-in wood furniture, brick fireplace, slab concrete floor, clerestory windows, warm minimal palette, mid-century domestic calm. No logos, no watermark, no readable text.
   - slug: "craftsman"
     name: "Craftsman"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Craftsman style: exposed joinery, low-pitched roof, tapered columns, handcrafted wood, built-in shelving, warm amber light, honest material detail. Avoid chrome futurism and ornate palace decoration."
-    demo: null
+    demo:
+      production_index: 194
+      batch: "10"
+      image: "194-craftsman-style-show.png"
+      scene: "early-20th-century bungalow porch"
+      exact_prompt: |
+        Create a square style-show image for Craftsman Architecture: an early-20th-century bungalow porch with exposed wood beams, square tapered columns on stone bases, built-in benches, earthy brown and forest green palette, warm afternoon light. No logos, no watermark, no readable text.
   - slug: "victorian-architecture"
     name: "Victorian Architecture"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Victorian architecture style: ornate facade, bay windows, decorative trim, steep rooflines, patterned shingles, rich historical color, layered domestic detail. Avoid modern glass boxes and minimalist concrete planes."
-    demo: null
+    demo:
+      production_index: 195
+      batch: "10"
+      image: "195-victorian-architecture-style-show.png"
+      scene: "ornate painted-lady townhouse facade"
+      exact_prompt: |
+        Create a square style-show image for Victorian Architecture: an ornate painted-lady townhouse facade with steep gables, decorative trim, bay window, asymmetrical composition, palette of muted teal, plum, cream, and gold, soft sunny daylight. No logos, no watermark, no readable text.
   - slug: "tudor-revival"
     name: "Tudor Revival"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Tudor Revival style: half-timbering, steep gables, leaded windows, brick and plaster, dark wood beams, old-world residential charm. Avoid tropical modernism, neon signage, and flat corporate minimalism."
-    demo: null
+    demo:
+      production_index: 196
+      batch: "10"
+      image: "196-tudor-revival-style-show.png"
+      scene: "half-timbered cottage exterior"
+      exact_prompt: |
+        Create a square style-show image for Tudor Revival Architecture: a half-timbered cottage exterior with steep pitched roof, decorative dark timbers on cream stucco, leaded glass windows, brick chimney, wet autumn garden, English domestic mood. No logos, no watermark, no readable text.
   - slug: "colonial-revival"
     name: "Colonial Revival"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Colonial Revival style: symmetrical facade, white columns, shutters, brick or clapboard, central door, formal garden, restrained historical order. Avoid deconstructivist angles and futuristic chrome."
-    demo: null
+    demo:
+      production_index: 197
+      batch: "10"
+      image: "197-colonial-revival-style-show.png"
+      scene: "symmetrical New England home facade"
+      exact_prompt: |
+        Create a square style-show image for Colonial Revival Architecture: a symmetrical New England home facade with white clapboard siding, central paneled door, slim columns, black shutters, dormer windows, calm sunny lawn, restrained classical proportion. No logos, no watermark, no readable text.
   - slug: "beaux-arts"
     name: "Beaux-Arts"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Beaux-Arts style: grand symmetry, classical columns, sculptural ornament, monumental staircases, stone facade, civic luxury, gold and cream interior accents. Avoid raw brutalism and playful Memphis color."
-    demo: null
+    demo:
+      production_index: 198
+      batch: "10"
+      image: "198-beaux-arts-style-show.png"
+      scene: "grand stone civic building facade"
+      exact_prompt: |
+        Create a square style-show image for Beaux-Arts Architecture: a grand stone civic building facade with paired classical columns, sculpted pediment, heavy cornice, arched windows, warm limestone palette, late-19th-century urban grandeur. No logos, no watermark, no readable text.
   - slug: "art-deco-skyscraper"
     name: "Art Deco Skyscraper"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Art Deco skyscraper style: stepped tower massing, vertical fluting, chrome, black stone, gold ornament, geometric crown, glamorous urban monumentality. Avoid low rustic cabins and soft cottage interiors."
-    demo: null
+    demo:
+      production_index: 199
+      batch: "10"
+      image: "199-art-deco-skyscraper-style-show.png"
+      scene: "stepped setback tower against evening sky"
+      exact_prompt: |
+        Create a square style-show image for Art Deco Skyscraper: a stepped setback tower against an evening sky with chevron and zigzag ornament, chrome crown, stylized stone reliefs, palette of warm sandstone, deep teal, and gold, 1920s Manhattan glamour. No logos, no watermark, no readable text.
   - slug: "googie"
     name: "Googie"
     category_id: 11
@@ -2181,7 +2349,13 @@ styles:
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Brutalist architecture style: raw board-formed concrete, massive block geometry, recessed shadows, fortress-like civic scale, exposed structure, severe sculptural presence. Avoid glassy luxury towers and delicate floral ornament."
-    demo: null
+    demo:
+      production_index: 200
+      batch: "10"
+      image: "200-brutalist-architecture-style-show.png"
+      scene: "massive raw-concrete civic building"
+      exact_prompt: |
+        Create a square style-show image for Brutalist Architecture: a massive raw-concrete civic building with deep recessed windows, monumental geometric forms, board-marked surfaces, deep cast shadows, overcast sky, cold imposing scale. No logos, no watermark, no readable text.
   - slug: "high-tech-architecture"
     name: "High-Tech Architecture"
     category_id: 11
