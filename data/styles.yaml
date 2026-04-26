@@ -1947,25 +1947,49 @@ styles:
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in engraving etching style: fine crosshatching, antique scientific illustration texture, cream paper, precise line density, black ink, archival detail. Avoid flat vector color and neon digital effects."
-    demo: null
+    demo:
+      production_index: 201
+      batch: 11
+      image: "201-engraving-etching-style-show.png"
+      scene: "botanical branch crosshatching illustration"
+      exact_prompt: |
+        Create a square style-show image for Engraving / Etching: a scientific botanical illustration of a flowering branch with detailed buds and leaves rendered entirely in fine crosshatching and parallel lines, varying line density creating tonal depth, cream parchment paper, archival black ink only, meticulous 18th-century natural-history illustration precision. No logos, no watermark, no readable text.
   - slug: "paper-cut"
     name: "Paper Cut"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in paper-cut illustration style: layered colored paper, visible edges, gentle cast shadows, simplified shapes, craft texture, dimensional collage. Avoid photoreal depth, shiny metal, and chaotic typography."
-    demo: null
+    demo:
+      production_index: 202
+      batch: 11
+      image: "202-paper-cut-style-show.png"
+      scene: "layered pine mountain crescent moon landscape"
+      exact_prompt: |
+        Create a square style-show image for Paper Cut illustration: a multi-layered landscape with silhouetted pine mountains, a crescent moon, and flying birds, each layer a distinct shade of colored craft paper, visible cut edges, gentle drop shadows, simplified organic shapes, warm and cool pastel tones, dimensional collage presentation. No logos, no watermark, no readable text.
   - slug: "claymation"
     name: "Claymation"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in claymation style: handmade clay forms, fingerprint texture, stop-motion lighting, rounded characterful shapes, miniature set, warm tactile imperfection. Avoid polished glass UI and hard industrial realism."
-    demo: null
+    demo:
+      production_index: 203
+      batch: 11
+      image: "203-claymation-style-show.png"
+      scene: "clay character kneading dough kitchen"
+      exact_prompt: |
+        Create a square style-show image for Claymation: a miniature clay kitchen scene with a round-headed clay character kneading dough on a tiny wooden table, fingerprint texture visible on all clay surfaces, warm stop-motion key lighting, rounded simple forms, cheerful primary colors with earthy clay tones, handmade miniature set atmosphere. No logos, no watermark, no readable text.
   - slug: "streetwear-drop"
     name: "Streetwear Drop"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in streetwear drop style: bold product focus, urban backdrop, oversized type feel, sticker labels, flash photography, black, white, red, and acid accents, hype-release energy. Avoid quiet luxury restraint and pastoral softness."
-    demo: null
+    demo:
+      production_index: 204
+      batch: 11
+      image: "204-streetwear-drop-style-show.png"
+      scene: "oversized graphic hoodie urban concrete wall"
+      exact_prompt: |
+        Create a square style-show image for Streetwear Drop: a limited-edition oversized graphic hoodie shot on an urban concrete wall backdrop, hard flash photography, bold chest graphic, sticker labels on the fabric, palette of black, white, and acid red, hype-release energy, stark product-focus composition. No logos, no watermark, no readable text.
   - slug: "luxury-monochrome"
     name: "Luxury Monochrome"
     category_id: 09
@@ -1983,61 +2007,121 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in gorpcore style: technical outdoor clothing or gear, ripstop nylon, toggles, hiking textures, earthy brights, mountain utility, practical lifestyle photography. Avoid polished formal luxury and cyberpunk city darkness."
-    demo: null
+    demo:
+      production_index: 205
+      batch: 11
+      image: "205-gorpcore-style-show.png"
+      scene: "outdoor gear flatlay mossy granite rock"
+      exact_prompt: |
+        Create a square style-show image for Gorpcore: a technical outdoor gear flatlay on a mossy granite rock — ripstop nylon jacket, carabiner, trail snacks, and hydration pack arranged with casual utility — palette of burnt orange, olive, and cobalt, raking natural mountain light, practical lifestyle photography mood. No logos, no watermark, no readable text.
   - slug: "cyber-goth"
     name: "Cyber Goth"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in cyber goth style: black synthetic clothing, neon hair or accents, industrial club lighting, goggles, PVC, straps, ultraviolet green, magenta, and blue. Avoid soft cottagecore, clean wellness minimalism, and daylight simplicity."
-    demo: null
+    demo:
+      production_index: 206
+      batch: 11
+      image: "206-cyber-goth-style-show.png"
+      scene: "neon UV industrial club stage"
+      exact_prompt: |
+        Create a square style-show image for Cyber Goth: a figure in black synthetic PVC and fishnet layers with neon green braided falls, industrial club stage with ultraviolet lighting, chrome goggles, heavy platform boots, deep shadow and neon glow contrast, futuristic dark subculture mood. No logos, no watermark, no readable text.
   - slug: "pastel-goth"
     name: "Pastel Goth"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in pastel goth style: soft lavender, mint, pink, black accents, cute-dark contrast, glossy accessories, dreamy but edgy mood. Avoid pure horror darkness, corporate minimalism, and rustic naturalism."
-    demo: null
+    demo:
+      production_index: 207
+      batch: 11
+      image: "207-pastel-goth-style-show.png"
+      scene: "iridescent flatlay cute-dark palette"
+      exact_prompt: |
+        Create a square style-show image for Pastel Goth: a styled flatlay of soft lavender cardigan, pastel pink cross pendant, bat-shaped hair clips, glossy platform mary-janes, and striped thigh-highs on a white surface dusted with iridescent stars, cute-dark contrast, dreamy and slightly sinister palette. No logos, no watermark, no readable text.
   - slug: "coquette"
     name: "Coquette"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in coquette style: bows, lace, soft pink, cream, pearls, delicate vintage femininity, romantic vanity-table details, airy photography. Avoid harsh industrial black, cyber neon, and rugged outdoor gear."
-    demo: null
+    demo:
+      production_index: 208
+      batch: 11
+      image: "208-coquette-style-show.png"
+      scene: "blush vanity tabletop soft window light"
+      exact_prompt: |
+        Create a square style-show image for Coquette aesthetic: a vanity tabletop with a hand mirror wrapped in pink satin bow, pearl drop earrings, a lace-trimmed perfume bottle, dried roses, and a small ribbon-tied diary, soft natural window light, cream and blush pink palette, delicate vintage romantic femininity. No logos, no watermark, no readable text.
   - slug: "balletcore"
     name: "Balletcore"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in balletcore style: soft wrap fabrics, pale pink, ivory, satin ribbons, rehearsal-studio light, graceful minimal styling, delicate movement. Avoid heavy grunge, neon club atmosphere, and bulky tactical gear."
-    demo: null
+    demo:
+      production_index: 209
+      batch: 11
+      image: "209-balletcore-style-show.png"
+      scene: "sunlit rehearsal studio barre corner"
+      exact_prompt: |
+        Create a square style-show image for Balletcore: a sunlit rehearsal studio corner with a barre, a tulle wrap skirt draped over it, satin pointe shoes with trailing ribbons, a pale pink water bottle, and soft chalk marks on a wooden floor, airy ivory and blush palette, graceful studio atmosphere. No logos, no watermark, no readable text.
   - slug: "normcore"
     name: "Normcore"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in normcore style: intentionally ordinary basics, neutral colors, simple sneakers, plain denim, supermarket or everyday settings, anti-fashion restraint. Avoid luxury glamour, fantasy styling, and high-drama lighting."
-    demo: null
+    demo:
+      production_index: 210
+      batch: 11
+      image: "210-normcore-style-show.png"
+      scene: "ordinary sunlit sidewalk street scene"
+      exact_prompt: |
+        Create a square style-show image for Normcore: a candid street scene of a person in plain white crew-neck tee, mid-wash straight jeans, and simple white sneakers standing on a sunlit sidewalk, no logo or statement, utterly ordinary neutral styling, suburban background, quiet anti-fashion contentment. No logos, no watermark, no readable text.
   - slug: "indie-sleaze"
     name: "Indie Sleaze"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in indie sleaze style: flash photography, messy nightlife, skinny silhouettes, grain, black leather, silver accessories, candid party composition, 2000s blog-era mood. Avoid polished luxury studio and wholesome daylight minimalism."
-    demo: null
+    demo:
+      production_index: 211
+      batch: 11
+      image: "211-indie-sleaze-style-show.png"
+      scene: "grainy flash-lit basement show crowd"
+      exact_prompt: |
+        Create a square style-show image for Indie Sleaze: a flash-lit night scene at a crowded basement show — grainy photo aesthetic, skinny-silhouetted figures in black leather jackets and band tees, red Solo cups, motion blur, early-2000s disposable camera rawness, messy hedonistic nightlife energy. No logos, no watermark, no readable text.
   - slug: "twee"
     name: "Twee"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in twee style: vintage cardigans, soft colors, books, patterned socks, analog cameras, gentle quirkiness, cozy indie styling. Avoid aggressive techwear, dark cyberpunk, and hard corporate slickness."
-    demo: null
+    demo:
+      production_index: 212
+      batch: 11
+      image: "212-twee-style-show.png"
+      scene: "cozy bedroom bookshelf polaroid corner"
+      exact_prompt: |
+        Create a square style-show image for Twee aesthetic: a cozy bedroom corner with a vintage bookshelf, a floral-print tote bag on a chair, patterned knee socks draped over a stack of paperbacks, a polaroid wall, a ceramic cat figurine, soft warm lamp glow, gentle quirky charm. No logos, no watermark, no readable text.
   - slug: "old-money"
     name: "Old Money"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in old money style: tailored neutrals, navy, cream, camel, classic architecture, inherited-quality materials, quiet confidence, restrained grooming. Avoid logo-heavy hype, neon, and flashy ornament."
-    demo: null
+    demo:
+      production_index: 213
+      batch: 11
+      image: "213-old-money-style-show.png"
+      scene: "wood-paneled study leather chesterfield afternoon"
+      exact_prompt: |
+        Create a square style-show image for Old Money aesthetic: a sunlit wood-paneled study with a leather chesterfield, a cashmere navy blazer draped on the arm, a silver-framed portrait above the mantle, a crystal decanter on a side table, warm afternoon light, quiet inherited wealth and restraint. No logos, no watermark, no readable text.
   - slug: "surf-skate"
     name: "Surf Skate"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in surf skate style: sun-faded color, boardwalk textures, hand-drawn logos without readable brands, teal, coral, cream, relaxed motion, beach asphalt energy. Avoid formal luxury and dark academic interiors."
-    demo: null
+    demo:
+      production_index: 214
+      batch: 11
+      image: "214-surf-skate-style-show.png"
+      scene: "golden hour beach boardwalk skateboard"
+      exact_prompt: |
+        Create a square style-show image for Surf Skate style: a beach boardwalk at golden hour with a skateboard propped against a sun-bleached fence post, a faded nylon windbreaker, wax comb, and sticker-covered helmet on weathered wood planks, warm California light, casual sun-faded palette of coral, sand, and turquoise. No logos, no watermark, no readable text.
   - slug: "cottagecore"
     name: "Cottagecore"
     category_id: 09
@@ -2055,7 +2139,13 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in clean girl minimal style: dewy natural light, beige-white palette, sleek hair or polished surface cues when relevant, minimal accessories, wellness-adjacent calm. Avoid grunge texture, maximalist pattern, and dark neon."
-    demo: null
+    demo:
+      production_index: 215
+      batch: 11
+      image: "215-clean-girl-minimal-style-show.png"
+      scene: "dewy bathroom counter morning light"
+      exact_prompt: |
+        Create a square style-show image for Clean Girl Minimal aesthetic: a bathroom counter styled with a glass water bottle, a jade roller, a single sprig of eucalyptus in a bud vase, and a folded white linen towel, soft diffused morning light, beige and warm white palette, effortless dewy freshness. No logos, no watermark, no readable text.
   - slug: "dopamine-decor"
     name: "Dopamine Decor"
     category_id: 09
