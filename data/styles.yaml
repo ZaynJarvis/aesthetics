@@ -2079,25 +2079,49 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in indie sleaze style: flash photography, messy nightlife, skinny silhouettes, grain, black leather, silver accessories, candid party composition, 2000s blog-era mood. Avoid polished luxury studio and wholesome daylight minimalism."
-    demo: null
+    demo:
+      production_index: 211
+      batch: 11
+      image: "211-indie-sleaze-style-show.png"
+      scene: "grainy flash-lit basement show crowd"
+      exact_prompt: |
+        Create a square style-show image for Indie Sleaze: a flash-lit night scene at a crowded basement show — grainy photo aesthetic, skinny-silhouetted figures in black leather jackets and band tees, red Solo cups, motion blur, early-2000s disposable camera rawness, messy hedonistic nightlife energy. No logos, no watermark, no readable text.
   - slug: "twee"
     name: "Twee"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in twee style: vintage cardigans, soft colors, books, patterned socks, analog cameras, gentle quirkiness, cozy indie styling. Avoid aggressive techwear, dark cyberpunk, and hard corporate slickness."
-    demo: null
+    demo:
+      production_index: 212
+      batch: 11
+      image: "212-twee-style-show.png"
+      scene: "cozy bedroom bookshelf polaroid corner"
+      exact_prompt: |
+        Create a square style-show image for Twee aesthetic: a cozy bedroom corner with a vintage bookshelf, a floral-print tote bag on a chair, patterned knee socks draped over a stack of paperbacks, a polaroid wall, a ceramic cat figurine, soft warm lamp glow, gentle quirky charm. No logos, no watermark, no readable text.
   - slug: "old-money"
     name: "Old Money"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in old money style: tailored neutrals, navy, cream, camel, classic architecture, inherited-quality materials, quiet confidence, restrained grooming. Avoid logo-heavy hype, neon, and flashy ornament."
-    demo: null
+    demo:
+      production_index: 213
+      batch: 11
+      image: "213-old-money-style-show.png"
+      scene: "wood-paneled study leather chesterfield afternoon"
+      exact_prompt: |
+        Create a square style-show image for Old Money aesthetic: a sunlit wood-paneled study with a leather chesterfield, a cashmere navy blazer draped on the arm, a silver-framed portrait above the mantle, a crystal decanter on a side table, warm afternoon light, quiet inherited wealth and restraint. No logos, no watermark, no readable text.
   - slug: "surf-skate"
     name: "Surf Skate"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in surf skate style: sun-faded color, boardwalk textures, hand-drawn logos without readable brands, teal, coral, cream, relaxed motion, beach asphalt energy. Avoid formal luxury and dark academic interiors."
-    demo: null
+    demo:
+      production_index: 214
+      batch: 11
+      image: "214-surf-skate-style-show.png"
+      scene: "golden hour beach boardwalk skateboard"
+      exact_prompt: |
+        Create a square style-show image for Surf Skate style: a beach boardwalk at golden hour with a skateboard propped against a sun-bleached fence post, a faded nylon windbreaker, wax comb, and sticker-covered helmet on weathered wood planks, warm California light, casual sun-faded palette of coral, sand, and turquoise. No logos, no watermark, no readable text.
   - slug: "cottagecore"
     name: "Cottagecore"
     category_id: 09
@@ -2115,7 +2139,13 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in clean girl minimal style: dewy natural light, beige-white palette, sleek hair or polished surface cues when relevant, minimal accessories, wellness-adjacent calm. Avoid grunge texture, maximalist pattern, and dark neon."
-    demo: null
+    demo:
+      production_index: 215
+      batch: 11
+      image: "215-clean-girl-minimal-style-show.png"
+      scene: "dewy bathroom counter morning light"
+      exact_prompt: |
+        Create a square style-show image for Clean Girl Minimal aesthetic: a bathroom counter styled with a glass water bottle, a jade roller, a single sprig of eucalyptus in a bud vase, and a folded white linen towel, soft diffused morning light, beige and warm white palette, effortless dewy freshness. No logos, no watermark, no readable text.
   - slug: "dopamine-decor"
     name: "Dopamine Decor"
     category_id: 09
