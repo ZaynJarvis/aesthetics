@@ -1947,25 +1947,49 @@ styles:
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in engraving etching style: fine crosshatching, antique scientific illustration texture, cream paper, precise line density, black ink, archival detail. Avoid flat vector color and neon digital effects."
-    demo: null
+    demo:
+      production_index: 201
+      batch: 11
+      image: "201-engraving-etching-style-show.png"
+      scene: "botanical branch crosshatching illustration"
+      exact_prompt: |
+        Create a square style-show image for Engraving / Etching: a scientific botanical illustration of a flowering branch with detailed buds and leaves rendered entirely in fine crosshatching and parallel lines, varying line density creating tonal depth, cream parchment paper, archival black ink only, meticulous 18th-century natural-history illustration precision. No logos, no watermark, no readable text.
   - slug: "paper-cut"
     name: "Paper Cut"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in paper-cut illustration style: layered colored paper, visible edges, gentle cast shadows, simplified shapes, craft texture, dimensional collage. Avoid photoreal depth, shiny metal, and chaotic typography."
-    demo: null
+    demo:
+      production_index: 202
+      batch: 11
+      image: "202-paper-cut-style-show.png"
+      scene: "layered pine mountain crescent moon landscape"
+      exact_prompt: |
+        Create a square style-show image for Paper Cut illustration: a multi-layered landscape with silhouetted pine mountains, a crescent moon, and flying birds, each layer a distinct shade of colored craft paper, visible cut edges, gentle drop shadows, simplified organic shapes, warm and cool pastel tones, dimensional collage presentation. No logos, no watermark, no readable text.
   - slug: "claymation"
     name: "Claymation"
     category_id: 08
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in claymation style: handmade clay forms, fingerprint texture, stop-motion lighting, rounded characterful shapes, miniature set, warm tactile imperfection. Avoid polished glass UI and hard industrial realism."
-    demo: null
+    demo:
+      production_index: 203
+      batch: 11
+      image: "203-claymation-style-show.png"
+      scene: "clay character kneading dough kitchen"
+      exact_prompt: |
+        Create a square style-show image for Claymation: a miniature clay kitchen scene with a round-headed clay character kneading dough on a tiny wooden table, fingerprint texture visible on all clay surfaces, warm stop-motion key lighting, rounded simple forms, cheerful primary colors with earthy clay tones, handmade miniature set atmosphere. No logos, no watermark, no readable text.
   - slug: "streetwear-drop"
     name: "Streetwear Drop"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in streetwear drop style: bold product focus, urban backdrop, oversized type feel, sticker labels, flash photography, black, white, red, and acid accents, hype-release energy. Avoid quiet luxury restraint and pastoral softness."
-    demo: null
+    demo:
+      production_index: 204
+      batch: 11
+      image: "204-streetwear-drop-style-show.png"
+      scene: "oversized graphic hoodie urban concrete wall"
+      exact_prompt: |
+        Create a square style-show image for Streetwear Drop: a limited-edition oversized graphic hoodie shot on an urban concrete wall backdrop, hard flash photography, bold chest graphic, sticker labels on the fabric, palette of black, white, and acid red, hype-release energy, stark product-focus composition. No logos, no watermark, no readable text.
   - slug: "luxury-monochrome"
     name: "Luxury Monochrome"
     category_id: 09
@@ -1983,7 +2007,13 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in gorpcore style: technical outdoor clothing or gear, ripstop nylon, toggles, hiking textures, earthy brights, mountain utility, practical lifestyle photography. Avoid polished formal luxury and cyberpunk city darkness."
-    demo: null
+    demo:
+      production_index: 205
+      batch: 11
+      image: "205-gorpcore-style-show.png"
+      scene: "outdoor gear flatlay mossy granite rock"
+      exact_prompt: |
+        Create a square style-show image for Gorpcore: a technical outdoor gear flatlay on a mossy granite rock — ripstop nylon jacket, carabiner, trail snacks, and hydration pack arranged with casual utility — palette of burnt orange, olive, and cobalt, raking natural mountain light, practical lifestyle photography mood. No logos, no watermark, no readable text.
   - slug: "cyber-goth"
     name: "Cyber Goth"
     category_id: 09
