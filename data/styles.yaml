@@ -2019,31 +2019,61 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in cyber goth style: black synthetic clothing, neon hair or accents, industrial club lighting, goggles, PVC, straps, ultraviolet green, magenta, and blue. Avoid soft cottagecore, clean wellness minimalism, and daylight simplicity."
-    demo: null
+    demo:
+      production_index: 206
+      batch: 11
+      image: "206-cyber-goth-style-show.png"
+      scene: "neon UV industrial club stage"
+      exact_prompt: |
+        Create a square style-show image for Cyber Goth: a figure in black synthetic PVC and fishnet layers with neon green braided falls, industrial club stage with ultraviolet lighting, chrome goggles, heavy platform boots, deep shadow and neon glow contrast, futuristic dark subculture mood. No logos, no watermark, no readable text.
   - slug: "pastel-goth"
     name: "Pastel Goth"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in pastel goth style: soft lavender, mint, pink, black accents, cute-dark contrast, glossy accessories, dreamy but edgy mood. Avoid pure horror darkness, corporate minimalism, and rustic naturalism."
-    demo: null
+    demo:
+      production_index: 207
+      batch: 11
+      image: "207-pastel-goth-style-show.png"
+      scene: "iridescent flatlay cute-dark palette"
+      exact_prompt: |
+        Create a square style-show image for Pastel Goth: a styled flatlay of soft lavender cardigan, pastel pink cross pendant, bat-shaped hair clips, glossy platform mary-janes, and striped thigh-highs on a white surface dusted with iridescent stars, cute-dark contrast, dreamy and slightly sinister palette. No logos, no watermark, no readable text.
   - slug: "coquette"
     name: "Coquette"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in coquette style: bows, lace, soft pink, cream, pearls, delicate vintage femininity, romantic vanity-table details, airy photography. Avoid harsh industrial black, cyber neon, and rugged outdoor gear."
-    demo: null
+    demo:
+      production_index: 208
+      batch: 11
+      image: "208-coquette-style-show.png"
+      scene: "blush vanity tabletop soft window light"
+      exact_prompt: |
+        Create a square style-show image for Coquette aesthetic: a vanity tabletop with a hand mirror wrapped in pink satin bow, pearl drop earrings, a lace-trimmed perfume bottle, dried roses, and a small ribbon-tied diary, soft natural window light, cream and blush pink palette, delicate vintage romantic femininity. No logos, no watermark, no readable text.
   - slug: "balletcore"
     name: "Balletcore"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in balletcore style: soft wrap fabrics, pale pink, ivory, satin ribbons, rehearsal-studio light, graceful minimal styling, delicate movement. Avoid heavy grunge, neon club atmosphere, and bulky tactical gear."
-    demo: null
+    demo:
+      production_index: 209
+      batch: 11
+      image: "209-balletcore-style-show.png"
+      scene: "sunlit rehearsal studio barre corner"
+      exact_prompt: |
+        Create a square style-show image for Balletcore: a sunlit rehearsal studio corner with a barre, a tulle wrap skirt draped over it, satin pointe shoes with trailing ribbons, a pale pink water bottle, and soft chalk marks on a wooden floor, airy ivory and blush palette, graceful studio atmosphere. No logos, no watermark, no readable text.
   - slug: "normcore"
     name: "Normcore"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in normcore style: intentionally ordinary basics, neutral colors, simple sneakers, plain denim, supermarket or everyday settings, anti-fashion restraint. Avoid luxury glamour, fantasy styling, and high-drama lighting."
-    demo: null
+    demo:
+      production_index: 210
+      batch: 11
+      image: "210-normcore-style-show.png"
+      scene: "ordinary sunlit sidewalk street scene"
+      exact_prompt: |
+        Create a square style-show image for Normcore: a candid street scene of a person in plain white crew-neck tee, mid-wash straight jeans, and simple white sneakers standing on a sunlit sidewalk, no logo or statement, utterly ordinary neutral styling, suburban background, quiet anti-fashion contentment. No logos, no watermark, no readable text.
   - slug: "indie-sleaze"
     name: "Indie Sleaze"
     category_id: 09
