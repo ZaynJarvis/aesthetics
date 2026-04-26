@@ -739,9 +739,7 @@ This gallery supersedes the first generic demo set. Each image uses a scene that
 
 ![Art Deco Interior style show](../../web/public/generated/140-art-deco-interior-style-show.png)
 
-## Batch 08: Interior, Material, and Photography Lanes (partial)
-
-Note: 158 Teal & Orange Cinema, 159 Pastel Symmetry Cinema, and 160 Fashion Editorial are pending and will land in a follow-up PR.
+## Batch 08: Interior, Material, and Photography Lanes
 
 | # | Style | Best-fit demo scene | Image |
 |---|---|---|---|
@@ -762,9 +760,9 @@ Note: 158 Teal & Orange Cinema, 159 Pastel Symmetry Cinema, and 160 Fashion Edit
 | 155 | VHS Camcorder | low-res backyard-at-dusk frame | ../../web/public/generated/155-vhs-camcorder-style-show.png |
 | 156 | Analog Horror | degraded surveillance hallway | ../../web/public/generated/156-analog-horror-style-show.png |
 | 157 | Bleach Bypass | desaturated wet-street city scene | ../../web/public/generated/157-bleach-bypass-style-show.png |
-| 158 | Teal & Orange Cinema | _pending_ | _pending_ |
-| 159 | Pastel Symmetry Cinema | _pending_ | _pending_ |
-| 160 | Fashion Editorial | _pending_ | _pending_ |
+| 158 | Teal & Orange Cinema | teal shadows + orange highlights action frame | ../../web/public/generated/158-teal-orange-cinema-style-show.png |
+| 159 | Pastel Symmetry Cinema | centered pastel hotel facade / lobby | ../../web/public/generated/159-pastel-symmetry-cinema-style-show.png |
+| 160 | Fashion Editorial | studio-lit silhouette with negative space | ../../web/public/generated/160-fashion-editorial-style-show.png |
 
 ### 141 Bauhaus Furniture
 
@@ -833,6 +831,18 @@ Note: 158 Teal & Orange Cinema, 159 Pastel Symmetry Cinema, and 160 Fashion Edit
 ### 157 Bleach Bypass
 
 ![Bleach Bypass style show](../../web/public/generated/157-bleach-bypass-style-show.png)
+
+### 158 Teal & Orange Cinema
+
+![Teal & Orange Cinema style show](../../web/public/generated/158-teal-orange-cinema-style-show.png)
+
+### 159 Pastel Symmetry Cinema
+
+![Pastel Symmetry Cinema style show](../../web/public/generated/159-pastel-symmetry-cinema-style-show.png)
+
+### 160 Fashion Editorial
+
+![Fashion Editorial style show](../../web/public/generated/160-fashion-editorial-style-show.png)
 
 ## Batch 09: Photography Tail and Illustration / Comics (partial)
 

@@ -694,17 +694,17 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 ### teal-orange-cinema
 - **Name:** Teal and Orange Cinema
 - **Prompt:** Create `{{SUBJECT}}` in teal and orange blockbuster cinema style: warm skin or highlights against cool teal shadows, high contrast, widescreen framing, polished action-drama lighting. Avoid monochrome minimalism and muted documentary neutrality.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/158-teal-orange-cinema-style-show.png
 
 ### pastel-symmetry-cinema
 - **Name:** Pastel Symmetry Cinema
 - **Prompt:** Create `{{SUBJECT}}` in pastel symmetry cinema style: centered composition, precise frontal framing, soft pastel palette, stylized set dressing, deadpan order, miniature-like world. Avoid handheld documentary chaos and dark cyberpunk atmosphere.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/159-pastel-symmetry-cinema-style-show.png
 
 ### fashion-editorial
 - **Name:** Fashion Editorial
 - **Prompt:** Create `{{SUBJECT}}` in fashion editorial style: controlled studio or location lighting, strong pose or product silhouette, premium styling, negative space, magazine-quality color grade. Avoid ordinary stock-photo composition and messy background clutter.
-- **Image demo:** <image_demo>
+- **Image demo:** ../web/public/generated/160-fashion-editorial-style-show.png
 
 ### macro-product
 - **Name:** Macro Product

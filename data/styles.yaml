@@ -1446,8 +1446,9 @@ styles:
       production_index: 141
       batch: 08
       image: "141-bauhaus-furniture-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "tubular-steel chair and primary-accent studio"
+      exact_prompt: |
+        Create a square style-show image for Bauhaus Furniture: a white studio space with tubular steel chair, leather seat, geometric coffee table, primary red and blue accent objects, rational modernist composition, clean daylight, no ornament. No logos, no watermark, no readable text.
   - slug: "memphis-interior"
     name: "Memphis Interior"
     category_id: 06
@@ -1457,8 +1458,9 @@ styles:
       production_index: 142
       batch: 08
       image: "142-memphis-interior-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "terrazzo + zigzag 1980s living room"
+      exact_prompt: |
+        Create a square style-show image for Memphis Interior: a 1980s living room with terrazzo floor, colorful laminate furniture, zigzag and squiggle patterns, pastel brights with black accents, playful geometric lamp, postmodern wit. No logos, no watermark, no readable text.
   - slug: "quiet-luxury"
     name: "Quiet Luxury"
     category_id: 06
@@ -1468,8 +1470,9 @@ styles:
       production_index: 143
       batch: 08
       image: "143-quiet-luxury-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "cashmere-and-leather dressing-room corner"
+      exact_prompt: |
+        Create a square style-show image for Quiet Luxury: a precisely styled dressing room corner with cashmere sweater on wooden hanger, leather travel bag, matte stone tray, muted beige and stone palette, refined window light, no visible logos, calm wealth. No logos, no watermark, no readable text.
   - slug: "tech-minimal-hardware"
     name: "Tech Minimal Hardware"
     category_id: 06
@@ -1479,8 +1482,9 @@ styles:
       production_index: 144
       batch: 08
       image: "144-tech-minimal-hardware-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "aluminum-and-glass device on white"
+      exact_prompt: |
+        Create a square style-show image for Tech Minimal Hardware: a single seamless aluminum and matte glass device on white surface, precise chamfered edges, sparse studio lighting, engineered restraint, soft shadow, premium product mood. No logos, no watermark, no readable text.
   - slug: "transparent-gadget"
     name: "Transparent Gadget"
     category_id: 06
@@ -1490,8 +1494,9 @@ styles:
       production_index: 145
       batch: 08
       image: "145-transparent-gadget-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "clear-plastic retro-futurist device"
+      exact_prompt: |
+        Create a square style-show image for Transparent Gadget: a retro-futuristic handheld device with clear plastic shell, visible internal circuit board, tiny screws, smoky translucent panels, exposed buttons, curiosity object on neutral background. No logos, no watermark, no readable text.
   - slug: "eco-kraft-packaging"
     name: "Eco Kraft Packaging"
     category_id: 06
@@ -1501,8 +1506,9 @@ styles:
       production_index: 146
       batch: 08
       image: "146-eco-kraft-packaging-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "recycled paper bag + kraft tube"
+      exact_prompt: |
+        Create a square style-show image for Eco Kraft Packaging: a recycled brown paper bag and cylindrical kraft tube on natural surface, simple ink graphics, green leaf accent, honest material texture, minimal abstract label blocks, sustainable brand mood. No logos, no watermark, no readable text.
   - slug: "apothecary-vintage"
     name: "Apothecary Vintage"
     category_id: 06
@@ -1512,8 +1518,9 @@ styles:
       production_index: 147
       batch: 08
       image: "147-apothecary-vintage-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "amber-glass shelf with brass scale"
+      exact_prompt: |
+        Create a square style-show image for Apothecary Vintage: a dark wood shelf with amber glass bottles, cream paper labels rendered as abstract type blocks, engraved botanical line illustrations, brass scale, dim sepia atmosphere, medicinal heritage mood. No logos, no watermark, no readable text.
   - slug: "holographic-packaging"
     name: "Holographic Packaging"
     category_id: 06
@@ -1523,8 +1530,9 @@ styles:
       production_index: 148
       batch: 08
       image: "148-holographic-packaging-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "iridescent foil pouch and film box"
+      exact_prompt: |
+        Create a square style-show image for Holographic Packaging: a glossy iridescent foil pouch and reflective film box with prismatic color shifts, premium futuristic shelf presence, glossy folds, black-white contrast surface, abstract label panels. No logos, no watermark, no readable text.
   - slug: "film-noir"
     name: "Film Noir"
     category_id: 07
@@ -1558,8 +1566,9 @@ styles:
       production_index: 149
       batch: 08
       image: "149-high-key-beauty-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "bright soft-lit cosmetic still life"
+      exact_prompt: |
+        Create a square style-show image for High-Key Beauty: a bright soft-lit cosmetic still life with smooth highlights, low shadows, white seamless background, polished glass and porcelain surfaces, airy premium mood. No logos, no watermark, no readable text.
   - slug: "low-key-chiaroscuro"
     name: "Low-Key Chiaroscuro"
     category_id: 07
@@ -1569,8 +1578,9 @@ styles:
       production_index: 150
       batch: 08
       image: "150-low-key-chiaroscuro-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "single object in narrow beam"
+      exact_prompt: |
+        Create a square style-show image for Low-Key Chiaroscuro: a single object on dark surface lit by a narrow beam, deep black shadows, sculptural highlights, dramatic contrast, rich material texture, intimate darkness. No logos, no watermark, no readable text.
   - slug: "golden-hour-editorial"
     name: "Golden Hour Editorial"
     category_id: 07
@@ -1580,8 +1590,9 @@ styles:
       production_index: 151
       batch: 08
       image: "151-golden-hour-editorial-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "warm low-sun lifestyle scene"
+      exact_prompt: |
+        Create a square style-show image for Golden Hour Editorial: a relaxed lifestyle scene at warm low sun, long shadows, gentle lens flare, natural skin and material texture, premium magazine framing, golden grass and warm neutrals. No logos, no watermark, no readable text.
   - slug: "documentary-realism"
     name: "Documentary Realism"
     category_id: 07
@@ -1591,8 +1602,9 @@ styles:
       production_index: 152
       batch: 08
       image: "152-documentary-realism-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "candid kitchen-table moment"
+      exact_prompt: |
+        Create a square style-show image for Documentary Realism: a candid kitchen-table moment in natural available light, honest imperfections, real environment with worn objects, unobtrusive 35mm framing, believable human-scale detail. No logos, no watermark, no readable text.
   - slug: "lo-fi-35mm"
     name: "Lo-fi 35mm"
     category_id: 07
@@ -1602,8 +1614,9 @@ styles:
       production_index: 153
       batch: 08
       image: "153-lo-fi-35mm-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "grainy snapshot of a diner table"
+      exact_prompt: |
+        Create a square style-show image for Lo-fi 35mm: a casual snapshot of a friend's diner table with film grain, slight blur, imperfect exposure, warm color cast, dust speck, vignette, lived-in everyday realism. No logos, no watermark, no readable text.
   - slug: "polaroid-snapshot"
     name: "Polaroid Snapshot"
     category_id: 07
@@ -1613,8 +1626,9 @@ styles:
       production_index: 154
       batch: 08
       image: "154-polaroid-snapshot-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "instant-film bordered photo"
+      exact_prompt: |
+        Create a square style-show image for Polaroid Snapshot: an instant film photo with thick white border, soft flash, faded green-pink color, slight chemical unevenness, close casual portrait-of-objects framing, nostalgic physical-photo feel. No logos, no watermark, no readable text.
   - slug: "vhs-camcorder"
     name: "VHS Camcorder"
     category_id: 07
@@ -1624,8 +1638,9 @@ styles:
       production_index: 155
       batch: 08
       image: "155-vhs-camcorder-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "low-res backyard-at-dusk frame"
+      exact_prompt: |
+        Create a square style-show image for VHS Camcorder: a low-resolution video still of a backyard at dusk with scanlines, chroma noise, blown highlights, slight tracking artifacts, abstract corner timestamp blocks without readable digits, home-video framing. No logos, no watermark, no readable text.
   - slug: "analog-horror"
     name: "Analog Horror"
     category_id: 07
@@ -1635,8 +1650,9 @@ styles:
       production_index: 156
       batch: 08
       image: "156-analog-horror-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "degraded surveillance hallway"
+      exact_prompt: |
+        Create a square style-show image for Analog Horror: a degraded surveillance-style frame of an empty hallway with washed-out color, tape texture, dark void at the end, ominous stillness, faint scan corruption, no figures visible. No logos, no watermark, no readable text.
   - slug: "bleach-bypass"
     name: "Bleach Bypass"
     category_id: 07
@@ -1646,26 +1662,45 @@ styles:
       production_index: 157
       batch: 08
       image: "157-bleach-bypass-style-show.png"
-      scene: ""
-      exact_prompt: ""
+      scene: "desaturated wet-street city scene"
+      exact_prompt: |
+        Create a square style-show image for Bleach Bypass cinema: a desaturated wet-street city scene with high contrast, metallic highlights on chrome, gritty texture, cold drama, rugged photographic realism. No logos, no watermark, no readable text.
   - slug: "teal-orange-cinema"
     name: "Teal and Orange Cinema"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in teal and orange blockbuster cinema style: warm skin or highlights against cool teal shadows, high contrast, widescreen framing, polished action-drama lighting. Avoid monochrome minimalism and muted documentary neutrality."
-    demo: null
+    demo:
+      production_index: 158
+      batch: 08
+      image: "158-teal-orange-cinema-style-show.png"
+      scene: "teal shadows + orange highlights action frame"
+      exact_prompt: |
+        Create a square style-show image for Teal and Orange Cinema: a widescreen-feel scene with warm orange skin highlights against cool teal shadows, high contrast, blockbuster lighting, polished action-drama atmosphere. No logos, no watermark, no readable text.
   - slug: "pastel-symmetry-cinema"
     name: "Pastel Symmetry Cinema"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in pastel symmetry cinema style: centered composition, precise frontal framing, soft pastel palette, stylized set dressing, deadpan order, miniature-like world. Avoid handheld documentary chaos and dark cyberpunk atmosphere."
-    demo: null
+    demo:
+      production_index: 159
+      batch: 08
+      image: "159-pastel-symmetry-cinema-style-show.png"
+      scene: "centered pastel hotel facade / lobby"
+      exact_prompt: |
+        Create a square style-show image for Pastel Symmetry Cinema: a perfectly centered miniature-like hotel facade or lobby with pastel walls, precise frontal framing, deadpan order, symmetric set dressing, soft daylight, stylized world. No logos, no watermark, no readable text.
   - slug: "fashion-editorial"
     name: "Fashion Editorial"
     category_id: 07
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in fashion editorial style: controlled studio or location lighting, strong pose or product silhouette, premium styling, negative space, magazine-quality color grade. Avoid ordinary stock-photo composition and messy background clutter."
-    demo: null
+    demo:
+      production_index: 160
+      batch: 08
+      image: "160-fashion-editorial-style-show.png"
+      scene: "studio-lit silhouette with negative space"
+      exact_prompt: |
+        Create a square style-show image for Fashion Editorial: a strong silhouette in controlled studio light against colored backdrop, premium styling, sculptural pose, generous negative space, magazine-quality color grade. No logos, no watermark, no readable text.
   - slug: "macro-product"
     name: "Macro Product"
     category_id: 07
@@ -1675,7 +1710,7 @@ styles:
       production_index: 161
       batch: 09
       image: "161-macro-product-style-show.png"
-      scene: ""
+      scene: "extreme close-up watch movement"
       exact_prompt: ""
   - slug: "infrared-photo"
     name: "Infrared Photo"
@@ -1686,7 +1721,7 @@ styles:
       production_index: 162
       batch: 09
       image: "162-infrared-photo-style-show.png"
-      scene: ""
+      scene: "surreal pale-pink forest, dark sky"
       exact_prompt: ""
   - slug: "tilt-shift-miniature"
     name: "Tilt-Shift Miniature"
@@ -1697,7 +1732,7 @@ styles:
       production_index: 163
       batch: 09
       image: "163-tilt-shift-miniature-style-show.png"
-      scene: ""
+      scene: "toy-like elevated city block"
       exact_prompt: ""
   - slug: "hyperreal-cgi"
     name: "Hyperreal CGI"
@@ -1708,7 +1743,7 @@ styles:
       production_index: 164
       batch: 09
       image: "164-hyperreal-cgi-style-show.png"
-      scene: ""
+      scene: "impossibly clean still life"
       exact_prompt: ""
   - slug: "8-bit-pixel-art"
     name: "8-bit Pixel Art"
@@ -1731,7 +1766,7 @@ styles:
       production_index: 165
       batch: 09
       image: "165-16-bit-pixel-art-style-show.png"
-      scene: ""
+      scene: "side-scroller fantasy town"
       exact_prompt: ""
   - slug: "voxel-art"
     name: "Voxel Art"
@@ -1742,7 +1777,7 @@ styles:
       production_index: 166
       batch: 09
       image: "166-voxel-art-style-show.png"
-      scene: ""
+      scene: "isometric cube-built cottage"
       exact_prompt: ""
   - slug: "low-poly"
     name: "Low Poly"
@@ -1753,7 +1788,7 @@ styles:
       production_index: 167
       batch: 09
       image: "167-low-poly-style-show.png"
-      scene: ""
+      scene: "faceted mountain landscape"
       exact_prompt: ""
   - slug: "cel-shaded-3d"
     name: "Cel-Shaded 3D"
@@ -1764,7 +1799,7 @@ styles:
       production_index: 168
       batch: 09
       image: "168-cel-shaded-3d-style-show.png"
-      scene: ""
+      scene: "bold-outlined stylized character room"
       exact_prompt: ""
   - slug: "manga-screentone"
     name: "Manga Screentone"
@@ -1775,7 +1810,7 @@ styles:
       production_index: 169
       batch: 09
       image: "169-manga-screentone-style-show.png"
-      scene: ""
+      scene: "dramatic monochrome ink panel"
       exact_prompt: ""
   - slug: "anime-watercolor"
     name: "Anime Watercolor"
@@ -1786,7 +1821,7 @@ styles:
       production_index: 170
       batch: 09
       image: "170-anime-watercolor-style-show.png"
-      scene: ""
+      scene: "countryside train platform at dusk"
       exact_prompt: ""
   - slug: "golden-age-comic"
     name: "Golden Age Comic"
@@ -1797,7 +1832,7 @@ styles:
       production_index: 171
       batch: 09
       image: "171-golden-age-comic-style-show.png"
-      scene: ""
+      scene: "bold-primary heroic comic panel"
       exact_prompt: ""
   - slug: "silver-age-comic"
     name: "Silver Age Comic"
