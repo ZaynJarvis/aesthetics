@@ -2474,14 +2474,14 @@ styles:
     name: "High-Tech Architecture"
     category_id: 11
     source_doc: expanded
-    reusable_prompt: "Create `{{SUBJECT}}` in High-Tech architecture style: exposed color-coded service pipes and structural trusses on the exterior facade, glass-and-steel skin, mechanical systems visible outside the building in vivid red blue and yellow, industrial precision turned inside-out, engineered clarity. Avoid rustic handmade texture and historical ornament."
+    reusable_prompt: "Create `{{SUBJECT}}` in High-Tech architecture style: transparent glass envelope over an exposed precision-engineered steel skeleton, tension cables, tubular chrome masts, modular service capsules on the exterior, the building reading as a gleaming high-performance machine, dramatic engineered futurism. Avoid historical ornament, raw concrete, and rustic handmade texture."
     demo:
       production_index: 220
       batch: 11
       image: "220-high-tech-architecture-style-show.png"
-      scene: "pompidou-style exterior pipes and ducts"
+      scene: "glass-skinned tower with exposed steel skeleton and service capsules"
       exact_prompt: |
-        Create a square style-show image for High-Tech Architecture: the bold exterior of a landmark building in the tradition of Pompidou-Centre High-Tech Modernism — color-coded service pipes, ducts, and structural trusses running up the outside of a glass-and-steel facade, external escalator tube climbing the front, mechanical systems in vivid red, blue, and yellow against brushed steel, dramatic upward perspective from street level, overcast urban daylight, the building turned inside-out with engineered pride. No logos, no watermark, no readable text.
+        Create a square style-show image for High-Tech Architecture: a dramatic glass-skinned tower with its structural steel skeleton fully visible — latticed tension cables, tubular chrome masts, modular service capsules and elevator pods mounted on the exterior like mechanical organs of a living machine, precision-bolted steel nodes and cross-bracing catching sharp daylight, transparent glass revealing stacked open floors within, the entire building reading as a gleaming high-performance engineered instrument against a crisp blue sky, cinematic wide-angle architectural photography, dramatic upward perspective. No logos, no watermark, no readable text.
   - slug: "deconstructivist-architecture"
     name: "Deconstructivist Architecture"
     category_id: 11
