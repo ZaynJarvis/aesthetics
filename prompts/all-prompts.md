@@ -919,3 +919,8 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 - **Name:** Athletic Performance
 - **Prompt:** Create `{{SUBJECT}}` in athletic performance style: dynamic motion, technical materials, high-contrast lighting, sharp product silhouette, energetic typography feel, black, white, electric accent color. Avoid delicate vintage romance and slow pastoral calm.
 - **Image demo:** <image_demo>
+
+### high-tech-architecture
+- **Name:** High-Tech Architecture
+- **Prompt:** Create `{{SUBJECT}}` in High-Tech architecture style: exposed color-coded service pipes and structural trusses on the exterior facade, glass-and-steel skin, mechanical systems visible outside the building in vivid red blue and yellow, industrial precision turned inside-out, engineered clarity. Avoid rustic handmade texture and historical ornament.
+- **Image demo:** <image_demo>
