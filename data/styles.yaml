@@ -2151,25 +2151,49 @@ styles:
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in dopamine decor style: bright happy color blocking, playful objects, unexpected pattern mixing, rounded furniture, cheerful abundance, optimistic lifestyle composition. Avoid monochrome quiet luxury and severe brutalist austerity."
-    demo: null
+    demo:
+      production_index: 216
+      batch: 11
+      image: "216-dopamine-decor-style-show.png"
+      scene: "cobalt sofa chartreuse lamp checkerboard rug"
+      exact_prompt: |
+        Create a square style-show image for Dopamine Decor: a living room corner with a bright cobalt sofa, a chartreuse lamp, a checkerboard rug, stacked colorful books on a tulip-shaped side table, and a smiley-face throw pillow, joyful bold color blocking, playful pattern mixing, rainbow energy. No logos, no watermark, no readable text.
   - slug: "maximalist-brand"
     name: "Maximalist Brand"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in maximalist brand style: saturated palette, layered graphics, bold pattern, expressive typography feel, product-forward abundance, confident contemporary campaign mood. Avoid minimalist whitespace and muted corporate restraint."
-    demo: null
+    demo:
+      production_index: 217
+      batch: 11
+      image: "217-maximalist-brand-style-show.png"
+      scene: "bold flatlay saturated overlapping objects"
+      exact_prompt: |
+        Create a square style-show image for Maximalist Brand aesthetic: a product campaign flatlay with multiple overlapping bold-colored objects, dense graphic pattern background, expressive oversized type treatment areas, saturated palette of red, yellow, green, and deep violet, high visual noise, confident maximalist energy. No logos, no watermark, no readable text.
   - slug: "wellness-minimal"
     name: "Wellness Minimal"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in wellness minimal style: soft beige, sage, warm white, natural materials, gentle sunlight, sparse layout, calm health-focused brand mood. Avoid harsh black contrast, neon, and busy streetwear graphics."
-    demo: null
+    demo:
+      production_index: 218
+      batch: 11
+      image: "218-wellness-minimal-style-show.png"
+      scene: "matcha mug succulent linen morning light"
+      exact_prompt: |
+        Create a square style-show image for Wellness Minimal aesthetic: a morning windowsill with a ceramic mug of matcha, a small succulent in a terracotta pot, a smooth river stone, and a single folded linen cloth, soft diffused sunlight, palette of warm white, sage green, and oat beige, peaceful sparse calm. No logos, no watermark, no readable text.
   - slug: "athletic-performance"
     name: "Athletic Performance"
     category_id: 09
     source_doc: main
     reusable_prompt: "Create `{{SUBJECT}}` in athletic performance style: dynamic motion, technical materials, high-contrast lighting, sharp product silhouette, energetic typography feel, black, white, electric accent color. Avoid delicate vintage romance and slow pastoral calm."
-    demo: null
+    demo:
+      production_index: 219
+      batch: 11
+      image: "219-athletic-performance-style-show.png"
+      scene: "sprinter starting block electric blue"
+      exact_prompt: |
+        Create a square style-show image for Athletic Performance style: a dramatic low-angle shot of a sprinter's legs at the starting block — technical compression fabric, high-contrast studio lighting, sharp geometric shadows, kinetic energy frozen mid-tension, bold black and electric blue palette, performance-first intensity. No logos, no watermark, no readable text.
   - slug: "impressionism"
     name: "Impressionism"
     category_id: 10
@@ -2451,7 +2475,13 @@ styles:
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in High-Tech architecture style: exposed structural systems, steel trusses, glass skin, visible ducts, mechanical elegance, industrial precision, bright engineered clarity. Avoid rustic handmade texture and historical ornament."
-    demo: null
+    demo:
+      production_index: 220
+      batch: 11
+      image: "220-high-tech-architecture-style-show.png"
+      scene: "steel trusses glass curtain wall primary colors"
+      exact_prompt: |
+        Create a square style-show image for High-Tech Architecture: an interior view of a civic building with exposed structural steel trusses, glass curtain wall, visible service ducts and mechanical systems painted in primary colors, bright industrial lighting, precise engineering aesthetic, bold structural honesty in the tradition of the Pompidou Centre. No logos, no watermark, no readable text.
   - slug: "deconstructivist-architecture"
     name: "Deconstructivist Architecture"
     category_id: 11
