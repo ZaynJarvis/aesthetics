@@ -922,5 +922,5 @@ Replace `{{SUBJECT}}` with your target. Keep the style name plus concrete visual
 
 ### high-tech-architecture
 - **Name:** High-Tech Architecture
-- **Prompt:** Create `{{SUBJECT}}` in High-Tech architecture style: exposed color-coded service pipes and structural trusses on the exterior facade, glass-and-steel skin, mechanical systems visible outside the building in vivid red blue and yellow, industrial precision turned inside-out, engineered clarity. Avoid rustic handmade texture and historical ornament.
-- **Image demo:** <image_demo>
+- **Prompt:** Create `{{SUBJECT}}` in High-Tech architecture style: transparent glass envelope over an exposed precision-engineered steel skeleton, tension cables, tubular chrome masts, modular service capsules on the exterior, the building reading as a gleaming high-performance machine, dramatic engineered futurism. Avoid historical ornament, raw concrete, and rustic handmade texture.
+- **Image demo:** ../web/public/generated/220-high-tech-architecture-style-show.png
