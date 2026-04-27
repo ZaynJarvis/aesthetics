@@ -2474,14 +2474,14 @@ styles:
     name: "High-Tech Architecture"
     category_id: 11
     source_doc: expanded
-    reusable_prompt: "Create `{{SUBJECT}}` in High-Tech architecture style: exposed structural systems, steel trusses, glass skin, visible ducts, mechanical elegance, industrial precision, bright engineered clarity. Avoid rustic handmade texture and historical ornament."
+    reusable_prompt: "Create `{{SUBJECT}}` in High-Tech architecture style: exposed color-coded service pipes and structural trusses on the exterior facade, glass-and-steel skin, mechanical systems visible outside the building in vivid red blue and yellow, industrial precision turned inside-out, engineered clarity. Avoid rustic handmade texture and historical ornament."
     demo:
       production_index: 220
       batch: 11
       image: "220-high-tech-architecture-style-show.png"
-      scene: "steel trusses glass curtain wall primary colors"
+      scene: "pompidou-style exterior pipes and ducts"
       exact_prompt: |
-        Create a square style-show image for High-Tech Architecture: an interior view of a civic building with exposed structural steel trusses, glass curtain wall, visible service ducts and mechanical systems painted in primary colors, bright industrial lighting, precise engineering aesthetic, bold structural honesty in the tradition of the Pompidou Centre. No logos, no watermark, no readable text.
+        Create a square style-show image for High-Tech Architecture: the bold exterior of a landmark building in the tradition of Pompidou-Centre High-Tech Modernism — color-coded service pipes, ducts, and structural trusses running up the outside of a glass-and-steel facade, external escalator tube climbing the front, mechanical systems in vivid red, blue, and yellow against brushed steel, dramatic upward perspective from street level, overcast urban daylight, the building turned inside-out with engineered pride. No logos, no watermark, no readable text.
   - slug: "deconstructivist-architecture"
     name: "Deconstructivist Architecture"
     category_id: 11
