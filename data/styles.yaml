@@ -2655,31 +2655,61 @@ styles:
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in grandmillennial style: updated traditional decor, chintz, skirted tables, blue-and-white porcelain, needlepoint, pleats, playful heirloom layering. Avoid bare minimal rooms and hard industrial loft styling."
-    demo: null
+    demo:
+      production_index: 231
+      batch: 14
+      image: "231-grandmillennial-style-show.png"
+      scene: "chintz layered heirloom parlor"
+      exact_prompt: |
+        Create a square style-show image for Grandmillennial in grandmillennial style: updated traditional decor, chintz, skirted tables, blue-and-white porcelain, needlepoint, pleats, playful heirloom layering. Avoid bare minimal rooms and hard industrial loft styling. No logos, no watermark, no readable text.
   - slug: "regencycore"
     name: "Regencycore"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Regencycore style: pale pastel rooms, gilded mirrors, classical molding, delicate florals, empire silhouettes, candlelit romantic period-drama elegance. Avoid modern tech hardware and rough punk textures."
-    demo: null
+    demo:
+      production_index: 232
+      batch: 14
+      image: "232-regencycore-style-show.png"
+      scene: "pastel gilded period-drama salon"
+      exact_prompt: |
+        Create a square style-show image for Regencycore in Regencycore style: pale pastel rooms, gilded mirrors, classical molding, delicate florals, empire silhouettes, candlelit romantic period-drama elegance. Avoid modern tech hardware and rough punk textures. No logos, no watermark, no readable text.
   - slug: "maximalist-interior"
     name: "Maximalist Interior"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in maximalist interior style: layered patterns, jewel tones, gallery walls, sculptural lamps, bold wallpaper, collected objects, confident abundance. Avoid empty white minimal rooms and monotone beige restraint."
-    demo: null
+    demo:
+      production_index: 233
+      batch: 14
+      image: "233-maximalist-interior-style-show.png"
+      scene: "jewel-tone layered gallery room"
+      exact_prompt: |
+        Create a square style-show image for Maximalist Interior in maximalist interior style: layered patterns, jewel tones, gallery walls, sculptural lamps, bold wallpaper, collected objects, confident abundance. Avoid empty white minimal rooms and monotone beige restraint. No logos, no watermark, no readable text.
   - slug: "minimalist-zen-interior"
     name: "Minimalist Zen Interior"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in minimalist Zen interior style: low furniture, tatami-like geometry, pale wood, stone, linen, empty space, soft natural light, contemplative balance. Avoid clutter, neon signage, and ornate European trim."
-    demo: null
+    demo:
+      production_index: 234
+      batch: 14
+      image: "234-minimalist-zen-interior-style-show.png"
+      scene: "pale wood contemplative zen room"
+      exact_prompt: |
+        Create a square style-show image for Minimalist Zen Interior in minimalist Zen interior style: low furniture, tatami-like geometry, pale wood, stone, linen, empty space, soft natural light, contemplative balance. Avoid clutter, neon signage, and ornate European trim. No logos, no watermark, no readable text.
   - slug: "high-tech-interior"
     name: "High-Tech Interior"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in high-tech interior style: exposed metal, modular systems, glass partitions, integrated lighting, visible infrastructure, monochrome surfaces, engineered precision. Avoid floral cottage styling and antique wood clutter."
-    demo: null
+    demo:
+      production_index: 235
+      batch: 14
+      image: "235-high-tech-interior-style-show.png"
+      scene: "exposed metal modular tech space"
+      exact_prompt: |
+        Create a square style-show image for High-Tech Interior in high-tech interior style: exposed metal, modular systems, glass partitions, integrated lighting, visible infrastructure, monochrome surfaces, engineered precision. Avoid floral cottage styling and antique wood clutter. No logos, no watermark, no readable text.
   - slug: "brutalist-interior"
     name: "Brutalist Interior"
     category_id: 12
