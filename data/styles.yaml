@@ -2787,19 +2787,37 @@ styles:
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in beauty shelfie style: skincare bottles, soft bathroom light, pastel labels, marble or tile surface, clean arrangement, influencer product photography mood. Avoid industrial grime and dark horror color grade."
-    demo: null
+    demo:
+      production_index: 241
+      batch: 16
+      image: "241-beauty-shelfie-style-show.png"
+      scene: "pastel skincare bottle arrangement"
+      exact_prompt: |
+        Create a square style-show image for Beauty Shelfie in beauty shelfie style: skincare bottles, soft bathroom light, pastel labels, marble or tile surface, clean arrangement, influencer product photography mood. Avoid industrial grime and dark horror color grade. No logos, no watermark, no readable text.
   - slug: "fmcg-bright"
     name: "Bright FMCG Packaging"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in bright FMCG packaging style: bold shelf-readable color, friendly icons, simple product window, large shape blocks without readable brand text, mass-market clarity, cheerful supermarket lighting. Avoid luxury austerity and grunge distress."
-    demo: null
+    demo:
+      production_index: 242
+      batch: 16
+      image: "242-fmcg-bright-style-show.png"
+      scene: "bold colorful supermarket packaging"
+      exact_prompt: |
+        Create a square style-show image for Bright FMCG Packaging in bright FMCG packaging style: bold shelf-readable color, friendly icons, simple product window, large shape blocks without readable brand text, mass-market clarity, cheerful supermarket lighting. Avoid luxury austerity and grunge distress. No logos, no watermark, no readable text.
   - slug: "cereal-box"
     name: "Cereal Box"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in cereal box packaging style: bright front-facing carton, playful mascot-like shapes without IP characters, splashy breakfast composition, yellow, red, blue, and white, kid-friendly shelf energy. Avoid premium minimalism and dark cyberpunk."
-    demo: null
+    demo:
+      production_index: 243
+      batch: 16
+      image: "243-cereal-box-style-show.png"
+      scene: "bright colorful cereal carton"
+      exact_prompt: |
+        Create a square style-show image for Cereal Box in cereal box packaging style: bright front-facing carton, playful mascot-like shapes without IP characters, splashy breakfast composition, yellow, red, blue, and white, kid-friendly shelf energy. Avoid premium minimalism and dark cyberpunk. No logos, no watermark, no readable text.
   - slug: "toy-blister-pack"
     name: "Toy Blister Pack"
     category_id: 13
@@ -2817,13 +2835,25 @@ styles:
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in craft beer label style: illustrated can wrap, bold naming area without readable text, textured ink, quirky mascot or landscape motif, saturated limited palette, independent brewery feel. Avoid sterile clinical packaging and luxury serif restraint."
-    demo: null
+    demo:
+      production_index: 244
+      batch: 16
+      image: "244-craft-beer-label-style-show.png"
+      scene: "illustrated craft beer can"
+      exact_prompt: |
+        Create a square style-show image for Craft Beer Label in craft beer label style: illustrated can wrap, bold naming area without readable text, textured ink, quirky mascot or landscape motif, saturated limited palette, independent brewery feel. Avoid sterile clinical packaging and luxury serif restraint. No logos, no watermark, no readable text.
   - slug: "natural-wine-label"
     name: "Natural Wine Label"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in natural wine label style: expressive small-batch label, hand-drawn marks, offbeat color, cream paper, playful irregular layout, artisanal shelf presence. Avoid corporate beverage polish and fake readable text."
-    demo: null
+    demo:
+      production_index: 245
+      batch: 16
+      image: "245-natural-wine-label-style-show.png"
+      scene: "artisanal hand-drawn wine label"
+      exact_prompt: |
+        Create a square style-show image for Natural Wine Label in natural wine label style: expressive small-batch label, hand-drawn marks, offbeat color, cream paper, playful irregular layout, artisanal shelf presence. Avoid corporate beverage polish and fake readable text. No logos, no watermark, no readable text.
   - slug: "japanese-minimal-packaging"
     name: "Japanese Minimal Packaging"
     category_id: 13
