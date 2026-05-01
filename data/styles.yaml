@@ -2571,7 +2571,13 @@ styles:
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in eco architecture style: green roofs, passive solar shading, timber structure, recycled materials, planted courtyards, natural ventilation, optimistic sustainable design. Avoid dystopian grime and wasteful glossy excess."
-    demo: null
+    demo:
+      production_index: 226
+      batch: 13
+      image: "226-eco-architecture-style-show.png"
+      scene: "green roof timber courtyard"
+      exact_prompt: |
+        Create a square style-show image for Eco Architecture in eco architecture style: green roofs, passive solar shading, timber structure, recycled materials, planted courtyards, natural ventilation, optimistic sustainable design. Avoid dystopian grime and wasteful glossy excess. No logos, no watermark, no readable text.
   - slug: "bohemian-interior"
     name: "Bohemian Interior"
     category_id: 12
@@ -2601,25 +2607,49 @@ styles:
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in English country style: floral upholstery, antique wood, layered books, garden views, chintz, muted greens, rose, cream, and warm brown, lived-in refinement. Avoid cyber neon and stark concrete minimalism."
-    demo: null
+    demo:
+      production_index: 227
+      batch: 13
+      image: "227-english-country-style-show.png"
+      scene: "floral chintz garden parlor"
+      exact_prompt: |
+        Create a square style-show image for English Country in English country style: floral upholstery, antique wood, layered books, garden views, chintz, muted greens, rose, cream, and warm brown, lived-in refinement. Avoid cyber neon and stark concrete minimalism. No logos, no watermark, no readable text.
   - slug: "french-country"
     name: "French Country"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in French country style: weathered wood, linen, stone walls, soft blue, cream, lavender, antique ceramics, rustic elegance, sunlit farmhouse texture. Avoid glossy futurism and high-contrast brutalist graphics."
-    demo: null
+    demo:
+      production_index: 228
+      batch: 13
+      image: "228-french-country-style-show.png"
+      scene: "sunlit stone farmhouse kitchen"
+      exact_prompt: |
+        Create a square style-show image for French Country in French country style: weathered wood, linen, stone walls, soft blue, cream, lavender, antique ceramics, rustic elegance, sunlit farmhouse texture. Avoid glossy futurism and high-contrast brutalist graphics. No logos, no watermark, no readable text.
   - slug: "modern-farmhouse"
     name: "Modern Farmhouse"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in modern farmhouse style: white shiplap, black metal accents, reclaimed wood, simple rustic fixtures, cozy neutral palette, clean updated country mood. Avoid ornate palace details and neon sci-fi."
-    demo: null
+    demo:
+      production_index: 229
+      batch: 13
+      image: "229-modern-farmhouse-style-show.png"
+      scene: "white shiplap reclaimed wood room"
+      exact_prompt: |
+        Create a square style-show image for Modern Farmhouse in modern farmhouse style: white shiplap, black metal accents, reclaimed wood, simple rustic fixtures, cozy neutral palette, clean updated country mood. Avoid ornate palace details and neon sci-fi. No logos, no watermark, no readable text.
   - slug: "shabby-chic"
     name: "Shabby Chic"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in shabby chic style: distressed white furniture, soft florals, lace, faded pastel palette, vintage domestic charm, gentle worn textures. Avoid sharp tech minimalism and saturated streetwear graphics."
-    demo: null
+    demo:
+      production_index: 230
+      batch: 13
+      image: "230-shabby-chic-style-show.png"
+      scene: "distressed white floral lace room"
+      exact_prompt: |
+        Create a square style-show image for Shabby Chic in shabby chic style: distressed white furniture, soft florals, lace, faded pastel palette, vintage domestic charm, gentle worn textures. Avoid sharp tech minimalism and saturated streetwear graphics. No logos, no watermark, no readable text.
   - slug: "grandmillennial"
     name: "Grandmillennial"
     category_id: 12
