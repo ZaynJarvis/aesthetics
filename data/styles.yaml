@@ -3267,31 +3267,61 @@ styles:
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Italian Neorealist style: real streets, ordinary people or objects, natural light, modest framing, postwar texture, honest social realism. Avoid luxury studio gloss and artificial sci-fi environments."
-    demo: null
+    demo:
+      production_index: 276
+      batch: 23
+      image: "276-italian-neorealism-style-show.png"
+      scene: "postwar street with ordinary people"
+      exact_prompt: |
+        Create a square style-show image for Italian Neorealism in Italian Neorealist style: real streets, ordinary people or objects, natural light, modest framing, postwar texture, honest social realism. Avoid luxury studio gloss and artificial sci-fi environments. No logos, no watermark, no readable text.
   - slug: "giallo"
     name: "Giallo"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Giallo cinema style: saturated red, blue, and green lighting, stylish suspense, black gloves or sharp object cues only if relevant, ornate interiors, lurid mystery mood. Avoid explicit gore and wholesome pastel softness."
-    demo: null
+    demo:
+      production_index: 277
+      batch: 23
+      image: "277-giallo-style-show.png"
+      scene: "ornate interior with lurid lighting"
+      exact_prompt: |
+        Create a square style-show image for Giallo in Giallo cinema style: saturated red, blue, and green lighting, stylish suspense, black gloves or sharp object cues only if relevant, ornate interiors, lurid mystery mood. Avoid explicit gore and wholesome pastel softness. No logos, no watermark, no readable text.
   - slug: "technicolor-musical"
     name: "Technicolor Musical"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Technicolor musical style: saturated studio color, theatrical sets, polished lighting, coordinated costumes or props, optimistic mid-century cinema spectacle. Avoid gritty documentary texture and dark cyberpunk rain."
-    demo: null
+    demo:
+      production_index: 278
+      batch: 23
+      image: "278-technicolor-musical-style-show.png"
+      scene: "vibrant theatrical stage set"
+      exact_prompt: |
+        Create a square style-show image for Technicolor Musical in Technicolor musical style: saturated studio color, theatrical sets, polished lighting, coordinated costumes or props, optimistic mid-century cinema spectacle. Avoid gritty documentary texture and dark cyberpunk rain. No logos, no watermark, no readable text.
   - slug: "grindhouse"
     name: "Grindhouse"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in grindhouse film poster style: scratched film texture, lurid color, bold exploitation-poster composition, distressed print, dramatic action silhouettes. Avoid clean luxury minimalism and modern app UI."
-    demo: null
+    demo:
+      production_index: 279
+      batch: 23
+      image: "279-grindhouse-style-show.png"
+      scene: "distressed exploitation poster scene"
+      exact_prompt: |
+        Create a square style-show image for Grindhouse in grindhouse film poster style: scratched film texture, lurid color, bold exploitation-poster composition, distressed print, dramatic action silhouettes. Avoid clean luxury minimalism and modern app UI. No logos, no watermark, no readable text.
   - slug: "new-hollywood"
     name: "New Hollywood"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in New Hollywood cinema style: 1970s naturalistic light, gritty urban or domestic setting, warm film grain, morally ambiguous mood, handheld realism. Avoid glossy superhero lighting and pastel symmetry."
-    demo: null
+    demo:
+      production_index: 280
+      batch: 23
+      image: "280-new-hollywood-style-show.png"
+      scene: "gritty 1970s urban street"
+      exact_prompt: |
+        Create a square style-show image for New Hollywood in New Hollywood cinema style: 1970s naturalistic light, gritty urban or domestic setting, warm film grain, morally ambiguous mood, handheld realism. Avoid glossy superhero lighting and pastel symmetry. No logos, no watermark, no readable text.
   - slug: "anamorphic-cinema"
     name: "Anamorphic Cinema"
     category_id: 16
