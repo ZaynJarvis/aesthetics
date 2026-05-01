@@ -2919,13 +2919,25 @@ styles:
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in editorial brand system style: sophisticated masthead-like hierarchy without readable text, refined photography, grid layouts, muted palette, magazine identity board. Avoid app-dashboard clutter and toy-like color."
-    demo: null
+    demo:
+      production_index: 251
+      batch: 18
+      image: "251-editorial-brand-system-style-show.png"
+      scene: "refined magazine identity board"
+      exact_prompt: |
+        Create a square style-show image for Editorial Brand System in editorial brand system style: sophisticated masthead-like hierarchy without readable text, refined photography, grid layouts, muted palette, magazine identity board. Avoid app-dashboard clutter and toy-like color. No logos, no watermark, no readable text.
   - slug: "museum-identity"
     name: "Museum Identity"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in museum identity style: restrained poster system, large image crop, institutional grid, elegant typography feel without readable text, black, white, and one accent color, cultural authority. Avoid salesy retail clutter."
-    demo: null
+    demo:
+      production_index: 252
+      batch: 18
+      image: "252-museum-identity-style-show.png"
+      scene: "restrained institutional poster"
+      exact_prompt: |
+        Create a square style-show image for Museum Identity in museum identity style: restrained poster system, large image crop, institutional grid, elegant typography feel without readable text, black, white, and one accent color, cultural authority. Avoid salesy retail clutter. No logos, no watermark, no readable text.
   - slug: "blackletter"
     name: "Blackletter"
     category_id: 14
@@ -2943,19 +2955,37 @@ styles:
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in slab serif western typography style: heavy block serifs, wood type texture, dusty poster composition, cream, brown, red, and black, frontier print-shop mood. Avoid delicate Didone luxury and futuristic holograms."
-    demo: null
+    demo:
+      production_index: 253
+      batch: 18
+      image: "253-slab-serif-western-style-show.png"
+      scene: "dusty frontier wood type poster"
+      exact_prompt: |
+        Create a square style-show image for Slab Serif Western in slab serif western typography style: heavy block serifs, wood type texture, dusty poster composition, cream, brown, red, and black, frontier print-shop mood. Avoid delicate Didone luxury and futuristic holograms. No logos, no watermark, no readable text.
   - slug: "didone-fashion-type"
     name: "Didone Fashion Type"
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Didone fashion typography style: high-contrast elegant serifs, extreme thin-thick strokes, black-white editorial space, luxury magazine mood, precise minimal layout. Avoid chunky cartoon lettering and distressed punk texture."
-    demo: null
+    demo:
+      production_index: 254
+      batch: 18
+      image: "254-didone-fashion-type-style-show.png"
+      scene: "elegant high-contrast serif editorial"
+      exact_prompt: |
+        Create a square style-show image for Didone Fashion Type in Didone fashion typography style: high-contrast elegant serifs, extreme thin-thick strokes, black-white editorial space, luxury magazine mood, precise minimal layout. Avoid chunky cartoon lettering and distressed punk texture. No logos, no watermark, no readable text.
   - slug: "typewriter"
     name: "Typewriter"
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in typewriter typography style: monospaced stamped letters without readable paragraphs, uneven ink, cream paper, archival notes, analog office texture, quiet literary mood. Avoid glossy gradient UI and ornate script excess."
-    demo: null
+    demo:
+      production_index: 255
+      batch: 18
+      image: "255-typewriter-style-show.png"
+      scene: "analog cream paper ink texture"
+      exact_prompt: |
+        Create a square style-show image for Typewriter in typewriter typography style: monospaced stamped letters without readable paragraphs, uneven ink, cream paper, archival notes, analog office texture, quiet literary mood. Avoid glossy gradient UI and ornate script excess. No logos, no watermark, no readable text.
   - slug: "bubble-lettering"
     name: "Bubble Lettering"
     category_id: 14
