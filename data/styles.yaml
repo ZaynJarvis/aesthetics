@@ -3387,19 +3387,37 @@ styles:
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in paparazzi flash style: harsh direct flash, night street, candid framing, high contrast, shiny highlights, celebrity-street chaos without actual celebrities. Avoid soft studio beauty lighting and clean product catalog mood."
-    demo: null
+    demo:
+      production_index: 286
+      batch: 25
+      image: "286-paparazzi-flash-style-show.png"
+      scene: "night street harsh flash"
+      exact_prompt: |
+        Create a square style-show image for Paparazzi Flash in paparazzi flash style: harsh direct flash, night street, candid framing, high contrast, shiny highlights, celebrity-street chaos without actual celebrities. Avoid soft studio beauty lighting and clean product catalog mood. No logos, no watermark, no readable text.
   - slug: "surveillance-camera"
     name: "Surveillance Camera"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in surveillance camera style: high-angle fixed viewpoint, monochrome or greenish cast, timestamp-like area without readable text, compression artifacts, detached observation mood. Avoid cinematic glamour and polished product advertising."
-    demo: null
+    demo:
+      production_index: 287
+      batch: 25
+      image: "287-surveillance-camera-style-show.png"
+      scene: "high-angle monochrome observation"
+      exact_prompt: |
+        Create a square style-show image for Surveillance Camera in surveillance camera style: high-angle fixed viewpoint, monochrome or greenish cast, timestamp-like area without readable text, compression artifacts, detached observation mood. Avoid cinematic glamour and polished product advertising. No logos, no watermark, no readable text.
   - slug: "satellite-imagery"
     name: "Satellite Imagery"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in satellite imagery style: overhead earth-observation view, geographic texture, false-color or natural-color mapping, labels omitted, analytical remote-sensing mood. Avoid eye-level portrait composition and decorative ornament."
-    demo: null
+    demo:
+      production_index: 288
+      batch: 25
+      image: "288-satellite-imagery-style-show.png"
+      scene: "overhead earth-observation terrain"
+      exact_prompt: |
+        Create a square style-show image for Satellite Imagery in satellite imagery style: overhead earth-observation view, geographic texture, false-color or natural-color mapping, labels omitted, analytical remote-sensing mood. Avoid eye-level portrait composition and decorative ornament. No logos, no watermark, no readable text.
   - slug: "ps1-low-poly"
     name: "PS1 Low-Poly"
     category_id: 17
@@ -3417,7 +3435,13 @@ styles:
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in PS2-era game realism style: low-mid polygon models, baked lighting, slightly blurry textures, early-2000s cinematic ambition, practical game-environment staging. Avoid 8-bit pixel art and modern hyperreal CGI."
-    demo: null
+    demo:
+      production_index: 289
+      batch: 25
+      image: "289-ps2-era-realism-style-show.png"
+      scene: "early-2000s game environment"
+      exact_prompt: |
+        Create a square style-show image for PS2-Era Realism in PS2-era game realism style: low-mid polygon models, baked lighting, slightly blurry textures, early-2000s cinematic ambition, practical game-environment staging. Avoid 8-bit pixel art and modern hyperreal CGI. No logos, no watermark, no readable text.
   - slug: "cozy-game"
     name: "Cozy Game"
     category_id: 17
@@ -3435,7 +3459,13 @@ styles:
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in dark fantasy RPG style: ancient ruins, heavy atmosphere, worn armor or stone when relevant, torchlight, ash, muted steel, crimson, and black, ominous epic scale. Avoid cute pastel UI and shiny sci-fi chrome."
-    demo: null
+    demo:
+      production_index: 290
+      batch: 25
+      image: "290-dark-fantasy-rpg-style-show.png"
+      scene: "ancient ruins torchlit atmosphere"
+      exact_prompt: |
+        Create a square style-show image for Dark Fantasy RPG in dark fantasy RPG style: ancient ruins, heavy atmosphere, worn armor or stone when relevant, torchlight, ash, muted steel, crimson, and black, ominous epic scale. Avoid cute pastel UI and shiny sci-fi chrome. No logos, no watermark, no readable text.
   - slug: "jrpg-menu-art"
     name: "JRPG Menu Art"
     category_id: 17
