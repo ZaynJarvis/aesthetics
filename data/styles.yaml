@@ -3063,13 +3063,25 @@ styles:
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in corporate Memphis illustration style: simplified oversized people or objects, flat pastel shapes, abstract geometric accents, friendly SaaS onboarding mood, smooth vector finish. Avoid gritty realism and ornate historical detail."
-    demo: null
+    demo:
+      production_index: 261
+      batch: 20
+      image: "261-corporate-memphis-style-show.png"
+      scene: "oversized people with pastel shapes"
+      exact_prompt: |
+        Create a square style-show image for Corporate Memphis in corporate Memphis illustration style: simplified oversized people or objects, flat pastel shapes, abstract geometric accents, friendly SaaS onboarding mood, smooth vector finish. Avoid gritty realism and ornate historical detail. No logos, no watermark, no readable text.
   - slug: "alegria-illustration"
     name: "Alegria Illustration"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Alegria-style corporate illustration: exaggerated proportions, soft rounded limbs or objects, flat friendly colors, inclusive product-story composition, modern tech brand mood. Avoid copying a specific brand, photorealism, and dark noir."
-    demo: null
+    demo:
+      production_index: 262
+      batch: 20
+      image: "262-alegria-illustration-style-show.png"
+      scene: "friendly figures with rounded limbs"
+      exact_prompt: |
+        Create a square style-show image for Alegria Illustration in Alegria-style corporate illustration: exaggerated proportions, soft rounded limbs or objects, flat friendly colors, inclusive product-story composition, modern tech brand mood. Avoid copying a specific brand, photorealism, and dark noir. No logos, no watermark, no readable text.
   - slug: "aurora-gradient-ui"
     name: "Aurora Gradient UI"
     category_id: 15
@@ -3087,19 +3099,37 @@ styles:
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in liquid metal UI style: reflective molten chrome, fluid blobs, dark polished interface, high-contrast highlights, futuristic premium motion-design still. Avoid kraft paper, flat cartoon icons, and rustic wood."
-    demo: null
+    demo:
+      production_index: 263
+      batch: 20
+      image: "263-liquid-metal-ui-style-show.png"
+      scene: "reflective chrome fluid interface"
+      exact_prompt: |
+        Create a square style-show image for Liquid Metal UI in liquid metal UI style: reflective molten chrome, fluid blobs, dark polished interface, high-contrast highlights, futuristic premium motion-design still. Avoid kraft paper, flat cartoon icons, and rustic wood. No logos, no watermark, no readable text.
   - slug: "spatial-computing-ui"
     name: "Spatial Computing UI"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in spatial computing UI style: floating translucent panels in real space, subtle depth, hand-scale controls, glass, soft shadows, premium mixed-reality clarity. Avoid dense 2D dashboards and retro CRT noise."
-    demo: null
+    demo:
+      production_index: 264
+      batch: 20
+      image: "264-spatial-computing-ui-style-show.png"
+      scene: "floating translucent panels in space"
+      exact_prompt: |
+        Create a square style-show image for Spatial Computing UI in spatial computing UI style: floating translucent panels in real space, subtle depth, hand-scale controls, glass, soft shadows, premium mixed-reality clarity. Avoid dense 2D dashboards and retro CRT noise. No logos, no watermark, no readable text.
   - slug: "neumorphic-dark"
     name: "Dark Neumorphism"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in dark neumorphism style: charcoal soft surfaces, low-contrast extruded controls, inner and outer shadows, muted cyan or violet accent, tactile futuristic app mood. Avoid hard black outlines and bright flat primary colors."
-    demo: null
+    demo:
+      production_index: 265
+      batch: 20
+      image: "265-neumorphic-dark-style-show.png"
+      scene: "charcoal soft extruded controls"
+      exact_prompt: |
+        Create a square style-show image for Dark Neumorphism in dark neumorphism style: charcoal soft surfaces, low-contrast extruded controls, inner and outer shadows, muted cyan or violet accent, tactile futuristic app mood. Avoid hard black outlines and bright flat primary colors. No logos, no watermark, no readable text.
   - slug: "pixel-ui"
     name: "Pixel UI"
     category_id: 15
