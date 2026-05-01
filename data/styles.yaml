@@ -3471,31 +3471,61 @@ styles:
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in JRPG menu art style: ornate interface panels, character or item illustration area, crystalline motifs, blue-white glow, fantasy-tech elegance, polished game screen composition. Avoid Western medieval parchment heaviness and enterprise dashboard realism."
-    demo: null
+    demo:
+      production_index: 291
+      batch: 26
+      image: "291-jrpg-menu-art-style-show.png"
+      scene: "ornate fantasy interface panels"
+      exact_prompt: |
+        Create a square style-show image for JRPG Menu Art in JRPG menu art style: ornate interface panels, character or item illustration area, crystalline motifs, blue-white glow, fantasy-tech elegance, polished game screen composition. Avoid Western medieval parchment heaviness and enterprise dashboard realism. No logos, no watermark, no readable text.
   - slug: "tactical-hud"
     name: "Tactical HUD"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in tactical HUD style: map overlays, targeting reticles, night-vision or drone-feed cues, military green, amber, and cyan data, compact mission interface. Avoid luxury editorial white space and cute rounded icons."
-    demo: null
+    demo:
+      production_index: 292
+      batch: 26
+      image: "292-tactical-hud-style-show.png"
+      scene: "military targeting overlay display"
+      exact_prompt: |
+        Create a square style-show image for Tactical HUD in tactical HUD style: map overlays, targeting reticles, night-vision or drone-feed cues, military green, amber, and cyan data, compact mission interface. Avoid luxury editorial white space and cute rounded icons. No logos, no watermark, no readable text.
   - slug: "tabletop-miniature"
     name: "Tabletop Miniature"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in tabletop miniature style: painted small-scale figures or terrain, visible base, dry-brushed texture, dramatic hobby lighting, macro lens, handcrafted game-board presence. Avoid life-size photoreal staging and flat UI."
-    demo: null
+    demo:
+      production_index: 293
+      batch: 26
+      image: "293-tabletop-miniature-style-show.png"
+      scene: "painted miniature figures on base"
+      exact_prompt: |
+        Create a square style-show image for Tabletop Miniature in tabletop miniature style: painted small-scale figures or terrain, visible base, dry-brushed texture, dramatic hobby lighting, macro lens, handcrafted game-board presence. Avoid life-size photoreal staging and flat UI. No logos, no watermark, no readable text.
   - slug: "card-game-illustration"
     name: "Card Game Illustration"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in fantasy card game illustration style: central hero object or scene, dramatic lighting, ornate frame suggestion, collectible card composition without readable text, polished painterly detail. Avoid casual doodles and documentary photography."
-    demo: null
+    demo:
+      production_index: 294
+      batch: 26
+      image: "294-card-game-illustration-style-show.png"
+      scene: "dramatic hero card illustration"
+      exact_prompt: |
+        Create a square style-show image for Card Game Illustration in fantasy card game illustration style: central hero object or scene, dramatic lighting, ornate frame suggestion, collectible card composition without readable text, polished painterly detail. Avoid casual doodles and documentary photography. No logos, no watermark, no readable text.
   - slug: "childrens-book"
     name: "Children's Book Illustration"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in children's book illustration style: warm storybook scene, soft shapes, expressive simple characters or objects, textured paper, gentle color, clear emotional readability. Avoid dark horror, harsh violence, and corporate dashboard UI."
-    demo: null
+    demo:
+      production_index: 295
+      batch: 26
+      image: "295-childrens-book-style-show.png"
+      scene: "warm storybook scene with characters"
+      exact_prompt: |
+        Create a square style-show image for Children's Book Illustration in children's book illustration style: warm storybook scene, soft shapes, expressive simple characters or objects, textured paper, gentle color, clear emotional readability. Avoid dark horror, harsh violence, and corporate dashboard UI. No logos, no watermark, no readable text.
   - slug: "editorial-cartoon"
     name: "Editorial Cartoon"
     category_id: 17
