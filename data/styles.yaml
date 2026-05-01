@@ -3135,31 +3135,61 @@ styles:
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in pixel UI style: crisp square pixels, retro windows, limited palette, tiny icons, fixed grid, nostalgic interface clarity. Avoid smooth glassmorphism, high-res photography, and ornate serif type."
-    demo: null
+    demo:
+      production_index: 266
+      batch: 21
+      image: "266-pixel-ui-style-show.png"
+      scene: "retro pixel interface grid"
+      exact_prompt: |
+        Create a square style-show image for Pixel UI in pixel UI style: crisp square pixels, retro windows, limited palette, tiny icons, fixed grid, nostalgic interface clarity. Avoid smooth glassmorphism, high-res photography, and ornate serif type. No logos, no watermark, no readable text.
   - slug: "hacker-terminal"
     name: "Hacker Terminal"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in hacker terminal style: black screen, green or amber monospaced text-like blocks, system panels, command-line density, glow, technical secrecy. Avoid glossy consumer app polish and pastel cuteness."
-    demo: null
+    demo:
+      production_index: 267
+      batch: 21
+      image: "267-hacker-terminal-style-show.png"
+      scene: "glowing green terminal screen"
+      exact_prompt: |
+        Create a square style-show image for Hacker Terminal in hacker terminal style: black screen, green or amber monospaced text-like blocks, system panels, command-line density, glow, technical secrecy. Avoid glossy consumer app polish and pastel cuteness. No logos, no watermark, no readable text.
   - slug: "cybersecurity-dashboard"
     name: "Cybersecurity Dashboard"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in cybersecurity dashboard style: dark SOC interface, threat maps, alert panels, packet-flow visuals, red, amber, cyan accents, dense analytical control room mood. Avoid wellness minimalism and lifestyle photography."
-    demo: null
+    demo:
+      production_index: 268
+      batch: 21
+      image: "268-cybersecurity-dashboard-style-show.png"
+      scene: "dark SOC threat dashboard"
+      exact_prompt: |
+        Create a square style-show image for Cybersecurity Dashboard in cybersecurity dashboard style: dark SOC interface, threat maps, alert panels, packet-flow visuals, red, amber, cyan accents, dense analytical control room mood. Avoid wellness minimalism and lifestyle photography. No logos, no watermark, no readable text.
   - slug: "fintech-dashboard"
     name: "Fintech Dashboard"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in fintech dashboard style: precise charts, portfolio cards, dark or white premium interface, green and blue data accents, trust-focused hierarchy, clean financial product polish. Avoid cartoon playfulness and random fake numbers."
-    demo: null
+    demo:
+      production_index: 269
+      batch: 21
+      image: "269-fintech-dashboard-style-show.png"
+      scene: "premium financial data interface"
+      exact_prompt: |
+        Create a square style-show image for Fintech Dashboard in fintech dashboard style: precise charts, portfolio cards, dark or white premium interface, green and blue data accents, trust-focused hierarchy, clean financial product polish. Avoid cartoon playfulness and random fake numbers. No logos, no watermark, no readable text.
   - slug: "editorial-web"
     name: "Editorial Web"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in editorial web style: magazine-like web layout, large image crop, elegant headline area without readable text, refined whitespace, responsive card grid, cultural publication mood. Avoid enterprise dashboard density and childish icons."
-    demo: null
+    demo:
+      production_index: 270
+      batch: 21
+      image: "270-editorial-web-style-show.png"
+      scene: "elegant magazine web layout"
+      exact_prompt: |
+        Create a square style-show image for Editorial Web in editorial web style: magazine-like web layout, large image crop, elegant headline area without readable text, refined whitespace, responsive card grid, cultural publication mood. Avoid enterprise dashboard density and childish icons. No logos, no watermark, no readable text.
   - slug: "luxury-ecommerce"
     name: "Luxury E-Commerce"
     category_id: 15
