@@ -2715,25 +2715,49 @@ styles:
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in brutalist interior style: raw concrete walls, monolithic furniture, shadow-heavy geometry, black steel, minimal decor, severe sculptural atmosphere. Avoid cozy pastel cottage details and ornate gold trim."
-    demo: null
+    demo:
+      production_index: 236
+      batch: 15
+      image: "236-brutalist-interior-style-show.png"
+      scene: "raw concrete living space"
+      exact_prompt: |
+        Create a square style-show image for Brutalist Interior in brutalist interior style: raw concrete walls, monolithic furniture, shadow-heavy geometry, black steel, minimal decor, severe sculptural atmosphere. Avoid cozy pastel cottage details and ornate gold trim. No logos, no watermark, no readable text.
   - slug: "eclectic-interior"
     name: "Eclectic Interior"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in eclectic interior style: mixed eras, confident color pairing, vintage and modern furniture, art objects, layered rugs, personal collection energy. Avoid showroom uniformity and single-note monochrome."
-    demo: null
+    demo:
+      production_index: 237
+      batch: 15
+      image: "237-eclectic-interior-style-show.png"
+      scene: "mixed-era layered living room"
+      exact_prompt: |
+        Create a square style-show image for Eclectic Interior in eclectic interior style: mixed eras, confident color pairing, vintage and modern furniture, art objects, layered rugs, personal collection energy. Avoid showroom uniformity and single-note monochrome. No logos, no watermark, no readable text.
   - slug: "coastal-grandmother"
     name: "Coastal Grandmother"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in coastal grandmother style: linen, relaxed tailoring, white kitchens, pale blue, driftwood, hydrangeas, soft daylight, expensive but casual seaside comfort. Avoid tropical neon, surf-skate graphics, and urban grit."
-    demo: null
+    demo:
+      production_index: 238
+      batch: 15
+      image: "238-coastal-grandmother-style-show.png"
+      scene: "linen seaside kitchen vignette"
+      exact_prompt: |
+        Create a square style-show image for Coastal Grandmother in coastal grandmother style: linen, relaxed tailoring, white kitchens, pale blue, driftwood, hydrangeas, soft daylight, expensive but casual seaside comfort. Avoid tropical neon, surf-skate graphics, and urban grit. No logos, no watermark, no readable text.
   - slug: "dopamine-interior"
     name: "Dopamine Interior"
     category_id: 12
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in dopamine interior style: joyful color blocking, playful furniture, bold pattern, rounded accessories, high-energy but polished home styling. Avoid black-white minimalism and severe concrete austerity."
-    demo: null
+    demo:
+      production_index: 239
+      batch: 15
+      image: "239-dopamine-interior-style-show.png"
+      scene: "colorful playful modern room"
+      exact_prompt: |
+        Create a square style-show image for Dopamine Interior in dopamine interior style: joyful color blocking, playful furniture, bold pattern, rounded accessories, high-energy but polished home styling. Avoid black-white minimalism and severe concrete austerity. No logos, no watermark, no readable text.
   - slug: "clinical-packaging"
     name: "Clinical Packaging"
     category_id: 13
@@ -2751,7 +2775,13 @@ styles:
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in premium fragrance style: sculptural glass bottle, heavy cap, dramatic reflections, sparse serif label without readable text, black, cream, gold, and transparent highlights, luxury studio lighting. Avoid noisy retail packaging and cheap plastic."
-    demo: null
+    demo:
+      production_index: 240
+      batch: 15
+      image: "240-premium-fragrance-style-show.png"
+      scene: "luxury fragrance bottle studio"
+      exact_prompt: |
+        Create a square style-show image for Premium Fragrance in premium fragrance style: sculptural glass bottle, heavy cap, dramatic reflections, sparse serif label without readable text, black, cream, gold, and transparent highlights, luxury studio lighting. Avoid noisy retail packaging and cheap plastic. No logos, no watermark, no readable text.
   - slug: "beauty-shelfie"
     name: "Beauty Shelfie"
     category_id: 13
