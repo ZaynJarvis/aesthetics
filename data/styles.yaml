@@ -2859,31 +2859,61 @@ styles:
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Japanese minimal packaging style: clean white or kraft surface, small precise label area without readable text, subtle material texture, calm spacing, functional elegance. Avoid maximalist graphics and neon cyber surfaces."
-    demo: null
+    demo:
+      production_index: 246
+      batch: 17
+      image: "246-japanese-minimal-packaging-style-show.png"
+      scene: "minimal kraft packaging"
+      exact_prompt: |
+        Create a square style-show image for Japanese Minimal Packaging in Japanese minimal packaging style: clean white or kraft surface, small precise label area without readable text, subtle material texture, calm spacing, functional elegance. Avoid maximalist graphics and neon cyber surfaces. No logos, no watermark, no readable text.
   - slug: "luxury-cosmetics"
     name: "Luxury Cosmetics"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in luxury cosmetics style: polished compact or tube, black lacquer, gold trim, soft reflections, elegant arrangement, premium beauty counter atmosphere. Avoid playful cereal-box colors and rough kraft texture."
-    demo: null
+    demo:
+      production_index: 247
+      batch: 17
+      image: "247-luxury-cosmetics-style-show.png"
+      scene: "polished cosmetics arrangement"
+      exact_prompt: |
+        Create a square style-show image for Luxury Cosmetics in luxury cosmetics style: polished compact or tube, black lacquer, gold trim, soft reflections, elegant arrangement, premium beauty counter atmosphere. Avoid playful cereal-box colors and rough kraft texture. No logos, no watermark, no readable text.
   - slug: "sports-performance-brand"
     name: "Sports Performance Brand"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in sports performance brand style: dynamic product angle, motion blur, technical material close-up, black, white, and electric accent color, high-energy campaign lighting. Avoid delicate floral romance and passive still-life softness."
-    demo: null
+    demo:
+      production_index: 248
+      batch: 17
+      image: "248-sports-performance-brand-style-show.png"
+      scene: "dynamic sports gear closeup"
+      exact_prompt: |
+        Create a square style-show image for Sports Performance Brand in sports performance brand style: dynamic product angle, motion blur, technical material close-up, black, white, and electric accent color, high-energy campaign lighting. Avoid delicate floral romance and passive still-life softness. No logos, no watermark, no readable text.
   - slug: "startup-saas-brand"
     name: "Startup SaaS Brand"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in startup SaaS brand style: clean abstract shapes, friendly gradient accents, dashboard snippets without readable text, optimistic illustration, polished landing-page composition. Avoid heavy historical ornament and grimy street texture."
-    demo: null
+    demo:
+      production_index: 249
+      batch: 17
+      image: "249-startup-saas-brand-style-show.png"
+      scene: "clean SaaS landing page"
+      exact_prompt: |
+        Create a square style-show image for Startup SaaS Brand in startup SaaS brand style: clean abstract shapes, friendly gradient accents, dashboard snippets without readable text, optimistic illustration, polished landing-page composition. Avoid heavy historical ornament and grimy street texture. No logos, no watermark, no readable text.
   - slug: "creator-economy-brand"
     name: "Creator Economy Brand"
     category_id: 13
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in creator economy brand style: expressive avatar shapes, modular social cards, punchy colors, sticker-like interface elements, camera or microphone cues, energetic digital business mood. Avoid bank-like corporate stiffness and antique print."
-    demo: null
+    demo:
+      production_index: 250
+      batch: 17
+      image: "250-creator-economy-brand-style-show.png"
+      scene: "expressive creator social cards"
+      exact_prompt: |
+        Create a square style-show image for Creator Economy Brand in creator economy brand style: expressive avatar shapes, modular social cards, punchy colors, sticker-like interface elements, camera or microphone cues, energetic digital business mood. Avoid bank-like corporate stiffness and antique print. No logos, no watermark, no readable text.
   - slug: "editorial-brand-system"
     name: "Editorial Brand System"
     category_id: 13
