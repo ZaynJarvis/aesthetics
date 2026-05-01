@@ -2991,7 +2991,13 @@ styles:
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in bubble lettering style: inflated rounded letter-like forms, playful color fills, thick outlines, highlights, sticker or mural energy. Avoid austere grid minimalism and delicate calligraphy."
-    demo: null
+    demo:
+      production_index: 256
+      batch: 19
+      image: "256-bubble-lettering-style-show.png"
+      scene: "inflated playful mural forms"
+      exact_prompt: |
+        Create a square style-show image for Bubble Lettering in bubble lettering style: inflated rounded letter-like forms, playful color fills, thick outlines, highlights, sticker or mural energy. Avoid austere grid minimalism and delicate calligraphy. No logos, no watermark, no readable text.
   - slug: "chrome-type"
     name: "Chrome Type"
     category_id: 14
@@ -3009,25 +3015,49 @@ styles:
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in hand-painted signwriting style: brush-painted letterforms, slight human irregularity, enamel sign surface, retro storefront mood, cream, red, blue, and gold accents. Avoid sterile digital UI and perfect vector geometry."
-    demo: null
+    demo:
+      production_index: 257
+      batch: 19
+      image: "257-hand-painted-signwriting-style-show.png"
+      scene: "retro storefront enamel sign"
+      exact_prompt: |
+        Create a square style-show image for Hand-Painted Signwriting in hand-painted signwriting style: brush-painted letterforms, slight human irregularity, enamel sign surface, retro storefront mood, cream, red, blue, and gold accents. Avoid sterile digital UI and perfect vector geometry. No logos, no watermark, no readable text.
   - slug: "calligraphic-luxury"
     name: "Calligraphic Luxury"
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in calligraphic luxury style: elegant ink flourishes, cream paper, gold foil accents, premium invitation mood, sparse composition, refined contrast. Avoid graffiti roughness and neon cyber dashboards."
-    demo: null
+    demo:
+      production_index: 258
+      batch: 19
+      image: "258-calligraphic-luxury-style-show.png"
+      scene: "elegant gold foil flourishes"
+      exact_prompt: |
+        Create a square style-show image for Calligraphic Luxury in calligraphic luxury style: elegant ink flourishes, cream paper, gold foil accents, premium invitation mood, sparse composition, refined contrast. Avoid graffiti roughness and neon cyber dashboards. No logos, no watermark, no readable text.
   - slug: "graffiti-tag"
     name: "Graffiti Tag"
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in graffiti tag style: quick marker or spray-paint strokes, urban wall texture, black, silver, white, or bright accent paint, raw street immediacy. Avoid formal calligraphy, corporate polish, and luxury symmetry."
-    demo: null
+    demo:
+      production_index: 259
+      batch: 19
+      image: "259-graffiti-tag-style-show.png"
+      scene: "raw spray-paint urban wall"
+      exact_prompt: |
+        Create a square style-show image for Graffiti Tag in graffiti tag style: quick marker or spray-paint strokes, urban wall texture, black, silver, white, or bright accent paint, raw street immediacy. Avoid formal calligraphy, corporate polish, and luxury symmetry. No logos, no watermark, no readable text.
   - slug: "monospace-code"
     name: "Monospace Code"
     category_id: 14
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in monospace code typography style: developer console rhythm, aligned columns, code-like blocks without readable real code, dark or light editor surface, syntax-color accents. Avoid ornate serif editorial and handmade craft texture."
-    demo: null
+    demo:
+      production_index: 260
+      batch: 19
+      image: "260-monospace-code-style-show.png"
+      scene: "dark editor syntax color blocks"
+      exact_prompt: |
+        Create a square style-show image for Monospace Code in monospace code typography style: developer console rhythm, aligned columns, code-like blocks without readable real code, dark or light editor surface, syntax-color accents. Avoid ornate serif editorial and handmade craft texture. No logos, no watermark, no readable text.
   - slug: "corporate-memphis"
     name: "Corporate Memphis"
     category_id: 15
