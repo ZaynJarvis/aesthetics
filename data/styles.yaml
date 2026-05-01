@@ -3531,19 +3531,37 @@ styles:
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in editorial cartoon style: simplified caricature-like objects, ink outlines, satirical visual metaphor, newspaper print texture, sparse background, clear idea-first composition. Avoid photoreal product advertising and ornate fantasy detail."
-    demo: null
+    demo:
+      production_index: 296
+      batch: 27
+      image: "296-editorial-cartoon-style-show.png"
+      scene: "satirical ink caricature scene"
+      exact_prompt: |
+        Create a square style-show image for Editorial Cartoon in editorial cartoon style: simplified caricature-like objects, ink outlines, satirical visual metaphor, newspaper print texture, sparse background, clear idea-first composition. Avoid photoreal product advertising and ornate fantasy detail. No logos, no watermark, no readable text.
   - slug: "scientific-illustration"
     name: "Scientific Illustration"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in scientific illustration style: precise linework, neutral background, cross-section or labeled-area composition without readable labels, naturalistic detail, educational clarity. Avoid decorative fantasy effects and messy collage."
-    demo: null
+    demo:
+      production_index: 297
+      batch: 27
+      image: "297-scientific-illustration-style-show.png"
+      scene: "precise cross-section linework"
+      exact_prompt: |
+        Create a square style-show image for Scientific Illustration in scientific illustration style: precise linework, neutral background, cross-section or labeled-area composition without readable labels, naturalistic detail, educational clarity. Avoid decorative fantasy effects and messy collage. No logos, no watermark, no readable text.
   - slug: "botanical-illustration"
     name: "Botanical Illustration"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in botanical illustration style: detailed plant forms, fine watercolor, cream paper, specimen-like spacing, delicate labels omitted, natural accuracy and elegance. Avoid neon UI, aggressive graffiti, and heavy shadows."
-    demo: null
+    demo:
+      production_index: 298
+      batch: 27
+      image: "298-botanical-illustration-style-show.png"
+      scene: "watercolor plant specimen"
+      exact_prompt: |
+        Create a square style-show image for Botanical Illustration in botanical illustration style: detailed plant forms, fine watercolor, cream paper, specimen-like spacing, delicate labels omitted, natural accuracy and elegance. Avoid neon UI, aggressive graffiti, and heavy shadows. No logos, no watermark, no readable text.
   - slug: "architectural-blueprint"
     name: "Architectural Blueprint"
     category_id: 17
@@ -3561,13 +3579,25 @@ styles:
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in exploded view diagram style: separated components, clean technical perspective, thin leader lines without readable text, white or light gray background, precise product anatomy. Avoid dramatic cinematic shadows and decorative ornament."
-    demo: null
+    demo:
+      production_index: 299
+      batch: 27
+      image: "299-exploded-view-diagram-style-show.png"
+      scene: "separated product components"
+      exact_prompt: |
+        Create a square style-show image for Exploded View Diagram in exploded view diagram style: separated components, clean technical perspective, thin leader lines without readable text, white or light gray background, precise product anatomy. Avoid dramatic cinematic shadows and decorative ornament. No logos, no watermark, no readable text.
   - slug: "infographic-flat"
     name: "Flat Infographic"
     category_id: 17
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in flat infographic style: simplified icons, clean sections, restrained color coding, arrows and blocks without readable text, educational hierarchy, crisp vector-like finish. Avoid photoreal depth and painterly texture."
-    demo: null
+    demo:
+      production_index: 300
+      batch: 27
+      image: "300-infographic-flat-style-show.png"
+      scene: "clean icon sections and arrows"
+      exact_prompt: |
+        Create a square style-show image for Flat Infographic in flat infographic style: simplified icons, clean sections, restrained color coding, arrows and blocks without readable text, educational hierarchy, crisp vector-like finish. Avoid photoreal depth and painterly texture. No logos, no watermark, no readable text.
   - slug: "watercolor"
     name: "Watercolor"
     category_id: 18
