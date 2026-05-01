@@ -2487,7 +2487,13 @@ styles:
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Deconstructivist architecture style: fragmented volumes, tilted planes, sharp angular collisions, metallic surfaces, unstable geometry, dramatic museum-like form. Avoid classical symmetry, cozy domestic warmth, and plain rectangles."
-    demo: null
+    demo:
+      production_index: 221
+      batch: 12
+      image: "221-deconstructivist-architecture-style-show.png"
+      scene: "fragmented angular museum form"
+      exact_prompt: |
+        Create a square style-show image for Deconstructivist Architecture in Deconstructivist architecture style: fragmented volumes, tilted planes, sharp angular collisions, metallic surfaces, unstable geometry, dramatic museum-like form. Avoid classical symmetry, cozy domestic warmth, and plain rectangles. No logos, no watermark, no readable text.
   - slug: "parametricism"
     name: "Parametricism"
     category_id: 11
@@ -2505,13 +2511,25 @@ styles:
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Blobitecture style: rounded amorphous architecture, inflated organic volumes, glossy continuous surfaces, soft futuristic curves, playful monumental scale. Avoid rectilinear Swiss grids and Gothic vertical tracery."
-    demo: null
+    demo:
+      production_index: 222
+      batch: 12
+      image: "222-blobitecture-style-show.png"
+      scene: "rounded glossy organic pavilion"
+      exact_prompt: |
+        Create a square style-show image for Blobitecture in Blobitecture style: rounded amorphous architecture, inflated organic volumes, glossy continuous surfaces, soft futuristic curves, playful monumental scale. Avoid rectilinear Swiss grids and Gothic vertical tracery. No logos, no watermark, no readable text.
   - slug: "metabolism-architecture"
     name: "Metabolism Architecture"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Metabolist architecture style: modular megastructure, plug-in capsules, concrete core, dense urban infrastructure, 1960s future-city optimism. Avoid low cottage scale and ornamental classical facades."
-    demo: null
+    demo:
+      production_index: 223
+      batch: 12
+      image: "223-metabolism-architecture-style-show.png"
+      scene: "modular capsule megastructure tower"
+      exact_prompt: |
+        Create a square style-show image for Metabolism Architecture in Metabolist architecture style: modular megastructure, plug-in capsules, concrete core, dense urban infrastructure, 1960s future-city optimism. Avoid low cottage scale and ornamental classical facades. No logos, no watermark, no readable text.
   - slug: "tropical-modernism"
     name: "Tropical Modernism"
     category_id: 11
@@ -2529,13 +2547,25 @@ styles:
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in desert brutalist style: raw concrete planes, sand-colored massing, severe sunlight, deep shadow cuts, sparse desert landscape, monumental quiet. Avoid lush cottage greenery and glossy neon city density."
-    demo: null
+    demo:
+      production_index: 224
+      batch: 12
+      image: "224-desert-brutalism-style-show.png"
+      scene: "raw concrete desert monument"
+      exact_prompt: |
+        Create a square style-show image for Desert Brutalism in desert brutalist style: raw concrete planes, sand-colored massing, severe sunlight, deep shadow cuts, sparse desert landscape, monumental quiet. Avoid lush cottage greenery and glossy neon city density. No logos, no watermark, no readable text.
   - slug: "postmodern-architecture"
     name: "Postmodern Architecture"
     category_id: 11
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in postmodern architecture style: playful historical references, exaggerated facade elements, colorful geometry, ironic columns or arches, plaza scale, theatrical urban composition. Avoid strict International Style austerity."
-    demo: null
+    demo:
+      production_index: 225
+      batch: 12
+      image: "225-postmodern-architecture-style-show.png"
+      scene: "colorful ironic plaza facade"
+      exact_prompt: |
+        Create a square style-show image for Postmodern Architecture in postmodern architecture style: playful historical references, exaggerated facade elements, colorful geometry, ironic columns or arches, plaza scale, theatrical urban composition. Avoid strict International Style austerity. No logos, no watermark, no readable text.
   - slug: "eco-architecture"
     name: "Eco Architecture"
     category_id: 11
