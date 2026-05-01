@@ -3195,25 +3195,49 @@ styles:
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in luxury e-commerce style: premium product hero, sparse navigation, monochrome palette, high-end photography, refined serif/sans hierarchy without readable text, quiet conversion design. Avoid noisy marketplaces and discount badges."
-    demo: null
+    demo:
+      production_index: 271
+      batch: 22
+      image: "271-luxury-ecommerce-style-show.png"
+      scene: "premium product hero page"
+      exact_prompt: |
+        Create a square style-show image for Luxury E-Commerce in luxury e-commerce style: premium product hero, sparse navigation, monochrome palette, high-end photography, refined serif/sans hierarchy without readable text, quiet conversion design. Avoid noisy marketplaces and discount badges. No logos, no watermark, no readable text.
   - slug: "game-ui-fantasy"
     name: "Fantasy Game UI"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in fantasy game UI style: carved frames, parchment panels, gem icons, inventory slots, warm torchlight, ornate but readable game interface. Avoid modern SaaS minimalism and cyber holograms."
-    demo: null
+    demo:
+      production_index: 272
+      batch: 22
+      image: "272-game-ui-fantasy-style-show.png"
+      scene: "ornate torchlit game inventory"
+      exact_prompt: |
+        Create a square style-show image for Fantasy Game UI in fantasy game UI style: carved frames, parchment panels, gem icons, inventory slots, warm torchlight, ornate but readable game interface. Avoid modern SaaS minimalism and cyber holograms. No logos, no watermark, no readable text.
   - slug: "game-ui-sci-fi"
     name: "Sci-Fi Game UI"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in sci-fi game UI style: holographic panels, angular HUD frames, blue-orange alerts, starship interface depth, technical readouts without readable text. Avoid parchment fantasy frames and cozy pastel UI."
-    demo: null
+    demo:
+      production_index: 273
+      batch: 22
+      image: "273-game-ui-sci-fi-style-show.png"
+      scene: "holographic starship HUD interface"
+      exact_prompt: |
+        Create a square style-show image for Sci-Fi Game UI in sci-fi game UI style: holographic panels, angular HUD frames, blue-orange alerts, starship interface depth, technical readouts without readable text. Avoid parchment fantasy frames and cozy pastel UI. No logos, no watermark, no readable text.
   - slug: "ai-surreal-campaign"
     name: "AI-Surreal Campaign"
     category_id: 15
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in AI-surreal campaign style: impossible premium product scene, hyperreal materials, dreamlike scale, uncanny but polished composition, studio-perfect lighting, contemporary advertising strangeness. Avoid messy random artifacts and cheap collage."
-    demo: null
+    demo:
+      production_index: 274
+      batch: 22
+      image: "274-ai-surreal-campaign-style-show.png"
+      scene: "dreamlike hyperreal product scene"
+      exact_prompt: |
+        Create a square style-show image for AI-Surreal Campaign in AI-surreal campaign style: impossible premium product scene, hyperreal materials, dreamlike scale, uncanny but polished composition, studio-perfect lighting, contemporary advertising strangeness. Avoid messy random artifacts and cheap collage. No logos, no watermark, no readable text.
   - slug: "german-expressionist-film"
     name: "German Expressionist Film"
     category_id: 16
@@ -3231,7 +3255,13 @@ styles:
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in French New Wave style: handheld street framing, natural light, jump-cut mood, black-and-white or muted color, casual intellectual cool, urban spontaneity. Avoid polished blockbuster symmetry and heavy fantasy design."
-    demo: null
+    demo:
+      production_index: 275
+      batch: 22
+      image: "275-french-new-wave-style-show.png"
+      scene: "casual Parisian street scene"
+      exact_prompt: |
+        Create a square style-show image for French New Wave in French New Wave style: handheld street framing, natural light, jump-cut mood, black-and-white or muted color, casual intellectual cool, urban spontaneity. Avoid polished blockbuster symmetry and heavy fantasy design. No logos, no watermark, no readable text.
   - slug: "italian-neorealism"
     name: "Italian Neorealism"
     category_id: 16
