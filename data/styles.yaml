@@ -3327,31 +3327,61 @@ styles:
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in anamorphic cinema style: wide aspect feeling, oval bokeh, horizontal lens flare, cinematic depth, carefully staged light, premium film still quality. Avoid flat diagram layout and low-res video noise."
-    demo: null
+    demo:
+      production_index: 281
+      batch: 24
+      image: "281-anamorphic-cinema-style-show.png"
+      scene: "cinematic street with oval bokeh"
+      exact_prompt: |
+        Create a square style-show image for Anamorphic Cinema in anamorphic cinema style: wide aspect feeling, oval bokeh, horizontal lens flare, cinematic depth, carefully staged light, premium film still quality. Avoid flat diagram layout and low-res video noise. No logos, no watermark, no readable text.
   - slug: "product-lab-photo"
     name: "Product Lab Photography"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in product lab photography style: pristine white or gray studio, glassware or testing cues when relevant, controlled reflections, clinical precision, premium tech/product trust. Avoid messy lifestyle clutter and painterly illustration."
-    demo: null
+    demo:
+      production_index: 282
+      batch: 24
+      image: "282-product-lab-photo-style-show.png"
+      scene: "pristine studio product display"
+      exact_prompt: |
+        Create a square style-show image for Product Lab Photography in product lab photography style: pristine white or gray studio, glassware or testing cues when relevant, controlled reflections, clinical precision, premium tech/product trust. Avoid messy lifestyle clutter and painterly illustration. No logos, no watermark, no readable text.
   - slug: "flat-lay-photo"
     name: "Flat Lay Photography"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in flat lay photography style: top-down composition, arranged objects, clean surface, balanced spacing, editorial prop styling, soft shadow control. Avoid low-angle cinematic drama and crowded backgrounds."
-    demo: null
+    demo:
+      production_index: 283
+      batch: 24
+      image: "283-flat-lay-photo-style-show.png"
+      scene: "top-down arranged objects on surface"
+      exact_prompt: |
+        Create a square style-show image for Flat Lay Photography in flat lay photography style: top-down composition, arranged objects, clean surface, balanced spacing, editorial prop styling, soft shadow control. Avoid low-angle cinematic drama and crowded backgrounds. No logos, no watermark, no readable text.
   - slug: "food-editorial"
     name: "Food Editorial"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in food editorial photography style: appetizing natural light, styled table surface, shallow depth, texture-rich ingredients, magazine composition, warm realistic color. Avoid plastic CGI shine and dark horror grade."
-    demo: null
+    demo:
+      production_index: 284
+      batch: 24
+      image: "284-food-editorial-style-show.png"
+      scene: "styled table with fresh ingredients"
+      exact_prompt: |
+        Create a square style-show image for Food Editorial in food editorial photography style: appetizing natural light, styled table surface, shallow depth, texture-rich ingredients, magazine composition, warm realistic color. Avoid plastic CGI shine and dark horror grade. No logos, no watermark, no readable text.
   - slug: "sports-photojournalism"
     name: "Sports Photojournalism"
     category_id: 16
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in sports photojournalism style: frozen peak action, telephoto compression, stadium or street-sport context, sweat, grit, natural drama, editorial realism. Avoid staged studio perfection and cartoon abstraction."
-    demo: null
+    demo:
+      production_index: 285
+      batch: 24
+      image: "285-sports-photojournalism-style-show.png"
+      scene: "frozen peak action athlete"
+      exact_prompt: |
+        Create a square style-show image for Sports Photojournalism in sports photojournalism style: frozen peak action, telephoto compression, stadium or street-sport context, sweat, grit, natural drama, editorial realism. Avoid staged studio perfection and cartoon abstraction. No logos, no watermark, no readable text.
   - slug: "paparazzi-flash"
     name: "Paparazzi Flash"
     category_id: 16
