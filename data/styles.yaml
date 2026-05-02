@@ -3633,7 +3633,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in charcoal drawing style: rich black smudges, gray tonal massing, paper grain, expressive eraser highlights, sketch-studio realism. Avoid saturated color and glossy 3D rendering."
-    demo: null
+    demo:
+      production_index: 307
+      batch: 29
+      image: "307-charcoal-drawing-style-show.png"
+      scene: "A charcoal drawing with rich black smudges, gray tonal massing, paper grain texture, and expressive eraser highlights"
+      exact_prompt: |
+        Create a square style-show image for Charcoal Drawing in charcoal drawing style: rich black smudges, gray tonal massing, paper grain, expressive eraser highlights, sketch-studio realism. Avoid saturated color and glossy 3D rendering. No logos, no watermark, no readable text.
   - slug: "ink-wash"
     name: "Ink Wash"
     category_id: 18
@@ -3681,7 +3687,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in ceramic glaze style: fired clay surface, glossy or crackled glaze, earthy body color, handmade irregularity, studio pottery atmosphere. Avoid paper collage, terminal UI, and neon holograms."
-    demo: null
+    demo:
+      production_index: 306
+      batch: 29
+      image: "306-ceramic-glaze-style-show.png"
+      scene: "A fired clay vessel with glossy crackled glaze, earthy tones, and handmade irregularity in a studio pottery setting"
+      exact_prompt: |
+        Create a square style-show image for Ceramic Glaze in ceramic glaze style: fired clay surface, glossy or crackled glaze, earthy body color, handmade irregularity, studio pottery atmosphere. Avoid paper collage, terminal UI, and neon holograms. No logos, no watermark, no readable text.
   - slug: "terrazzo"
     name: "Terrazzo"
     category_id: 18
@@ -3741,7 +3753,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in clowncore style: circus color, harlequin diamonds, ruffles, exaggerated playful shapes, red, yellow, blue, and white, theatrical whimsy. Avoid horror framing, corporate minimalism, and gritty realism."
-    demo: null
+    demo:
+      production_index: 309
+      batch: 29
+      image: "309-clowncore-style-show.png"
+      scene: "A theatrical clowncore scene with circus colors, harlequin diamond patterns, ruffles, and exaggerated playful shapes in red, yellow, blue, and white"
+      exact_prompt: |
+        Create a square style-show image for Clowncore in clowncore style: circus color, harlequin diamonds, ruffles, exaggerated playful shapes, red, yellow, blue, and white, theatrical whimsy. Avoid horror framing, corporate minimalism, and gritty realism. No logos, no watermark, no readable text.
   - slug: "royalcore"
     name: "Royalcore"
     category_id: 19
@@ -3789,7 +3807,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in coastal cowgirl style: cowboy boots with beach linen, straw hats, denim, shells, sand, turquoise jewelry, sun-faded coastal western mood. Avoid formal luxury and high-tech tactical styling."
-    demo: null
+    demo:
+      production_index: 310
+      batch: 29
+      image: "310-coastal-cowgirl-style-show.png"
+      scene: "A coastal cowgirl scene with cowboy boots, beach linen, straw hat, denim, shells, and turquoise jewelry in a sun-faded western mood"
+      exact_prompt: |
+        Create a square style-show image for Coastal Cowgirl in coastal cowgirl style: cowboy boots with beach linen, straw hats, denim, shells, sand, turquoise jewelry, sun-faded coastal western mood. Avoid formal luxury and high-tech tactical styling. No logos, no watermark, no readable text.
   - slug: "blokecore"
     name: "Blokecore"
     category_id: 19
@@ -3873,7 +3897,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in modern Lunar New Year style: red and gold palette, paper-cut-inspired geometry, lantern or floral motifs when relevant, contemporary festive packaging or poster polish. Avoid sacred misuse, random symbol mixing, and dark dystopia."
-    demo: null
+    demo:
+      production_index: 308
+      batch: 29
+      image: "308-chinese-new-year-modern-style-show.png"
+      scene: "A modern Lunar New Year composition with red and gold palette, paper-cut-inspired geometry, lantern motifs, and contemporary festive polish"
+      exact_prompt: |
+        Create a square style-show image for Modern Lunar New Year in modern Lunar New Year style: red and gold palette, paper-cut-inspired geometry, lantern or floral motifs when relevant, contemporary festive packaging or poster polish. Avoid sacred misuse, random symbol mixing, and dark dystopia. No logos, no watermark, no readable text.
   - slug: "tropical-retro-resort"
     name: "Tropical Retro Resort"
     category_id: 20
