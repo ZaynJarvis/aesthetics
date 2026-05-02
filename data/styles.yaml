@@ -4085,7 +4085,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in Rembrandt portrait lighting: single key light at 45° creating a triangle of light on the shadow-side cheek, warm chiaroscuro, deep shadows, oil-painting mood, rich skin tones, dark background. Avoid flat even lighting and high-key brightness."
-    demo: null
+    demo:
+      production_index: 377
+      batch: 43
+      image: "377-rembrandt-portrait-style-show.png"
   - slug: "butterfly-portrait"
     name: "Butterfly Lighting Portrait"
     category_id: 21
@@ -4173,7 +4176,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in Kodak Portra 400 film style: warm pastel skin tones, fine grain, soft highlight rolloff, slightly muted greens, creamy shadows, natural daylight feel, the quintessential portrait film aesthetic. Avoid cold digital precision and oversaturated colors."
-    demo: null
+    demo:
+      production_index: 373
+      batch: 43
+      image: "373-portra-400-portrait-style-show.png"
   - slug: "tri-x-bw-portrait"
     name: "Tri-X Black & White Portrait"
     category_id: 21
@@ -4375,7 +4381,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in classic profile portrait style: side-view composition showing nose, lips, jawline, and ear silhouette, elegant neck line, clean background, cameo or medallion-like framing, sculptural beauty of facial profile. Avoid frontal face-on composition and cluttered backgrounds."
-    demo: null
+    demo:
+      production_index: 374
+      batch: 43
+      image: "374-profile-portrait-style-show.png"
   - slug: "headshot-portrait"
     name: "Clean Headshot Portrait"
     category_id: 21
@@ -4407,7 +4416,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in rain portrait style: wet hair and skin, visible raindrops, reflective puddles, moody overcast atmosphere, emotional intensity, glistening textures, urban or natural rain setting, melancholic beauty. Avoid dry sunny conditions and bright cheerful mood."
-    demo: null
+    demo:
+      production_index: 375
+      batch: 43
+      image: "375-rain-portrait-style-show.png"
   - slug: "underwater-portrait"
     name: "Underwater Portrait"
     category_id: 21
@@ -4485,7 +4497,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in red lip classic portrait style: bold red lipstick as focal point, timeless black and white or selective color, clean elegant composition, confident gaze, pearl or diamond accents, vintage glamour meets modern poise. Avoid casual messy styling and muted lip color."
-    demo: null
+    demo:
+      production_index: 376
+      batch: 43
+      image: "376-red-lip-classic-portrait-style-show.png"
   - slug: "k-beauty-portrait"
     name: "K-Beauty Portrait"
     category_id: 21
