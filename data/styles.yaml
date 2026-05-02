@@ -4197,7 +4197,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in Kodak Tri-X 400 black and white portrait style: visible grain structure, rich midtones, deep blacks, bright highlights, documentary honesty, timeless monochrome, gritty yet beautiful texture. Avoid smooth digital noise reduction and color."
-    demo: null
+    demo:
+      production_index: 387
+      batch: 45
+      image: "387-tri-x-bw-portrait-style-show.png"
   - slug: "wet-plate-portrait"
     name: "Wet Plate Portrait"
     category_id: 21
@@ -4271,7 +4274,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in split-toned portrait style: warm amber or sepia in highlights paired with cool blue or teal in shadows, elegant tonal separation, darkroom fine print aesthetic, refined and moody color contrast. Avoid flat monochrome and oversaturated processing."
-    demo: null
+    demo:
+      production_index: 383
+      batch: 45
+      image: "383-split-tone-portrait-style-show.png"
   - slug: "pastel-portrait"
     name: "Pastel Portrait"
     category_id: 21
@@ -4387,7 +4393,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in street portrait style: urban environment, natural available light, candid or semi-posed, city textures (brick, concrete, graffiti) as backdrop, raw authenticity, 35mm or 50mm lens perspective, spontaneous connection. Avoid controlled studio setups and manicured locations."
-    demo: null
+    demo:
+      production_index: 384
+      batch: 45
+      image: "384-street-portrait-style-show.png"
   - slug: "profile-portrait"
     name: "Profile Portrait"
     category_id: 21
@@ -4470,7 +4479,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in studio seamless backdrop portrait style: clean solid-color paper or fabric background (white, gray, or colored), professional controlled lighting, focus entirely on subject, polished and refined, commercial quality isolation. Avoid environmental distractions and natural outdoor settings."
-    demo: null
+    demo:
+      production_index: 385
+      batch: 45
+      image: "385-studio-seamless-portrait-style-show.png"
   - slug: "golden-hour-portrait"
     name: "Golden Hour Portrait"
     category_id: 21
@@ -4530,7 +4542,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in sun flare portrait style: deliberate lens flare from direct sun, warm golden streaks across the frame, energetic and alive, backlit with flare bloom, outdoor natural light, joyful and sun-kissed mood. Avoid shade-only shooting and flare-free clean optics."
-    demo: null
+    demo:
+      production_index: 386
+      batch: 45
+      image: "386-sun-flare-portrait-style-show.png"
   - slug: "milk-bath-portrait"
     name: "Milk Bath Portrait"
     category_id: 21
