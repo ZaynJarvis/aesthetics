@@ -4111,7 +4111,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in hard flash portrait style: direct on-camera flash, sharp shadows, raw and candid energy, party or paparazzi feel, slight red-eye glow, contrasty skin, nightlife immediacy. Avoid soft diffused studio lighting and polished beauty retouching."
-    demo: null
+    demo:
+      production_index: 361
+      batch: 40
+      image: "361-hard-flash-portrait-style-show.png"
   - slug: "neon-portrait"
     name: "Neon Light Portrait"
     category_id: 21
@@ -4360,7 +4363,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in clean headshot portrait style: head and shoulders framing, neutral or simple backdrop, even flattering light, sharp eyes, approachable expression, professional casting or corporate quality, minimal styling distractions. Avoid dramatic lighting and artistic experimentation."
-    demo: null
+    demo:
+      production_index: 362
+      batch: 40
+      image: "362-headshot-portrait-style-show.png"
   - slug: "painterly-portrait"
     name: "Painterly Portrait"
     category_id: 21
@@ -4392,7 +4398,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in forest portrait style: dappled sunlight filtering through tree canopy, lush green foliage background, natural woodland setting, fairy-tale atmosphere, earth tones and emerald greens, soft leaf-shadow patterns on skin. Avoid urban concrete and artificial studio light."
-    demo: null
+    demo:
+      production_index: 359
+      batch: 40
+      image: "359-forest-portrait-style-show.png"
   - slug: "rooftop-portrait"
     name: "Rooftop Portrait"
     category_id: 21
@@ -4404,7 +4413,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in flower field portrait style: surrounded by wildflowers or lavender or sunflowers, natural golden light, romantic pastoral setting, soft warm palette, nature-immersed composition, spring or summer bloom. Avoid indoor studio and urban environments."
-    demo: null
+    demo:
+      production_index: 358
+      batch: 40
+      image: "358-flower-field-portrait-style-show.png"
   - slug: "studio-seamless-portrait"
     name: "Studio Seamless Portrait"
     category_id: 21
@@ -4416,7 +4428,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in golden hour portrait style: warm low-angle sunset light bathing the face, long soft shadows, golden skin glow, orange and pink sky tones, magic-hour warmth, natural outdoor setting, romantic end-of-day light. Avoid midday harsh overhead sun and cool artificial lighting."
-    demo: null
+    demo:
+      production_index: 360
+      batch: 40
+      image: "360-golden-hour-portrait-style-show.png"
   - slug: "dark-moody-portrait"
     name: "Dark Moody Portrait"
     category_id: 21
