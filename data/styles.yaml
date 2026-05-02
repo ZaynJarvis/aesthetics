@@ -3615,7 +3615,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in gouache illustration style: opaque matte paint, clean color blocks, visible brush texture, soft graphic shapes, rich but controlled palette. Avoid transparent watercolor wash and photoreal studio lighting."
-    demo: null
+    demo:
+      production_index: 316
+      batch: 31
+      image: "316-gouache-style-show.png"
+      scene: "opaque matte paint with clean color blocks and visible brush texture"
+      exact_prompt: |
+        Create a square style-show image for Gouache in gouache illustration style: opaque matte paint, clean color blocks, visible brush texture, soft graphic shapes, rich but controlled palette. Avoid transparent watercolor wash and photoreal studio lighting. No logos, no watermark, no readable text.
   - slug: "oil-impasto"
     name: "Oil Impasto"
     category_id: 18
@@ -3645,7 +3651,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in ink wash style: black and gray fluid washes, calligraphic strokes, empty paper space, atmospheric gradients, disciplined brush energy. Avoid neon color, heavy oil paint texture, and corporate vector icons."
-    demo: null
+    demo:
+      production_index: 318
+      batch: 31
+      image: "318-ink-wash-style-show.png"
+      scene: "black and gray fluid washes with calligraphic strokes and atmospheric gradients"
+      exact_prompt: |
+        Create a square style-show image for Ink Wash in ink wash style: black and gray fluid washes, calligraphic strokes, empty paper space, atmospheric gradients, disciplined brush energy. Avoid neon color, heavy oil paint texture, and corporate vector icons. No logos, no watermark, no readable text.
   - slug: "cyanotype"
     name: "Cyanotype"
     category_id: 18
@@ -3771,7 +3783,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in kidcore style: primary colors, toy-like shapes, stickers, rainbow motifs, chunky playful composition, nostalgic childhood energy. Avoid luxury restraint, dark horror, and muted beige wellness design."
-    demo: null
+    demo:
+      production_index: 320
+      batch: 31
+      image: "320-kidcore-style-show.png"
+      scene: "primary colors with toy-like shapes, stickers, and rainbow motifs"
+      exact_prompt: |
+        Create a square style-show image for Kidcore in kidcore style: primary colors, toy-like shapes, stickers, rainbow motifs, chunky playful composition, nostalgic childhood energy. Avoid luxury restraint, dark horror, and muted beige wellness design. No logos, no watermark, no readable text.
   - slug: "clowncore"
     name: "Clowncore"
     category_id: 19
@@ -3891,7 +3909,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Greek island style: whitewashed walls, cobalt blue accents, sunlit stone, bougainvillea, sea horizon, simple Mediterranean geometry. Avoid dark industrial interiors and neon cyber dashboards."
-    demo: null
+    demo:
+      production_index: 317
+      batch: 31
+      image: "317-greek-island-style-show.png"
+      scene: "whitewashed walls with cobalt blue accents, sunlit stone, and bougainvillea"
+      exact_prompt: |
+        Create a square style-show image for Greek Island in Greek island style: whitewashed walls, cobalt blue accents, sunlit stone, bougainvillea, sea horizon, simple Mediterranean geometry. Avoid dark industrial interiors and neon cyber dashboards. No logos, no watermark, no readable text.
   - slug: "bali-tropical"
     name: "Bali Tropical"
     category_id: 20
@@ -3915,7 +3939,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Japanese city pop style: 1980s urban summer, pastel sunset, clean illustrated city lights, palm silhouettes, glossy nostalgia, teal, coral, purple, and warm yellow. Avoid dark cyberpunk grime and medieval fantasy."
-    demo: null
+    demo:
+      production_index: 319
+      batch: 31
+      image: "319-japanese-city-pop-style-show.png"
+      scene: "1980s urban summer with pastel sunset, city lights, and palm silhouettes"
+      exact_prompt: |
+        Create a square style-show image for Japanese City Pop in Japanese city pop style: 1980s urban summer, pastel sunset, clean illustrated city lights, palm silhouettes, glossy nostalgia, teal, coral, purple, and warm yellow. Avoid dark cyberpunk grime and medieval fantasy. No logos, no watermark, no readable text.
   - slug: "korean-webtoon"
     name: "Korean Webtoon"
     category_id: 20
