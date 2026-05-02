@@ -4161,7 +4161,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in medium format portrait style: Hasselblad or Mamiya feel, square or 6×7 frame, extraordinary skin detail, smooth tonal rolloff, slightly elevated perspective, editorial clarity, film-like color depth. Avoid digital harshness and heavy post-processing."
-    demo: null
+    demo:
+      production_index: 366
+      batch: 41
+      image: "366-medium-format-portrait-style-show.png"
   - slug: "portra-400-portrait"
     name: "Portra 400 Portrait"
     category_id: 21
@@ -4194,7 +4197,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in instant film portrait style: Instax or Polaroid frame, slightly washed-out color, soft focus, casual snapshot charm, white border, nostalgic warmth, candid and intimate. Avoid sharp digital precision and dramatic studio lighting."
-    demo: null
+    demo:
+      production_index: 364
+      batch: 41
+      image: "364-instant-film-portrait-style-show.png"
   - slug: "cinematic-portrait"
     name: "Cinematic Portrait"
     category_id: 21
@@ -4208,7 +4214,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in high contrast black and white portrait style: deep crushed blacks, bright blown highlights, minimal midtones, graphic and striking, bold shadow shapes, dramatic intensity, fashion or fine art feel. Avoid low-contrast gray flatness and color."
-    demo: null
+    demo:
+      production_index: 363
+      batch: 41
+      image: "363-high-contrast-bw-portrait-style-show.png"
   - slug: "desaturated-editorial-portrait"
     name: "Desaturated Editorial Portrait"
     category_id: 21
@@ -4467,7 +4476,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in K-beauty portrait style: Korean glass-skin aesthetic, dewy luminous complexion, gradient lip tint, soft peach and pink tones, natural brow, high-key bright lighting, clean minimal background, youthful and fresh. Avoid matte skin and heavy Western-style contouring."
-    demo: null
+    demo:
+      production_index: 365
+      batch: 41
+      image: "365-k-beauty-portrait-style-show.png"
   - slug: "sun-flare-portrait"
     name: "Sun Flare Portrait"
     category_id: 21
@@ -4479,4 +4491,7 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in milk bath portrait style: subject partially submerged in milky white water, floating flowers or petals, overhead or three-quarter shooting angle, pure white and pastel palette, sensual yet artistic, fine-art femininity. Avoid dry land settings and dark backgrounds."
-    demo: null
+    demo:
+      production_index: 367
+      batch: 41
+      image: "367-milk-bath-portrait-style-show.png"
