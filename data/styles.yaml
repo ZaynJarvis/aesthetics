@@ -4095,6 +4095,7 @@ styles:
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in butterfly (Paramount) portrait lighting: overhead key light casting a small butterfly shadow under the nose, glamorous even cheekbone highlights, classic Hollywood beauty setup, soft fill, elegant. Avoid harsh side shadows and dramatic split lighting."
     demo:
+      production_index: 345
       image: "345-butterfly-portrait-style-show.png"
       batch: 37
   - slug: "split-light-portrait"
@@ -4148,6 +4149,7 @@ styles:
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in backlit haze portrait style: strong backlight creating a glowing halo around hair, lens flare, atmospheric haze or dust particles, dreamy ethereal mood, silhouette edges. Avoid flat front-lit studio look and cold blue tones."
     demo:
+      production_index: 343
       image: "343-backlit-portrait-style-show.png"
       batch: 37
   - slug: "shadow-play-portrait"
@@ -4237,6 +4239,7 @@ styles:
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in cinematic portrait style: movie-still framing with 2.35:1 widescreen feel, color graded with teal-orange or analogous palette, shallow focus, atmospheric depth, dramatic narrative moment, film grain. Avoid snapshot casualness and flat even lighting."
     demo:
+      production_index: 347
       image: "347-cinematic-portrait-style-show.png"
       batch: 37
   - slug: "high-contrast-bw-portrait"
@@ -4371,6 +4374,7 @@ styles:
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in beauty close-up portrait style: extreme close framing on face, emphasis on skin texture and makeup detail, visible pores and lashes, lips and eyes as focal point, clean studio light, cosmetics advertising quality. Avoid full-body framing and environmental context."
     demo:
+      production_index: 344
       image: "344-beauty-closeup-portrait-style-show.png"
       batch: 37
   - slug: "editorial-fashion-portrait"
@@ -4442,6 +4446,7 @@ styles:
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in café portrait style: warm coffee-shop interior, ambient tungsten and window mix, ceramic cup or pastry as prop, cozy intimate mood, natural candid moment, warm browns and creams, casual European café culture. Avoid harsh outdoor sun and cold studio lighting."
     demo:
+      production_index: 346
       image: "346-cafe-portrait-style-show.png"
       batch: 37
   - slug: "rain-portrait"
