@@ -43,6 +43,8 @@ categories:
     title: "Fashion And Internet Aesthetics"
   - id: 20
     title: "Regional And Heritage-Inspired Visual Lanes"
+  - id: 21
+    title: "Portrait Photography"
 
 styles:
   - slug: "classical-greco-roman"
@@ -4078,3 +4080,333 @@ styles:
       scene: "Chalet warmth with clean contemporary lines, pale stone, timber, wool, snow light, and red accent mountain luxury"
       exact_prompt: |
         Create a square style-show image for Swiss Alpine Modern in Swiss alpine modern style: chalet warmth plus clean contemporary lines, pale stone, timber, wool, snow light, red accent, mountain luxury restraint. Avoid tropical colors and cyberpunk city rain. No logos, no watermark, no readable text.
+  - slug: "rembrandt-portrait"
+    name: "Rembrandt Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in Rembrandt portrait lighting: single key light at 45° creating a triangle of light on the shadow-side cheek, warm chiaroscuro, deep shadows, oil-painting mood, rich skin tones, dark background. Avoid flat even lighting and high-key brightness."
+    demo: null
+  - slug: "butterfly-portrait"
+    name: "Butterfly Lighting Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in butterfly (Paramount) portrait lighting: overhead key light casting a small butterfly shadow under the nose, glamorous even cheekbone highlights, classic Hollywood beauty setup, soft fill, elegant. Avoid harsh side shadows and dramatic split lighting."
+    demo: null
+  - slug: "split-light-portrait"
+    name: "Split Light Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in split lighting portrait style: half the face lit, half in deep shadow, dramatic and edgy, strong contrast, moody intensity, minimal fill. Avoid flat ambient lighting and soft pastel mood."
+    demo: null
+  - slug: "rim-light-portrait"
+    name: "Rim Light Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in rim light portrait style: bright edge light outlining hair and shoulders against a dark background, glowing contour, separation lighting, dramatic silhouette edge, cinematic depth. Avoid flat front lighting and overexposed backgrounds."
+    demo: null
+  - slug: "hard-flash-portrait"
+    name: "Hard Flash Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in hard flash portrait style: direct on-camera flash, sharp shadows, raw and candid energy, party or paparazzi feel, slight red-eye glow, contrasty skin, nightlife immediacy. Avoid soft diffused studio lighting and polished beauty retouching."
+    demo: null
+  - slug: "neon-portrait"
+    name: "Neon Light Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in neon light portrait style: colored neon glow on skin (pink, blue, purple), urban night atmosphere, moody saturated reflections, club or sign lighting, cinematic night mood. Avoid daylight naturalism and muted earth tones."
+    demo: null
+  - slug: "window-light-portrait"
+    name: "Window Light Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in window light portrait style: soft directional natural light from a window, gentle shadow gradient across the face, intimate indoor setting, warm and quiet mood, catchlights in eyes. Avoid harsh artificial lighting and outdoor glare."
+    demo: null
+  - slug: "backlit-portrait"
+    name: "Backlit Haze Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in backlit haze portrait style: strong backlight creating a glowing halo around hair, lens flare, atmospheric haze or dust particles, dreamy ethereal mood, silhouette edges. Avoid flat front-lit studio look and cold blue tones."
+    demo: null
+  - slug: "shadow-play-portrait"
+    name: "Shadow Play Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in shadow play portrait style: patterned shadows falling across the face from venetian blinds, lattice, leaves, or lace, graphic light-dark interplay, mysterious mood, textured lighting. Avoid even flat lighting and plain backgrounds."
+    demo: null
+  - slug: "silhouette-portrait"
+    name: "Silhouette Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in silhouette portrait style: subject as a dark shape against a bright or colorful background, sunset or studio backlight, recognizable profile outline, dramatic minimal, emphasis on shape and contour. Avoid detailed face visibility and flat backgrounds."
+    demo: null
+  - slug: "85mm-bokeh-portrait"
+    name: "85mm Bokeh Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in 85mm bokeh portrait style: shallow depth of field at f/1.4–f/2, creamy circular bokeh in background, sharp eye focus, natural compression, intimate subject isolation, professional portrait lens look. Avoid deep focus landscapes and wide-angle distortion."
+    demo: null
+  - slug: "medium-format-portrait"
+    name: "Medium Format Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in medium format portrait style: Hasselblad or Mamiya feel, square or 6×7 frame, extraordinary skin detail, smooth tonal rolloff, slightly elevated perspective, editorial clarity, film-like color depth. Avoid digital harshness and heavy post-processing."
+    demo: null
+  - slug: "portra-400-portrait"
+    name: "Portra 400 Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in Kodak Portra 400 film style: warm pastel skin tones, fine grain, soft highlight rolloff, slightly muted greens, creamy shadows, natural daylight feel, the quintessential portrait film aesthetic. Avoid cold digital precision and oversaturated colors."
+    demo: null
+  - slug: "tri-x-bw-portrait"
+    name: "Tri-X Black & White Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in Kodak Tri-X 400 black and white portrait style: visible grain structure, rich midtones, deep blacks, bright highlights, documentary honesty, timeless monochrome, gritty yet beautiful texture. Avoid smooth digital noise reduction and color."
+    demo: null
+  - slug: "wet-plate-portrait"
+    name: "Wet Plate Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in wet plate collodion portrait style: antique tintype or ambrotype feel, uneven emulsion edges, blue-sensitive rendering, long-exposure stillness, dark vignette, 19th-century studio formality, haunting archival quality. Avoid modern color and crisp digital detail."
+    demo: null
+  - slug: "double-exposure-portrait"
+    name: "Double Exposure Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in double exposure portrait style: two overlaid exposures blending face with nature (flowers, trees, cityscape), dreamlike transparency, artistic layering, surreal compositional fusion. Avoid single clean exposure and conventional framing."
+    demo: null
+  - slug: "instant-film-portrait"
+    name: "Instant Film Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in instant film portrait style: Instax or Polaroid frame, slightly washed-out color, soft focus, casual snapshot charm, white border, nostalgic warmth, candid and intimate. Avoid sharp digital precision and dramatic studio lighting."
+    demo: null
+  - slug: "cinematic-portrait"
+    name: "Cinematic Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in cinematic portrait style: movie-still framing with 2.35:1 widescreen feel, color graded with teal-orange or analogous palette, shallow focus, atmospheric depth, dramatic narrative moment, film grain. Avoid snapshot casualness and flat even lighting."
+    demo: null
+  - slug: "high-contrast-bw-portrait"
+    name: "High Contrast B&W Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in high contrast black and white portrait style: deep crushed blacks, bright blown highlights, minimal midtones, graphic and striking, bold shadow shapes, dramatic intensity, fashion or fine art feel. Avoid low-contrast gray flatness and color."
+    demo: null
+  - slug: "desaturated-editorial-portrait"
+    name: "Desaturated Editorial Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in desaturated editorial portrait style: muted colors, lifted blacks, flat matte finish, contemporary fashion magazine feel, understated cool, film-inspired faded palette, quiet sophistication. Avoid vibrant saturation and punchy contrast."
+    demo: null
+  - slug: "cross-processed-portrait"
+    name: "Cross-Processed Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in cross-processed portrait style: unexpected color shifts (green shadows, magenta highlights), high contrast, experimental film accident aesthetic, punchy and surreal color cast, 90s alternative feel. Avoid natural accurate color and subtle processing."
+    demo: null
+  - slug: "faded-film-portrait"
+    name: "Faded Film Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in faded film portrait style: vintage color fade, lifted shadow tones, muted highlights, subtle light leaks and edge fog, nostalgic imperfection, warm amber cast, film print that aged gracefully. Avoid crisp modern clarity and strong saturation."
+    demo: null
+  - slug: "split-tone-portrait"
+    name: "Split Tone Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in split-toned portrait style: warm amber or sepia in highlights paired with cool blue or teal in shadows, elegant tonal separation, darkroom fine print aesthetic, refined and moody color contrast. Avoid flat monochrome and oversaturated processing."
+    demo: null
+  - slug: "pastel-portrait"
+    name: "Pastel Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in pastel portrait style: soft pink, lavender, mint, peach, and cream tones, airy high-key lighting, gentle overexposure, romantic and delicate, candy-colored backdrop or wardrobe, angelic lightness. Avoid dark moody shadows and harsh contrast."
+    demo: null
+  - slug: "warm-tone-portrait"
+    name: "Warm Tone Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in warm tone portrait style: amber, honey, golden skin glow, sunset warmth, cozy tungsten-like tones, inviting and intimate, caramel and copper color palette, flattering warm white balance. Avoid cool blue cast and clinical sterile lighting."
+    demo: null
+  - slug: "cool-tone-portrait"
+    name: "Cool Tone Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in cool tone portrait style: blue, teal, icy silver tones, pale skin rendering, winter or twilight mood, calm and detached, high-fashion coolness, steel and slate palette. Avoid warm golden tones and cozy ambient mood."
+    demo: null
+  - slug: "old-hollywood-portrait"
+    name: "Old Hollywood Glamour Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in Old Hollywood glamour portrait style: 1940s-50s studio portraiture, soft diffusion glow, catch-light in eyes, dramatic sculpted hair, pearl jewelry, satin fabric, black and white or silver-toned, timeless movie star elegance. Avoid modern casual fashion and digital sharpness."
+    demo: null
+  - slug: "60s-mod-portrait"
+    name: "60s Mod Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in 1960s mod portrait style: graphic bold eyeliner, geometric hairstyle (bob or bangs), pop-color backdrop, Twiggy-era fashion energy, op-art influence, high contrast, playful youth culture, go-go boots era styling. Avoid soft romantic diffusion and muted earth tones."
+    demo: null
+  - slug: "70s-soft-focus-portrait"
+    name: "70s Soft Focus Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in 1970s soft focus portrait style: vaseline-on-lens dreaminess, warm amber glow, feathered hair, earth-tone wardrobe, natural makeup, pastoral or sunlit setting, romantic softness. Avoid sharp modern clinical clarity and cool color grading."
+    demo: null
+  - slug: "80s-power-portrait"
+    name: "80s Power Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in 1980s power portrait style: bold shoulder silhouette, vivid jewel-tone colors, confident pose, strong blush and lip, teased or voluminous hair, studio gradient backdrop, Dynasty-era glamour, direct flash energy. Avoid muted minimalism and soft natural looks."
+    demo: null
+  - slug: "90s-grunge-portrait"
+    name: "90s Grunge Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in 1990s grunge portrait style: raw, slightly underexposed, dark lip, smudged eyeliner, flannel or band tee, washed-out desaturated tones, anti-glamour attitude, Seattle or indie music scene vibe, analog grain. Avoid polished beauty and bright clean colors."
+    demo: null
+  - slug: "y2k-glossy-portrait"
+    name: "Y2K Glossy Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in Y2K glossy portrait style: shiny lip gloss, frosted eyeshadow, bubblegum pink and chrome accents, early digital camera look, flash-lit skin, teen magazine cover energy, butterfly clips or rhinestones, early 2000s pop culture excess. Avoid matte minimalism and vintage film grain."
+    demo: null
+  - slug: "beauty-closeup-portrait"
+    name: "Beauty Close-Up Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in beauty close-up portrait style: extreme close framing on face, emphasis on skin texture and makeup detail, visible pores and lashes, lips and eyes as focal point, clean studio light, cosmetics advertising quality. Avoid full-body framing and environmental context."
+    demo: null
+  - slug: "editorial-fashion-portrait"
+    name: "Editorial Fashion Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in editorial fashion portrait style: high fashion poses, avant-garde styling, Vogue or Harper's Bazaar quality, dramatic composition, bold wardrobe choices, striking makeup, controlled studio or curated location, artful and intentional. Avoid casual snapshot aesthetic and everyday clothing."
+    demo: null
+  - slug: "conceptual-portrait"
+    name: "Conceptual Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in conceptual portrait style: surreal or symbolic props, artistic narrative, thought-provoking visual metaphor, fine-art photography approach, deliberate staging, imaginative and unexpected elements. Avoid straightforward documentary realism and plain backgrounds."
+    demo: null
+  - slug: "environmental-portrait"
+    name: "Environmental Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in environmental portrait style: subject shown within a meaningful setting that tells their story, wider framing including surroundings, context-rich composition, natural interaction with space, documentary sensibility. Avoid tight headshot cropping and seamless studio backgrounds."
+    demo: null
+  - slug: "street-portrait"
+    name: "Street Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in street portrait style: urban environment, natural available light, candid or semi-posed, city textures (brick, concrete, graffiti) as backdrop, raw authenticity, 35mm or 50mm lens perspective, spontaneous connection. Avoid controlled studio setups and manicured locations."
+    demo: null
+  - slug: "profile-portrait"
+    name: "Profile Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in classic profile portrait style: side-view composition showing nose, lips, jawline, and ear silhouette, elegant neck line, clean background, cameo or medallion-like framing, sculptural beauty of facial profile. Avoid frontal face-on composition and cluttered backgrounds."
+    demo: null
+  - slug: "headshot-portrait"
+    name: "Clean Headshot Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in clean headshot portrait style: head and shoulders framing, neutral or simple backdrop, even flattering light, sharp eyes, approachable expression, professional casting or corporate quality, minimal styling distractions. Avoid dramatic lighting and artistic experimentation."
+    demo: null
+  - slug: "painterly-portrait"
+    name: "Painterly Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in painterly portrait photography style: photograph that resembles an oil painting, soft brushstroke-like bokeh, Vermeer or Pre-Raphaelite color palette, diffused light, rich fabric textures, classical composition, fine-art gallery quality. Avoid modern graphic design and digital crispness."
+    demo: null
+  - slug: "cafe-portrait"
+    name: "Café Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in café portrait style: warm coffee-shop interior, ambient tungsten and window mix, ceramic cup or pastry as prop, cozy intimate mood, natural candid moment, warm browns and creams, casual European café culture. Avoid harsh outdoor sun and cold studio lighting."
+    demo: null
+  - slug: "rain-portrait"
+    name: "Rain Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in rain portrait style: wet hair and skin, visible raindrops, reflective puddles, moody overcast atmosphere, emotional intensity, glistening textures, urban or natural rain setting, melancholic beauty. Avoid dry sunny conditions and bright cheerful mood."
+    demo: null
+  - slug: "underwater-portrait"
+    name: "Underwater Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in underwater portrait style: submerged in clear water, flowing hair and fabric suspended weightlessly, dappled light from above, ethereal blue-green tones, bubbles and ripple caustics, dreamlike slow-motion quality. Avoid dry land settings and sharp above-water lighting."
+    demo: null
+  - slug: "forest-portrait"
+    name: "Forest Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in forest portrait style: dappled sunlight filtering through tree canopy, lush green foliage background, natural woodland setting, fairy-tale atmosphere, earth tones and emerald greens, soft leaf-shadow patterns on skin. Avoid urban concrete and artificial studio light."
+    demo: null
+  - slug: "rooftop-portrait"
+    name: "Rooftop Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in rooftop portrait style: urban rooftop setting, city skyline or sky as backdrop, golden hour or blue hour timing, wind in hair, elevated perspective, metropolitan lifestyle feel, panoramic openness. Avoid ground-level claustrophobic framing and rural settings."
+    demo: null
+  - slug: "flower-field-portrait"
+    name: "Flower Field Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in flower field portrait style: surrounded by wildflowers or lavender or sunflowers, natural golden light, romantic pastoral setting, soft warm palette, nature-immersed composition, spring or summer bloom. Avoid indoor studio and urban environments."
+    demo: null
+  - slug: "studio-seamless-portrait"
+    name: "Studio Seamless Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in studio seamless backdrop portrait style: clean solid-color paper or fabric background (white, gray, or colored), professional controlled lighting, focus entirely on subject, polished and refined, commercial quality isolation. Avoid environmental distractions and natural outdoor settings."
+    demo: null
+  - slug: "golden-hour-portrait"
+    name: "Golden Hour Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in golden hour portrait style: warm low-angle sunset light bathing the face, long soft shadows, golden skin glow, orange and pink sky tones, magic-hour warmth, natural outdoor setting, romantic end-of-day light. Avoid midday harsh overhead sun and cool artificial lighting."
+    demo: null
+  - slug: "dark-moody-portrait"
+    name: "Dark Moody Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in dark moody portrait style: low-key lighting, emotional intensity, deep shadows dominating the frame, minimal highlights, brooding atmosphere, introspective gaze, fine-art darkness, barely-there fill light. Avoid bright cheerful lighting and high-key exposure."
+    demo: null
+  - slug: "ethereal-portrait"
+    name: "Ethereal Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in ethereal portrait style: dreamy soft glow, overexposed highlights, luminous skin, flowing white or sheer fabric, angelic backlight, otherworldly serenity, heavenly atmosphere, barely-there color. Avoid gritty realism and dark contrasty shadows."
+    demo: null
+  - slug: "natural-beauty-portrait"
+    name: "Natural Beauty Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in natural beauty portrait style: minimal or no makeup, visible freckles and skin texture, soft natural daylight, authentic and unretouched feel, simple styling, genuine expression, celebrating real skin, warm and honest. Avoid heavy makeup and artificial studio glamour."
+    demo: null
+  - slug: "red-lip-classic-portrait"
+    name: "Red Lip Classic Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in red lip classic portrait style: bold red lipstick as focal point, timeless black and white or selective color, clean elegant composition, confident gaze, pearl or diamond accents, vintage glamour meets modern poise. Avoid casual messy styling and muted lip color."
+    demo: null
+  - slug: "k-beauty-portrait"
+    name: "K-Beauty Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in K-beauty portrait style: Korean glass-skin aesthetic, dewy luminous complexion, gradient lip tint, soft peach and pink tones, natural brow, high-key bright lighting, clean minimal background, youthful and fresh. Avoid matte skin and heavy Western-style contouring."
+    demo: null
+  - slug: "sun-flare-portrait"
+    name: "Sun Flare Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in sun flare portrait style: deliberate lens flare from direct sun, warm golden streaks across the frame, energetic and alive, backlit with flare bloom, outdoor natural light, joyful and sun-kissed mood. Avoid shade-only shooting and flare-free clean optics."
+    demo: null
+  - slug: "milk-bath-portrait"
+    name: "Milk Bath Portrait"
+    category_id: 21
+    source_doc: "expanded"
+    reusable_prompt: "Create `{{SUBJECT}}` in milk bath portrait style: subject partially submerged in milky white water, floating flowers or petals, overhead or three-quarter shooting angle, pure white and pastel palette, sensual yet artistic, fine-art femininity. Avoid dry land settings and dark backgrounds."
+    demo: null
