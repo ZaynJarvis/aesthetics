@@ -3723,7 +3723,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in tapestry style: woven textile texture, muted wool colors, medieval or folk composition, visible warp and weft, decorative border. Avoid smooth digital gradients and chrome futurism."
-    demo: null
+    demo:
+      production_index: 334
+      batch: 34
+      image: "334-tapestry-style-show.png"
+      scene: "Woven textile with muted wool colors, medieval folk composition, visible warp and weft, and decorative border"
+      exact_prompt: |
+        Create a square style-show image for Tapestry in tapestry style: woven textile texture, muted wool colors, medieval or folk composition, visible warp and weft, decorative border. Avoid smooth digital gradients and chrome futurism. No logos, no watermark, no readable text.
   - slug: "ceramic-glaze"
     name: "Ceramic Glaze"
     category_id: 18
@@ -3741,7 +3747,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in terrazzo style: scattered stone chips, polished composite surface, pastel or neutral base, modern interior/product texture, playful material pattern. Avoid woodcut ink texture and ornate historical carving."
-    demo: null
+    demo:
+      production_index: 335
+      batch: 34
+      image: "335-terrazzo-style-show.png"
+      scene: "Scattered stone chips on polished composite surface with pastel base and playful material pattern"
+      exact_prompt: |
+        Create a square style-show image for Terrazzo in terrazzo style: scattered stone chips, polished composite surface, pastel or neutral base, modern interior/product texture, playful material pattern. Avoid woodcut ink texture and ornate historical carving. No logos, no watermark, no readable text.
   - slug: "cork-material"
     name: "Cork Material"
     category_id: 18
@@ -3831,7 +3843,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in royalcore style: palace interiors, crowns or heraldic motifs when relevant, velvet, brocade, gold, deep red, navy, and ivory, aristocratic fantasy elegance. Avoid streetwear grit and minimalist tech surfaces."
-    demo: null
+    demo:
+      production_index: 332
+      batch: 34
+      image: "332-royalcore-style-show.png"
+      scene: "Palace interior with velvet, brocade, gold, deep red, navy, and ivory aristocratic fantasy elegance"
+      exact_prompt: |
+        Create a square style-show image for Royalcore in royalcore style: palace interiors, crowns or heraldic motifs when relevant, velvet, brocade, gold, deep red, navy, and ivory, aristocratic fantasy elegance. Avoid streetwear grit and minimalist tech surfaces. No logos, no watermark, no readable text.
   - slug: "angelcore"
     name: "Angelcore"
     category_id: 19
@@ -3927,7 +3945,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in quiet outdoor style: premium hiking basics, muted technical fabrics, foggy trail or cabin context, slate, moss, cream, and rust, restrained nature utility. Avoid loud streetwear graphics and glossy nightclub lighting."
-    demo: null
+    demo:
+      production_index: 331
+      batch: 34
+      image: "331-quiet-outdoor-style-show.png"
+      scene: "Premium hiking basics in muted technical fabrics against a foggy trail context with slate, moss, cream, and rust tones"
+      exact_prompt: |
+        Create a square style-show image for Quiet Outdoor in quiet outdoor style: premium hiking basics, muted technical fabrics, foggy trail or cabin context, slate, moss, cream, and rust, restrained nature utility. Avoid loud streetwear graphics and glossy nightclub lighting. No logos, no watermark, no readable text.
   - slug: "nordic-folk"
     name: "Nordic Folk"
     category_id: 20
@@ -4035,4 +4059,10 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Swiss alpine modern style: chalet warmth plus clean contemporary lines, pale stone, timber, wool, snow light, red accent, mountain luxury restraint. Avoid tropical colors and cyberpunk city rain."
-    demo: null
+    demo:
+      production_index: 333
+      batch: 34
+      image: "333-swiss-alpine-modern-style-show.png"
+      scene: "Chalet warmth with clean contemporary lines, pale stone, timber, wool, snow light, and red accent mountain luxury"
+      exact_prompt: |
+        Create a square style-show image for Swiss Alpine Modern in Swiss alpine modern style: chalet warmth plus clean contemporary lines, pale stone, timber, wool, snow light, red accent, mountain luxury restraint. Avoid tropical colors and cyberpunk city rain. No logos, no watermark, no readable text.
