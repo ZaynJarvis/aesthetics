@@ -4120,7 +4120,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in neon light portrait style: colored neon glow on skin (pink, blue, purple), urban night atmosphere, moody saturated reflections, club or sign lighting, cinematic night mood. Avoid daylight naturalism and muted earth tones."
-    demo: null
+    demo:
+      production_index: 369
+      batch: 42
+      image: "369-neon-portrait-style-show.png"
   - slug: "window-light-portrait"
     name: "Window Light Portrait"
     category_id: 21
@@ -4256,7 +4259,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in pastel portrait style: soft pink, lavender, mint, peach, and cream tones, airy high-key lighting, gentle overexposure, romantic and delicate, candy-colored backdrop or wardrobe, angelic lightness. Avoid dark moody shadows and harsh contrast."
-    demo: null
+    demo:
+      production_index: 372
+      batch: 42
+      image: "372-pastel-portrait-style-show.png"
   - slug: "warm-tone-portrait"
     name: "Warm Tone Portrait"
     category_id: 21
@@ -4277,7 +4283,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in Old Hollywood glamour portrait style: 1940s-50s studio portraiture, soft diffusion glow, catch-light in eyes, dramatic sculpted hair, pearl jewelry, satin fabric, black and white or silver-toned, timeless movie star elegance. Avoid modern casual fashion and digital sharpness."
-    demo: null
+    demo:
+      production_index: 370
+      batch: 42
+      image: "370-old-hollywood-portrait-style-show.png"
   - slug: "60s-mod-portrait"
     name: "60s Mod Portrait"
     category_id: 21
@@ -4381,7 +4390,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in painterly portrait photography style: photograph that resembles an oil painting, soft brushstroke-like bokeh, Vermeer or Pre-Raphaelite color palette, diffused light, rich fabric textures, classical composition, fine-art gallery quality. Avoid modern graphic design and digital crispness."
-    demo: null
+    demo:
+      production_index: 371
+      batch: 42
+      image: "371-painterly-portrait-style-show.png"
   - slug: "cafe-portrait"
     name: "Café Portrait"
     category_id: 21
@@ -4464,7 +4476,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in natural beauty portrait style: minimal or no makeup, visible freckles and skin texture, soft natural daylight, authentic and unretouched feel, simple styling, genuine expression, celebrating real skin, warm and honest. Avoid heavy makeup and artificial studio glamour."
-    demo: null
+    demo:
+      production_index: 368
+      batch: 42
+      image: "368-natural-beauty-portrait-style-show.png"
   - slug: "red-lip-classic-portrait"
     name: "Red Lip Classic Portrait"
     category_id: 21
