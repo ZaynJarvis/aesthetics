@@ -4138,7 +4138,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in window light portrait style: soft directional natural light from a window, gentle shadow gradient across the face, intimate indoor setting, warm and quiet mood, catchlights in eyes. Avoid harsh artificial lighting and outdoor glare."
-    demo: null
+    demo:
+      production_index: 391
+      batch: 46
+      image: "391-window-light-portrait-style-show.png"
   - slug: "backlit-portrait"
     name: "Backlit Haze Portrait"
     category_id: 21
@@ -4206,7 +4209,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in wet plate collodion portrait style: antique tintype or ambrotype feel, uneven emulsion edges, blue-sensitive rendering, long-exposure stillness, dark vignette, 19th-century studio formality, haunting archival quality. Avoid modern color and crisp digital detail."
-    demo: null
+    demo:
+      production_index: 390
+      batch: 46
+      image: "390-wet-plate-portrait-style-show.png"
   - slug: "double-exposure-portrait"
     name: "Double Exposure Portrait"
     category_id: 21
@@ -4292,7 +4298,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in warm tone portrait style: amber, honey, golden skin glow, sunset warmth, cozy tungsten-like tones, inviting and intimate, caramel and copper color palette, flattering warm white balance. Avoid cool blue cast and clinical sterile lighting."
-    demo: null
+    demo:
+      production_index: 389
+      batch: 46
+      image: "389-warm-tone-portrait-style-show.png"
   - slug: "cool-tone-portrait"
     name: "Cool Tone Portrait"
     category_id: 21
@@ -4352,7 +4361,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in Y2K glossy portrait style: shiny lip gloss, frosted eyeshadow, bubblegum pink and chrome accents, early digital camera look, flash-lit skin, teen magazine cover energy, butterfly clips or rhinestones, early 2000s pop culture excess. Avoid matte minimalism and vintage film grain."
-    demo: null
+    demo:
+      production_index: 392
+      batch: 46
+      image: "392-y2k-glossy-portrait-style-show.png"
   - slug: "beauty-closeup-portrait"
     name: "Beauty Close-Up Portrait"
     category_id: 21
@@ -4446,7 +4458,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in underwater portrait style: submerged in clear water, flowing hair and fabric suspended weightlessly, dappled light from above, ethereal blue-green tones, bubbles and ripple caustics, dreamlike slow-motion quality. Avoid dry land settings and sharp above-water lighting."
-    demo: null
+    demo:
+      production_index: 388
+      batch: 46
+      image: "388-underwater-portrait-style-show.png"
   - slug: "forest-portrait"
     name: "Forest Portrait"
     category_id: 21
