@@ -3675,7 +3675,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in mosaic style: small tile tesserae, grout lines, jewel colors, hand-laid surface irregularity, wall or floor artwork presence. Avoid smooth airbrush gradients and seamless CGI."
-    demo: null
+    demo:
+      production_index: 325
+      batch: 32
+      image: "325-mosaic-style-show.png"
+      scene: "jewel-colored tile tesserae with grout lines and hand-laid surface irregularity"
+      exact_prompt: |
+        Create a square style-show image for Mosaic in mosaic style: small tile tesserae, grout lines, jewel colors, hand-laid surface irregularity, wall or floor artwork presence. Avoid smooth airbrush gradients and seamless CGI. No logos, no watermark, no readable text.
   - slug: "stained-glass"
     name: "Stained Glass"
     category_id: 18
@@ -3765,7 +3771,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in mermaidcore style: pearlescent shells, aqua, teal, lavender, iridescent scales, wet shine, ocean fantasy beauty mood. Avoid desert dryness, harsh concrete, and monochrome business styling."
-    demo: null
+    demo:
+      production_index: 323
+      batch: 32
+      image: "323-mermaidcore-style-show.png"
+      scene: "pearlescent shells with aqua and lavender iridescent ocean fantasy"
+      exact_prompt: |
+        Create a square style-show image for Mermaidcore in mermaidcore style: pearlescent shells, aqua, teal, lavender, iridescent scales, wet shine, ocean fantasy beauty mood. Avoid desert dryness, harsh concrete, and monochrome business styling. No logos, no watermark, no readable text.
   - slug: "fairycore"
     name: "Fairycore"
     category_id: 19
@@ -3843,7 +3855,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in mob wife aesthetic: faux fur or leather cues when relevant, gold jewelry, black, leopard print, red lipstick mood, flash-lit nightlife glamour. Avoid quiet luxury minimalism and pastel ballet softness."
-    demo: null
+    demo:
+      production_index: 324
+      batch: 32
+      image: "324-mob-wife-style-show.png"
+      scene: "faux fur and gold jewelry with leopard print flash-lit nightlife glamour"
+      exact_prompt: |
+        Create a square style-show image for Mob Wife in mob wife aesthetic: faux fur or leather cues when relevant, gold jewelry, black, leopard print, red lipstick mood, flash-lit nightlife glamour. Avoid quiet luxury minimalism and pastel ballet softness. No logos, no watermark, no readable text.
   - slug: "tomato-girl"
     name: "Tomato Girl"
     category_id: 19
@@ -3933,7 +3951,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Korean minimal cafe style: pale concrete, soft cream surfaces, sparse furniture, delicate product display, subtle signage without readable text, calm social-media-ready composition. Avoid maximalist color and rustic farmhouse clutter."
-    demo: null
+    demo:
+      production_index: 321
+      batch: 32
+      image: "321-korean-minimal-cafe-style-show.png"
+      scene: "pale concrete cafe with sparse furniture and delicate product display"
+      exact_prompt: |
+        Create a square style-show image for Korean Minimal Cafe in Korean minimal cafe style: pale concrete, soft cream surfaces, sparse furniture, delicate product display, subtle signage without readable text, calm social-media-ready composition. Avoid maximalist color and rustic farmhouse clutter. No logos, no watermark, no readable text.
   - slug: "japanese-city-pop"
     name: "Japanese City Pop"
     category_id: 20
@@ -3951,7 +3975,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Korean webtoon style: clean digital linework, soft gradients, expressive faces or objects when relevant, vertical-scroll composition feel, polished romantic or urban mood. Avoid gritty Western comic halftone and photorealism."
-    demo: null
+    demo:
+      production_index: 322
+      batch: 32
+      image: "322-korean-webtoon-style-show.png"
+      scene: "clean digital linework urban scene with soft gradients and romantic mood"
+      exact_prompt: |
+        Create a square style-show image for Korean Webtoon in Korean webtoon style: clean digital linework, soft gradients, expressive faces or objects when relevant, vertical-scroll composition feel, polished romantic or urban mood. Avoid gritty Western comic halftone and photorealism. No logos, no watermark, no readable text.
   - slug: "chinese-new-year-modern"
     name: "Modern Lunar New Year"
     category_id: 20
