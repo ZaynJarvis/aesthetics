@@ -4182,7 +4182,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in double exposure portrait style: two overlaid exposures blending face with nature (flowers, trees, cityscape), dreamlike transparency, artistic layering, surreal compositional fusion. Avoid single clean exposure and conventional framing."
-    demo: null
+    demo:
+      production_index: 353
+      batch: 39
+      image: "353-double-exposure-portrait-style-show.png"
   - slug: "instant-film-portrait"
     name: "Instant Film Portrait"
     category_id: 21
@@ -4226,7 +4229,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in faded film portrait style: vintage color fade, lifted shadow tones, muted highlights, subtle light leaks and edge fog, nostalgic imperfection, warm amber cast, film print that aged gracefully. Avoid crisp modern clarity and strong saturation."
-    demo: null
+    demo:
+      production_index: 357
+      batch: 39
+      image: "357-faded-film-portrait-style-show.png"
   - slug: "split-tone-portrait"
     name: "Split Tone Portrait"
     category_id: 21
@@ -4315,7 +4321,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in editorial fashion portrait style: high fashion poses, avant-garde styling, Vogue or Harper's Bazaar quality, dramatic composition, bold wardrobe choices, striking makeup, controlled studio or curated location, artful and intentional. Avoid casual snapshot aesthetic and everyday clothing."
-    demo: null
+    demo:
+      production_index: 354
+      batch: 39
+      image: "354-editorial-fashion-portrait-style-show.png"
   - slug: "conceptual-portrait"
     name: "Conceptual Portrait"
     category_id: 21
@@ -4330,7 +4339,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in environmental portrait style: subject shown within a meaningful setting that tells their story, wider framing including surroundings, context-rich composition, natural interaction with space, documentary sensibility. Avoid tight headshot cropping and seamless studio backgrounds."
-    demo: null
+    demo:
+      production_index: 355
+      batch: 39
+      image: "355-environmental-portrait-style-show.png"
   - slug: "street-portrait"
     name: "Street Portrait"
     category_id: 21
@@ -4419,7 +4431,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in ethereal portrait style: dreamy soft glow, overexposed highlights, luminous skin, flowing white or sheer fabric, angelic backlight, otherworldly serenity, heavenly atmosphere, barely-there color. Avoid gritty realism and dark contrasty shadows."
-    demo: null
+    demo:
+      production_index: 356
+      batch: 39
+      image: "356-ethereal-portrait-style-show.png"
   - slug: "natural-beauty-portrait"
     name: "Natural Beauty Portrait"
     category_id: 21
