@@ -3651,7 +3651,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in cyanotype style: Prussian blue photographic print, white silhouette or line detail, sun-print texture, botanical or technical archival mood. Avoid warm oil paint, neon cyberpunk, and glossy product catalog lighting."
-    demo: null
+    demo:
+      production_index: 312
+      batch: 30
+      image: "312-cyanotype-style-show.png"
+      scene: "Prussian blue photographic print with white silhouette detail and sun-print botanical texture"
+      exact_prompt: |
+        Create a square style-show image for Cyanotype in cyanotype style: Prussian blue photographic print, white silhouette or line detail, sun-print texture, botanical or technical archival mood. Avoid warm oil paint, neon cyberpunk, and glossy product catalog lighting. No logos, no watermark, no readable text.
   - slug: "mosaic"
     name: "Mosaic"
     category_id: 18
@@ -3675,7 +3681,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in embroidery style: stitched threads, fabric ground, visible thread direction, raised texture, folk or contemporary textile composition. Avoid glossy metal, flat vector finish, and photoreal glass."
-    demo: null
+    demo:
+      production_index: 314
+      batch: 30
+      image: "314-embroidery-style-show.png"
+      scene: "Stitched threads on fabric ground with visible thread direction and raised textile texture"
+      exact_prompt: |
+        Create a square style-show image for Embroidery in embroidery style: stitched threads, fabric ground, visible thread direction, raised texture, folk or contemporary textile composition. Avoid glossy metal, flat vector finish, and photoreal glass. No logos, no watermark, no readable text.
   - slug: "tapestry"
     name: "Tapestry"
     category_id: 18
@@ -3705,7 +3717,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in cork material style: warm speckled cork texture, sustainable product or surface language, soft brown palette, tactile natural granularity. Avoid metallic chrome and glossy plastic futurism."
-    demo: null
+    demo:
+      production_index: 311
+      batch: 30
+      image: "311-cork-material-style-show.png"
+      scene: "Warm speckled cork texture surface with soft brown palette and tactile natural granularity"
+      exact_prompt: |
+        Create a square style-show image for Cork Material in cork material style: warm speckled cork texture, sustainable product or surface language, soft brown palette, tactile natural granularity. Avoid metallic chrome and glossy plastic futurism. No logos, no watermark, no readable text.
   - slug: "carbon-fiber"
     name: "Carbon Fiber"
     category_id: 18
@@ -3741,7 +3759,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in fairycore style: moss, mushrooms, delicate wings or sparkling dew only if relevant, soft green, lavender, cream, tiny floral details, enchanted woodland light. Avoid cyberpunk neon city grit and corporate minimalism."
-    demo: null
+    demo:
+      production_index: 315
+      batch: 30
+      image: "315-fairycore-style-show.png"
+      scene: "Enchanted woodland scene with moss, mushrooms, soft green and lavender tones, and tiny floral details"
+      exact_prompt: |
+        Create a square style-show image for Fairycore in fairycore style: moss, mushrooms, delicate wings or sparkling dew only if relevant, soft green, lavender, cream, tiny floral details, enchanted woodland light. Avoid cyberpunk neon city grit and corporate minimalism. No logos, no watermark, no readable text.
   - slug: "kidcore"
     name: "Kidcore"
     category_id: 19
@@ -3783,7 +3807,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in devilcore style: red-black palette, glossy horns or flame-like shapes only if relevant, dramatic shadows, punk glamour, mischievous theatrical edge. Avoid explicit gore, wholesome pastels, and corporate calm."
-    demo: null
+    demo:
+      production_index: 313
+      batch: 30
+      image: "313-devilcore-style-show.png"
+      scene: "Red-black palette with dramatic shadows, punk glamour, and mischievous theatrical edge"
+      exact_prompt: |
+        Create a square style-show image for Devilcore in devilcore style: red-black palette, glossy horns or flame-like shapes only if relevant, dramatic shadows, punk glamour, mischievous theatrical edge. Avoid explicit gore, wholesome pastels, and corporate calm. No logos, no watermark, no readable text.
   - slug: "office-siren"
     name: "Office Siren"
     category_id: 19
