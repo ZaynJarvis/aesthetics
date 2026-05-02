@@ -4059,7 +4059,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in tropical retro resort style: palm patterns, rattan, poolside geometry, 1960s-1970s vacation color, coral, turquoise, cream, and sun yellow. Avoid alpine coziness and corporate dashboard layouts."
-    demo: null
+    demo:
+      production_index: 337
+      batch: 35
+      image: "337-tropical-retro-resort-style-show.png"
+      scene: "retro poolside with rattan chair and palm patterns"
+      exact_prompt: |
+        Create a square style-show image for Tropical Retro Resort in tropical retro resort style: palm patterns, rattan, poolside geometry, 1960s-1970s vacation color, coral, turquoise, cream, and sun yellow. Avoid alpine coziness and corporate dashboard layouts. No logos, no watermark, no readable text.
   - slug: "swiss-alpine-modern"
     name: "Swiss Alpine Modern"
     category_id: 20
