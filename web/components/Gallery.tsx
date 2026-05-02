@@ -1,16 +1,38 @@
 "use client";
 
-import { useMemo, useState, useRef, useEffect } from "react";
+import { useMemo, useState, useRef, useEffect, useCallback } from "react";
 import type { GalleryData } from "@/lib/types";
 import { StyleCard } from "./StyleCard";
 import { ThemeToggle } from "./ThemeToggle";
 import { ToastHost } from "./Toast";
 
+// Mulberry32 seeded PRNG
+function mulberry32(seed: number) {
+  return function () {
+    let t = (seed = (seed + 0x6d2b79f5) | 0);
+    t = Math.imul(t ^ (t >>> 15), 1 | t);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle<T>(arr: T[], seed: number): T[] {
+  const rng = mulberry32(seed);
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 export function Gallery({ data }: { data: GalleryData }) {
   const [selectedIds, setSelectedIds] = useState<Set<number>>(
-    new Set([data.categories[0]?.id ?? 1]),
+    () => new Set(data.categories.map((c) => c.id)),
   );
   const [showPrompts, setShowPrompts] = useState(false);
+  const [randomized, setRandomized] = useState(false);
+  const [randomSeed, setRandomSeed] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -25,6 +47,12 @@ export function Gallery({ data }: { data: GalleryData }) {
     return () => document.removeEventListener("mousedown", handler);
   }, [menuOpen]);
 
+  const handleRandomize = useCallback(() => {
+    const next = !randomized;
+    setRandomized(next);
+    if (next) setRandomSeed(Date.now());
+  }, [randomized]);
+
   const toggleCategory = (id: number) => {
     setSelectedIds((prev) => {
       const next = new Set(prev);
@@ -35,6 +63,14 @@ export function Gallery({ data }: { data: GalleryData }) {
         next.add(id);
       }
       return next;
+    });
+  };
+
+  const toggleAll = () => {
+    setSelectedIds((prev) => {
+      if (prev.size === data.categories.length)
+        return new Set([data.categories[0]?.id ?? 1]);
+      return new Set(data.categories.map((c) => c.id));
     });
   };
 
@@ -59,6 +95,13 @@ export function Gallery({ data }: { data: GalleryData }) {
       }));
   }, [data.categories, selectedIds]);
 
+  // Flat shuffled list for randomize mode
+  const randomizedStyles = useMemo(() => {
+    if (!randomized) return null;
+    const all = selectedCategories.flatMap((c) => c.styles);
+    return seededShuffle(all, randomSeed);
+  }, [randomized, randomSeed, selectedCategories]);
+
   return (
     <div className="min-h-screen">
       <header className="safe-top sticky top-0 z-30 border-b border-[var(--card-border)] bg-[var(--page-bg)]/85 backdrop-blur">
@@ -70,6 +113,18 @@ export function Gallery({ data }: { data: GalleryData }) {
             </span>
           </div>
           <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={handleRandomize}
+              aria-pressed={randomized}
+              className={`h-8 rounded-full px-3 text-xs font-medium transition ${
+                randomized
+                  ? "bg-[var(--page-fg)] text-[var(--page-bg)]"
+                  : "bg-[var(--page-fg)]/[0.05] text-[var(--page-fg)] hover:bg-[var(--page-fg)]/[0.1]"
+              }`}
+            >
+              Randomize
+            </button>
             <button
               type="button"
               onClick={() => setShowPrompts((v) => !v)}
@@ -110,6 +165,13 @@ export function Gallery({ data }: { data: GalleryData }) {
 
               {menuOpen && (
                 <div className="absolute left-0 top-10 z-50 max-h-80 w-64 overflow-y-auto rounded-xl border border-[var(--card-border)] bg-[var(--page-bg)] py-1 shadow-lg">
+                  <button
+                    type="button"
+                    onClick={toggleAll}
+                    className="flex w-full items-center justify-between gap-2 border-b border-[var(--card-border)] px-4 py-2 text-left text-xs font-semibold text-[var(--page-fg)] transition hover:bg-[var(--card-bg)]"
+                  >
+                    {selectedIds.size === data.categories.length ? "Deselect all" : "Select all"}
+                  </button>
                   {data.categories.map((c) => {
                     const isSelected = selectedIds.has(c.id);
                     const filled = c.styles.filter((s) => s.demo).length;
@@ -175,21 +237,39 @@ export function Gallery({ data }: { data: GalleryData }) {
       </header>
 
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8">
-        {selectedCategories.map((cat) => (
-          <section key={cat.id} className="mb-10 last:mb-0">
-            <div className="mb-5 flex items-end justify-between">
-              <h1 className="text-lg font-semibold tracking-tight sm:text-xl">
-                {cat.title}
-              </h1>
-              <span className="text-xs text-[var(--muted)]">{cat.styles.length} styles</span>
-            </div>
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
-              {cat.styles.map((s) => (
-                <StyleCard key={s.slug} style={s} showPrompts={showPrompts} />
-              ))}
-            </div>
-          </section>
-        ))}
+        {randomizedStyles ? (
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
+            {randomizedStyles.map((s, i) => (
+              <StyleCard key={`${s.slug}-${i}`} style={s} showPrompts={showPrompts} index={i} />
+            ))}
+          </div>
+        ) : (
+          selectedCategories.map((cat, catIdx) => {
+            const offset = selectedCategories
+              .slice(0, catIdx)
+              .reduce((sum, c) => sum + c.styles.length, 0);
+            return (
+              <section key={cat.id} className="mb-10 last:mb-0">
+                <div className="mb-5 flex items-end justify-between">
+                  <h1 className="text-lg font-semibold tracking-tight sm:text-xl">
+                    {cat.title}
+                  </h1>
+                  <span className="text-xs text-[var(--muted)]">{cat.styles.length} styles</span>
+                </div>
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
+                  {cat.styles.map((s, i) => (
+                    <StyleCard
+                      key={s.slug}
+                      style={s}
+                      showPrompts={showPrompts}
+                      index={offset + i}
+                    />
+                  ))}
+                </div>
+              </section>
+            );
+          })
+        )}
       </main>
 
       <footer className="border-t border-[var(--card-border)] py-6">
