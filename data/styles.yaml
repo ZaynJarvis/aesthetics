@@ -4208,13 +4208,19 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in desaturated editorial portrait style: muted colors, lifted blacks, flat matte finish, contemporary fashion magazine feel, understated cool, film-inspired faded palette, quiet sophistication. Avoid vibrant saturation and punchy contrast."
-    demo: null
+    demo:
+      production_index: 352
+      batch: 38
+      image: "352-desaturated-editorial-portrait-style-show.png"
   - slug: "cross-processed-portrait"
     name: "Cross-Processed Portrait"
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in cross-processed portrait style: unexpected color shifts (green shadows, magenta highlights), high contrast, experimental film accident aesthetic, punchy and surreal color cast, 90s alternative feel. Avoid natural accurate color and subtle processing."
-    demo: null
+    demo:
+      production_index: 350
+      batch: 38
+      image: "350-cross-processed-portrait-style-show.png"
   - slug: "faded-film-portrait"
     name: "Faded Film Portrait"
     category_id: 21
@@ -4244,7 +4250,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in cool tone portrait style: blue, teal, icy silver tones, pale skin rendering, winter or twilight mood, calm and detached, high-fashion coolness, steel and slate palette. Avoid warm golden tones and cozy ambient mood."
-    demo: null
+    demo:
+      production_index: 349
+      batch: 38
+      image: "349-cool-tone-portrait-style-show.png"
   - slug: "old-hollywood-portrait"
     name: "Old Hollywood Glamour Portrait"
     category_id: 21
@@ -4312,7 +4321,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in conceptual portrait style: surreal or symbolic props, artistic narrative, thought-provoking visual metaphor, fine-art photography approach, deliberate staging, imaginative and unexpected elements. Avoid straightforward documentary realism and plain backgrounds."
-    demo: null
+    demo:
+      production_index: 348
+      batch: 38
+      image: "348-conceptual-portrait-style-show.png"
   - slug: "environmental-portrait"
     name: "Environmental Portrait"
     category_id: 21
@@ -4398,7 +4410,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in dark moody portrait style: low-key lighting, emotional intensity, deep shadows dominating the frame, minimal highlights, brooding atmosphere, introspective gaze, fine-art darkness, barely-there fill light. Avoid bright cheerful lighting and high-key exposure."
-    demo: null
+    demo:
+      production_index: 351
+      batch: 38
+      image: "351-dark-moody-portrait-style-show.png"
   - slug: "ethereal-portrait"
     name: "Ethereal Portrait"
     category_id: 21
