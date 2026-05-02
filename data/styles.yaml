@@ -3627,13 +3627,25 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in oil impasto style: thick raised paint, visible palette-knife strokes, rich pigment, tactile canvas, dramatic highlights, expressive surface. Avoid flat vector graphics and low-texture digital gradients."
-    demo: null
+    demo:
+      production_index: 328
+      batch: 33
+      image: "328-oil-impasto-style-show.png"
+      scene: "thick raised paint with visible palette-knife strokes and rich pigment on tactile canvas"
+      exact_prompt: |
+        Create a square style-show image for Oil Impasto in oil impasto style: thick raised paint, visible palette-knife strokes, rich pigment, tactile canvas, dramatic highlights, expressive surface. Avoid flat vector graphics and low-texture digital gradients. No logos, no watermark, no readable text.
   - slug: "pastel-chalk"
     name: "Pastel Chalk"
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in pastel chalk style: powdery texture, soft blended edges, paper tooth, delicate color transitions, handmade sketch-like softness. Avoid polished chrome, hard UI edges, and black-heavy noir."
-    demo: null
+    demo:
+      production_index: 329
+      batch: 33
+      image: "329-pastel-chalk-style-show.png"
+      scene: "powdery texture with soft blended edges and delicate color transitions on paper tooth"
+      exact_prompt: |
+        Create a square style-show image for Pastel Chalk in pastel chalk style: powdery texture, soft blended edges, paper tooth, delicate color transitions, handmade sketch-like softness. Avoid polished chrome, hard UI edges, and black-heavy noir. No logos, no watermark, no readable text.
   - slug: "charcoal-drawing"
     name: "Charcoal Drawing"
     category_id: 18
@@ -3849,7 +3861,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in office siren style: sleek corporate fashion, narrow glasses, pencil skirt or sharp tailoring cues when relevant, gray, black, white, chrome, fluorescent office mood, polished late-1990s attitude. Avoid cottage softness and sporty outdoor gear."
-    demo: null
+    demo:
+      production_index: 327
+      batch: 33
+      image: "327-office-siren-style-show.png"
+      scene: "sleek corporate fashion with narrow glasses and fluorescent office mood in polished late-1990s attitude"
+      exact_prompt: |
+        Create a square style-show image for Office Siren in office siren style: sleek corporate fashion, narrow glasses, pencil skirt or sharp tailoring cues when relevant, gray, black, white, chrome, fluorescent office mood, polished late-1990s attitude. Avoid cottage softness and sporty outdoor gear. No logos, no watermark, no readable text.
   - slug: "mob-wife"
     name: "Mob Wife"
     category_id: 19
@@ -3915,13 +3933,25 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Nordic folk style: rosemaling-like floral curves, carved wood, red, blue, cream, and pine green, winter craft warmth, decorative borders. Avoid cyberpunk neon and generic medieval fantasy clutter."
-    demo: null
+    demo:
+      production_index: 326
+      batch: 33
+      image: "326-nordic-folk-style-show.png"
+      scene: "rosemaling-like floral curves on carved wood with red blue cream and pine green winter craft warmth"
+      exact_prompt: |
+        Create a square style-show image for Nordic Folk in Nordic folk style: rosemaling-like floral curves, carved wood, red, blue, cream, and pine green, winter craft warmth, decorative borders. Avoid cyberpunk neon and generic medieval fantasy clutter. No logos, no watermark, no readable text.
   - slug: "portuguese-azulejo"
     name: "Portuguese Azulejo"
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Portuguese azulejo style: blue-and-white ceramic tile panels, repeated ornamental scenes or geometry, glossy glaze, courtyard light, historic craft patterning. Avoid random cultural symbol mixing and flat plastic surfaces."
-    demo: null
+    demo:
+      production_index: 330
+      batch: 33
+      image: "330-portuguese-azulejo-style-show.png"
+      scene: "blue-and-white ceramic tile panels with repeated ornamental geometry and glossy glaze in courtyard light"
+      exact_prompt: |
+        Create a square style-show image for Portuguese Azulejo in Portuguese azulejo style: blue-and-white ceramic tile panels, repeated ornamental scenes or geometry, glossy glaze, courtyard light, historic craft patterning. Avoid random cultural symbol mixing and flat plastic surfaces. No logos, no watermark, no readable text.
   - slug: "greek-island"
     name: "Greek Island"
     category_id: 20
