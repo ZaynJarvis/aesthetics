@@ -3903,7 +3903,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in tomato girl style: Mediterranean summer, red tomatoes, white linen, blue sea accents, rustic ceramic plates, sunlit holiday food-and-fashion mood. Avoid winter dark academia and cyberpunk city night."
-    demo: null
+    demo:
+      production_index: 336
+      batch: 35
+      image: "336-tomato-girl-style-show.png"
+      scene: "Mediterranean summer table with tomatoes and blue sea"
+      exact_prompt: |
+        Create a square style-show image for Tomato Girl in tomato girl style: Mediterranean summer, red tomatoes, white linen, blue sea accents, rustic ceramic plates, sunlit holiday food-and-fashion mood. Avoid winter dark academia and cyberpunk city night. No logos, no watermark, no readable text.
   - slug: "coastal-cowgirl"
     name: "Coastal Cowgirl"
     category_id: 19
