@@ -3699,7 +3699,13 @@ styles:
     category_id: 18
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in carbon fiber style: woven black composite texture, glossy resin highlights, performance engineering mood, precise curves, technical luxury. Avoid soft cottage fabric and antique paper texture."
-    demo: null
+    demo:
+      production_index: 305
+      batch: 28
+      image: "305-carbon-fiber-style-show.png"
+      scene: "Woven black composite texture with glossy resin highlights, precise curves in a performance engineering mood"
+      exact_prompt: |
+        Create a square style-show image for Carbon Fiber in carbon fiber style: woven black composite texture, glossy resin highlights, performance engineering mood, precise curves, technical luxury. Avoid soft cottage fabric and antique paper texture. No logos, no watermark, no readable text.
   - slug: "barbiecore"
     name: "Barbiecore"
     category_id: 19
@@ -3747,7 +3753,13 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in angelcore style: soft white, cream, gold, clouds, feathers or halo-like light when appropriate, luminous serenity, ethereal devotional mood. Avoid dark industrial grit and neon cyberpunk density."
-    demo: null
+    demo:
+      production_index: 301
+      batch: 28
+      image: "301-angelcore-style-show.png"
+      scene: "Ethereal white and gold scene with soft feathers, cloud-like light, and luminous serenity in devotional mood"
+      exact_prompt: |
+        Create a square style-show image for Angelcore in angelcore style: soft white, cream, gold, clouds, feathers or halo-like light when appropriate, luminous serenity, ethereal devotional mood. Avoid dark industrial grit and neon cyberpunk density. No logos, no watermark, no readable text.
   - slug: "devilcore"
     name: "Devilcore"
     category_id: 19
@@ -3783,13 +3795,25 @@ styles:
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in blokecore style: vintage football shirts, relaxed denim, pub or street context, sporty casual nostalgia, green pitch colors, red and blue accents. Avoid luxury tailoring and ethereal fantasy styling."
-    demo: null
+    demo:
+      production_index: 304
+      batch: 28
+      image: "304-blokecore-style-show.png"
+      scene: "Vintage football shirts and relaxed denim in a pub street context with sporty casual nostalgia"
+      exact_prompt: |
+        Create a square style-show image for Blokecore in blokecore style: vintage football shirts, relaxed denim, pub or street context, sporty casual nostalgia, green pitch colors, red and blue accents. Avoid luxury tailoring and ethereal fantasy styling. No logos, no watermark, no readable text.
   - slug: "ballet-athleisure"
     name: "Ballet Athleisure"
     category_id: 19
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in ballet athleisure style: wrap tops, leggings, soft sneakers, pale pink, gray, ivory, rehearsal-meets-street styling, graceful sporty comfort. Avoid heavy tactical gear and neon rave mood."
-    demo: null
+    demo:
+      production_index: 303
+      batch: 28
+      image: "303-ballet-athleisure-style-show.png"
+      scene: "Wrap tops and leggings in pale pink and ivory with graceful rehearsal-meets-street sporty comfort"
+      exact_prompt: |
+        Create a square style-show image for Ballet Athleisure in ballet athleisure style: wrap tops, leggings, soft sneakers, pale pink, gray, ivory, rehearsal-meets-street styling, graceful sporty comfort. Avoid heavy tactical gear and neon rave mood. No logos, no watermark, no readable text.
   - slug: "quiet-outdoor"
     name: "Quiet Outdoor"
     category_id: 19
@@ -3819,7 +3843,13 @@ styles:
     category_id: 20
     source_doc: expanded
     reusable_prompt: "Create `{{SUBJECT}}` in Bali tropical style: open-air pavilion, woven textures, volcanic stone, lush greenery, warm wood, water features, spa-like tropical calm. Avoid cold glass offices and heavy Gothic stone."
-    demo: null
+    demo:
+      production_index: 302
+      batch: 28
+      image: "302-bali-tropical-style-show.png"
+      scene: "Open-air pavilion with woven textures, volcanic stone, lush greenery, and warm wood in spa-like tropical calm"
+      exact_prompt: |
+        Create a square style-show image for Bali Tropical in Bali tropical style: open-air pavilion, woven textures, volcanic stone, lush greenery, warm wood, water features, spa-like tropical calm. Avoid cold glass offices and heavy Gothic stone. No logos, no watermark, no readable text.
   - slug: "korean-minimal-cafe"
     name: "Korean Minimal Cafe"
     category_id: 20
