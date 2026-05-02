@@ -4145,7 +4145,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in 85mm bokeh portrait style: shallow depth of field at f/1.4–f/2, creamy circular bokeh in background, sharp eye focus, natural compression, intimate subject isolation, professional portrait lens look. Avoid deep focus landscapes and wide-angle distortion."
-    demo: null
+    demo:
+      production_index: 341
+      batch: 36
+      image: "341-85mm-bokeh-portrait-style-show.png"
   - slug: "medium-format-portrait"
     name: "Medium Format Portrait"
     category_id: 21
@@ -4247,25 +4250,37 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in 1960s mod portrait style: graphic bold eyeliner, geometric hairstyle (bob or bangs), pop-color backdrop, Twiggy-era fashion energy, op-art influence, high contrast, playful youth culture, go-go boots era styling. Avoid soft romantic diffusion and muted earth tones."
-    demo: null
+    demo:
+      production_index: 338
+      batch: 36
+      image: "338-60s-mod-portrait-style-show.png"
   - slug: "70s-soft-focus-portrait"
     name: "70s Soft Focus Portrait"
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in 1970s soft focus portrait style: vaseline-on-lens dreaminess, warm amber glow, feathered hair, earth-tone wardrobe, natural makeup, pastoral or sunlit setting, romantic softness. Avoid sharp modern clinical clarity and cool color grading."
-    demo: null
+    demo:
+      production_index: 339
+      batch: 36
+      image: "339-70s-soft-focus-portrait-style-show.png"
   - slug: "80s-power-portrait"
     name: "80s Power Portrait"
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in 1980s power portrait style: bold shoulder silhouette, vivid jewel-tone colors, confident pose, strong blush and lip, teased or voluminous hair, studio gradient backdrop, Dynasty-era glamour, direct flash energy. Avoid muted minimalism and soft natural looks."
-    demo: null
+    demo:
+      production_index: 340
+      batch: 36
+      image: "340-80s-power-portrait-style-show.png"
   - slug: "90s-grunge-portrait"
     name: "90s Grunge Portrait"
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in 1990s grunge portrait style: raw, slightly underexposed, dark lip, smudged eyeliner, flannel or band tee, washed-out desaturated tones, anti-glamour attitude, Seattle or indie music scene vibe, analog grain. Avoid polished beauty and bright clean colors."
-    demo: null
+    demo:
+      production_index: 342
+      batch: 36
+      image: "342-90s-grunge-portrait-style-show.png"
   - slug: "y2k-glossy-portrait"
     name: "Y2K Glossy Portrait"
     category_id: 21
