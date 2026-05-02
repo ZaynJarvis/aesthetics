@@ -4102,13 +4102,19 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in split lighting portrait style: half the face lit, half in deep shadow, dramatic and edgy, strong contrast, moody intensity, minimal fill. Avoid flat ambient lighting and soft pastel mood."
-    demo: null
+    demo:
+      production_index: 382
+      batch: 44
+      image: "382-split-light-portrait-style-show.png"
   - slug: "rim-light-portrait"
     name: "Rim Light Portrait"
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in rim light portrait style: bright edge light outlining hair and shoulders against a dark background, glowing contour, separation lighting, dramatic silhouette edge, cinematic depth. Avoid flat front lighting and overexposed backgrounds."
-    demo: null
+    demo:
+      production_index: 378
+      batch: 44
+      image: "378-rim-light-portrait-style-show.png"
   - slug: "hard-flash-portrait"
     name: "Hard Flash Portrait"
     category_id: 21
@@ -4146,13 +4152,19 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in shadow play portrait style: patterned shadows falling across the face from venetian blinds, lattice, leaves, or lace, graphic light-dark interplay, mysterious mood, textured lighting. Avoid even flat lighting and plain backgrounds."
-    demo: null
+    demo:
+      production_index: 380
+      batch: 44
+      image: "380-shadow-play-portrait-style-show.png"
   - slug: "silhouette-portrait"
     name: "Silhouette Portrait"
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in silhouette portrait style: subject as a dark shape against a bright or colorful background, sunset or studio backlight, recognizable profile outline, dramatic minimal, emphasis on shape and contour. Avoid detailed face visibility and flat backgrounds."
-    demo: null
+    demo:
+      production_index: 381
+      batch: 44
+      image: "381-silhouette-portrait-style-show.png"
   - slug: "85mm-bokeh-portrait"
     name: "85mm Bokeh Portrait"
     category_id: 21
@@ -4440,7 +4452,10 @@ styles:
     category_id: 21
     source_doc: "expanded"
     reusable_prompt: "Create `{{SUBJECT}}` in rooftop portrait style: urban rooftop setting, city skyline or sky as backdrop, golden hour or blue hour timing, wind in hair, elevated perspective, metropolitan lifestyle feel, panoramic openness. Avoid ground-level claustrophobic framing and rural settings."
-    demo: null
+    demo:
+      production_index: 379
+      batch: 44
+      image: "379-rooftop-portrait-style-show.png"
   - slug: "flower-field-portrait"
     name: "Flower Field Portrait"
     category_id: 21
