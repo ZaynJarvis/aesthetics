@@ -63,7 +63,7 @@ This workbook turns those names into concrete visual markers and reusable prompt
 ├── categories/
 ├── data/
 ├── examples/
-│   ├── (moved → web/public/generated/)
+│   ├── (source gallery images live in web/src-images/)
 │   ├── source-prompts/
 │   └── style-show/
 │       ├── generated/
@@ -120,4 +120,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 The generated images are teaching examples, not final authority. Some styles overlap, some names are internet-native, and some categories describe movements while others describe materials, media, eras, or moods. That messiness is part of visual culture.
 
 When adding prompts, avoid living-artist mimicry and copyrighted franchises. Prefer visual ingredients: palette, composition, material, era, typography, surface, lighting, and exclusions.
-

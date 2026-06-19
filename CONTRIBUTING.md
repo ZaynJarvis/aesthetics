@@ -6,9 +6,10 @@ Thanks for helping build a shared aesthetics vocabulary. This workbook has two l
 
 ```
 data/styles.yaml              # 337 styles — source of truth
-web/src-images/               # source PNGs (1254×1254); NOT served directly
+web/src-images/               # tracked source PNGs (1254×1254)
 web/public/generated/lg/      # 800px WebP — built from src-images at build time (gitignored)
 web/public/generated/sm/      # 400px WebP — built from src-images at build time (gitignored)
+web/public/generated/original/ # PNG fallback copies — built from src-images at build time (gitignored)
 web/                          # Next.js gallery rendered from styles.yaml
 prompts/*.md                  # human-readable copies (regeneratable)
 scripts/build_yaml.py         # bootstrap script (one-time; rerun safely)
@@ -38,7 +39,7 @@ Rules:
 - `category_id` matches an entry in the `categories:` list at the top of the file.
 - `reusable_prompt` MUST contain `{{SUBJECT}}` so it stays portable across subjects.
 - `demo` is `null` until an image exists. Once you add a PNG, fill all four demo fields.
-- Keep `image` as just the filename — the website resolves it under `web/src-images/` (source) and serves the resized WebP at build time.
+- Keep `image` as just the filename — the website resolves it under `web/src-images/` (source), serves resized WebP by default, and falls back to the original PNG if a generated WebP is unavailable.
 
 ## Prompt guidelines
 
@@ -118,8 +119,8 @@ npm install
 npm run dev      # → http://localhost:3000
 ```
 
-Source PNGs live at `web/src-images/` (1254×1254, tracked in git). Running `npm run build` (or `npm run images` standalone) converts them to two WebP sizes in `web/public/generated/lg/` (800px) and `web/public/generated/sm/` (400px). The gallery serves the WebP variants via `<picture>` — source PNGs are never sent to the browser.
+Source PNGs live at `web/src-images/` (1254×1254, tracked in git). Running `npm run dev`, `npm run build`, or `npm run images` converts them to two WebP sizes in `web/public/generated/lg/` (800px) and `web/public/generated/sm/` (400px), and copies original PNG fallbacks to `web/public/generated/original/`. The gallery serves WebP variants via `<picture>` and switches to the original PNG if a WebP request fails.
 
 ## Deploying
 
-Set the Railway service `rootDirectory` to `web` — Railpack auto-detects Next.js and runs `npm ci` → `npm run build` → `npm run start`. No persistent volume needed. `npm run build` generates the WebP variants from `web/src-images/` automatically; the source PNGs are never deployed.
+Set the Railway service `rootDirectory` to `web` — Railpack auto-detects Next.js and runs `npm ci` → `npm run build` → `npm run start`. No persistent volume needed. `npm run build` generates the WebP variants and original PNG fallbacks from `web/src-images/` automatically.

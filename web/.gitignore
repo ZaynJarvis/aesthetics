@@ -5,3 +5,4 @@ out/
 *.tsbuildinfo
 public/generated/lg/
 public/generated/sm/
+public/generated/original/

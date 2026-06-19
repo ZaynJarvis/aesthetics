@@ -9,7 +9,7 @@ npm install
 npm run dev    # http://localhost:3000
 ```
 
-All gallery PNGs live at `web/public/generated/` and are served directly by Next.js at `/generated/<file>.png`. There is no build-time copy step — Codex writes new batch images straight into this directory.
+Source gallery PNGs live at `web/src-images/`. The image build step writes optimized WebP files to `web/public/generated/lg/` and `web/public/generated/sm/`, plus original PNG fallbacks to `web/public/generated/original/`. `npm run dev` and `npm run build` both run this step before starting Next.js.
 
 ## Build & start
 
@@ -27,7 +27,7 @@ Set the service root directory to `web` and Railpack will auto-detect Next.js:
 3. run `npm run build`
 4. start with `npm run start`
 
-No persistent volume is needed; images are committed in `public/generated/` and baked into the build artifact.
+No persistent volume is needed; source images are committed in `src-images/`, then generated into `public/generated/` during build and baked into the build artifact.
 
 ## Features
 

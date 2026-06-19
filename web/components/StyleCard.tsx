@@ -20,6 +20,7 @@ export function StyleCard({ style, showPrompts, index }: Props) {
   const promptToCopy = demo?.exact_prompt || style.reusable_prompt;
   const isPending = !demo;
   const webpName = demo?.image.replace(/\.png$/i, ".webp");
+  const [useOriginalFallback, setUseOriginalFallback] = useState(false);
 
   // Cards in the first "screen" load eagerly; the rest wait for IntersectionObserver.
   const [shouldRender, setShouldRender] = useState(index < EAGER_COUNT);
@@ -58,7 +59,16 @@ export function StyleCard({ style, showPrompts, index }: Props) {
         title={isPending ? "Pending — copies the reusable {{SUBJECT}} prompt" : "Click to copy prompt"}
         className="group relative aspect-square w-full overflow-hidden rounded-lg bg-[var(--card-bg)] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--page-fg)]"
       >
-        {demo && webpName && shouldRender ? (
+        {demo && shouldRender && useOriginalFallback ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={`/generated/original/${demo.image}`}
+            alt={style.name}
+            loading={index < EAGER_COUNT ? "eager" : "lazy"}
+            decoding="async"
+            className="h-full w-full object-cover transition duration-200 group-hover:scale-[1.02]"
+          />
+        ) : demo && webpName && shouldRender ? (
           // eslint-disable-next-line @next/next/no-img-element
           <picture>
             <source
@@ -69,8 +79,9 @@ export function StyleCard({ style, showPrompts, index }: Props) {
             <img
               src={`/generated/lg/${webpName}`}
               alt={style.name}
-              loading="lazy"
+              loading={index < EAGER_COUNT ? "eager" : "lazy"}
               decoding="async"
+              onError={() => setUseOriginalFallback(true)}
               className="h-full w-full object-cover transition duration-200 group-hover:scale-[1.02]"
             />
           </picture>
