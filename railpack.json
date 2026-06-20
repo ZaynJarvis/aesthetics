@@ -1,8 +1,6 @@
 {
   "$schema": "https://schema.railpack.com",
   "provider": "node",
-  "installCmd": "cd web && npm ci",
-  "buildCmd": "cd web && AESTHETICS_IMAGE_CACHE_DIR=/root/.cache/aesthetics-gallery-images npm run build",
   "caches": {
     "aesthetics-gallery-images": {
       "directory": "/root/.cache/aesthetics-gallery-images",
@@ -11,10 +9,13 @@
   },
   "steps": {
     "build": {
+      "commands": [
+        "AESTHETICS_IMAGE_CACHE_DIR=/root/.cache/aesthetics-gallery-images npm run build"
+      ],
       "caches": ["...", "aesthetics-gallery-images"]
     }
   },
   "deploy": {
-    "startCommand": "cd web && npm run start -- --hostname 0.0.0.0 --port $PORT"
+    "startCommand": "npm run start"
   }
 }
