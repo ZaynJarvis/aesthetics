@@ -27,9 +27,7 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 }
 
 export function Gallery({ data }: { data: GalleryData }) {
-  const [selectedIds, setSelectedIds] = useState<Set<number>>(
-    () => new Set(data.categories.map((c) => c.id)),
-  );
+  const [selectedIds, setSelectedIds] = useState<Set<number>>(() => new Set());
   const [showPrompts, setShowPrompts] = useState(false);
   const [randomized, setRandomized] = useState(false);
   const [randomSeed, setRandomSeed] = useState(0);
@@ -57,7 +55,6 @@ export function Gallery({ data }: { data: GalleryData }) {
     setSelectedIds((prev) => {
       const next = new Set(prev);
       if (next.has(id)) {
-        if (next.size === 1) return next;
         next.delete(id);
       } else {
         next.add(id);
@@ -66,12 +63,8 @@ export function Gallery({ data }: { data: GalleryData }) {
     });
   };
 
-  const toggleAll = () => {
-    setSelectedIds((prev) => {
-      if (prev.size === data.categories.length)
-        return new Set([data.categories[0]?.id ?? 1]);
-      return new Set(data.categories.map((c) => c.id));
-    });
+  const showAllCategories = () => {
+    setSelectedIds(new Set());
   };
 
   // Selected chips first, then rest in original order
@@ -81,10 +74,10 @@ export function Gallery({ data }: { data: GalleryData }) {
     return [...selected, ...rest];
   }, [data.categories, selectedIds]);
 
-  // Selected categories in original order, demo-first within each
+  // Empty selection is the default "show all categories" mode.
   const selectedCategories = useMemo(() => {
     return data.categories
-      .filter((c) => selectedIds.has(c.id))
+      .filter((c) => selectedIds.size === 0 || selectedIds.has(c.id))
       .map((c) => ({
         ...c,
         styles: [...c.styles].sort((a, b) => {
@@ -167,10 +160,10 @@ export function Gallery({ data }: { data: GalleryData }) {
                 <div className="absolute left-0 top-10 z-50 max-h-80 w-64 overflow-y-auto rounded-xl border border-[var(--card-border)] bg-[var(--page-bg)] py-1 shadow-lg">
                   <button
                     type="button"
-                    onClick={toggleAll}
+                    onClick={showAllCategories}
                     className="flex w-full items-center justify-between gap-2 border-b border-[var(--card-border)] px-4 py-2 text-left text-xs font-semibold text-[var(--page-fg)] transition hover:bg-[var(--card-bg)]"
                   >
-                    {selectedIds.size === data.categories.length ? "Deselect all" : "Select all"}
+                    {selectedIds.size > 0 ? "Show all categories" : "Showing all categories"}
                   </button>
                   {data.categories.map((c) => {
                     const isSelected = selectedIds.has(c.id);
